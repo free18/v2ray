@@ -20,7 +20,7 @@ Clash Windows汉化地址：[点击下载](https://drive.google.com/file/d/1hLY1
 
 Clash安卓客户端：[点击下载](https://github.com/naicfeng/ClashRForAndroid/releases)
 
-Clash .NET电脑客户端：[点击下载](https://github.com/ClashDotNetFramework/ClashDotNetFramework)
+Clash .NET电脑客户端：[点击下载](https://github.com/ClashDotNetFramework/experimental-clash/releases)
 
 # 工具使用教程
 
