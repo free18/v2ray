@@ -1,5 +1,5 @@
 # 今日免费节点分享
-更新时间 2022-01-13
+:point_right: :point_right: :point_right:更新时间 2022-01-13 :point_left: :point_left: :point_left:
 所有免费节点都爬取自网络，请勿用于非法用途
 
 欢迎加入我的电报群：https://t.me/vvkj11
