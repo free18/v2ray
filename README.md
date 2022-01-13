@@ -22,6 +22,8 @@ Clash安卓客户端：[点击下载](https://github.com/naicfeng/ClashRForAndro
 
 Clash .NET电脑客户端：[点击下载](https://github.com/ClashDotNetFramework/experimental-clash/releases)
 
+WinXray Windows 客户端：[点击下载](https://github.com/TheMRLL/WinXray/releases)
+
 # 工具使用教程
 
 v2rayN使用教程：[点击查看](https://youtu.be/MvJwoEo6-JU)
