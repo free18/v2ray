@@ -3,9 +3,10 @@
 所有免费节点都爬取自网络，请勿用于非法用途
 
 欢迎加入我的电报群：https://t.me/vvkj11
+（有问题可以进群反馈给我，谢谢）
 
 欢迎订阅我的youtube频道：https://www.youtube.com/c/VV科技
-
+（我将在第一时间在youtube频道更新）
 
 # 自建节点订阅
 通用订阅：https://gitee.com/fq5/tyjd/raw/master/01-12dq
