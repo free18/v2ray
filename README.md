@@ -6,6 +6,13 @@
 
 欢迎订阅我的youtube频道：https://www.youtube.com/c/VV科技
 
+v2rayN使用教程：[点击查看](https://youtu.be/MvJwoEo6-JU)
+
+Quantumult使用教程：[点击查看](https://youtu.be/qCkjLMPKygw)
+
+Quantumult X使用教程：[点击查看](https://youtu.be/ghZLHPEGfVc)
+
+shadowrocket使用教程：[点击查看](https://youtu.be/kGKKr6WTrJc)
 
 # 自建节点订阅
 通用订阅：https://gitee.com/fq5/tyjd/raw/master/01-12dq
