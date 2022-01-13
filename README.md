@@ -3,8 +3,10 @@
 所有免费节点都爬取自网络，请勿用于非法用途
 
 欢迎加入我的电报群：https://t.me/vvkj11
+(有任何问题在群里给我反馈，谢谢)
 
 欢迎订阅我的youtube频道：https://www.youtube.com/c/VV科技
+(第一时间优先在youtube频道发布）
 
 v2rayN使用教程：[点击查看](https://youtu.be/MvJwoEo6-JU)
 
