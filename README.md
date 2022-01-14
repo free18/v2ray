@@ -7,7 +7,8 @@
 欢迎加入我的电报群：https://t.me/vvkj11
 (有任何问题在群里给我反馈，谢谢)
 
-欢迎订阅我的youtube频道（VV科技）：[点击订阅](https://www.youtube.com/channel/UCqdGfxwYKrllrHv_Bc-9vAw?sub_confirmation=1)
+欢迎订阅我的![免费节点](https://user-images.githubusercontent.com/88019993/149452485-cad191d3-c776-4be7-9c20-65df2bb7cdf8.png)
+频道（VV科技）：[点击订阅](https://www.youtube.com/channel/UCqdGfxwYKrllrHv_Bc-9vAw?sub_confirmation=1)
 (第一时间优先在youtube频道发布）
 
 # 工具下载
