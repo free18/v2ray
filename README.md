@@ -43,8 +43,7 @@ shadowrocket使用教程：[点击查看](https://youtu.be/kGKKr6WTrJc)
 
 Clash订阅：https://cdn.jsdelivr.net/gh/v2raydy/Clash@main/01-20pc
 
-文件下载：文件：https://cdn.jsdelivr.net/gh/v2raydy/Clash@main/01-20pc
-
+文件下载：文件：https://cdn.jsdelivr.net/gh/v2raydy/wj@main/01-20pc.zip
 # v2ray节点
 
 ```
