@@ -1,6 +1,6 @@
 # [关注我，不迷路！](https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fw379740999)
 # 每天更新，免费节点分享
-:point_right: :point_right: :point_right:更新时间 **2022-01-24** :point_left: :point_left: :point_left:
+:point_right: :point_right: :point_right:更新时间 **2022-01-25** :point_left: :point_left: :point_left:
 
 所有免费节点都爬取自网络，请勿用于非法用途
 
@@ -39,10 +39,10 @@ Quantumult X使用教程：[点击查看](https://youtu.be/ghZLHPEGfVc)
 shadowrocket使用教程：[点击查看](https://youtu.be/kGKKr6WTrJc)
 
 # 自建节点订阅
-通用订阅：https://cdn.jsdelivr.net/gh/v2raydy/v2ray@main/01-24cu
+通用订阅：https://cdn.jsdelivr.net/gh/v2raydy/v2ray@main/01-25hy
 
-Clash订阅：https://cdn.jsdelivr.net/gh/v2raydy/Clash@main/01-24cu
+Clash订阅：https://cdn.jsdelivr.net/gh/v2raydy/Clash@main/01-25hy
 
-文件下载：文件：https://cdn.jsdelivr.net/gh/v2raydy/wj@main/01-24cu.zip
+文件下载：https://cdn.jsdelivr.net/gh/v2raydy/wj@main/01-25hy.zip
 
-文件下载（备用）：https://drive.google.com/file/d/1PKSZjX0nWHiscCITZ_Qsw9KUFsPkBGQm/view?usp=sharing
+文件下载（备用）：https://drive.google.com/file/d/1vtVygaulCEuFOeEAed7gD7FhSPAJ_I7V/view?usp=sharing
