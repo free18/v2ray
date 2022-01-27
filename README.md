@@ -39,10 +39,11 @@ Quantumult X使用教程：[点击查看](https://youtu.be/ghZLHPEGfVc)
 shadowrocket使用教程：[点击查看](https://youtu.be/kGKKr6WTrJc)
 
 # 自建节点订阅
-通用订阅：https://cdn.jsdelivr.net/gh/v2raydy/v2ray@main/01-27tu.txt
+↓↓↓↓↓↓↓本期视频文件↓↓↓↓↓↓
+通用订阅：https://cdn.jsdelivr.net/gh/v2raydy/v2ray@main/01-27ta.txt
 
-Clash订阅：https://cdn.jsdelivr.net/gh/v2raydy/Clash@main/01-27tu.yaml
+Clash订阅：https://cdn.jsdelivr.net/gh/v2raydy/Clash@main/01-27ta.yaml
 
-文件下载：https://cdn.jsdelivr.net/gh/v2raydy/wj@main/01-27tu.zip
+文件下载：https://cdn.jsdelivr.net/gh/v2raydy/wj@main/01-27ta.zip
 
 文件下载（备用）：https://drive.google.com/file/d/1mhrARl8W_uuN5HQPc1VSbIEsdmzpZ1ez/view?usp=sharing
