@@ -1,6 +1,6 @@
 # [关注我，不迷路！](https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fw379740999)
 # 每天更新，免费节点分享
-:point_right: :point_right: :point_right:更新时间 **2022-01-27** :point_left: :point_left: :point_left:
+:point_right: :point_right: :point_right:更新时间 **2022-01-28** :point_left: :point_left: :point_left:
 
 所有免费节点都爬取自网络，请勿用于非法用途
 
@@ -40,10 +40,16 @@ shadowrocket使用教程：[点击查看](https://youtu.be/kGKKr6WTrJc)
 
 # 自建节点订阅
 ↓↓↓↓↓↓↓本期视频文件↓↓↓↓↓↓
-通用订阅：https://cdn.jsdelivr.net/gh/v2raydy/v2ray@main/01-27ta.txt
+电报频道（不想被打扰的）：https://t.me/vvkj1
+电报交流群(节点失效会在群里补上)：https://t.me/vvkj11
 
-Clash订阅：https://cdn.jsdelivr.net/gh/v2raydy/Clash@main/01-27ta.yaml
+免费小火箭shadowrocket帐号：https://free.shadowrocket.online
 
-文件下载：https://cdn.jsdelivr.net/gh/v2raydy/wj@main/01-27ta.zip
+↓↓↓↓↓↓↓本期视频文件↓↓↓↓↓↓
+通用订阅：https://cdn.jsdelivr.net/gh/v2raydy/v2ray@main/01-28dj.txt
 
-文件下载（备用）：https://drive.google.com/file/d/1mhrARl8W_uuN5HQPc1VSbIEsdmzpZ1ez/view?usp=sharing
+Clash订阅：https://cdn.jsdelivr.net/gh/v2raydy/Clash@main/01-28dj.yaml
+
+文件下载：https://cdn.jsdelivr.net/gh/v2raydy/wj@main/01-28dj.zip
+
+文件下载（备用）：https://drive.google.com/file/d/1CgeSGNIJM34Ao0lauUol9qpdF5xom7uG/view?usp=sharing
