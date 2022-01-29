@@ -1,6 +1,6 @@
 # [关注我，不迷路！](https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fw379740999)
 # 每天更新，免费节点分享
-:point_right: :point_right: :point_right:更新时间 **2022-01-28** :point_left: :point_left: :point_left:
+:point_right: :point_right: :point_right:更新时间 **2022-01-29** :point_left: :point_left: :point_left:
 
 所有免费节点都爬取自网络，请勿用于非法用途
 
@@ -46,10 +46,10 @@ shadowrocket使用教程：[点击查看](https://youtu.be/kGKKr6WTrJc)
 免费小火箭shadowrocket帐号：https://free.shadowrocket.online
 
 ↓↓↓↓↓↓↓本期视频文件↓↓↓↓↓↓
-通用订阅：https://cdn.jsdelivr.net/gh/v2raydy/v2ray@main/01-28dj.txt
+通用订阅：https://raw.fastgit.org/v2raydy/v2ray/main/01-29xt.txt
 
-Clash订阅：https://cdn.jsdelivr.net/gh/v2raydy/Clash@main/01-28dj.yaml
+Clash订阅：https://raw.fastgit.org/v2raydy/Clash/main/01-29xt.yaml
 
-文件下载：https://cdn.jsdelivr.net/gh/v2raydy/wj@main/01-28dj.zip
+文件下载：https://raw.fastgit.org/v2raydy/wj/main/01-29xt.zip
 
-文件下载（备用）：https://drive.google.com/file/d/1CgeSGNIJM34Ao0lauUol9qpdF5xom7uG/view?usp=sharing
+文件下载（备用）：https://drive.google.com/file/d/19c3_xgie24EErS-9ebgk7dtAMVv8GNfn/view?usp=sharing
