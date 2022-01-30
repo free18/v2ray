@@ -40,8 +40,6 @@ shadowrocket使用教程：[点击查看](https://youtu.be/kGKKr6WTrJc)
 
 # 自建节点订阅
 
-免费小火箭shadowrocket帐号：https://free.shadowrocket.online
-
 通用订阅：https://cdn.jsdelivr.net/gh/v2raydy/v2ray@main/01-30ql.txt
 
 Clash订阅：https://cdn.jsdelivr.net/gh/v2raydy/Clash@main/01-30ql.yaml
