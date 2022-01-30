@@ -39,9 +39,6 @@ Quantumult X使用教程：[点击查看](https://youtu.be/ghZLHPEGfVc)
 shadowrocket使用教程：[点击查看](https://youtu.be/kGKKr6WTrJc)
 
 # 自建节点订阅
-↓↓↓↓↓↓↓本期视频文件↓↓↓↓↓↓
-电报频道（不想被打扰的）：https://t.me/vvkj1
-电报交流群(节点失效会在群里补上)：https://t.me/vvkj11
 
 免费小火箭shadowrocket帐号：https://free.shadowrocket.online
 
