@@ -42,7 +42,7 @@ shadowrocket使用教程：[点击查看](https://youtu.be/kGKKr6WTrJc)
 
 通用订阅：https://cdn.jsdelivr.net/gh/v2raydy/v2ray@main/01-30ql.txt
 
-Clash订阅：https://cdn.jsdelivr.net/gh/v2raydy/Clash@main/01-30ql.yaml
+Clash订阅：https://cdn.jsdelivr.net/gh/v2raydy/Clash@main/01-30q.yaml
 
 文件下载：https://cdn.jsdelivr.net/gh/v2raydy/wj@main/01-30ql.zip
 
