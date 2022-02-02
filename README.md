@@ -48,7 +48,7 @@ Clash订阅：https://cdn.jsdelivr.net/gh/v2raydy/Clash@main/02-02a2.yaml
 
 文件下载（备用）：https://drive.google.com/file/d/1LplQT3CZqYVycpJCCu46SMKUSFIU8oz5/view?usp=sharing
 
-//===========上面出错的话，请用（备用）需开启代理打开============//
+//===========上面出错的话，请用（备用）需开启代理============//
 
 通用订阅：https://raw.githubusercontent.com/v2raydy/v2ray/main/02-02a1.txt
 
