@@ -1,6 +1,6 @@
 # [关注我，不迷路！](https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fw379740999)
 # 每天更新，免费节点分享
-:point_right: :point_right: :point_right:更新时间 **2022-02-02** :point_left: :point_left: :point_left:
+:point_right: :point_right: :point_right:更新时间 **2022-02-03** :point_left: :point_left: :point_left:
 
 所有免费节点都爬取自网络，请勿用于非法用途
 
@@ -39,19 +39,18 @@ Quantumult X使用教程：[点击查看](https://youtu.be/ghZLHPEGfVc)
 shadowrocket使用教程：[点击查看](https://youtu.be/kGKKr6WTrJc)
 
 # 自建节点订阅
-↓↓↓↓↓↓↓本期视频文件↓↓↓↓↓↓
-通用订阅：https://cdn.jsdelivr.net/gh/v2raydy/v2ray@main/02-02a1.txt
+↓通用订阅：https://cdn.jsdelivr.net/gh/v2raydy/v2ray@main/02-03y1.txt
 
-Clash订阅：https://cdn.jsdelivr.net/gh/v2raydy/Clash@main/02-02a2.yaml
+Clash订阅：https://cdn.jsdelivr.net/gh/v2raydy/Clash@main/02-03y2.yaml
 
-文件下载：https://cdn.jsdelivr.net/gh/v2raydy/wj@main/02-02a3.zip
+文件下载：https://cdn.jsdelivr.net/gh/v2raydy/wj@main/02-03y3.zip
 
-文件下载（备用）：https://drive.google.com/file/d/1LplQT3CZqYVycpJCCu46SMKUSFIU8oz5/view?usp=sharing
+文件下载（备用）：https://drive.google.com/file/d/1hOM8T_bKaBfHgs_DR76_ysERryRDUZmW/view?usp=sharing
 
-//===========上面出错的话，请用（备用）需开启代理============//
+//===上面出错的话，请用（备用）需开启代理打开===//
 
-通用订阅：https://raw.githubusercontent.com/v2raydy/v2ray/main/02-02a1.txt
+通用订阅(备用)：https://raw.githubusercontent.com/v2raydy/v2ray/main/02-03y1.txt
 
-Clash订阅：https://raw.githubusercontent.com/v2raydy/Clash/main/02-02a2.txt
+Clash订阅(备用)：https://raw.githubusercontent.com/v2raydy/Clash/main/02-03y2.yaml
 
-文件下载：https://raw.githubusercontent.com/v2raydy/wj/main/02-02a3.zip
+文件下载(备用)：https://raw.githubusercontent.com/v2raydy/wj/main/02-03y3.zip
