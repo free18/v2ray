@@ -1,6 +1,6 @@
 # [关注我，不迷路！](https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fw379740999)
 # 每天更新，免费节点分享
-:point_right: :point_right: :point_right:更新时间 **2022-02-07** :point_left: :point_left: :point_left:
+:point_right: :point_right: :point_right:更新时间 **2022-02-08** :point_left: :point_left: :point_left:
 
 所有免费节点都爬取自网络，请勿用于非法用途
 
@@ -40,18 +40,18 @@ shadowrocket使用教程：[点击查看](https://youtu.be/kGKKr6WTrJc)
 
 # 节点+订阅
 
-通用订阅：https://cdn.jsdelivr.net/gh/v2raydy/v2ray@main/02-07w1.txt
+通用订阅：https://cdn.jsdelivr.net/gh/v2raydy/v2ray@main/02-08l1.txt
 
-Clash订阅：https://cdn.jsdelivr.net/gh/v2raydy/Clash@main/02-07w2.yaml
+Clash订阅：https://cdn.jsdelivr.net/gh/v2raydy/Clash@main/02-08l2.yaml
 
-文件下载：https://cdn.jsdelivr.net/gh/v2raydy/wj@main/02-07w3.zip
+文件下载：https://cdn.jsdelivr.net/gh/v2raydy/wj@main/02-08l3.zip
 
 文件下载（谷歌云盘）：https://drive.google.com/file/d/1beY8j868nxPdvv8ERWwAE4CoZ9shWlXP/view?usp=sharing
 
 //===上面出错的话，请用（备用）打开===//
 
-通用订阅(备用)：https://raw.fastgit.org/v2raydy/v2ray/main/02-07w1.txt
+通用订阅(备用)：https://raw.fastgit.org/v2raydy/v2ray/main/02-08l1.txt
 
-Clash订阅(备用)：https://raw.fastgit.org/v2raydy/Clash/main/02-07w2.yaml
+Clash订阅(备用)：https://raw.fastgit.org/v2raydy/Clash/main/02-08l2.yaml
 
-文件下载(备用)：https://raw.fastgit.org/v2raydy/wj/main/02-07w3.zip
+文件下载(备用)：https://raw.fastgit.org/v2raydy/wj/main/02-08l3.zip
