@@ -46,7 +46,7 @@ Clash订阅：https://cdn.jsdelivr.net/gh/v2raydy/Clash@main/02-09o2.yaml
 
 文件下载：https://cdn.jsdelivr.net/gh/v2raydy/wj@main/02-09o3.zip
 
-文件下载（谷歌云盘）：https://drive.google.com/file/d/1beY8j868nxPdvv8ERWwAE4CoZ9shWlXP/view?usp=sharing
+文件下载（谷歌云盘）：https://drive.google.com/file/d/167vD6d8sn3vzKJlQrfXoJZz1RwQXCkku/view?usp=sharing
 
 //===上面出错的话，请用（备用）打开===//
 
