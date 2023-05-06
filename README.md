@@ -20,7 +20,7 @@
 
 **【快连VPN】优惠码：244846304**  [点击注册](https://pay.eradpd.xyz)
 
-**【各种帐号购买】**  [点击注册](https://suo.yt/7OYFdU3)
+**【各种帐号购买】**  [点击注册](https://xiaohuojian8.com/aff/2230.html)
 
 **【回国VPN】** [点击注册](https://af.kuaifan.club/scripts/click.php?a_aid=6436dcf4557b6)
 
