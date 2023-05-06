@@ -10,13 +10,18 @@
 欢迎订阅我的YouTube频道（VV科技）：[点击订阅](https://www.youtube.com/channel/UCqdGfxwYKrllrHv_Bc-9vAw?sub_confirmation=1)
 (第一时间优先在youtube频道发布）
 
+# 便宜机场推荐（速度快价格便宜）
+
+**【飓风机场】7折优惠码：V2raygift**[点击注册](https://hurricanerelay.net/#/register?code=YYPj4pCJ)
+**【飞鸟云机场】优惠码：150m0Une**[点击注册](https://feiniaoyun.info/#/register?code=150m0Une)
+**【Realy Cloud机场】优惠码：muYmV44G**[点击注册](https://relay.casa/#/register?code=muYmV44G)
+**【快连VPN】优惠码：244846304**[点击注册](https://pay.eradpd.xyz)
+**【各种帐号购买】**[点击注册](https://suo.yt/7OYFdU3)
+**【回国VPN】**[点击注册](https://af.kuaifan.club/scripts/click.php?a_aid=6436dcf4557b6)
+
+
 # 工具下载
 
-免费小火箭shadowrocket帐号：https://free.shadowrocket.online
-
-不能用的话，请点下面:point_down::point_down::point_down::point_down::point_down:网址购买吧，账号自己单独使用，更加安全，不会涉及共享同一个账号（别人拿去发表不当言论）
-
-**便宜账号购买：https://suo.yt/7OYFdU3**
 
 V2RayN Windows 客户端：[点击下载](https://github.com/2dust/v2rayN/releases)
 
@@ -41,21 +46,3 @@ Quantumult使用教程：[点击查看](https://youtu.be/qCkjLMPKygw)
 Quantumult X使用教程：[点击查看](https://youtu.be/ghZLHPEGfVc)
 
 shadowrocket使用教程：[点击查看](https://youtu.be/kGKKr6WTrJc)
-
-# 节点+订阅
-
-通用订阅：https://cdn.jsdelivr.net/gh/v2raydy/v2ray@main/02-22u1.txt
-
-Clash订阅：https://cdn.jsdelivr.net/gh/v2raydy/Clash@main/02-22u2.yaml
-
-文件下载：https://cdn.jsdelivr.net/gh/v2raydy/wj@main/02-22u3.zip
-
-文件下载（谷歌云盘）：https://drive.google.com/file/d/1iPfwUv_2V3bHExkWgL7wxnC3D9TLKCVc/view?usp=sharing
-
-//===上面出错的话，请用（备用）打开===//
-
-通用订阅(备用)：https://raw.fastgit.org/v2raydy/v2ray/main/02-22u1.txt
-
-Clash订阅(备用)：https://raw.fastgit.org/v2raydy/Clash/main/02-22u2.yaml
-
-文件下载(备用)：https://raw.fastgit.org/v2raydy/wj/main/02-22u3.zip
