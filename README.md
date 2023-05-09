@@ -14,7 +14,7 @@
 
 **【飓风机场】7折优惠码：V2raygift** [点击注册](https://hurricanerelay.net/#/register?code=YYPj4pCJ)
 
-**【飞鸟云机场】优惠码：150m0Une** [点击注册](https://feiniaoyun.info/#/register?code=150m0Une)
+**【双流机场】优惠码：xIFXozcD** [点击注册](https://sscurl.com/#/register?code=xIFXozcD)
 
 **【Realy Cloud机场】优惠码：muYmV44G** [点击注册](https://relay.casa/#/register?code=muYmV44G)
 
