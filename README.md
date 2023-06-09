@@ -24,7 +24,7 @@ Clash订阅：https://raw.githubusercontent.com/free18/v2ray/main/Clash.yaml
 
 **【快连VPN】优惠码：244846304**  [点击注册](https://pay.eradpd.xyz)
 
-**【各种帐号购买】**  [点击注册](https://xiaohuojian8.com/aff/2230.html)
+**【各种帐号购买】**  [点击注册](https://wandoukj.eu.org/)
 
 **【回国VPN】** [点击注册](https://wandoukj.eu.org/)
 
