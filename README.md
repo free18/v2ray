@@ -26,7 +26,7 @@ Clash订阅：https://raw.githubusercontent.com/free18/v2ray/main/Clash.yaml
 
 **【各种帐号购买】**  [点击注册](https://xiaohuojian8.com/aff/2230.html)
 
-**【回国VPN】** [点击注册](https://af.kuaifan.club/scripts/click.php?a_aid=6436dcf4557b6)
+**【回国VPN】** [点击注册](https://wandoukj.eu.org/)
 
 
 # 工具下载
