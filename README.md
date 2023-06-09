@@ -4,9 +4,9 @@
 
 所有免费节点都爬取自网络，请勿用于非法用途
 
-**v2ray订阅：https://raw.githubusercontent.com/free18/v2ray/main/v2ray.txt
+v2ray订阅：https://raw.githubusercontent.com/free18/v2ray/main/v2ray.txt
 
-**Clash订阅：https://raw.githubusercontent.com/free18/v2ray/main/Clash.yaml
+Clash订阅：https://raw.githubusercontent.com/free18/v2ray/main/Clash.yaml
 
 欢迎加入我的电报群：https://t.me/vvkj11
 (有任何问题在群里给我反馈，谢谢)
