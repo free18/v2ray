@@ -4,9 +4,15 @@
 
 所有免费节点都爬取自网络，请勿用于非法用途
 
-v2ray订阅：https://raw.githubusercontent.com/free18/v2ray/main/v2ray.txt
+PS：订阅免魔法使用，备用订阅需魔法才能使用
 
-Clash订阅：https://raw.githubusercontent.com/free18/v2ray/main/Clash.yaml
+v2ray订阅：https://ghproxy.com/https://raw.githubusercontent.com/free18/v2ray/main/v2ray.txt
+
+v2ray订阅(备用)：https://raw.githubusercontent.com/free18/v2ray/main/v2ray.txt
+
+v2ray订阅：https://ghproxy.com/https://raw.githubusercontent.com/free18/v2ray/main/v2ray.txt
+
+Clash订阅(备用)：https://raw.githubusercontent.com/free18/v2ray/main/Clash.yaml
 
 欢迎加入我的电报群：https://t.me/vvkj11
 (有任何问题在群里给我反馈，谢谢)
@@ -55,5 +61,3 @@ Quantumult使用教程：[点击查看](https://youtu.be/qCkjLMPKygw)
 Quantumult X使用教程：[点击查看](https://youtu.be/ghZLHPEGfVc)
 
 shadowrocket使用教程：[点击查看](https://youtu.be/kGKKr6WTrJc)
-
-# 节点URL文件
