@@ -8,9 +8,9 @@ PS：订阅免魔法使用，备用订阅需魔法才能使用
 
 v2ray订阅：https://ghproxy.com/https://raw.githubusercontent.com/free18/v2ray/main/v2ray.txt
 
-v2ray订阅(备用)：https://raw.githubusercontent.com/free18/v2ray/main/v2ray.txt
+Clash订阅：https://ghproxy.com/https://raw.githubusercontent.com/free18/v2ray/main/Clash.yaml
 
-v2ray订阅：https://ghproxy.com/https://raw.githubusercontent.com/free18/v2ray/main/v2ray.txt
+v2ray订阅(备用)：https://raw.githubusercontent.com/free18/v2ray/main/v2ray.txt
 
 Clash订阅(备用)：https://raw.githubusercontent.com/free18/v2ray/main/Clash.yaml
 
