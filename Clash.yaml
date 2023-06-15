@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2023-06-15 19:00:36
+# 创建时间：2023-06-15 19:06:53
 # 使用模版：V2RaySE 默认模版
-# 节点数量：10
+# 节点数量：8
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -22,7 +22,6 @@ dns:
 
 proxies:
   - {"name":"账号购买：wandoukj.eu.org","type":"vmess","server":"hk1.af49c4e4c2ee.sanfen004.me","port":443,"cipher":"auto","uuid":"993ed9b8-8516-4d7f-98a0-4d0b6f624926","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/zh-cn","headers":{"host":"www.microsoft.com"}}}
-  - {"name":"🇺🇸_US_美国_5","type":"vmess","server":"137.175.4.120","port":49871,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
   - {"name":"🇺🇸_US_美国_10","type":"vmess","server":"cfcdn.sanfencdn.net","port":443,"cipher":"auto","uuid":"993ed9b8-8516-4d7f-98a0-4d0b6f624926","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/zh-cn","headers":{"host":"us8.sanfencdn.net"}}}
   - {"name":"🇺🇸_US_美国_9","type":"vmess","server":"cfcdn.sanfencdn.net","port":443,"cipher":"auto","uuid":"993ed9b8-8516-4d7f-98a0-4d0b6f624926","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/zh-cn","headers":{"host":"us5.sanfencdn.net"}}}
   - {"name":"🇺🇸_US_美国_6","type":"vmess","server":"cf-lt.sharecentre.online","port":80,"cipher":"auto","uuid":"2d5d8b9c-8ec4-4a37-b610-78e71e13eaef","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"lv2.sharecentrepro.org"}}}
@@ -30,7 +29,6 @@ proxies:
   - {"name":"🇸🇬_SG_新加坡_3","type":"vmess","server":"hk2.c3bfe79372bh.sanfen004.me","port":443,"cipher":"auto","uuid":"993ed9b8-8516-4d7f-98a0-4d0b6f624926","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/zh-cn","headers":{"host":"www.microsoft.com"}}}
   - {"name":"🇺🇸_US_美国_8","type":"vmess","server":"cfcdn.sanfencdn.net","port":443,"cipher":"auto","uuid":"993ed9b8-8516-4d7f-98a0-4d0b6f624926","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/zh-cn","headers":{"host":"us2.sanfencdn.net"}}}
   - {"name":"🇺🇸_US_美国_11","type":"vmess","server":"cfcdn.sanfencdn.net","port":443,"cipher":"auto","uuid":"698115e4-1494-4f4a-85a9-76cd011d3ac6","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/zh-cn","headers":{"host":"us1.sanfencdn.net"}}}
-  - {"name":"电报群：t.me/vvkj11","type":"vmess","server":"2f36c18cfe76.sanfen004.me","port":10775,"cipher":"auto","uuid":"","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -38,7 +36,6 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - 账号购买：wandoukj.eu.org
-      - 🇺🇸_US_美国_5
       - 🇺🇸_US_美国_10
       - 🇺🇸_US_美国_9
       - 🇺🇸_US_美国_6
@@ -46,7 +43,6 @@ proxy-groups:
       - 🇸🇬_SG_新加坡_3
       - 🇺🇸_US_美国_8
       - 🇺🇸_US_美国_11
-      - 电报群：t.me/vvkj11
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -54,7 +50,6 @@ proxy-groups:
     tolerance: 50
     proxies:
       - 账号购买：wandoukj.eu.org
-      - 🇺🇸_US_美国_5
       - 🇺🇸_US_美国_10
       - 🇺🇸_US_美国_9
       - 🇺🇸_US_美国_6
@@ -62,7 +57,6 @@ proxy-groups:
       - 🇸🇬_SG_新加坡_3
       - 🇺🇸_US_美国_8
       - 🇺🇸_US_美国_11
-      - 电报群：t.me/vvkj11
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -70,7 +64,6 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 账号购买：wandoukj.eu.org
-      - 🇺🇸_US_美国_5
       - 🇺🇸_US_美国_10
       - 🇺🇸_US_美国_9
       - 🇺🇸_US_美国_6
@@ -78,14 +71,12 @@ proxy-groups:
       - 🇸🇬_SG_新加坡_3
       - 🇺🇸_US_美国_8
       - 🇺🇸_US_美国_11
-      - 电报群：t.me/vvkj11
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - 账号购买：wandoukj.eu.org
-      - 🇺🇸_US_美国_5
       - 🇺🇸_US_美国_10
       - 🇺🇸_US_美国_9
       - 🇺🇸_US_美国_6
@@ -93,14 +84,12 @@ proxy-groups:
       - 🇸🇬_SG_新加坡_3
       - 🇺🇸_US_美国_8
       - 🇺🇸_US_美国_11
-      - 电报群：t.me/vvkj11
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
       - 账号购买：wandoukj.eu.org
-      - 🇺🇸_US_美国_5
       - 🇺🇸_US_美国_10
       - 🇺🇸_US_美国_9
       - 🇺🇸_US_美国_6
@@ -108,14 +97,12 @@ proxy-groups:
       - 🇸🇬_SG_新加坡_3
       - 🇺🇸_US_美国_8
       - 🇺🇸_US_美国_11
-      - 电报群：t.me/vvkj11
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - 账号购买：wandoukj.eu.org
-      - 🇺🇸_US_美国_5
       - 🇺🇸_US_美国_10
       - 🇺🇸_US_美国_9
       - 🇺🇸_US_美国_6
@@ -123,7 +110,6 @@ proxy-groups:
       - 🇸🇬_SG_新加坡_3
       - 🇺🇸_US_美国_8
       - 🇺🇸_US_美国_11
-      - 电报群：t.me/vvkj11
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -147,7 +133,6 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 账号购买：wandoukj.eu.org
-      - 🇺🇸_US_美国_5
       - 🇺🇸_US_美国_10
       - 🇺🇸_US_美国_9
       - 🇺🇸_US_美国_6
@@ -155,7 +140,6 @@ proxy-groups:
       - 🇸🇬_SG_新加坡_3
       - 🇺🇸_US_美国_8
       - 🇺🇸_US_美国_11
-      - 电报群：t.me/vvkj11
 
 rules:
 # 本地/局域网地址
