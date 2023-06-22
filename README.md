@@ -22,7 +22,7 @@ Clash订阅(备用)：https://raw.githubusercontent.com/free18/v2ray/main/Clash.
 
 # 便宜机场推荐（速度快价格便宜）
 
-**【飓风机场】7折优惠码：V2raygift** [点击注册](https://hurricanerelay.net/#/register?code=YYPj4pCJ)
+**【飓风机场】7折优惠码：V2raygift** [点击注册](https://www.jfcloud.top/#/register?code=YYPj4pCJ)
 
 **【双流机场】优惠码：xIFXozcD** [点击注册](https://sscurl.com/#/register?code=xIFXozcD)
 
