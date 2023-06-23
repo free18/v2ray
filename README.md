@@ -2,6 +2,12 @@
 # 每天更新，免费节点分享
 :point_right: :point_right: :point_right:更新时间 **2023-06-23** :point_left: :point_left: :point_left:
 
+欢迎加入我的电报群：https://t.me/vvkj11
+(有任何问题在群里给我反馈，谢谢)
+
+欢迎订阅我的YouTube频道（VV科技）：[点击订阅](https://www.youtube.com/channel/UCqdGfxwYKrllrHv_Bc-9vAw?sub_confirmation=1)
+(第一时间优先在youtube频道发布）
+
 所有免费节点都爬取自网络，请勿用于非法用途
 
 PS：订阅免魔法使用，备用订阅需魔法才能使用
@@ -13,12 +19,6 @@ Clash订阅：https://ghproxy.com/https://raw.githubusercontent.com/free18/v2ray
 v2ray订阅(备用)：https://raw.githubusercontent.com/free18/v2ray/main/v2ray.txt
 
 Clash订阅(备用)：https://raw.githubusercontent.com/free18/v2ray/main/Clash.yaml
-
-欢迎加入我的电报群：https://t.me/vvkj11
-(有任何问题在群里给我反馈，谢谢)
-
-欢迎订阅我的YouTube频道（VV科技）：[点击订阅](https://www.youtube.com/channel/UCqdGfxwYKrllrHv_Bc-9vAw?sub_confirmation=1)
-(第一时间优先在youtube频道发布）
 
 # 便宜机场推荐（速度快价格便宜）
 
