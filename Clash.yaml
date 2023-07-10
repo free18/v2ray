@@ -1,11 +1,10 @@
 ####################################
 # 创建者：v2rayse.com
-# 客户端：Clash.Meta
-# 创建时间：2023-07-10 21:26:33
+# 客户端：Clash
+# 创建时间：2023-07-10 21:37:33
 # 使用模版：V2RaySE 默认模版
-# 节点数量：19
+# 节点数量：17
 ####################################
-# !!当前配置文件请使用基于 Clash.Meta 内核程序
 mixed-port: 7890
 allow-lan: true
 log-level: info
@@ -22,22 +21,20 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"电报群：t.me/vvkj11","type":"ss","server":"free.themars.top","port":32104,"password":"2a16525f-5d2a-410c-b653-53e7dbce8dd7","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"账号：1i8.cn/fNNTc","type":"vless","server":"cf01.ziwen8.eu.org","port":443,"uuid":"2eaf4678-e46d-4497-ae3b-935dc8c1bc59","tls":true,"servername":"cf01.ziwen8.eu.org","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"加入电报群防止失效","type":"vmess","server":"156.225.67.158","port":48921,"cipher":"auto","uuid":"","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"账号：1i8.cn/fNNTc","type":"vmess","server":"cf-lt.sharecentre.online","port":80,"cipher":"auto","uuid":"5f751c6e-50b1-4797-ba8e-6ffe324a0bce","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"dp3.scproxy.top"}}}
+  - {"name":"电报群：t.me/vvkj11\r","type":"ss","server":"free.themars.top","port":32104,"password":"2a16525f-5d2a-410c-b653-53e7dbce8dd7","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"加入电报群防止失效","type":"vmess","server":"156.225.67.158","port":48921,"cipher":"auto","uuid":"2a16525f-5d2a-410c-b653-53e7dbce8dd1","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇺🇸_US_美国_4","type":"vmess","server":"104.31.16.213","port":443,"cipher":"auto","uuid":"2F094845-E2BD-EBF7-DEB7-995992436FAF","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"Lille.kotick.site"}}}
   - {"name":"🇺🇸_US_美国_5","type":"vmess","server":"104.18.1.196","port":80,"cipher":"auto","uuid":"b3b3b680-19f5-11ee-bf9a-1577c1651679","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/files","headers":{"host":"2.lowh.net"}}}
   - {"name":"🇺🇸_US_美国_6","type":"vmess","server":"137.175.18.86","port":42002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇺🇸_US_美国_7","type":"vmess","server":"192.74.243.34","port":50246,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇨🇾_CY_塞浦路斯_8","type":"vmess","server":"203.28.8.64","port":443,"cipher":"auto","uuid":"2F094845-E2BD-EBF7-DEB7-995992436FAF","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"Lille.kotick.site"}}}
-  - {"name":"🇨🇳_CN_中国_9","type":"ss","server":"free.themars.top","port":32102,"password":"2a16525f-5d2a-410c-b653-53e7dbce8dd7","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇨🇳_CN_中国_10","type":"ss","server":"free.themars.top","port":32101,"password":"2a16525f-5d2a-410c-b653-53e7dbce8dd7","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇨🇳_CN_中国_9\r","type":"ss","server":"free.themars.top","port":32102,"password":"2a16525f-5d2a-410c-b653-53e7dbce8dd7","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇨🇳_CN_中国_10\r","type":"ss","server":"free.themars.top","port":32101,"password":"2a16525f-5d2a-410c-b653-53e7dbce8dd7","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇺🇸_US_美国_11","type":"vmess","server":"140.99.127.222","port":54774,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇨🇳_CN_中国_12","type":"ss","server":"free.themars.top","port":32103,"password":"2a16525f-5d2a-410c-b653-53e7dbce8dd7","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇨🇳_CN_中国_12\r","type":"ss","server":"free.themars.top","port":32103,"password":"2a16525f-5d2a-410c-b653-53e7dbce8dd7","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇺🇸_US_美国_13","type":"vmess","server":"cloudflare.piaole.me","port":443,"cipher":"auto","uuid":"84c3faa1-27c8-4a3e-8ce9-e3edce3a6c6f","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/huawei","headers":{"host":"cloudflare.piaole.me"}}}
   - {"name":"🇨🇳_CN_中国_14","type":"vmess","server":"120.226.50.85","port":45070,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸_US_美国_15","type":"vless","server":"cf.ziwen8.eu.org","port":443,"uuid":"96c19a22-4069-41af-84a9-b94e08dae572","tls":true,"servername":"cf.ziwen8.eu.org","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"🇺🇸_US_美国_16","type":"vmess","server":"cf-lt.sharecentre.online","port":80,"cipher":"auto","uuid":"5f751c6e-50b1-4797-ba8e-6ffe324a0bce","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"dp3.scproxy.top"}}}
   - {"name":"🇺🇸_US_美国_17","type":"vmess","server":"digitalocean.com","port":8080,"cipher":"auto","uuid":"c3b11744-2b20-46af-f0d4-69122be36e74","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"vcus.vpn66.eu.org"}}}
   - {"name":"🇺🇸_US_美国_18","type":"vmess","server":"142.4.121.227","port":45009,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇺🇸_US_美国_19","type":"vmess","server":"cf-lt.sharecentre.online","port":80,"cipher":"auto","uuid":"5f751c6e-50b1-4797-ba8e-6ffe324a0bce","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"nl.sharecentrepro.com"}}}
@@ -47,22 +44,20 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 电报群：t.me/vvkj11
       - 账号：1i8.cn/fNNTc
+      - "电报群：t.me/vvkj11\r"
       - 加入电报群防止失效
       - 🇺🇸_US_美国_4
       - 🇺🇸_US_美国_5
       - 🇺🇸_US_美国_6
       - 🇺🇸_US_美国_7
       - 🇨🇾_CY_塞浦路斯_8
-      - 🇨🇳_CN_中国_9
-      - 🇨🇳_CN_中国_10
+      - "🇨🇳_CN_中国_9\r"
+      - "🇨🇳_CN_中国_10\r"
       - 🇺🇸_US_美国_11
-      - 🇨🇳_CN_中国_12
+      - "🇨🇳_CN_中国_12\r"
       - 🇺🇸_US_美国_13
       - 🇨🇳_CN_中国_14
-      - 🇺🇸_US_美国_15
-      - 🇺🇸_US_美国_16
       - 🇺🇸_US_美国_17
       - 🇺🇸_US_美国_18
       - 🇺🇸_US_美国_19
@@ -72,22 +67,20 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 电报群：t.me/vvkj11
       - 账号：1i8.cn/fNNTc
+      - "电报群：t.me/vvkj11\r"
       - 加入电报群防止失效
       - 🇺🇸_US_美国_4
       - 🇺🇸_US_美国_5
       - 🇺🇸_US_美国_6
       - 🇺🇸_US_美国_7
       - 🇨🇾_CY_塞浦路斯_8
-      - 🇨🇳_CN_中国_9
-      - 🇨🇳_CN_中国_10
+      - "🇨🇳_CN_中国_9\r"
+      - "🇨🇳_CN_中国_10\r"
       - 🇺🇸_US_美国_11
-      - 🇨🇳_CN_中国_12
+      - "🇨🇳_CN_中国_12\r"
       - 🇺🇸_US_美国_13
       - 🇨🇳_CN_中国_14
-      - 🇺🇸_US_美国_15
-      - 🇺🇸_US_美国_16
       - 🇺🇸_US_美国_17
       - 🇺🇸_US_美国_18
       - 🇺🇸_US_美国_19
@@ -97,22 +90,20 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 电报群：t.me/vvkj11
       - 账号：1i8.cn/fNNTc
+      - "电报群：t.me/vvkj11\r"
       - 加入电报群防止失效
       - 🇺🇸_US_美国_4
       - 🇺🇸_US_美国_5
       - 🇺🇸_US_美国_6
       - 🇺🇸_US_美国_7
       - 🇨🇾_CY_塞浦路斯_8
-      - 🇨🇳_CN_中国_9
-      - 🇨🇳_CN_中国_10
+      - "🇨🇳_CN_中国_9\r"
+      - "🇨🇳_CN_中国_10\r"
       - 🇺🇸_US_美国_11
-      - 🇨🇳_CN_中国_12
+      - "🇨🇳_CN_中国_12\r"
       - 🇺🇸_US_美国_13
       - 🇨🇳_CN_中国_14
-      - 🇺🇸_US_美国_15
-      - 🇺🇸_US_美国_16
       - 🇺🇸_US_美国_17
       - 🇺🇸_US_美国_18
       - 🇺🇸_US_美国_19
@@ -121,22 +112,20 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 电报群：t.me/vvkj11
       - 账号：1i8.cn/fNNTc
+      - "电报群：t.me/vvkj11\r"
       - 加入电报群防止失效
       - 🇺🇸_US_美国_4
       - 🇺🇸_US_美国_5
       - 🇺🇸_US_美国_6
       - 🇺🇸_US_美国_7
       - 🇨🇾_CY_塞浦路斯_8
-      - 🇨🇳_CN_中国_9
-      - 🇨🇳_CN_中国_10
+      - "🇨🇳_CN_中国_9\r"
+      - "🇨🇳_CN_中国_10\r"
       - 🇺🇸_US_美国_11
-      - 🇨🇳_CN_中国_12
+      - "🇨🇳_CN_中国_12\r"
       - 🇺🇸_US_美国_13
       - 🇨🇳_CN_中国_14
-      - 🇺🇸_US_美国_15
-      - 🇺🇸_US_美国_16
       - 🇺🇸_US_美国_17
       - 🇺🇸_US_美国_18
       - 🇺🇸_US_美国_19
@@ -145,22 +134,20 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 电报群：t.me/vvkj11
       - 账号：1i8.cn/fNNTc
+      - "电报群：t.me/vvkj11\r"
       - 加入电报群防止失效
       - 🇺🇸_US_美国_4
       - 🇺🇸_US_美国_5
       - 🇺🇸_US_美国_6
       - 🇺🇸_US_美国_7
       - 🇨🇾_CY_塞浦路斯_8
-      - 🇨🇳_CN_中国_9
-      - 🇨🇳_CN_中国_10
+      - "🇨🇳_CN_中国_9\r"
+      - "🇨🇳_CN_中国_10\r"
       - 🇺🇸_US_美国_11
-      - 🇨🇳_CN_中国_12
+      - "🇨🇳_CN_中国_12\r"
       - 🇺🇸_US_美国_13
       - 🇨🇳_CN_中国_14
-      - 🇺🇸_US_美国_15
-      - 🇺🇸_US_美国_16
       - 🇺🇸_US_美国_17
       - 🇺🇸_US_美国_18
       - 🇺🇸_US_美国_19
@@ -169,22 +156,20 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 电报群：t.me/vvkj11
       - 账号：1i8.cn/fNNTc
+      - "电报群：t.me/vvkj11\r"
       - 加入电报群防止失效
       - 🇺🇸_US_美国_4
       - 🇺🇸_US_美国_5
       - 🇺🇸_US_美国_6
       - 🇺🇸_US_美国_7
       - 🇨🇾_CY_塞浦路斯_8
-      - 🇨🇳_CN_中国_9
-      - 🇨🇳_CN_中国_10
+      - "🇨🇳_CN_中国_9\r"
+      - "🇨🇳_CN_中国_10\r"
       - 🇺🇸_US_美国_11
-      - 🇨🇳_CN_中国_12
+      - "🇨🇳_CN_中国_12\r"
       - 🇺🇸_US_美国_13
       - 🇨🇳_CN_中国_14
-      - 🇺🇸_US_美国_15
-      - 🇺🇸_US_美国_16
       - 🇺🇸_US_美国_17
       - 🇺🇸_US_美国_18
       - 🇺🇸_US_美国_19
@@ -210,22 +195,20 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 电报群：t.me/vvkj11
       - 账号：1i8.cn/fNNTc
+      - "电报群：t.me/vvkj11\r"
       - 加入电报群防止失效
       - 🇺🇸_US_美国_4
       - 🇺🇸_US_美国_5
       - 🇺🇸_US_美国_6
       - 🇺🇸_US_美国_7
       - 🇨🇾_CY_塞浦路斯_8
-      - 🇨🇳_CN_中国_9
-      - 🇨🇳_CN_中国_10
+      - "🇨🇳_CN_中国_9\r"
+      - "🇨🇳_CN_中国_10\r"
       - 🇺🇸_US_美国_11
-      - 🇨🇳_CN_中国_12
+      - "🇨🇳_CN_中国_12\r"
       - 🇺🇸_US_美国_13
       - 🇨🇳_CN_中国_14
-      - 🇺🇸_US_美国_15
-      - 🇺🇸_US_美国_16
       - 🇺🇸_US_美国_17
       - 🇺🇸_US_美国_18
       - 🇺🇸_US_美国_19
