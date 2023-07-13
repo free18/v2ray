@@ -5,295 +5,87 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: _美国_<VV科技>, server: 163.123.192.60, port: 443, type: trojan, password: 9e73258f-c7da-49ce-8bc9-5d14950831b3, skip-cert-verify: true, udp: true}
-  - {name: _中国_<VV科技>, server: cm1-nc.go001.buzz, port: 19541, type: ss, cipher: chacha20-ietf-poly1305, password: 38f773c4-6dee-412e-9485-2c9602d550dc, udp: true}
-  - {name: _美国_<VV科技> 2, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: a8f284ff-7d36-493a-a0a6-87ee7f003c5c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /kbjc/fr1, ws-headers: {Host: fr1.hnokkdf.top}, udp: true}
-  - {name: _荷兰_<VV科技>, server: 188.114.96.85, port: 8880, type: vmess, uuid: d7ca2363-81c2-43a0-f141-352815da3ac3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /qwer, ws-headers: {Host: uxx.vtcss.top}, udp: true}
-  - {name: _美国_<VV科技> 3, server: 198.41.211.89, port: 8880, type: vmess, uuid: d7ca2363-81c2-43a0-f141-352815da3ac3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /qwer, ws-headers: {Host: uxx.vtcss.top}, udp: true}
-  - {name: _美国_<VV科技> 4, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: a8f284ff-7d36-493a-a0a6-87ee7f003c5c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /kbjc/de1, ws-headers: {Host: de1.hnokkdf.top}, udp: true}
-  - {name: _美国_<VV科技> 5, server: jp.mlxg.org, port: 80, type: vmess, uuid: ea382c86-60ec-47c0-86ba-4f74b53761b4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: jp2.mlxg.org}, udp: true}
-  - {name: _美国_<VV科技> 6, server: 192.74.243.60, port: 50246, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _美国_<VV科技> 7, server: 142.4.126.70, port: 52212, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _日本_<VV科技>, server: kbawsjp2.aiopen.cfd, port: 443, type: trojan, password: a8f284ff-7d36-493a-a0a6-87ee7f003c5c, sni: kbawsjp2.aiopen.cfd, skip-cert-verify: true, udp: true}
-  - {name: _美国_<VV科技> 8, server: 142.4.118.227, port: 48902, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _加拿大_<VV科技>, server: 23.227.38.111, port: 443, type: vmess, uuid: 012c4549-17d2-475e-b1c1-a3b19cf36622, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /dongtaiwang.com, ws-headers: {Host: 2.freek1.xyz}, udp: true}
-  - {name: _美国_<VV科技> 9, server: 23.225.211.20, port: 42941, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _美国_<VV科技> 10, server: 162.159.50.55, port: 8880, type: vmess, uuid: d7ca2363-81c2-43a0-f141-352815da3ac3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /qwer, ws-headers: {Host: uxx.vtcss.top}, udp: true}
-  - {name: _新加坡_<VV科技>, server: kbawssg2.aiopen.cfd, port: 443, type: trojan, password: a8f284ff-7d36-493a-a0a6-87ee7f003c5c, sni: kbawssg2.aiopen.cfd, skip-cert-verify: true, udp: true}
-  - {name: _美国_<VV科技> 11, server: 142.4.97.71, port: 44942, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _中国_<VV科技> 2, server: 36.156.198.43, port: 30052, type: vmess, uuid: 87d54579-a1eb-4875-b288-afe25f726228, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _德国_<VV科技>, server: 45.14.174.152, port: 80, type: vmess, uuid: 71cecc3f-e274-43f5-81a7-af37b1e3b185, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: fr.66.now.cc}, udp: true}
-  - {name: _美国_<VV科技> 12, server: 198.2.218.205, port: 51203, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _美国_<VV科技> 13, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: dp3.scproxy.top}, udp: true}
-  - {name: _日本_<VV科技> 2, server: kbawsjp1.aiopen.cfd, port: 443, type: trojan, password: a8f284ff-7d36-493a-a0a6-87ee7f003c5c, sni: kbawsjp1.aiopen.cfd, skip-cert-verify: true, udp: true}
-  - {name: _美国_<VV科技> 14, server: 104.20.150.244, port: 80, type: vmess, uuid: 0e290c91-6202-4c80-b151-7f493756b4ed, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /qwer, ws-headers: {Host: uxx.vtcss.top}, udp: true}
-  - {name: _美国_<VV科技> 15, server: 172.64.17.158, port: 2086, type: vmess, uuid: dac9cf36-ff4c-4d90-d549-d39086e75088, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /qwer, ws-headers: {Host: ylks.vtcss.top}, udp: true}
-  - {name: _美国_<VV科技> 16, server: 104.16.110.60, port: 2086, type: vmess, uuid: dac9cf36-ff4c-4d90-d549-d39086e75088, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /qwer, ws-headers: {Host: ylks.vtcss.top}, udp: true}
-  - {name: _美国_<VV科技> 17, server: 104.16.155.38, port: 2086, type: vmess, uuid: dac9cf36-ff4c-4d90-d549-d39086e75088, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /qwer, ws-headers: {Host: ylks.vtcss.top}, udp: true}
-  - {name: _美国_<VV科技> 18, server: 103.21.244.142, port: 80, type: vmess, uuid: 298530df-8418-4bc6-bff2-eeee595bf5cd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /qwer, ws-headers: {Host: ylks.vtcss.top}, udp: true}
-  - {name: _美国_<VV科技> 19, server: 104.20.185.104, port: 80, type: vmess, uuid: 298530df-8418-4bc6-bff2-eeee595bf5cd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /qwer, ws-headers: {Host: ylks.vtcss.top}, udp: true}
-  - {name: _美国_<VV科技> 20, server: 172.67.194.18, port: 80, type: vmess, uuid: 0e290c91-6202-4c80-b151-7f493756b4ed, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /qwer, ws-headers: {Host: uxx.vtcss.top}, udp: true}
-  - {name: _美国_<VV科技> 21, server: 104.16.24.210, port: 80, type: vmess, uuid: 0e290c91-6202-4c80-b151-7f493756b4ed, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /qwer, ws-headers: {Host: uxx.vtcss.top}, udp: true}
-  - {name: _美国_<VV科技> 22, server: 141.101.114.43, port: 80, type: vmess, uuid: 0e290c91-6202-4c80-b151-7f493756b4ed, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /qwer, ws-headers: {Host: uxx.vtcss.top}, udp: true}
-  - {name: _美国_<VV科技> 23, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: nl.sharecentrepro.com}, udp: true}
-  - {name: _美国_<VV科技> 24, server: 103.21.244.50, port: 2086, type: vmess, uuid: dac9cf36-ff4c-4d90-d549-d39086e75088, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /qwer, ws-headers: {Host: ylks.vtcss.top}, udp: true}
-  - {name: _美国_<VV科技> 25, server: 104.23.142.20, port: 80, type: vmess, uuid: 298530df-8418-4bc6-bff2-eeee595bf5cd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /qwer, ws-headers: {Host: ylks.vtcss.top}, udp: true}
-  - {name: _美国_<VV科技> 26, server: 192.74.243.60, port: 50246, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _美国_<VV科技> 27, server: 104.19.26.242, port: 2086, type: vmess, uuid: dac9cf36-ff4c-4d90-d549-d39086e75088, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /qwer, ws-headers: {Host: ylks.vtcss.top}, udp: true}
-  - {name: _美国_<VV科技> 28, server: 104.24.65.183, port: 2086, type: vmess, uuid: dac9cf36-ff4c-4d90-d549-d39086e75088, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /qwer, ws-headers: {Host: ylks.vtcss.top}, udp: true}
-  - {name: _美国_<VV科技> 29, server: digitalocean.com, port: 8080, type: vmess, uuid: 5f098028-ea22-42ea-abfd-9222cb298b74, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: vceu.vpn66.eu.org}, udp: true}
-  - {name: _美国_<VV科技> 30, server: 104.27.30.6, port: 2086, type: vmess, uuid: dac9cf36-ff4c-4d90-d549-d39086e75088, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /qwer, ws-headers: {Host: ylks.vtcss.top}, udp: true}
-  - {name: _美国_<VV科技> 31, server: 192.74.229.199, port: 51592, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _美国_<VV科技> 32, server: 107.148.192.155, port: 49924, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _美国_<VV科技> 33, server: 142.4.99.91, port: 43379, type: vmess, uuid: b65da4af-a12a-4a59-9316-4549e12ba62c, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _美国_<VV科技> 34, server: 142.4.99.90, port: 43379, type: vmess, uuid: b65da4af-a12a-4a59-9316-4549e12ba62c, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _美国_<VV科技> 35, server: 140.99.49.57, port: 55602, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _美国_<VV科技> 36, server: 142.4.100.42, port: 45009, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _美国_<VV科技> 37, server: 198.41.193.94, port: 80, type: vmess, uuid: 298530df-8418-4bc6-bff2-eeee595bf5cd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /qwer, ws-headers: {Host: ylks.vtcss.top}, udp: true}
-  - {name: _美国_<VV科技> 38, server: 104.18.110.194, port: 2086, type: vmess, uuid: dac9cf36-ff4c-4d90-d549-d39086e75088, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /qwer, ws-headers: {Host: ylks.vtcss.top}, udp: true}
-  - {name: _哥斯达黎加_<VV科技>, server: 190.93.244.109, port: 2086, type: vmess, uuid: dac9cf36-ff4c-4d90-d549-d39086e75088, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /qwer, ws-headers: {Host: ylks.vtcss.top}, udp: true}
-  - {name: _美国_<VV科技> 39, server: 104.20.115.11, port: 80, type: vmess, uuid: 298530df-8418-4bc6-bff2-eeee595bf5cd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /qwer, ws-headers: {Host: ylks.vtcss.top}, udp: true}
-  - {name: _美国_<VV科技> 40, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: hk-hytron.ilovescp.com}, udp: true}
-  - {name: _美国_<VV科技> 41, server: 192.74.234.150, port: 42329, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _美国_<VV科技> 42, server: cloudflare.piaole.me, port: 443, type: vmess, uuid: e71fef74-5caa-4447-9fc0-27184bd926c1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /huawei, ws-headers: {Host: cloudflare.piaole.me}, udp: true}
-  - {name: _美国_<VV科技> 43, server: 108.186.192.228, port: 45502, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _美国_<VV科技> 44, server: 171.22.134.3, port: 53433, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _美国_<VV科技> 45, server: 108.186.192.232, port: 45502, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _美国_<VV科技> 46, server: 172.247.148.89, port: 53302, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _美国_<VV科技> 47, server: 171.22.134.8, port: 53433, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _美国_<VV科技> 48, server: 142.4.121.227, port: 45009, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _荷兰_<VV科技> 2, server: 188.114.96.133, port: 2053, type: vmess, uuid: 3a73acf2-c7e3-43b9-fca9-bdd2eb886186, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /qwer, ws-headers: {Host: ylks.vtcss.top}, udp: true}
-  - {name: _新加坡_<VV科技> 2, server: pqawszf.aiopen.cfd, port: 443, type: trojan, password: 7ad2a5e0-906b-4b3e-97bb-b5f3992cb19d, sni: pqawszf.aiopen.cfd, skip-cert-verify: true, udp: true}
-  - {name: _美国_<VV科技> 49, server: 198.2.218.205, port: 51203, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _美国_<VV科技> 50, server: 142.4.106.242, port: 52908, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _香港_<VV科技>, server: 156.245.8.158, port: 48123, type: vmess, uuid: 11117d4c-3b6a-4e76-8bcc-2b41b3e9ca93, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _美国_<VV科技> 51, server: 192.74.234.150, port: 42329, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _美国_<VV科技> 52, server: 173.245.58.163, port: 2086, type: vmess, uuid: dac9cf36-ff4c-4d90-d549-d39086e75088, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /qwer, ws-headers: {Host: ylks.vtcss.top}, udp: true}
-  - {name: _美国_<VV科技> 53, server: 198.41.216.68, port: 80, type: vmess, uuid: 298530df-8418-4bc6-bff2-eeee595bf5cd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /qwer, ws-headers: {Host: ylks.vtcss.top}, udp: true}
-  - {name: _美国_<VV科技> 54, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: dp4.scproxy.top}, udp: true}
-  - {name: _美国_<VV科技> 55, server: 141.101.120.126, port: 2086, type: vmess, uuid: dac9cf36-ff4c-4d90-d549-d39086e75088, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /qwer, ws-headers: {Host: ylks.vtcss.top}, udp: true}
-  - {name: _香港_<VV科技> 2, server: 156.245.8.158, port: 48123, type: vmess, uuid: 11117d4c-3b6a-4e76-8bcc-2b41b3e9ca93, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 电报群：t.me/vvkj11, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: dp3.scproxy.top}, udp: true}
+  - {name: 账号：1i8.cn/fNNTc, server: 47.104.240.230, port: 50002, type: vmess, uuid: 00000000-0000-0000-0000-000000000000, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 加入电报群防止失效, server: 112.132.215.189, port: 50002, type: vmess, uuid: 00000000-0000-0000-0000-000000000000, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_4, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: a8f284ff-7d36-493a-a0a6-87ee7f003c5c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /kbjc/de1, ws-headers: {Host: de1.hnokkdf.top}, udp: true}
+  - {name: _US_美国_5, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: a8f284ff-7d36-493a-a0a6-87ee7f003c5c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /kbjc/fr1, ws-headers: {Host: fr1.hnokkdf.top}, udp: true}
+  - {name: _CN_中国_6, server: 42.192.17.34, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_7, server: cfcdn2.sanfencdn.net, port: 80, type: vmess, uuid: 8216e1fd-7f67-440d-9a63-51d0f6c38b10, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /zh-cn, ws-headers: {Host: jp3.sanfencdn2.com}, udp: true}
+  - {name: _US_美国_8, server: 142.4.121.227, port: 45009, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国_9, server: 223.111.157.50, port: 30059, type: vmess, uuid: 87d54579-a1eb-4875-b288-afe25f726228, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_10, server: 103.21.244.241, port: 8880, type: vmess, uuid: d7ca2363-81c2-43a0-f141-352815da3ac3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /qwer, ws-headers: {Host: uxx.vtcss.top}, udp: true}
+  - {name: _US_美国_11, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 41bec492-cd79-4b57-9a15-7d2bb00fcfca, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: "/pq/usfh3?ed=2048", ws-headers: {Host: usfh3.pqjc.buzz}, udp: true}
+  - {name: _US_美国_12, server: 163.123.192.60, port: 443, type: trojan, password: 9e73258f-c7da-49ce-8bc9-5d14950831b3, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_13, server: 104.18.206.141, port: 2086, type: vmess, uuid: eb943c5b-ac55-46f9-8710-d0641c38ae9b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /qwer, ws-headers: {Host: uxx.vtcss.top}, udp: true}
+  - {name: _US_美国_14, server: 159.246.55.180, port: 443, type: vmess, uuid: a128a5af-518a-4bc8-851e-b1f68b2c49d2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: ro2.v2rayserv.com/vmess, ws-headers: {Host: 4.saintink.eu.org}, udp: true}
+  - {name: _SG_新加坡_15, server: kbawssg1.aiopen.cfd, port: 443, type: trojan, password: a8f284ff-7d36-493a-a0a6-87ee7f003c5c, sni: kbawssg1.aiopen.cfd, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国_16, server: 36.156.198.43, port: 30055, type: vmess, uuid: 87d54579-a1eb-4875-b288-afe25f726228, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _美国_<VV科技>
-      - _中国_<VV科技>
-      - _美国_<VV科技> 2
-      - _荷兰_<VV科技>
-      - _美国_<VV科技> 3
-      - _美国_<VV科技> 4
-      - _美国_<VV科技> 5
-      - _美国_<VV科技> 6
-      - _美国_<VV科技> 7
-      - _日本_<VV科技>
-      - _美国_<VV科技> 8
-      - _加拿大_<VV科技>
-      - _美国_<VV科技> 9
-      - _美国_<VV科技> 10
-      - _新加坡_<VV科技>
-      - _美国_<VV科技> 11
-      - _中国_<VV科技> 2
-      - _德国_<VV科技>
-      - _美国_<VV科技> 12
-      - _美国_<VV科技> 13
-      - _日本_<VV科技> 2
-      - _美国_<VV科技> 14
-      - _美国_<VV科技> 15
-      - _美国_<VV科技> 16
-      - _美国_<VV科技> 17
-      - _美国_<VV科技> 18
-      - _美国_<VV科技> 19
-      - _美国_<VV科技> 20
-      - _美国_<VV科技> 21
-      - _美国_<VV科技> 22
-      - _美国_<VV科技> 23
-      - _美国_<VV科技> 24
-      - _美国_<VV科技> 25
-      - _美国_<VV科技> 26
-      - _美国_<VV科技> 27
-      - _美国_<VV科技> 28
-      - _美国_<VV科技> 29
-      - _美国_<VV科技> 30
-      - _美国_<VV科技> 31
-      - _美国_<VV科技> 32
-      - _美国_<VV科技> 33
-      - _美国_<VV科技> 34
-      - _美国_<VV科技> 35
-      - _美国_<VV科技> 36
-      - _美国_<VV科技> 37
-      - _美国_<VV科技> 38
-      - _哥斯达黎加_<VV科技>
-      - _美国_<VV科技> 39
-      - _美国_<VV科技> 40
-      - _美国_<VV科技> 41
-      - _美国_<VV科技> 42
-      - _美国_<VV科技> 43
-      - _美国_<VV科技> 44
-      - _美国_<VV科技> 45
-      - _美国_<VV科技> 46
-      - _美国_<VV科技> 47
-      - _美国_<VV科技> 48
-      - _荷兰_<VV科技> 2
-      - _新加坡_<VV科技> 2
-      - _美国_<VV科技> 49
-      - _美国_<VV科技> 50
-      - _香港_<VV科技>
-      - _美国_<VV科技> 51
-      - _美国_<VV科技> 52
-      - _美国_<VV科技> 53
-      - _美国_<VV科技> 54
-      - _美国_<VV科技> 55
-      - _香港_<VV科技> 2
+      - 电报群：t.me/vvkj11
+      - 账号：1i8.cn/fNNTc
+      - 加入电报群防止失效
+      - _US_美国_4
+      - _US_美国_5
+      - _CN_中国_6
+      - _US_美国_7
+      - _US_美国_8
+      - _CN_中国_9
+      - _US_美国_10
+      - _US_美国_11
+      - _US_美国_12
+      - _US_美国_13
+      - _US_美国_14
+      - _SG_新加坡_15
+      - _CN_中国_16
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - _美国_<VV科技>
-      - _中国_<VV科技>
-      - _美国_<VV科技> 2
-      - _荷兰_<VV科技>
-      - _美国_<VV科技> 3
-      - _美国_<VV科技> 4
-      - _美国_<VV科技> 5
-      - _美国_<VV科技> 6
-      - _美国_<VV科技> 7
-      - _日本_<VV科技>
-      - _美国_<VV科技> 8
-      - _加拿大_<VV科技>
-      - _美国_<VV科技> 9
-      - _美国_<VV科技> 10
-      - _新加坡_<VV科技>
-      - _美国_<VV科技> 11
-      - _中国_<VV科技> 2
-      - _德国_<VV科技>
-      - _美国_<VV科技> 12
-      - _美国_<VV科技> 13
-      - _日本_<VV科技> 2
-      - _美国_<VV科技> 14
-      - _美国_<VV科技> 15
-      - _美国_<VV科技> 16
-      - _美国_<VV科技> 17
-      - _美国_<VV科技> 18
-      - _美国_<VV科技> 19
-      - _美国_<VV科技> 20
-      - _美国_<VV科技> 21
-      - _美国_<VV科技> 22
-      - _美国_<VV科技> 23
-      - _美国_<VV科技> 24
-      - _美国_<VV科技> 25
-      - _美国_<VV科技> 26
-      - _美国_<VV科技> 27
-      - _美国_<VV科技> 28
-      - _美国_<VV科技> 29
-      - _美国_<VV科技> 30
-      - _美国_<VV科技> 31
-      - _美国_<VV科技> 32
-      - _美国_<VV科技> 33
-      - _美国_<VV科技> 34
-      - _美国_<VV科技> 35
-      - _美国_<VV科技> 36
-      - _美国_<VV科技> 37
-      - _美国_<VV科技> 38
-      - _哥斯达黎加_<VV科技>
-      - _美国_<VV科技> 39
-      - _美国_<VV科技> 40
-      - _美国_<VV科技> 41
-      - _美国_<VV科技> 42
-      - _美国_<VV科技> 43
-      - _美国_<VV科技> 44
-      - _美国_<VV科技> 45
-      - _美国_<VV科技> 46
-      - _美国_<VV科技> 47
-      - _美国_<VV科技> 48
-      - _荷兰_<VV科技> 2
-      - _新加坡_<VV科技> 2
-      - _美国_<VV科技> 49
-      - _美国_<VV科技> 50
-      - _香港_<VV科技>
-      - _美国_<VV科技> 51
-      - _美国_<VV科技> 52
-      - _美国_<VV科技> 53
-      - _美国_<VV科技> 54
-      - _美国_<VV科技> 55
-      - _香港_<VV科技> 2
+      - 电报群：t.me/vvkj11
+      - 账号：1i8.cn/fNNTc
+      - 加入电报群防止失效
+      - _US_美国_4
+      - _US_美国_5
+      - _CN_中国_6
+      - _US_美国_7
+      - _US_美国_8
+      - _CN_中国_9
+      - _US_美国_10
+      - _US_美国_11
+      - _US_美国_12
+      - _US_美国_13
+      - _US_美国_14
+      - _SG_新加坡_15
+      - _CN_中国_16
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _美国_<VV科技>
-      - _中国_<VV科技>
-      - _美国_<VV科技> 2
-      - _荷兰_<VV科技>
-      - _美国_<VV科技> 3
-      - _美国_<VV科技> 4
-      - _美国_<VV科技> 5
-      - _美国_<VV科技> 6
-      - _美国_<VV科技> 7
-      - _日本_<VV科技>
-      - _美国_<VV科技> 8
-      - _加拿大_<VV科技>
-      - _美国_<VV科技> 9
-      - _美国_<VV科技> 10
-      - _新加坡_<VV科技>
-      - _美国_<VV科技> 11
-      - _中国_<VV科技> 2
-      - _德国_<VV科技>
-      - _美国_<VV科技> 12
-      - _美国_<VV科技> 13
-      - _日本_<VV科技> 2
-      - _美国_<VV科技> 14
-      - _美国_<VV科技> 15
-      - _美国_<VV科技> 16
-      - _美国_<VV科技> 17
-      - _美国_<VV科技> 18
-      - _美国_<VV科技> 19
-      - _美国_<VV科技> 20
-      - _美国_<VV科技> 21
-      - _美国_<VV科技> 22
-      - _美国_<VV科技> 23
-      - _美国_<VV科技> 24
-      - _美国_<VV科技> 25
-      - _美国_<VV科技> 26
-      - _美国_<VV科技> 27
-      - _美国_<VV科技> 28
-      - _美国_<VV科技> 29
-      - _美国_<VV科技> 30
-      - _美国_<VV科技> 31
-      - _美国_<VV科技> 32
-      - _美国_<VV科技> 33
-      - _美国_<VV科技> 34
-      - _美国_<VV科技> 35
-      - _美国_<VV科技> 36
-      - _美国_<VV科技> 37
-      - _美国_<VV科技> 38
-      - _哥斯达黎加_<VV科技>
-      - _美国_<VV科技> 39
-      - _美国_<VV科技> 40
-      - _美国_<VV科技> 41
-      - _美国_<VV科技> 42
-      - _美国_<VV科技> 43
-      - _美国_<VV科技> 44
-      - _美国_<VV科技> 45
-      - _美国_<VV科技> 46
-      - _美国_<VV科技> 47
-      - _美国_<VV科技> 48
-      - _荷兰_<VV科技> 2
-      - _新加坡_<VV科技> 2
-      - _美国_<VV科技> 49
-      - _美国_<VV科技> 50
-      - _香港_<VV科技>
-      - _美国_<VV科技> 51
-      - _美国_<VV科技> 52
-      - _美国_<VV科技> 53
-      - _美国_<VV科技> 54
-      - _美国_<VV科技> 55
-      - _香港_<VV科技> 2
+      - 电报群：t.me/vvkj11
+      - 账号：1i8.cn/fNNTc
+      - 加入电报群防止失效
+      - _US_美国_4
+      - _US_美国_5
+      - _CN_中国_6
+      - _US_美国_7
+      - _US_美国_8
+      - _CN_中国_9
+      - _US_美国_10
+      - _US_美国_11
+      - _US_美国_12
+      - _US_美国_13
+      - _US_美国_14
+      - _SG_新加坡_15
+      - _CN_中国_16
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -312,301 +104,91 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _美国_<VV科技>
-      - _中国_<VV科技>
-      - _美国_<VV科技> 2
-      - _荷兰_<VV科技>
-      - _美国_<VV科技> 3
-      - _美国_<VV科技> 4
-      - _美国_<VV科技> 5
-      - _美国_<VV科技> 6
-      - _美国_<VV科技> 7
-      - _日本_<VV科技>
-      - _美国_<VV科技> 8
-      - _加拿大_<VV科技>
-      - _美国_<VV科技> 9
-      - _美国_<VV科技> 10
-      - _新加坡_<VV科技>
-      - _美国_<VV科技> 11
-      - _中国_<VV科技> 2
-      - _德国_<VV科技>
-      - _美国_<VV科技> 12
-      - _美国_<VV科技> 13
-      - _日本_<VV科技> 2
-      - _美国_<VV科技> 14
-      - _美国_<VV科技> 15
-      - _美国_<VV科技> 16
-      - _美国_<VV科技> 17
-      - _美国_<VV科技> 18
-      - _美国_<VV科技> 19
-      - _美国_<VV科技> 20
-      - _美国_<VV科技> 21
-      - _美国_<VV科技> 22
-      - _美国_<VV科技> 23
-      - _美国_<VV科技> 24
-      - _美国_<VV科技> 25
-      - _美国_<VV科技> 26
-      - _美国_<VV科技> 27
-      - _美国_<VV科技> 28
-      - _美国_<VV科技> 29
-      - _美国_<VV科技> 30
-      - _美国_<VV科技> 31
-      - _美国_<VV科技> 32
-      - _美国_<VV科技> 33
-      - _美国_<VV科技> 34
-      - _美国_<VV科技> 35
-      - _美国_<VV科技> 36
-      - _美国_<VV科技> 37
-      - _美国_<VV科技> 38
-      - _哥斯达黎加_<VV科技>
-      - _美国_<VV科技> 39
-      - _美国_<VV科技> 40
-      - _美国_<VV科技> 41
-      - _美国_<VV科技> 42
-      - _美国_<VV科技> 43
-      - _美国_<VV科技> 44
-      - _美国_<VV科技> 45
-      - _美国_<VV科技> 46
-      - _美国_<VV科技> 47
-      - _美国_<VV科技> 48
-      - _荷兰_<VV科技> 2
-      - _新加坡_<VV科技> 2
-      - _美国_<VV科技> 49
-      - _美国_<VV科技> 50
-      - _香港_<VV科技>
-      - _美国_<VV科技> 51
-      - _美国_<VV科技> 52
-      - _美国_<VV科技> 53
-      - _美国_<VV科技> 54
-      - _美国_<VV科技> 55
-      - _香港_<VV科技> 2
+      - 电报群：t.me/vvkj11
+      - 账号：1i8.cn/fNNTc
+      - 加入电报群防止失效
+      - _US_美国_4
+      - _US_美国_5
+      - _CN_中国_6
+      - _US_美国_7
+      - _US_美国_8
+      - _CN_中国_9
+      - _US_美国_10
+      - _US_美国_11
+      - _US_美国_12
+      - _US_美国_13
+      - _US_美国_14
+      - _SG_新加坡_15
+      - _CN_中国_16
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - _香港_<VV科技>
-      - _香港_<VV科技> 2
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - _美国_<VV科技>
-      - _中国_<VV科技>
-      - _美国_<VV科技> 2
-      - _荷兰_<VV科技>
-      - _美国_<VV科技> 3
-      - _美国_<VV科技> 4
-      - _美国_<VV科技> 5
-      - _美国_<VV科技> 6
-      - _美国_<VV科技> 7
-      - _日本_<VV科技>
-      - _美国_<VV科技> 8
-      - _加拿大_<VV科技>
-      - _美国_<VV科技> 9
-      - _美国_<VV科技> 10
-      - _新加坡_<VV科技>
-      - _美国_<VV科技> 11
-      - _中国_<VV科技> 2
-      - _德国_<VV科技>
-      - _美国_<VV科技> 12
-      - _美国_<VV科技> 13
-      - _日本_<VV科技> 2
-      - _美国_<VV科技> 14
-      - _美国_<VV科技> 15
-      - _美国_<VV科技> 16
-      - _美国_<VV科技> 17
-      - _美国_<VV科技> 18
-      - _美国_<VV科技> 19
-      - _美国_<VV科技> 20
-      - _美国_<VV科技> 21
-      - _美国_<VV科技> 22
-      - _美国_<VV科技> 23
-      - _美国_<VV科技> 24
-      - _美国_<VV科技> 25
-      - _美国_<VV科技> 26
-      - _美国_<VV科技> 27
-      - _美国_<VV科技> 28
-      - _美国_<VV科技> 29
-      - _美国_<VV科技> 30
-      - _美国_<VV科技> 31
-      - _美国_<VV科技> 32
-      - _美国_<VV科技> 33
-      - _美国_<VV科技> 34
-      - _美国_<VV科技> 35
-      - _美国_<VV科技> 36
-      - _美国_<VV科技> 37
-      - _美国_<VV科技> 38
-      - _哥斯达黎加_<VV科技>
-      - _美国_<VV科技> 39
-      - _美国_<VV科技> 40
-      - _美国_<VV科技> 41
-      - _美国_<VV科技> 42
-      - _美国_<VV科技> 43
-      - _美国_<VV科技> 44
-      - _美国_<VV科技> 45
-      - _美国_<VV科技> 46
-      - _美国_<VV科技> 47
-      - _美国_<VV科技> 48
-      - _荷兰_<VV科技> 2
-      - _新加坡_<VV科技> 2
-      - _美国_<VV科技> 49
-      - _美国_<VV科技> 50
-      - _香港_<VV科技>
-      - _美国_<VV科技> 51
-      - _美国_<VV科技> 52
-      - _美国_<VV科技> 53
-      - _美国_<VV科技> 54
-      - _美国_<VV科技> 55
-      - _香港_<VV科技> 2
+      - 电报群：t.me/vvkj11
+      - 账号：1i8.cn/fNNTc
+      - 加入电报群防止失效
+      - _US_美国_4
+      - _US_美国_5
+      - _CN_中国_6
+      - _US_美国_7
+      - _US_美国_8
+      - _CN_中国_9
+      - _US_美国_10
+      - _US_美国_11
+      - _US_美国_12
+      - _US_美国_13
+      - _US_美国_14
+      - _SG_新加坡_15
+      - _CN_中国_16
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - _美国_<VV科技>
-      - _中国_<VV科技>
-      - _美国_<VV科技> 2
-      - _荷兰_<VV科技>
-      - _美国_<VV科技> 3
-      - _美国_<VV科技> 4
-      - _美国_<VV科技> 5
-      - _美国_<VV科技> 6
-      - _美国_<VV科技> 7
-      - _日本_<VV科技>
-      - _美国_<VV科技> 8
-      - _加拿大_<VV科技>
-      - _美国_<VV科技> 9
-      - _美国_<VV科技> 10
-      - _新加坡_<VV科技>
-      - _美国_<VV科技> 11
-      - _中国_<VV科技> 2
-      - _德国_<VV科技>
-      - _美国_<VV科技> 12
-      - _美国_<VV科技> 13
-      - _日本_<VV科技> 2
-      - _美国_<VV科技> 14
-      - _美国_<VV科技> 15
-      - _美国_<VV科技> 16
-      - _美国_<VV科技> 17
-      - _美国_<VV科技> 18
-      - _美国_<VV科技> 19
-      - _美国_<VV科技> 20
-      - _美国_<VV科技> 21
-      - _美国_<VV科技> 22
-      - _美国_<VV科技> 23
-      - _美国_<VV科技> 24
-      - _美国_<VV科技> 25
-      - _美国_<VV科技> 26
-      - _美国_<VV科技> 27
-      - _美国_<VV科技> 28
-      - _美国_<VV科技> 29
-      - _美国_<VV科技> 30
-      - _美国_<VV科技> 31
-      - _美国_<VV科技> 32
-      - _美国_<VV科技> 33
-      - _美国_<VV科技> 34
-      - _美国_<VV科技> 35
-      - _美国_<VV科技> 36
-      - _美国_<VV科技> 37
-      - _美国_<VV科技> 38
-      - _哥斯达黎加_<VV科技>
-      - _美国_<VV科技> 39
-      - _美国_<VV科技> 40
-      - _美国_<VV科技> 41
-      - _美国_<VV科技> 42
-      - _美国_<VV科技> 43
-      - _美国_<VV科技> 44
-      - _美国_<VV科技> 45
-      - _美国_<VV科技> 46
-      - _美国_<VV科技> 47
-      - _美国_<VV科技> 48
-      - _荷兰_<VV科技> 2
-      - _新加坡_<VV科技> 2
-      - _美国_<VV科技> 49
-      - _美国_<VV科技> 50
-      - _香港_<VV科技>
-      - _美国_<VV科技> 51
-      - _美国_<VV科技> 52
-      - _美国_<VV科技> 53
-      - _美国_<VV科技> 54
-      - _美国_<VV科技> 55
-      - _香港_<VV科技> 2
+      - 电报群：t.me/vvkj11
+      - 账号：1i8.cn/fNNTc
+      - 加入电报群防止失效
+      - _US_美国_4
+      - _US_美国_5
+      - _CN_中国_6
+      - _US_美国_7
+      - _US_美国_8
+      - _CN_中国_9
+      - _US_美国_10
+      - _US_美国_11
+      - _US_美国_12
+      - _US_美国_13
+      - _US_美国_14
+      - _SG_新加坡_15
+      - _CN_中国_16
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - _美国_<VV科技>
-      - _中国_<VV科技>
-      - _美国_<VV科技> 2
-      - _荷兰_<VV科技>
-      - _美国_<VV科技> 3
-      - _美国_<VV科技> 4
-      - _美国_<VV科技> 5
-      - _美国_<VV科技> 6
-      - _美国_<VV科技> 7
-      - _日本_<VV科技>
-      - _美国_<VV科技> 8
-      - _加拿大_<VV科技>
-      - _美国_<VV科技> 9
-      - _美国_<VV科技> 10
-      - _新加坡_<VV科技>
-      - _美国_<VV科技> 11
-      - _中国_<VV科技> 2
-      - _德国_<VV科技>
-      - _美国_<VV科技> 12
-      - _美国_<VV科技> 13
-      - _日本_<VV科技> 2
-      - _美国_<VV科技> 14
-      - _美国_<VV科技> 15
-      - _美国_<VV科技> 16
-      - _美国_<VV科技> 17
-      - _美国_<VV科技> 18
-      - _美国_<VV科技> 19
-      - _美国_<VV科技> 20
-      - _美国_<VV科技> 21
-      - _美国_<VV科技> 22
-      - _美国_<VV科技> 23
-      - _美国_<VV科技> 24
-      - _美国_<VV科技> 25
-      - _美国_<VV科技> 26
-      - _美国_<VV科技> 27
-      - _美国_<VV科技> 28
-      - _美国_<VV科技> 29
-      - _美国_<VV科技> 30
-      - _美国_<VV科技> 31
-      - _美国_<VV科技> 32
-      - _美国_<VV科技> 33
-      - _美国_<VV科技> 34
-      - _美国_<VV科技> 35
-      - _美国_<VV科技> 36
-      - _美国_<VV科技> 37
-      - _美国_<VV科技> 38
-      - _哥斯达黎加_<VV科技>
-      - _美国_<VV科技> 39
-      - _美国_<VV科技> 40
-      - _美国_<VV科技> 41
-      - _美国_<VV科技> 42
-      - _美国_<VV科技> 43
-      - _美国_<VV科技> 44
-      - _美国_<VV科技> 45
-      - _美国_<VV科技> 46
-      - _美国_<VV科技> 47
-      - _美国_<VV科技> 48
-      - _荷兰_<VV科技> 2
-      - _新加坡_<VV科技> 2
-      - _美国_<VV科技> 49
-      - _美国_<VV科技> 50
-      - _香港_<VV科技>
-      - _美国_<VV科技> 51
-      - _美国_<VV科技> 52
-      - _美国_<VV科技> 53
-      - _美国_<VV科技> 54
-      - _美国_<VV科技> 55
-      - _香港_<VV科技> 2
+      - 电报群：t.me/vvkj11
+      - 账号：1i8.cn/fNNTc
+      - 加入电报群防止失效
+      - _US_美国_4
+      - _US_美国_5
+      - _CN_中国_6
+      - _US_美国_7
+      - _US_美国_8
+      - _CN_中国_9
+      - _US_美国_10
+      - _US_美国_11
+      - _US_美国_12
+      - _US_美国_13
+      - _US_美国_14
+      - _SG_新加坡_15
+      - _CN_中国_16
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -622,74 +204,22 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - _美国_<VV科技>
-      - _中国_<VV科技>
-      - _美国_<VV科技> 2
-      - _荷兰_<VV科技>
-      - _美国_<VV科技> 3
-      - _美国_<VV科技> 4
-      - _美国_<VV科技> 5
-      - _美国_<VV科技> 6
-      - _美国_<VV科技> 7
-      - _日本_<VV科技>
-      - _美国_<VV科技> 8
-      - _加拿大_<VV科技>
-      - _美国_<VV科技> 9
-      - _美国_<VV科技> 10
-      - _新加坡_<VV科技>
-      - _美国_<VV科技> 11
-      - _中国_<VV科技> 2
-      - _德国_<VV科技>
-      - _美国_<VV科技> 12
-      - _美国_<VV科技> 13
-      - _日本_<VV科技> 2
-      - _美国_<VV科技> 14
-      - _美国_<VV科技> 15
-      - _美国_<VV科技> 16
-      - _美国_<VV科技> 17
-      - _美国_<VV科技> 18
-      - _美国_<VV科技> 19
-      - _美国_<VV科技> 20
-      - _美国_<VV科技> 21
-      - _美国_<VV科技> 22
-      - _美国_<VV科技> 23
-      - _美国_<VV科技> 24
-      - _美国_<VV科技> 25
-      - _美国_<VV科技> 26
-      - _美国_<VV科技> 27
-      - _美国_<VV科技> 28
-      - _美国_<VV科技> 29
-      - _美国_<VV科技> 30
-      - _美国_<VV科技> 31
-      - _美国_<VV科技> 32
-      - _美国_<VV科技> 33
-      - _美国_<VV科技> 34
-      - _美国_<VV科技> 35
-      - _美国_<VV科技> 36
-      - _美国_<VV科技> 37
-      - _美国_<VV科技> 38
-      - _哥斯达黎加_<VV科技>
-      - _美国_<VV科技> 39
-      - _美国_<VV科技> 40
-      - _美国_<VV科技> 41
-      - _美国_<VV科技> 42
-      - _美国_<VV科技> 43
-      - _美国_<VV科技> 44
-      - _美国_<VV科技> 45
-      - _美国_<VV科技> 46
-      - _美国_<VV科技> 47
-      - _美国_<VV科技> 48
-      - _荷兰_<VV科技> 2
-      - _新加坡_<VV科技> 2
-      - _美国_<VV科技> 49
-      - _美国_<VV科技> 50
-      - _香港_<VV科技>
-      - _美国_<VV科技> 51
-      - _美国_<VV科技> 52
-      - _美国_<VV科技> 53
-      - _美国_<VV科技> 54
-      - _美国_<VV科技> 55
-      - _香港_<VV科技> 2
+      - 电报群：t.me/vvkj11
+      - 账号：1i8.cn/fNNTc
+      - 加入电报群防止失效
+      - _US_美国_4
+      - _US_美国_5
+      - _CN_中国_6
+      - _US_美国_7
+      - _US_美国_8
+      - _CN_中国_9
+      - _US_美国_10
+      - _US_美国_11
+      - _US_美国_12
+      - _US_美国_13
+      - _US_美国_14
+      - _SG_新加坡_15
+      - _CN_中国_16
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
