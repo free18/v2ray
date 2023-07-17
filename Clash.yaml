@@ -5,18 +5,23 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 电报群：t.me/vvkj11, server: us4.yihaobao.xyz, port: 10040, type: trojan, password: cf27db58-36b5-47ee-bc22-caef3c05a732, sni: us4.yihaobao.xyz, skip-cert-verify: true, udp: true}
-  - {name: 账号：1i8.cn/fNNTc, server: 42.192.17.34, port: 50002, type: vmess, uuid: 00000000-0000-0000-0000-000000000000, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 加入电报群防止失效, server: 47.104.240.230, port: 50002, type: vmess, uuid: 00000000-0000-0000-0000-000000000000, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国_4, server: 112.132.215.189, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _KR_韩国_6, server: kr3.yihaobao.xyz, port: 10051, type: trojan, password: cf27db58-36b5-47ee-bc22-caef3c05a732, sni: kr3.yihaobao.xyz, skip-cert-verify: true, udp: true}
-  - {name: _US_美国_7, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: ca.ilovescp.com}, udp: true}
-  - {name: _HK_香港_8, server: ca1.yihaobao.xyz, port: 10021, type: trojan, password: cf27db58-36b5-47ee-bc22-caef3c05a732, sni: ca1.yihaobao.xyz, skip-cert-verify: true, udp: true}
-  - {name: _FR_法国_9, server: fr1.yihaobao.xyz, port: 10022, type: trojan, password: cf27db58-36b5-47ee-bc22-caef3c05a732, sni: fr1.yihaobao.xyz, skip-cert-verify: true, udp: true}
-  - {name: _US_美国_10, server: linkedin.disnet.gq, port: 443, type: vmess, uuid: a869c557-5c7d-426f-9039-0279c16352bc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /vmessws, ws-headers: {Host: linkedin.disnet.gq}, udp: true}
-  - {name: _US_美国_11, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: ca.ilovescp.com}, udp: true}
-  - {name: _US_美国_12, server: linkedin.disnet.gq, port: 443, type: vmess, uuid: a869c557-5c7d-426f-9039-0279c16352bc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /vmessws, ws-headers: {Host: linkedin.disnet.gq}, udp: true}
-  - {name: _GB_英国_13, server: gb1.yihaobao.xyz, port: 10026, type: trojan, password: cf27db58-36b5-47ee-bc22-caef3c05a732, sni: gb1.yihaobao.xyz, skip-cert-verify: true, udp: true}
+  - {name: 电报群：t.me/vvkj11, server: 38.63.0.83, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /path/1689326360096, ws-headers: {Host: www.19458162.xyz}, udp: true}
+  - {name: 账号：1i8.cn/fNNTc, server: 163.123.192.57, port: 443, type: trojan, password: 7ad2a5e0-906b-4b3e-97bb-b5f3992cb19d, skip-cert-verify: true, udp: true}
+  - {name: 加入电报群防止失效, server: ns1.v2-vip.fun, port: 8080, type: vmess, uuid: dd87d362-dba1-49aa-9c73-87c828f372d6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /api/v3/download.getFile, ws-headers: {Host: ssrsub.v02.ssrsub.com}, udp: true}
+  - {name: _US_美国_4, server: 108.186.192.228, port: 45502, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_5, server: 140.99.49.6, port: 49982, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国_6, server: qzcn2-01.dajuzi.cc, port: 15598, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_7, server: cfcdn2.sanfencdn.net, port: 2052, type: vmess, uuid: 91b9da49-cb53-4e82-9732-873693470440, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /zh-cn, ws-headers: {Host: us6.sanfencdn2.com}, udp: true}
+  - {name: _US_美国_8, server: www.noice.id, port: 443, type: vmess, uuid: 7816384f-5d56-4b11-8446-eb9b1306bfd5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /vmess, ws-headers: {Host: sgmws.mainssh.xyz}, udp: true}
+  - {name: _US_美国_9, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: ca.ilovescp.com}, udp: true}
+  - {name: _NL_荷兰_10, server: 37.218.240.112, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: qGjmI8WQlF0tfhDbkLqGdN, udp: true}
+  - {name: _SG_新加坡_14, server: pqawszf.aiopen.cfd, port: 443, type: trojan, password: 7ad2a5e0-906b-4b3e-97bb-b5f3992cb19d, sni: pqawszf.aiopen.cfd, skip-cert-verify: true, udp: true}
+  - {name: _SG_新加坡_15, server: weo-sg-2.laowufly.cf, port: 1234, type: vmess, uuid: 2a65adbd-112c-4a16-8988-4a2b9e02d4f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _HK_香港_16, server: 156.245.8.248, port: 43393, type: vmess, uuid: 964bf499-9ec0-4378-92b6-87d8d861b2d0, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_17, server: cfcdn.sanfencdn.net, port: 80, type: vmess, uuid: 91b9da49-cb53-4e82-9732-873693470440, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /zh-cn, ws-headers: {Host: jp4.sanfencdn2.com}, udp: true}
+  - {name: _US_美国_18, server: cfcdn.sanfencdn.net, port: 2052, type: vmess, uuid: 91b9da49-cb53-4e82-9732-873693470440, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /zh-cn, ws-headers: {Host: jp5.sanfencdn2.com}, udp: true}
+  - {name: _US_美国_19, server: 137.175.58.132, port: 53999, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _RU_俄罗斯联邦_20, server: 45.144.179.138, port: 443, type: vmess, uuid: 96cbe4a6-5728-42df-dc7a-ceb9b51a3db5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -26,15 +31,20 @@ proxy-groups:
       - 电报群：t.me/vvkj11
       - 账号：1i8.cn/fNNTc
       - 加入电报群防止失效
-      - _CN_中国_4
-      - _KR_韩国_6
+      - _US_美国_4
+      - _US_美国_5
+      - _CN_中国_6
       - _US_美国_7
-      - _HK_香港_8
-      - _FR_法国_9
-      - _US_美国_10
-      - _US_美国_11
-      - _US_美国_12
-      - _GB_英国_13
+      - _US_美国_8
+      - _US_美国_9
+      - _NL_荷兰_10
+      - _SG_新加坡_14
+      - _SG_新加坡_15
+      - _HK_香港_16
+      - _US_美国_17
+      - _US_美国_18
+      - _US_美国_19
+      - _RU_俄罗斯联邦_20
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -43,15 +53,20 @@ proxy-groups:
       - 电报群：t.me/vvkj11
       - 账号：1i8.cn/fNNTc
       - 加入电报群防止失效
-      - _CN_中国_4
-      - _KR_韩国_6
+      - _US_美国_4
+      - _US_美国_5
+      - _CN_中国_6
       - _US_美国_7
-      - _HK_香港_8
-      - _FR_法国_9
-      - _US_美国_10
-      - _US_美国_11
-      - _US_美国_12
-      - _GB_英国_13
+      - _US_美国_8
+      - _US_美国_9
+      - _NL_荷兰_10
+      - _SG_新加坡_14
+      - _SG_新加坡_15
+      - _HK_香港_16
+      - _US_美国_17
+      - _US_美国_18
+      - _US_美国_19
+      - _RU_俄罗斯联邦_20
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -61,15 +76,20 @@ proxy-groups:
       - 电报群：t.me/vvkj11
       - 账号：1i8.cn/fNNTc
       - 加入电报群防止失效
-      - _CN_中国_4
-      - _KR_韩国_6
+      - _US_美国_4
+      - _US_美国_5
+      - _CN_中国_6
       - _US_美国_7
-      - _HK_香港_8
-      - _FR_法国_9
-      - _US_美国_10
-      - _US_美国_11
-      - _US_美国_12
-      - _GB_英国_13
+      - _US_美国_8
+      - _US_美国_9
+      - _NL_荷兰_10
+      - _SG_新加坡_14
+      - _SG_新加坡_15
+      - _HK_香港_16
+      - _US_美国_17
+      - _US_美国_18
+      - _US_美国_19
+      - _RU_俄罗斯联邦_20
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -91,20 +111,25 @@ proxy-groups:
       - 电报群：t.me/vvkj11
       - 账号：1i8.cn/fNNTc
       - 加入电报群防止失效
-      - _CN_中国_4
-      - _KR_韩国_6
+      - _US_美国_4
+      - _US_美国_5
+      - _CN_中国_6
       - _US_美国_7
-      - _HK_香港_8
-      - _FR_法国_9
-      - _US_美国_10
-      - _US_美国_11
-      - _US_美国_12
-      - _GB_英国_13
+      - _US_美国_8
+      - _US_美国_9
+      - _NL_荷兰_10
+      - _SG_新加坡_14
+      - _SG_新加坡_15
+      - _HK_香港_16
+      - _US_美国_17
+      - _US_美国_18
+      - _US_美国_19
+      - _RU_俄罗斯联邦_20
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - _HK_香港_8
+      - _HK_香港_16
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
@@ -114,15 +139,20 @@ proxy-groups:
       - 电报群：t.me/vvkj11
       - 账号：1i8.cn/fNNTc
       - 加入电报群防止失效
-      - _CN_中国_4
-      - _KR_韩国_6
+      - _US_美国_4
+      - _US_美国_5
+      - _CN_中国_6
       - _US_美国_7
-      - _HK_香港_8
-      - _FR_法国_9
-      - _US_美国_10
-      - _US_美国_11
-      - _US_美国_12
-      - _GB_英国_13
+      - _US_美国_8
+      - _US_美国_9
+      - _NL_荷兰_10
+      - _SG_新加坡_14
+      - _SG_新加坡_15
+      - _HK_香港_16
+      - _US_美国_17
+      - _US_美国_18
+      - _US_美国_19
+      - _RU_俄罗斯联邦_20
   - name: 📲 电报信息
     type: select
     proxies:
@@ -131,15 +161,20 @@ proxy-groups:
       - 电报群：t.me/vvkj11
       - 账号：1i8.cn/fNNTc
       - 加入电报群防止失效
-      - _CN_中国_4
-      - _KR_韩国_6
+      - _US_美国_4
+      - _US_美国_5
+      - _CN_中国_6
       - _US_美国_7
-      - _HK_香港_8
-      - _FR_法国_9
-      - _US_美国_10
-      - _US_美国_11
-      - _US_美国_12
-      - _GB_英国_13
+      - _US_美国_8
+      - _US_美国_9
+      - _NL_荷兰_10
+      - _SG_新加坡_14
+      - _SG_新加坡_15
+      - _HK_香港_16
+      - _US_美国_17
+      - _US_美国_18
+      - _US_美国_19
+      - _RU_俄罗斯联邦_20
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -149,15 +184,20 @@ proxy-groups:
       - 电报群：t.me/vvkj11
       - 账号：1i8.cn/fNNTc
       - 加入电报群防止失效
-      - _CN_中国_4
-      - _KR_韩国_6
+      - _US_美国_4
+      - _US_美国_5
+      - _CN_中国_6
       - _US_美国_7
-      - _HK_香港_8
-      - _FR_法国_9
-      - _US_美国_10
-      - _US_美国_11
-      - _US_美国_12
-      - _GB_英国_13
+      - _US_美国_8
+      - _US_美国_9
+      - _NL_荷兰_10
+      - _SG_新加坡_14
+      - _SG_新加坡_15
+      - _HK_香港_16
+      - _US_美国_17
+      - _US_美国_18
+      - _US_美国_19
+      - _RU_俄罗斯联邦_20
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -176,15 +216,20 @@ proxy-groups:
       - 电报群：t.me/vvkj11
       - 账号：1i8.cn/fNNTc
       - 加入电报群防止失效
-      - _CN_中国_4
-      - _KR_韩国_6
+      - _US_美国_4
+      - _US_美国_5
+      - _CN_中国_6
       - _US_美国_7
-      - _HK_香港_8
-      - _FR_法国_9
-      - _US_美国_10
-      - _US_美国_11
-      - _US_美国_12
-      - _GB_英国_13
+      - _US_美国_8
+      - _US_美国_9
+      - _NL_荷兰_10
+      - _SG_新加坡_14
+      - _SG_新加坡_15
+      - _HK_香港_16
+      - _US_美国_17
+      - _US_美国_18
+      - _US_美国_19
+      - _RU_俄罗斯联邦_20
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
