@@ -1,6 +1,6 @@
 # [关注我，不迷路！](https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fw379740999)
 
-欢迎加入我的电报群：https://t.me/vvkj11
+欢迎加入我的节点电报群：https://t.me/vvkj11
 (有任何问题在群里给我反馈，谢谢)
 
 # 安卓应用—-破解频道（欢迎大家加入）
