@@ -3,14 +3,14 @@
 欢迎加入我的节点电报群：https://t.me/vvkj11
 (有任何问题在群里给我反馈，谢谢)
 
+欢迎订阅我的YouTube频道（VV科技）：[点击订阅](https://www.youtube.com/channel/UCqdGfxwYKrllrHv_Bc-9vAw?sub_confirmation=1)
+(第一时间优先在youtube频道发布）
+
 # 安卓应用—-破解频道（欢迎大家加入）
 
 **频道：https://t.me/qwh01**
 
 **群组：https://t.me/qwh011**
-
-欢迎订阅我的YouTube频道（VV科技）：[点击订阅](https://www.youtube.com/channel/UCqdGfxwYKrllrHv_Bc-9vAw?sub_confirmation=1)
-(第一时间优先在youtube频道发布）
 
 # 每天更新，免费节点分享
 :point_right: :point_right: :point_right:更新时间 **2023-07-20** :point_left: :point_left: :point_left:
