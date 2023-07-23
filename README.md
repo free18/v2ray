@@ -35,9 +35,11 @@ Clash订阅(备用)：https://raw.githubusercontent.com/free18/v2ray/main/Clash.
 
 **【Realy Cloud机场】优惠码：muYmV44G** [点击注册](https://relay.casa/#/register?code=muYmV44G)
 
-**【快连VPN】优惠码：244846304**  [点击注册](https://pay.eradpd.xyz)
+**【免费白嫖VPN1】** [点击注册](https://www.anyi555.com/?mid=1033)
 
-**【各种帐号购买】**  [点击注册](https://wandoukj.eu.org/)
+**【快连VPN】优惠码：244846304** [点击注册](https://pay.eradpd.xyz)
+
+**【各种帐号购买】** [点击注册](https://wandoukj.eu.org/)
 
 **【回国VPN】** [点击注册](https://wandoukj.eu.org/)
 
