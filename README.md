@@ -52,7 +52,7 @@ Clash订阅(备用)：https://raw.githubusercontent.com/free18/v2ray/main/Clash.
 
 获取地址4：https://appid.nbcn.xyz/share/jishubai
 
-获取地址4：https://idshare001.me
+获取地址5：https://idshare001.me
 
 # 工具下载
 
