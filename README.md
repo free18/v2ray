@@ -14,9 +14,11 @@
 
 # 转载大佬永久免费订阅
 
-v2订阅：https://raw.fastgit.org/freefq/free/master/v2
+PS:转载大佬订阅，如果不能正常更新，请在外网状态下更新
 
-clash订阅：https://suo.st/CLe2Ay7
+v2订阅：https://raw.githubusercontent.com/freefq/free/master/v2
+
+clash订阅：https://suo.st/dW1UNYW
 
 # 白嫖VPN
 
