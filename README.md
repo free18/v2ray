@@ -46,7 +46,7 @@ clash订阅：https://suo.st/dW1UNYW
 获取地址4：https://appid.nbcn.xyz/share/jishubai
 
 # TG代理分享（长期可用）
-请加频道：https://t.me/vvkj11
+** 请加频道：** https://t.me/v2ray3
 
 1、https://t.me/proxy?server=154.12.87.17&port=443&secret=ee0c6bbb93d2639842c7974c929ef5462e617a7572652e6d6963726f736f66742e636f6d
 
