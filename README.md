@@ -45,6 +45,16 @@ clash订阅：https://suo.st/dW1UNYW
 
 获取地址4：https://appid.nbcn.xyz/share/jishubai
 
+# TG代理分享（长期可用，请加频道 https://t.me/vvkj11）
+
+https://t.me/proxy?server=154.12.87.17&port=443&secret=ee0c6bbb93d2639842c7974c929ef5462e617a7572652e6d6963726f736f66742e636f6d
+
+https: //t.me/proxy?server=38.12.25.59&port=443&secret=eefe9fd26d5c69e791cbeab3adea3bd154617a7572652e6d6963726f736f66742e636f6d
+
+https://t.me/proxy?server=38.12.25.206&port=443&secret=ee323376fd834518177ae30604b2687ab2617a7572652e6d6963726f736f66742e636f6d
+
+https://t.me/proxy?server=38.12.25.82&port=1238&secret=ee497691f206be6f635dc874a0bf3f2156617a7572652e6d6963726f736f66742e636f6d
+
 # 工具下载
 
 V2RayN Windows 客户端：[点击下载](https://github.com/2dust/v2rayN/releases)
