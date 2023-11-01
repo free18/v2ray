@@ -26,9 +26,9 @@ clash订阅：https://suo.st/dW1UNYW
 
 **【免费白嫖-安易VPN】** [官网地址](https://www.anyi555.com/?mid=1033)
 
-**【免费安卓版快连VPN】免费白嫖码：244846304** [官网地址](https://pay.eradpd.xyz)
+**【免费安卓版快连VPN】三天白嫖码：244846304** [官网地址](https://pay.eradpd.xyz)
 
-**【免费苹果版快连VPN】** [官网地址](https://promter-management.onelink.me/WxKq/fb306fec)
+**【免费苹果版快连VPN】三天白嫖** [官网地址](https://promter-management.onelink.me/WxKq/fb306fec)
 
 # 便宜机场推荐（速度快价格便宜）
 
