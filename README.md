@@ -20,6 +20,8 @@ v2订阅：https://raw.githubusercontent.com/freefq/free/master/v2
 
 clash订阅：https://suo.st/dW1UNYW
 
+**自建节点，请进电报群获取：https://t.me/vvkj11**
+
 # 白嫖VPN
 
 **【免费白嫖-安易VPN】** [官网地址](https://www.anyi555.com/?mid=1033)
