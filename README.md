@@ -194,22 +194,3 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToyOTBiMDY5Zi03OTU4LTQ2ZDUtOWRlMi0xNGRmZWY2NGE
 ```
 
 <a href="https://info.flagcounter.com/pIZl"><img src="https://s11.flagcounter.com/count2/pIZl/bg_FFFFFF/txt_000000/border_CCCCCC/columns_2/maxflags_10/viewers_0/labels_1/pageviews_1/flags_0/percent_0/" alt="Flag Counter" border="0"></a>
-
-<picture>
-  <source
-    media="(prefers-color-scheme: dark)"
-    srcset="
-      https://api.star-history.com/svg?repos=star-history/star-history&type=Date&theme=dark
-    "
-  />
-  <source
-    media="(prefers-color-scheme: light)"
-    srcset="
-      https://api.star-history.com/svg?repos=star-history/star-history&type=Date
-    "
-  />
-  <img
-    alt="Star History Chart"
-    src="https://api.star-history.com/svg?repos=star-history/star-history&type=Date"
-  />
-</picture>
