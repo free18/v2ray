@@ -12,6 +12,24 @@
 
 **群组：https://t.me/qwh011**
 
+# 便宜机场推荐（速度快价格便宜）
+
+🔥小鲤鱼机场开业啦！本站使用先进的Hysteria协议，
+并且起步价格为5元包月使用1000G流量，注意：使用前请确保您是否下载了本站匹配的客户端！
+线路节点遍布全球多个国家，并且使用机场界领先的技术对您进行服务。
+全程保障您的安全与速度与稳定性兼顾，打造最舒适的科学上网环境尽在小鲤鱼！
+开业大酬宾，限时放送**8折优惠码：BAAGNQmO**
+
+👉**小鲤鱼官网： https://www.xiaoliyu.me**
+👉**用户使用面板： https://p.xiaoliyu.me**
+👉**防失联发布页： https://xiaoliyudh.github.io**
+👉**小鲤鱼官方群：https://t.me/xiaoliyu999**
+👉**小鲤鱼主频道：https://t.me/xiaoliyu996**
+
+**【飞鸟云机场】优惠码：150m0Une** [点击注册](https://feiniaoyun.info/#/register?code=150m0Une)
+
+**【各种帐号购买】** [点击注册](https://wandoukj.eu.org/)
+
 # 转载大佬永久免费订阅
 
 PS:转载大佬订阅，如果不能正常更新，请在外网状态下更新
@@ -29,14 +47,6 @@ clash订阅：https://suo.st/dW1UNYW
 **【免费安卓版快连VPN】三天白嫖码：244846304** [官网地址](https://pay.eradpd.xyz)
 
 **【免费苹果版快连VPN】三天白嫖** [官网地址](https://promter-management.onelink.me/WxKq/fb306fec)
-
-# 便宜机场推荐（速度快价格便宜）
-
-**【飞鸟云机场】优惠码：150m0Une** [点击注册](https://feiniaoyun.info/#/register?code=150m0Une)
-
-**【各种帐号购买】** [点击注册](https://wandoukj.eu.org/)
-
-**【回国VPN】** [点击注册](https://wandoukj.eu.org/)
 
 # 小火箭帐号获取
 获取地址1：https://id.fcjs.xyz
