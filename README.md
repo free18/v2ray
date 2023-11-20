@@ -48,15 +48,17 @@ clash订阅：https://suo.st/dW1UNYW
 获取地址4：https://appid.nbcn.xyz/share/jishubai
 
 # TG代理分享（长期可用）
-**请加频道：** https://t.me/v2ray3
+**失效请加频道：** https://t.me/v2ray3
 
-1、https://t.me/proxy?server=154.12.87.17&port=443&secret=ee0c6bbb93d2639842c7974c929ef5462e617a7572652e6d6963726f736f66742e636f6d
+https://t.me/proxy?server=120.241.47.50&port=50001&secret=eee2eabc9d369272c88aa26c34bfb3a8e1617a7572652e6d6963726f736f66742e636f6d
 
-2、https://t.me/proxy?server=38.12.25.59&port=443&secret=eefe9fd26d5c69e791cbeab3adea3bd154617a7572652e6d6963726f736f66742e636f6d
+tg://proxy?server=120.233.42.27&port=18888&secret=eef674bca7a0b67696df3f7f828d5ef158617a7572652e6d6963726f736f66742e636f6d
 
-3、https://t.me/proxy?server=38.12.25.206&port=443&secret=ee323376fd834518177ae30604b2687ab2617a7572652e6d6963726f736f66742e636f6d
+tg://proxy?server=23.95.254.128&port=413&secret=ee5e5151bfe913ff2636b15cd5c3478ef372696f7467616d65732e636f6d
 
-4、https://t.me/proxy?server=38.12.25.82&port=1238&secret=ee497691f206be6f635dc874a0bf3f2156617a7572652e6d6963726f736f66742e636f6d
+https://t.me/proxy?server=120.241.47.50&port=50006&secret=eee2d987aebcfb75765da5501a63f730f2617a7572652e6d6963726f736f66742e636f6d
+
+tg://proxy?server=120.233.42.190&port=18888&secret=eef674bca7a0b67696df3f7f828d5ef158617a7572652e6d6963726f736f66742e636f6d)
 
 # 工具下载
 
