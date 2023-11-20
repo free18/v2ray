@@ -45,7 +45,6 @@ v2订阅：https://raw.githubusercontent.com/freefq/free/master/v2
 clash订阅：https://suo.st/dW1UNYW
 
 **自建节点，失效的话，请进电报群获取：https://t.me/vvkj11**
-
 ```
 vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIlRHLUB2dmtqMTEiLA0KICAiYWRkIjogImFwaS5scC1haXJkcm9wLnRvcCIsDQogICJwb3J0IjogIjIwOTYiLA0KICAiaWQiOiAiZTM2Yzk4ZjItYmI3Ni00NWY2LWQ1NDUtNjEzOTM1MjIwMjdkIiwNCiAgImFpZCI6ICIwIiwNCiAgInNjeSI6ICJhdXRvIiwNCiAgIm5ldCI6ICJ3cyIsDQogICJ0eXBlIjogIm5vbmUiLA0KICAiaG9zdCI6ICJhcGkubHAtYWlyZHJvcC50b3AiLA0KICAicGF0aCI6ICIvbG9naW4iLA0KICAidGxzIjogInRscyIsDQogICJzbmkiOiAiIiwNCiAgImFscG4iOiAiIg0KfQ==
 
