@@ -106,7 +106,7 @@ shadowrocket使用教程：[点击查看](https://youtu.be/kGKKr6WTrJc)
 
 👉**小鲤鱼主频道：https://t.me/xiaoliyu996**
 
-**订阅地址每天更换**
+**节点每天更换**
 ```
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToyOTBiMDY5Zi03OTU4LTQ2ZDUtOWRlMi0xNGRmZWY2NGE3MzI=@nn.auozzjs.lol:40520#%F0%9F%87%B8%F0%9F%87%AC%20%E6%96%B0%E5%8A%A0%E5%9D%A1-4_%E8%A7%A3%E9%94%81
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToyOTBiMDY5Zi03OTU4LTQ2ZDUtOWRlMi0xNGRmZWY2NGE3MzI=@nn.auozzjs.lol:40005#%E5%89%A9%E4%BD%99%E6%B5%81%E9%87%8F%EF%BC%9A1036.99%20GB
