@@ -193,5 +193,5 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToyOTBiMDY5Zi03OTU4LTQ2ZDUtOWRlMi0xNGRmZWY2NGE
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToyOTBiMDY5Zi03OTU4LTQ2ZDUtOWRlMi0xNGRmZWY2NGE3MzI=@nn.auozzjs.lol:27001#%F0%9F%87%AE%F0%9F%87%AA%20%E7%88%B1%E5%B0%94%E5%85%B0
 ```
 
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-<span id="busuanzi_value_page_pv">本文总阅读量<i class="fa fa-spinner fa-spin"></i>次</span>
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv"></span>次</span>
