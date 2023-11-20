@@ -193,6 +193,4 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToyOTBiMDY5Zi03OTU4LTQ2ZDUtOWRlMi0xNGRmZWY2NGE
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToyOTBiMDY5Zi03OTU4LTQ2ZDUtOWRlMi0xNGRmZWY2NGE3MzI=@nn.auozzjs.lol:27001#%F0%9F%87%AE%F0%9F%87%AA%20%E7%88%B1%E5%B0%94%E5%85%B0
 ```
 
-<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-
-<span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv"></span>次</span>
+<a href="https://info.flagcounter.com/fS7O"><img src="https://s01.flagcounter.com/mini/fS7O/bg_FFFFFF/txt_000000/border_FA4F1B/flags_0/" alt="Flag Counter" border="0"></a>
