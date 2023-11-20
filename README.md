@@ -193,4 +193,4 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToyOTBiMDY5Zi03OTU4LTQ2ZDUtOWRlMi0xNGRmZWY2NGE
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToyOTBiMDY5Zi03OTU4LTQ2ZDUtOWRlMi0xNGRmZWY2NGE3MzI=@nn.auozzjs.lol:27001#%F0%9F%87%AE%F0%9F%87%AA%20%E7%88%B1%E5%B0%94%E5%85%B0
 ```
 
-<a href="https://info.flagcounter.com/fS7O"><img src="https://s01.flagcounter.com/mini/fS7O/bg_FFFFFF/txt_000000/border_FA4F1B/flags_0/" alt="Flag Counter" border="0"></a>
+<a href="https://info.flagcounter.com/pIZl"><img src="https://s11.flagcounter.com/count2/pIZl/bg_FFFFFF/txt_000000/border_CCCCCC/columns_2/maxflags_10/viewers_0/labels_1/pageviews_1/flags_0/percent_0/" alt="Flag Counter" border="0"></a>
