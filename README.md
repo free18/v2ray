@@ -53,15 +53,15 @@ vless://d342d11e-d424-4583-b36e-524ab1f0afa4@v2ray.goldmelon.jp.eu.org:443?encry
 # TG代理分享（长期可用）
 **失效请加频道：** https://t.me/v2ray3
 
-https://t.me/proxy?server=120.241.47.50&port=50001&secret=eee2eabc9d369272c88aa26c34bfb3a8e1617a7572652e6d6963726f736f66742e636f6d
+https://t.me/proxy?server=52.5.251.47&port=443&secret=eed67a1a1090d4d87392bc208c980694f062616c61642e6972
 
-https://t.me/proxy?server=120.233.42.27&port=18888&secret=eef674bca7a0b67696df3f7f828d5ef158617a7572652e6d6963726f736f66742e636f6d
-
-https://t.me/proxy?server=23.95.254.128&port=413&secret=ee5e5151bfe913ff2636b15cd5c3478ef372696f7467616d65732e636f6d
+https://t.me/proxy?server=120.233.42.27&port=12336&secret=ee44c6fe2c55fb71ad34fc8152dad34ea6617a7572652e6d6963726f736f66742e636f6d
 
 https://t.me/proxy?server=120.241.47.50&port=50006&secret=eee2d987aebcfb75765da5501a63f730f2617a7572652e6d6963726f736f66742e636f6d
 
-https://t.me/proxy?server=120.233.42.190&port=18888&secret=eef674bca7a0b67696df3f7f828d5ef158617a7572652e6d6963726f736f66742e636f6d)
+https://t.me/proxy?server=23.95.254.128&port=413&secret=ee5e5151bfe913ff2636b15cd5c3478ef372696f7467616d65732e636f6d
+
+https://t.me/proxy?server=120.241.47.50&port=50001&secret=eee2eabc9d369272c88aa26c34bfb3a8e1617a7572652e6d6963726f736f66742e636f6d
 
 # 工具下载
 
