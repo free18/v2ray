@@ -12,7 +12,7 @@
 
 **群组：https://t.me/qwh011**
 
-=============================================================================
+====================================================
 
 # 便宜机场推荐（速度快价格便宜）
 
@@ -20,7 +20,7 @@
 
 **【各种帐号购买】** [点击注册](https://wandoukj.eu.org/)
 
-=============================================================================
+====================================================
 
 # 转载大佬永久免费订阅
 
@@ -30,7 +30,7 @@ v2订阅：https://raw.githubusercontent.com/freefq/free/master/v2
 
 clash订阅：https://suo.st/dW1UNYW
 
-=============================================================================
+====================================================
 
 **自建节点，失效的话，请进电报群获取：https://t.me/vvkj11**
 ```
@@ -38,7 +38,7 @@ vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIlRHLUB2dmtqMTEiLA0KICAiYWRkIjogImFwaS5s
 vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIlRHLUB2dmtqMTEiLA0KICAiYWRkIjogImRvbmd0YWl3YW5nMy5jb20iLA0KICAicG9ydCI6ICI4MDgwIiwNCiAgImlkIjogIjk2OWYxOTA5LWMwZDMtNGMzMC04MTNkLTNhZWM1YzgzOGI3ZCIsDQogICJhaWQiOiAiMCIsDQogICJzY3kiOiAiYXV0byIsDQogICJuZXQiOiAid3MiLA0KICAidHlwZSI6ICJub25lIiwNCiAgImhvc3QiOiAiZG9uZ3RhaXdhbmcxNS5kdGt1NDcueHl6IiwNCiAgInBhdGgiOiAiLzFJS1lqVjByLyIsDQogICJ0bHMiOiAibm9uZSIsDQogICJzbmkiOiAiIiwNCiAgImFscG4iOiAiIg0KfQ==
 vless://d342d11e-d424-4583-b36e-524ab1f0afa4@v2ray.goldmelon.jp.eu.org:443?encryption=none&security=tls&sni=v2ray.goldmelon.jp.eu.org&fp=randomized&type=ws&host=v2ray.goldmelon.jp.eu.org&path=%2F%3Fed%3D2048#TG-%40vvkj11
 ```
-=============================================================================
+====================================================
 
 # 白嫖VPN
 
@@ -48,7 +48,7 @@ vless://d342d11e-d424-4583-b36e-524ab1f0afa4@v2ray.goldmelon.jp.eu.org:443?encry
 
 **【免费苹果版快连VPN】三天白嫖** [官网地址](https://promter-management.onelink.me/WxKq/fb306fec)
 
-=============================================================================
+====================================================
 
 # 小火箭帐号获取
 获取地址1：https://id.fcjs.xyz
@@ -59,7 +59,7 @@ vless://d342d11e-d424-4583-b36e-524ab1f0afa4@v2ray.goldmelon.jp.eu.org:443?encry
 
 获取地址4：https://appid.nbcn.xyz/share/jishubai
 
-=============================================================================
+====================================================
 
 # TG代理分享（长期可用）
 **失效请加频道：** https://t.me/v2ray3
@@ -74,7 +74,7 @@ https://t.me/proxy?server=23.95.254.128&port=413&secret=ee5e5151bfe913ff2636b15c
 
 https://t.me/proxy?server=120.241.47.50&port=50001&secret=eee2eabc9d369272c88aa26c34bfb3a8e1617a7572652e6d6963726f736f66742e636f6d
 
-=============================================================================
+====================================================
 
 # 工具下载
 
@@ -92,7 +92,7 @@ Clash .NET电脑客户端：[点击下载](https://github.com/ClashDotNetFramewo
 
 WinXray Windows 客户端：[点击下载](https://github.com/TheMRLL/WinXray/releases)
 
-=============================================================================
+====================================================
 
 # 工具使用教程
 
@@ -104,7 +104,7 @@ Quantumult X使用教程：[点击查看](https://youtu.be/ghZLHPEGfVc)
 
 shadowrocket使用教程：[点击查看](https://youtu.be/kGKKr6WTrJc)
 
-=============================================================================
+====================================================
 
 #  机场推荐(每天200G流量，防止失联请加下方官网群)
 🔥小鲤鱼机场开业啦！本站使用先进的Hysteria协议，
@@ -131,6 +131,6 @@ shadowrocket使用教程：[点击查看](https://youtu.be/kGKKr6WTrJc)
 
 订阅：https://n2ec3.xiaoliyu.xyz:8443/api/v1/client/8719eee5a361d792e479cfac2c726759
 
-=============================================================================
+====================================================
 
 <a href="https://info.flagcounter.com/pIZl"><img src="https://s11.flagcounter.com/count2/pIZl/bg_FFFFFF/txt_000000/border_CCCCCC/columns_2/maxflags_10/viewers_0/labels_1/pageviews_1/flags_0/percent_0/" alt="Flag Counter" border="0"></a>
