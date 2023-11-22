@@ -42,7 +42,7 @@ vless://d342d11e-d424-4583-b36e-524ab1f0afa4@v2ray.goldmelon.jp.eu.org:443?encry
 
 # 白嫖VPN
 
-**【免费白嫖-安易VPN】** [官网地址](https://www.anyi555.com/?mid=1033)
+**【免费白嫖-安易VPN】白嫖365天** [官网地址](https://www.anyi555.com/?mid=1033)
 
 **【免费安卓版快连VPN】三天白嫖码：244846304** [官网地址](https://pay.eradpd.xyz)
 
