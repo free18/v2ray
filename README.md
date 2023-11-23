@@ -135,7 +135,7 @@ shadowrocket使用教程：[点击查看](https://youtu.be/kGKKr6WTrJc)
 
 **节点每天更换**
 
-免费订阅：https://i9w5u5oi.xiaoliyu.xyz:8443/api/v1/client/2635f39469992e66d536ffc6b1de4943
+免费订阅：https://j2ezi.xiaoliyu.xyz:8443/api/v1/client/d9ddd62dbc12471a9067356689639826
 
 ====================================================
 
