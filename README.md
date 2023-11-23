@@ -52,17 +52,17 @@ vless://d342d11e-d424-4583-b36e-524ab1f0afa4@v2ray.goldmelon.jp.eu.org:443?encry
 
 # 小火箭帐号获取
 
-1.https://free.iosapp.icu
+1、https://free.iosapp.icu
 
-2.https://idfree.top
+2、https://idfree.top
 
-3.https://apple.laogoubi.net/s/c7d1e73290a646f2513f6f0b75843b0b
+3、https://apple.laogoubi.net/s/c7d1e73290a646f2513f6f0b75843b0b
 
-4.https://idshare.me
+4、https://idshare.me
 
-5.https://idshare001.me
+5、https://idshare001.me
 
-6.https://id.fcjs.xyz
+6、https://id.fcjs.xyz
 
 ====================================================
 
