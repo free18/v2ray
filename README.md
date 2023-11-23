@@ -137,6 +137,8 @@ shadowrocket使用教程：[点击查看](https://youtu.be/kGKKr6WTrJc)
 
 :airplane: **免费订阅：** https://j2ezi.xiaoliyu.xyz:8443/api/v1/client/d9ddd62dbc12471a9067356689639826
 
+`#0969DA`**免费订阅：** https://j2ezi.xiaoliyu.xyz:8443/api/v1/client/d9ddd62dbc12471a9067356689639826
+
 ====================================================
 
 <a href="https://info.flagcounter.com/pIZl"><img src="https://s11.flagcounter.com/count2/pIZl/bg_FFFFFF/txt_000000/border_CCCCCC/columns_2/maxflags_10/viewers_0/labels_1/pageviews_1/flags_0/percent_0/" alt="Flag Counter" border="0"></a>
