@@ -129,7 +129,7 @@ shadowrocket使用教程：[点击查看](https://youtu.be/kGKKr6WTrJc)
 
 （实在不会使用的，请进群看教程）
 
-免费订阅：https://vtaommrp.xiaoliyu.xyz:8443/api/v1/client/2635f39469992e66d536ffc6b1de4943
+免费订阅：https://i9w5u5oi.xiaoliyu.xyz:8443/api/v1/client/2635f39469992e66d536ffc6b1de4943
 
 ====================================================
 
