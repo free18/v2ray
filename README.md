@@ -71,15 +71,15 @@ vless://d342d11e-d424-4583-b36e-524ab1f0afa4@v2ray.goldmelon.jp.eu.org:443?encry
 # TG代理分享（长期可用）
 **失效请加频道：** https://t.me/v2ray3
 
++ https://t.me/proxy?server=46.17.41.14&port=5678&secret=7qzrPyz9R29rN2LKigJOx3JhenVyZS5taWNyb3NvZnQuY29t
+
++ https://t.me/proxy?server=176.32.35.14&port=65066&secret=7moBj65UH9lK21LNFoE2lv9henVyZS5taWNyb3NvZnQuY29t
+
 + https://t.me/proxy?server=52.5.251.47&port=443&secret=eed67a1a1090d4d87392bc208c980694f062616c61642e6972
 
 + https://t.me/proxy?server=120.233.42.27&port=12336&secret=ee44c6fe2c55fb71ad34fc8152dad34ea6617a7572652e6d6963726f736f66742e636f6d
 
-+ https://t.me/proxy?server=120.241.47.50&port=50006&secret=eee2d987aebcfb75765da5501a63f730f2617a7572652e6d6963726f736f66742e636f6d
-
 + https://t.me/proxy?server=23.95.254.128&port=413&secret=ee5e5151bfe913ff2636b15cd5c3478ef372696f7467616d65732e636f6d
-
-+ https://t.me/proxy?server=120.241.47.50&port=50001&secret=eee2eabc9d369272c88aa26c34bfb3a8e1617a7572652e6d6963726f736f66742e636f6d
 
 ====================================================
 
@@ -137,7 +137,7 @@ shadowrocket使用教程：[点击查看](https://youtu.be/kGKKr6WTrJc)
 
 **节点每天更换**
 
-:airplane: **免费订阅：** https://j2ezi.xiaoliyu.xyz:8443/api/v1/client/d9ddd62dbc12471a9067356689639826
+:airplane: **免费订阅：** https://d6gn6.xiaoliyu.xyz:8443/api/v1/client/e1e46e1e7f8cb374d9ce57547acbb330
 
 ====================================================
 
