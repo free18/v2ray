@@ -40,6 +40,8 @@ vless://d342d11e-d424-4583-b36e-524ab1f0afa4@v2ray.goldmelon.jp.eu.org:443?encry
 vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIlRHLUB2dmtqMTEiLA0KICAiYWRkIjogImFwaS5scC1haXJkcm9wLnRvcCIsDQogICJwb3J0IjogIjIwOTYiLA0KICAiaWQiOiAiZTM2Yzk4ZjItYmI3Ni00NWY2LWQ1NDUtNjEzOTM1MjIwMjdkIiwNCiAgImFpZCI6ICIwIiwNCiAgInNjeSI6ICJhdXRvIiwNCiAgIm5ldCI6ICJ3cyIsDQogICJ0eXBlIjogIm5vbmUiLA0KICAiaG9zdCI6ICJhcGkubHAtYWlyZHJvcC50b3AiLA0KICAicGF0aCI6ICIvbG9naW4iLA0KICAidGxzIjogInRscyIsDQogICJzbmkiOiAiIiwNCiAgImFscG4iOiAiIg0KfQ==
 vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIlRHLUB2dmtqMTEiLA0KICAiYWRkIjogImRvbmd0YWl3YW5nMy5jb20iLA0KICAicG9ydCI6ICI4MDgwIiwNCiAgImlkIjogIjk2OWYxOTA5LWMwZDMtNGMzMC04MTNkLTNhZWM1YzgzOGI3ZCIsDQogICJhaWQiOiAiMCIsDQogICJzY3kiOiAiYXV0byIsDQogICJuZXQiOiAid3MiLA0KICAidHlwZSI6ICJub25lIiwNCiAgImhvc3QiOiAiZG9uZ3RhaXdhbmcxNS5kdGt1NDcueHl6IiwNCiAgInBhdGgiOiAiLzFJS1lqVjByLyIsDQogICJ0bHMiOiAibm9uZSIsDQogICJzbmkiOiAiIiwNCiAgImFscG4iOiAiIg0KfQ==
 ```
+clash订阅(自建节点)：https://suo.st/PrcaNhV
+
 ====================================================
 
 # 白嫖VPN
