@@ -75,15 +75,15 @@ clash订阅(自建节点)：https://suo.st/PrcaNhV
 
 **防失联请加** 👉[此群](https://t.me/TG_KBOT?start=YaoQing_77389c44-70c4-403e-a5de-e856864b09f6)
 
-+ https://t.me/proxy?server=120.233.42.190&port=18888&secret=eef674bca7a0b67696df3f7f828d5ef158617a7572652e6d6963726f736f66742e636f6d
++ https://t.me/proxy?server=52.5.251.47&port=443&secret=eed67a1a1090d4d87392bc208c980694f062616c61642e6972
 
-+ https://t.me/proxy?server=120.233.42.190&port=12336&secret=ee44c6fe2c55fb71ad34fc8152dad34ea6617a7572652e6d6963726f736f66742e636f6d
++ https://t.me/proxy?server=120.233.42.27&port=12336&secret=ee44c6fe2c55fb71ad34fc8152dad34ea6617a7572652e6d6963726f736f66742e636f6d
 
-+ https://t.me/proxy?server=46.29.166.151&port=65005&secret=7ktFBgr1XejzCNi8e1sT9aJhenVyZS5taWNyb3NvZnQuY29t
++ https://t.me/proxy?server=120.241.47.50&port=50006&secret=eee2d987aebcfb75765da5501a63f730f2617a7572652e6d6963726f736f66742e636f6d
 
-+ https://t.me/proxy?server=46.17.41.14&port=5678&secret=7qzrPyz9R29rN2LKigJOx3JhenVyZS5taWNyb3NvZnQuY29t
++ https://t.me/proxy?server=23.95.254.128&port=413&secret=ee5e5151bfe913ff2636b15cd5c3478ef372696f7467616d65732e636f6d
 
-+ https://t.me/proxy?server=djf.we.sgsd.5r.54t.erg.dsf.daar.ew65tsdgdsfd.irancell.chishi.quest&port=443&secret=ee32b920dffb51643028e2f6b878d4eac16b65746161626f6e6c696e652e636f6d
++ https://t.me/proxy?server=120.241.47.50&port=50001&secret=eee2eabc9d369272c88aa26c34bfb3a8e1617a7572652e6d6963726f736f66742e636f6d
 
 ====================================================
 
