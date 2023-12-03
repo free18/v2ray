@@ -72,9 +72,9 @@ clash订阅(自建节点)：https://suo.st/PrcaNhV
 
 ## TG代理分享（长期可用）
 
-使用方法：复制到电报收藏，点发送，再点开
-
 **失效请加频道：** https://t.me/v2ray3
+
+使用方法：复制到电报收藏，点发送，再点开
 
 + https://t.me/proxy?server=52.5.251.47&port=443&secret=eed67a1a1090d4d87392bc208c980694f062616c61642e6972
 
