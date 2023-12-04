@@ -88,6 +88,14 @@ clash订阅(自建节点)：https://suo.st/PrcaNhV
 
 ====================================================
 
+## 国外信用卡（最便宜，无需实名）
+
+:red_circle: fomepay：[点击注册](https://gpt.fomepay.com/#/pages/login/index?d=918895)
+
+:red_circle: 飞扬卡平台：[点击注册](https://vc.fyetd.com/vc_web/main.html#/login?inNo=vtghps)
+
+====================================================
+
 ## 工具下载
 
 V2RayN Windows 客户端：[点击下载](https://github.com/2dust/v2rayN/releases)
