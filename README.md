@@ -39,7 +39,7 @@ clash订阅：https://suo.st/dW1UNYW
 trojan://Puj01Rc8UcA9IzcFcYOs8KMOhCz6aX2Q@mfyousheng.nl.eu.org:443?security=tls&type=ws&path=%2FtjwsLhx0SFASG4l9FERJ1g#TG-%40vvkj11
 vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIlRHLUB2dmtqMTEiLA0KICAiYWRkIjogImRvbmd0YWl3YW5nMy5jb20iLA0KICAicG9ydCI6ICI4MDgwIiwNCiAgImlkIjogIjk2OWYxOTA5LWMwZDMtNGMzMC04MTNkLTNhZWM1YzgzOGI3ZCIsDQogICJhaWQiOiAiMCIsDQogICJzY3kiOiAiYXV0byIsDQogICJuZXQiOiAid3MiLA0KICAidHlwZSI6ICJub25lIiwNCiAgImhvc3QiOiAiZG9uZ3RhaXdhbmcxNS5kdGt1NDcueHl6IiwNCiAgInBhdGgiOiAiLzFJS1lqVjByLyIsDQogICJ0bHMiOiAibm9uZSIsDQogICJzbmkiOiAiIiwNCiAgImFscG4iOiAiIg0KfQ==
 ```
-clash订阅(自建节点)：https://suo.st/PrcaNhV
+clash订阅(自建节点)：https://suo.st/aDAc86S
 
 ====================================================
 
