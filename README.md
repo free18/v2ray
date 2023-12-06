@@ -75,15 +75,15 @@ clash订阅(自建节点)：https://suo.st/aDAc86S
 
 使用方法：复制到电报收藏，点发送，再点开
 
-+ https://t.me/proxy?server=120.241.47.50&port=19999&secret=ee44c6fe2c55fb71ad34fc8152dad34ea6617a7572652e6d6963726f736f66742e636f6d
-
-+ https://t.me/proxy?server=120.241.47.50&port=18888&secret=eef674bca7a0b67696df3f7f828d5ef158617a7572652e6d6963726f736f66742e636f6d
++ https://t.me/proxy?server=46.29.166.151&port=65005&secret=7ktFBgr1XejzCNi8e1sT9aJhenVyZS5taWNyb3NvZnQuY29t
 
 + https://t.me/proxy?server=176.32.35.14&port=65066&secret=7moBj65UH9lK21LNFoE2lv9henVyZS5taWNyb3NvZnQuY29t
 
-+ https://t.me/proxy?server=46.17.41.14&port=5678&secret=7qzrPyz9R29rN2LKigJOx3JhenVyZS5taWNyb3NvZnQuY29t
++ https://t.me/proxy?server=120.241.47.50&port=18888&secret=eef674bca7a0b67696df3f7f828d5ef158617a7572652e6d6963726f736f66742e636f6d
 
-+ https://t.me/proxy?server=46.29.166.151&port=65005&secret=7ktFBgr1XejzCNi8e1sT9aJhenVyZS5taWNyb3NvZnQuY29t
++ https://t.me/proxy?server=120.241.47.50&port=19999&secret=ee44c6fe2c55fb71ad34fc8152dad34ea6617a7572652e6d6963726f736f66742e636f6d
+
++ https://t.me/proxy?server=206.237.6.35&port=1888&secret=eed2c3eefbd3812c90eca4dba4346f113363662e71712e636f6d
 
 ====================================================
 
