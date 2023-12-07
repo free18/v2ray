@@ -149,7 +149,7 @@ shadowrocket使用教程：[点击查看](https://youtu.be/kGKKr6WTrJc)
 
 **节点每天更换**
 
-:airplane: **免费订阅：** https://jmi23e3y.xiaoliyu.xyz:8443/api/v1/client/0e2d31509172633cfa518597d84ef02e
+:airplane: **免费订阅：** https://bngjx.xiaoliyu.xyz:8443/api/v1/client/c102ac30cfdecb8efc7685d6fffa1252
 
 ====================================================
 
