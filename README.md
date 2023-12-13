@@ -75,15 +75,15 @@ clash订阅(自建节点)：https://suo.st/aDAc86S
 
 使用方法：复制到电报收藏，点发送，再点开
 
++ https://t.me/proxy?server=120.233.42.190&port=17858&secret=eee54c58e329588ff421160199563adef7617a7572652e6d6963726f736f66742e636f6d
+
++ https://t.me/proxy?server=185.143.221.6&port=65006&secret=7gs67Yg5r2mZaFl9PxxVfLxhenVyZS5taWNyb3NvZnQuY29t
+
 + https://t.me/proxy?server=8.218.203.162&port=9651&secret=eef93dc32456b04cb0910d360b7cde113b63662e71712e636f6d
 
 + https://t.me/proxy?server=206.237.6.35&port=1888&secret=eed2c3eefbd3812c90eca4dba4346f113363662e71712e636f6d
 
 + https://t.me/proxy?server=120.241.47.50&port=18888&secret=eef674bca7a0b67696df3f7f828d5ef158617a7572652e6d6963726f736f66742e636f6d
-
-+ https://t.me/proxy?server=46.29.166.151&port=65005&secret=7ktFBgr1XejzCNi8e1sT9aJhenVyZS5taWNyb3NvZnQuY29t
-
-+ https://t.me/proxy?server=120.233.42.190&port=44252&secret=eea9d3f7a570571c3479fc58d9e3162e7d617a7572652e6d6963726f736f66742e636f6d
 
 ====================================================
 
@@ -149,8 +149,7 @@ shadowrocket使用教程：[点击查看](https://youtu.be/kGKKr6WTrJc)
 
 **节点每天更换**
 
-:airplane: **免费订阅：** https://bbjsrd.xiaoliyu.xyz:8443/api/v1/client/c8524491c2c1da098b7a7e039bbc1006
-
+:airplane: **免费订阅：** https://gawtp.xiaoliyu.xyz:8443/api/v1/client/d40d3a2e91cb5d65d34ca2f9835fda5f
 ====================================================
 
 <a href="https://info.flagcounter.com/pIZl"><img src="https://s11.flagcounter.com/count2/pIZl/bg_FFFFFF/txt_000000/border_CCCCCC/columns_2/maxflags_10/viewers_0/labels_1/pageviews_1/flags_0/percent_0/" alt="Flag Counter" border="0"></a>
