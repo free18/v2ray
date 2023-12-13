@@ -83,7 +83,7 @@ clash订阅(自建节点)：https://suo.st/aDAc86S
 
 + https://t.me/proxy?server=206.237.6.35&port=1888&secret=eed2c3eefbd3812c90eca4dba4346f113363662e71712e636f6d
 
-+ https://t.me/proxy?server=120.241.47.50&port=18888&secret=eef674bca7a0b67696df3f7f828d5ef158617a7572652e6d6963726f736f66742e636f6d
++ https://t.me/proxy?server=120.233.42.191&port=27027&secret=ee7b6921188932169a9eca78a411fde7a4617a7572652e6d6963726f736f66742e636f6d
 
 ====================================================
 
