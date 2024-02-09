@@ -38,10 +38,13 @@ clash订阅：https://suo.st/dW1UNYW
 失效的话，请进电报群获取：https://t.me/vvkj11
 
 ```
-trojan://Puj01Rc8UcA9IzcFcYOs8KMOhCz6aX2Q@mfyousheng.nl.eu.org:443?security=tls&type=ws&path=%2FtjwsLhx0SFASG4l9FERJ1g#TG-%40vvkj11
-vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIlRHLUB2dmtqMTEiLA0KICAiYWRkIjogImRvbmd0YWl3YW5nMy5jb20iLA0KICAicG9ydCI6ICI4MDgwIiwNCiAgImlkIjogIjk2OWYxOTA5LWMwZDMtNGMzMC04MTNkLTNhZWM1YzgzOGI3ZCIsDQogICJhaWQiOiAiMCIsDQogICJzY3kiOiAiYXV0byIsDQogICJuZXQiOiAid3MiLA0KICAidHlwZSI6ICJub25lIiwNCiAgImhvc3QiOiAiZG9uZ3RhaXdhbmcxNS5kdGt1NDcueHl6IiwNCiAgInBhdGgiOiAiLzFJS1lqVjByLyIsDQogICJ0bHMiOiAibm9uZSIsDQogICJzbmkiOiAiIiwNCiAgImFscG4iOiAiIg0KfQ==
+trojan://Puj01Rc8UcA9IzcFcYOs8KMOhCz6aX2Q@mfyousheng.nl.eu.org:443?path=%2FtjwsLhx0SFASG4l9FERJ1g&security=tls&type=ws#TG-%40vvkj11
+
+trojan://Puj01Rc8UcA9IzcFcYOs8KMOhCz6aX2Q@mfyousheng.nl.eu.org:443?path=%2FtjwsLhx0SFASG4l9FERJ1g&security=tls&type=ws#TG-%40vvkj11
+
+vmess://eyJhZGQiOiJkb25ndGFpd2FuZzMuY29tIiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiJkb25ndGFpd2FuZzE1LmR0a3U0Ny54eXoiLCJpZCI6Ijk2OWYxOTA5LWMwZDMtNGMzMC04MTNkLTNhZWM1YzgzOGI3ZCIsIm5ldCI6IndzIiwicGF0aCI6Ii8xSUtZalYwci8iLCJwb3J0IjoiODA4MCIsInBzIjoiVEctQHZ2a2oxMSIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiJub25lIiwidHlwZSI6IiIsInYiOiIyIn0=
 ```
-clash订阅(自建节点)：https://suo.st/aDAc86S
+clash订阅(自建节点)：https://suo.st/xAOKHh8
 
 ====================================================
 
