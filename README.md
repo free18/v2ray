@@ -77,15 +77,15 @@ clash订阅(自建节点)：https://suo.st/aDAc86S
 
 使用方法：复制到电报收藏，点发送，再点开
 
-+ https://t.me/proxy?server=120.233.42.190&port=17858&secret=eee54c58e329588ff421160199563adef7617a7572652e6d6963726f736f66742e636f6d
++ https://t.me/proxy?server=45.147.201.127&port=8443&secret=7lmdpBBoBLJ1sBJgDanfdidhenVyZS5taWNyb3NvZnQuY29t
 
-+ https://t.me/proxy?server=185.143.221.6&port=65006&secret=7gs67Yg5r2mZaFl9PxxVfLxhenVyZS5taWNyb3NvZnQuY29t
++ https://t.me/proxy?server=45.147.201.190&port=8443&secret=7u5SKsDzsMsqJ03ma1blWuVhenVyZS5taWNyb3NvZnQuY29t
 
-+ https://t.me/proxy?server=8.218.203.162&port=9651&secret=eef93dc32456b04cb0910d360b7cde113b63662e71712e636f6d
++ https://t.me/proxy?server=198.2.253.191&port=8803&secret=ee14cfe18cc3e90bd03f54b6e3668394c46761736461736464617364617364617364732e6363
 
-+ https://t.me/proxy?server=206.237.6.35&port=1888&secret=eed2c3eefbd3812c90eca4dba4346f113363662e71712e636f6d
++ https://t.me/proxy?server=45.147.201.86&port=8443&secret=7ndOffBxSChz5EjRoZn2R8ZhenVyZS5taWNyb3NvZnQuY29t
 
-+ https://t.me/proxy?server=120.233.42.191&port=27027&secret=ee7b6921188932169a9eca78a411fde7a4617a7572652e6d6963726f736f66742e636f6d
++ https://t.me/proxy?server=45.147.201.178&port=8443&secret=7q95xeedZAmADqfxNN6UaDJhenVyZS5taWNyb3NvZnQuY29t
 
 ====================================================
 
