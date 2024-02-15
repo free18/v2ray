@@ -86,16 +86,15 @@ clash订阅(自建节点)：https://suo.st/22Oq24b
 
 使用方法：复制到电报收藏，点发送，再点开
 
-+ https://t.me/proxy?server=45.147.201.127&port=8443&secret=7lmdpBBoBLJ1sBJgDanfdidhenVyZS5taWNyb3NvZnQuY29t
-
-+ https://t.me/proxy?server=45.147.201.190&port=8443&secret=7u5SKsDzsMsqJ03ma1blWuVhenVyZS5taWNyb3NvZnQuY29t
-
 + https://t.me/proxy?server=198.2.253.191&port=8803&secret=ee14cfe18cc3e90bd03f54b6e3668394c46761736461736464617364617364617364732e6363
 
-+ https://t.me/proxy?server=45.147.201.86&port=8443&secret=7ndOffBxSChz5EjRoZn2R8ZhenVyZS5taWNyb3NvZnQuY29t
++ https://t.me/proxy?server=hkone.kaopu.xyz&port=8802&secret=ee14cfe18cc3e90bd03f54b6e3668394c46761736461736464617364617364617364732e6363
+
++ https://t.me/proxy?server=mgone.kaopu.xyz&port=8803&secret=ee14cfe18cc3e90bd03f54b6e3668394c46761736461736464617364617364617364732e6363
+
++ https://t.me/proxy?server=hktwe.kaopu.xyz&port=8802&secret=ee14cfe18cc3e90bd03f54b6e3668394c46761736461736464617364617364617364732e6363
 
 + https://t.me/proxy?server=45.147.201.178&port=8443&secret=7q95xeedZAmADqfxNN6UaDJhenVyZS5taWNyb3NvZnQuY29t
-
 ====================================================
 
 ## 国外信用卡（最便宜，无需实名）
