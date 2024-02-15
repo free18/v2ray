@@ -26,9 +26,13 @@
 
 PS:转载大佬订阅，如果不能正常更新，请在外网状态下更新
 
-v2订阅：https://raw.githubusercontent.com/freefq/free/master/v2
+v2订阅：
+
+https://raw.githubusercontent.com/freefq/free/master/v2
 
 https://raw.githubusercontent.com/jinqians/free/main/jinqians.txt
+
+https://nmsl7y.nl.eu.org/hyperlinks/freedom/vl-sub
 
 clash订阅：https://suo.st/dW1UNYW
 
@@ -40,11 +44,13 @@ clash订阅：https://suo.st/dW1UNYW
 ```
 trojan://Puj01Rc8UcA9IzcFcYOs8KMOhCz6aX2Q@mfyousheng.nl.eu.org:443?path=%2FtjwsLhx0SFASG4l9FERJ1g&security=tls&type=ws#TG-%40vvkj11
 
+vmess://eyJhZGQiOiIyMy4yMjcuMzkuMTEiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6ImRvbmd0YWl3YW5nMTUuZHRrdTQ3Lnh5eiIsImlkIjoiOTY5ZjE5MDktYzBkMy00YzMwLTgxM2QtM2FlYzVjODM4YjdkIiwibmV0Ijoid3MiLCJwYXRoIjoiLzFJS1lqVjByLyIsInBvcnQiOiI4MDgwIiwicHMiOiJURy1AdnZrajExIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiIiLCJ2IjoiMiJ9
+
 trojan://Puj01Rc8UcA9IzcFcYOs8KMOhCz6aX2Q@mfyousheng.nl.eu.org:443?path=%2FtjwsLhx0SFASG4l9FERJ1g&security=tls&type=ws#TG-%40vvkj11
 
-vmess://eyJhZGQiOiJkb25ndGFpd2FuZzMuY29tIiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiJkb25ndGFpd2FuZzE1LmR0a3U0Ny54eXoiLCJpZCI6Ijk2OWYxOTA5LWMwZDMtNGMzMC04MTNkLTNhZWM1YzgzOGI3ZCIsIm5ldCI6IndzIiwicGF0aCI6Ii8xSUtZalYwci8iLCJwb3J0IjoiODA4MCIsInBzIjoiVEctQHZ2a2oxMSIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiJub25lIiwidHlwZSI6IiIsInYiOiIyIn0=
+trojan://Puj01Rc8UcA9IzcFcYOs8KMOhCz6aX2Q@mfyousheng.nl.eu.org:443?path=%2FtjwsLhx0SFASG4l9FERJ1g&security=tls&type=ws#TG-%40vvkj11
 ```
-clash订阅(自建节点)：https://suo.st/xAOKHh8
+clash订阅(自建节点)：https://suo.st/22Oq24b
 
 ====================================================
 
