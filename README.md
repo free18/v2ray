@@ -83,13 +83,13 @@ clash订阅(自建节点)：https://suo.st/22Oq24b
 
 使用方法：复制到电报收藏，点发送，再点开
 
-+ https://t.me/proxy?server=46.29.162.228&port=443&secret=7tDW4RG62lUR_M6VhN6tvu9wNDIwLnNzbC5xaGltZ3M0LmNvbQ%3D%3D
++ https://t.me/proxy?server=47.76.69.83&port=443&secret=eec13681947dea666f4b42fa29e578ec82617a7572652e6d6963726f736f66742e636f6d
 
-+ https://t.me/proxy?server=45.130.146.71&port=443&secret=7tDW4RG62lUR_M6VhN6tvu9wNDIwLnNzbC5xaGltZ3M0LmNvbQ%3D%3D
++ https://t.me/proxy?server=47.76.69.83&port=45987&secret=ee77ef89be0c93676d03c29c3fd04739e2617a7572652e6d6963726f736f66742e636f6d
 
-+ https://t.me/proxy?server=192.124.176.138&port=443&secret=7tDW4RG62lUR_M6VhN6tvu9wNDIwLnNzbC5xaGltZ3M0LmNvbQ%3D%3D
++ https://t.me/proxy?server=137.175.79.228&port=8803&secret=ee14cfe18cc3e90bd03f54b6e3668394c46761736461736464617364617364617364732e6363
 
-+ https://t.me/proxy?server=45.144.2.205&port=443&secret=7tDW4RG62lUR_M6VhN6tvu9wNDIwLnNzbC5xaGltZ3M0LmNvbQ%3D%3D
++ https://t.me/proxy?server=192.74.226.48&port=8803&secret=ee14cfe18cc3e90bd03f54b6e3668394c46761736461736464617364617364617364732e6363
 
 + https://t.me/proxy?server=176.32.35.130&port=443&secret=7tDW4RG62lUR_M6VhN6tvu9wNDIwLnNzbC5xaGltZ3M0LmNvbQ%3D%3D
 ====================================================
