@@ -22,19 +22,13 @@
 
 ====================================================
 
-## 转载大佬永久免费订阅
+## 免费订阅
 
-PS:转载大佬订阅，如果不能正常更新，请在外网状态下更新
+PS:如果不能正常更新，请在外网状态下更新
 
-v2订阅：
+V2ray订阅：https://paste.gg/p/anning123/4fed45644e8342c3ac94db2e14cbbad9/files/9a55b29aa9e743bebc4c195b7d0c7cc1/raw
 
-https://raw.githubusercontent.com/freefq/free/master/v2
-
-https://raw.githubusercontent.com/jinqians/free/main/jinqians.txt
-
-https://nmsl7y.nl.eu.org/hyperlinks/freedom/vl-sub
-
-clash订阅：https://suo.st/dW1UNYW
+Clash订阅：https://paste.gg/p/anning123/4fed45644e8342c3ac94db2e14cbbad9/files/9a55b29aa9e743bebc4c195b7d0c7cc1/raw
 
 ====================================================
 
