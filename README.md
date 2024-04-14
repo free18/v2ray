@@ -77,15 +77,15 @@ clash订阅(自建节点)：https://suo.st/22Oq24b
 
 使用方法：复制到电报收藏，点发送，再点开
 
-+ https://t.me/proxy?server=46.17.42.92&port=443&secret=7tDW4RG62lUR_M6VhN6tvu9yLmJpbmcuY29t
-
 + https://t.me/proxy?server=192.74.243.143&port=8803&secret=ee14cfe18cc3e90bd03f54b6e3668394c46761736461736464617364617364617364732e6363
 
-+ https://t.me/proxy?server=45.89.228.138&port=443&secret=7tDW4RG62lUR_M6VhN6tvu9yLmJpbmcuY29t
++ https://t.me/proxy?server=192.74.243.172&port=8803&secret=ee14cfe18cc3e90bd03f54b6e3668394c46761736461736464617364617364617364732e6363
 
 + https://t.me/proxy?server=192.74.226.48&port=8803&secret=ee14cfe18cc3e90bd03f54b6e3668394c46761736461736464617364617364617364732e6363
 
-+ https://t.me/proxy?server=101.89.164.216&port=24322&secret=ee765355b3f6b9e9c64086b65c423ae985617a7572652e6d6963726f736f66742e636f6d
++ https://t.me/proxy?server=45.89.228.138&port=443&secret=7tDW4RG62lUR_M6VhN6tvu9yLmJpbmcuY29t
+
++ https://t.me/proxy?server=46.17.42.92&port=443&secret=7tDW4RG62lUR_M6VhN6tvu9yLmJpbmcuY29t
 ====================================================
 
 ## 国外信用卡（最便宜，无需实名）
