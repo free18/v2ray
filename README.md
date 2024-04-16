@@ -26,9 +26,9 @@
 
 PS:如果不能正常更新，请在外网状态下更新
 
-Clash订阅：https://paste.gg/p/anning123/26ff1a8511624053abfe867b1ae6eb22/files/f5089766ec5740c3ac616be319447760/raw
+Clash订阅：https://paste.gg/p/anning123/5e2eb0b76f1b4ef09fb0442ed9828e85/files/359f1a43d2444d0ca66aec0e8254e6bd/raw
 
-V2ray订阅：https://paste.gg/p/anning123/26ff1a8511624053abfe867b1ae6eb22/files/e515e03a13fa4241bdf282dd6b41d77b/raw
+V2ray订阅：https://paste.gg/p/anning123/5e2eb0b76f1b4ef09fb0442ed9828e85/files/06bfaf54b8674a1d83afbf71a2abf69f/raw
 
 ====================================================
 
