@@ -77,15 +77,15 @@ clash订阅(自建节点)：https://suo.st/22Oq24b
 
 使用方法：复制到电报收藏，点发送，再点开
 
-+ https://t.me/proxy?server=38.135.52.54&port=50004&secret=3TfX0YWH6LviYMQU8cC7lK0%3D
-
-+ https://t.me/proxy?server=192.74.226.48&port=8803&secret=ee14cfe18cc3e90bd03f54b6e3668394c46761736461736464617364617364617364732e6363
++ https://t.me/proxy?server=166.1.18.158&port=9898&secret=3dMyjnfF03QBqFBvwo3q3RQ%3D
 
 + https://t.me/proxy?server=38.114.103.6&port=100&secret=3Vf1ShAVazZONDX79yk0opQ%3D
 
-+ https://t.me/proxy?server=38.135.52.226&port=200&secret=3TGhR4E4ULESN84tmzqqYu4%3D
++ https://t.me/proxy?server=38.135.52.54&port=50004&secret=3TfX0YWH6LviYMQU8cC7lK0%3D
 
-+ https://t.me/proxy?server=46.17.42.92&port=443&secret=7tDW4RG62lUR_M6VhN6tvu9yLmJpbmcuY29t
++ https://t.me/proxy?server=23.170.40.42&port=100&secret=3aOzjfb5Y8laMLGGyJHFbEY%3D
+
++ https://t.me/proxy?server=38.135.52.226&port=200&secret=3TGhR4E4ULESN84tmzqqYu4%3D
 ====================================================
 
 ## 国外信用卡（最便宜，无需实名）
