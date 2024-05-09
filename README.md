@@ -26,11 +26,11 @@
 
 PS:如果不能正常更新，请在外网状态下更新
 
-Clash订阅：https://paste.gg/p/anning123/b811baafa63a465d895f62e309f5870b/files/846bfbd9206f4d01b301490740addaf9/raw
+Clash订阅：https://paste.gg/p/anning123/f6cea47f94e64f75b650dd5f4f902e45/files/382e3ebde7de4597915be304cca25b7c/raw
 
-V2ray订阅：https://paste.gg/p/anning123/b811baafa63a465d895f62e309f5870b/files/25b93eee86234b32a419381987428564/raw
+V2ray订阅：https://paste.gg/p/anning123/f6cea47f94e64f75b650dd5f4f902e45/files/cc2a391797e542a0921fab9d4953f071/raw
 
-Sing-Box订阅：https://clash2sfa-xmdhs.koyeb.app/sub?sub=https://paste.gg/p/anning123/b811baafa63a465d895f62e309f5870b/files/846bfbd9206f4d01b301490740addaf9/raw
+Sing-Box订阅：https://clash2sfa-xmdhs.koyeb.app/sub?sub=https://paste.gg/p/anning123/f6cea47f94e64f75b650dd5f4f902e45/files/382e3ebde7de4597915be304cca25b7c/raw
 ====================================================
 
 ## 自建节点
@@ -78,15 +78,15 @@ clash订阅(自建节点)：https://suo.st/22Oq24b
 
 使用方法：复制到电报收藏，点发送，再点开
 
-+ https://t.me/proxy?server=192.74.243.129&port=8803&secret=ee14cfe18cc3e90bd03f54b6e3668394c46761736461736464617364617364617364732e6363
++ https://t.me/proxy?server=192.74.243.140&port=8803&secret=ee14cfe18cc3e90bd03f54b6e3668394c46761736461736464617364617364617364732e6363
 
-+ https://t.me/proxy?server=8.219.168.104&port=18888&secret=eef7e27d862a1715d8b28880f6f417d71f63662e71712e636f6d
-
-+ https://t.me/proxy?server=137.175.14.141&port=8806&secret=ee9dea485711e242613affc5add56b6d666761736461736464613333793231732e6363
-
-+ https://t.me/proxy?server=137.175.14.140&port=8803&secret=ee14cfe18cc3e90bd03f54b6e3668394c46761736461736464617364617364617364732e6363
++ https://t.me/proxy?server=137.175.14.147&port=8806&secret=ee9dea485711e242613affc5add56b6d666761736461736464613333793231732e6363
 
 + https://t.me/proxy?server=192.74.232.210&port=8806&secret=ee9dea485711e242613affc5add56b6d666761736461736464613333793231732e6363
+
++ https://t.me/proxy?server=46.29.162.87&port=443&secret=7tDW4RG62lUR_M6VhN6tvu9yLmJpbmcuY29t
+
++ https://t.me/proxy?server=46.17.42.92&port=443&secret=7tDW4RG62lUR_M6VhN6tvu9yLmJpbmcuY29t
 ====================================================
 
 ## 国外信用卡（最便宜，无需实名）
