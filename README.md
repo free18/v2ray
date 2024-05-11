@@ -26,11 +26,11 @@
 
 PS:如果不能正常更新，请在外网状态下更新
 
-Clash Meta订阅：https://paste.gg/p/anning123/1e82173bbc494534bd883afacd2fdaf7/files/d4f4e3652b4a45d3931031b5b1d9d675/raw
+Clash Meta订阅：https://paste.gg/p/anning123/11cc2291df0345c8814fed93e4c67afa/files/489db42d2247402b938c71e461d2910f/raw
 
-V2ray订阅：https://paste.gg/p/anning123/1e82173bbc494534bd883afacd2fdaf7/files/c76ad1853f534222889c8acb1e24c7f8/raw
+V2ray订阅：https://paste.gg/p/anning123/11cc2291df0345c8814fed93e4c67afa/files/cd35bc56c646474a9244268d42a129af/raw
 
-Sing-Box订阅：https://clash2sfa-xmdhs.koyeb.app/sub?sub=https://paste.gg/p/anning123/1e82173bbc494534bd883afacd2fdaf7/files/d4f4e3652b4a45d3931031b5b1d9d675/raw
+Sing-Box订阅：https://clash2sfa-xmdhs.koyeb.app/sub?sub=https://paste.gg/p/anning123/11cc2291df0345c8814fed93e4c67afa/files/489db42d2247402b938c71e461d2910f/raw
 ====================================================
 
 ## 自建节点
