@@ -82,9 +82,9 @@ clash订阅(自建节点)：https://suo.st/22Oq24b
 
 + https://t.me/proxy?server=137.175.14.147&port=8806&secret=ee9dea485711e242613affc5add56b6d666761736461736464613333793231732e6363
 
-+ https://t.me/proxy?server=192.74.232.210&port=8806&secret=ee9dea485711e242613affc5add56b6d666761736461736464613333793231732e6363
++ https://t.me/proxy?server=192.74.232.200&port=8806&secret=ee9dea485711e242613affc5add56b6d666761736461736464613333793231732e6363
 
-+ https://t.me/proxy?server=46.29.162.87&port=443&secret=7tDW4RG62lUR_M6VhN6tvu9yLmJpbmcuY29t
++ https://t.me/proxy?server=192.74.243.161&port=8803&secret=ee14cfe18cc3e90bd03f54b6e3668394c46761736461736464617364617364617364732e6363
 
 + https://t.me/proxy?server=46.17.42.92&port=443&secret=7tDW4RG62lUR_M6VhN6tvu9yLmJpbmcuY29t
 ====================================================
