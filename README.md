@@ -24,11 +24,11 @@
 
 PS:如果不能正常更新，请在外网状态下更新
 
-Clash Meta订阅：https://paste.gg/p/anning123/e966f2eefa2945acbdee88420ba0275b/files/97a7544900094efa9d450d4ec8bf4398/raw
+Clash Meta订阅：https://paste.gg/p/anning123/dd61b30a2b494ef093871613677b1e85/files/b2cdf498d3e34249a0667fded13bfcf0/raw
 
-V2ray订阅：https://paste.gg/p/anning123/e966f2eefa2945acbdee88420ba0275b/files/59d712f709f6447b93c65315bbc559bf/raw
+V2ray订阅：https://paste.gg/p/anning123/dd61b30a2b494ef093871613677b1e85/files/824b45e61a154eb9b4506712b86fbf05/raw
 
-Sing-Box订阅：https://clash2sfa-xmdhs.koyeb.app/sub?sub=https://paste.gg/p/anning123/e966f2eefa2945acbdee88420ba0275b/files/97a7544900094efa9d450d4ec8bf4398/raw
+Sing-Box订阅：https://clash2sfa-xmdhs.koyeb.app/sub?sub=https://paste.gg/p/anning123/dd61b30a2b494ef093871613677b1e85/files/b2cdf498d3e34249a0667fded13bfcf0/raw
 ====================================================
 
 ## 自建节点
@@ -76,15 +76,15 @@ clash订阅(自建节点)：https://suo.st/22Oq24b
 
 使用方法：复制到电报收藏，点发送，再点开
 
-+ https://t.me/proxy?server=46.29.166.195&port=443&secret=eed0d6e111bada5511fcce9584deadbeef722e62696e672e636f6d
++ https://t.me/proxy?server=185.22.154.143&port=443&secret=eed0d6e111bada5511fcce9584deadbeef722e62696e672e636f6d
 
-+ https://t.me/proxy?server=192.74.243.140&port=8803&secret=ee14cfe18cc3e90bd03f54b6e3668394c46761736461736464617364617364617364732e6363
++ https://t.me/proxy?server=46.29.166.195&port=443&secret=eed0d6e111bada5511fcce9584deadbeef722e62696e672e636f6d
 
 + https://t.me/proxy?server=137.175.14.147&port=8806&secret=ee9dea485711e242613affc5add56b6d666761736461736464613333793231732e6363
 
-+ https://t.me/proxy?server=192.74.243.161&port=8803&secret=ee14cfe18cc3e90bd03f54b6e3668394c46761736461736464617364617364617364732e6363
-
 + https://t.me/proxy?server=46.29.166.21&port=443&secret=eed0d6e111bada5511fcce9584deadbeef722e62696e672e636f6d
+
++ https://t.me/proxy?server=45.130.147.248&port=443&secret=eed0d6e111bada5511fcce9584deadbeef722e62696e672e636f6d
 ====================================================
 
 ## 国外信用卡（最便宜，无需实名）
