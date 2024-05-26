@@ -26,7 +26,7 @@ PS:如果不能正常更新，请在外网状态下更新
 
 Clash Meta订阅：https://paste.gg/p/anning123/6d5b8d205b314c4b95b879a8fcb7454b/files/5b3dbf3c374c479cb19d7f90c66c4e8c/raw
 
-V2ray订阅：https://paste.gg/p/anning123/6d5b8d205b314c4b95b879a8fcb7454b/files/e2a7a6b5d24d470781aacde4dd9170c3/raw
+V2ray订阅：https://paste.gg/p/anning123/bcec2cbad2e94700b003795a512831bd/files/0691b97081e94462874a1923f4d123e0/raw
 
 Sing-Box订阅：https://clash2sfa-xmdhs.koyeb.app/sub?sub=https://paste.gg/p/anning123/6d5b8d205b314c4b95b879a8fcb7454b/files/5b3dbf3c374c479cb19d7f90c66c4e8c/raw
 
