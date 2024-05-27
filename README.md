@@ -24,11 +24,11 @@
 
 PS:如果不能正常更新，请在外网状态下更新
 
-Clash Meta订阅：https://paste.gg/p/anning123/6d5b8d205b314c4b95b879a8fcb7454b/files/5b3dbf3c374c479cb19d7f90c66c4e8c/raw
+Clash Meta订阅：https://paste.gg/p/anning123/39a5cd868df34ef08ba98c0330b2a434/files/50729de51b0e42a7bb51a41d843eb5a6/raw
 
-V2ray订阅：https://paste.gg/p/anning123/bcec2cbad2e94700b003795a512831bd/files/0691b97081e94462874a1923f4d123e0/raw
+V2ray订阅：https://paste.gg/p/anning123/39a5cd868df34ef08ba98c0330b2a434/files/06e1139f28284216b420fbc3854759ca/raw
 
-Sing-Box订阅：https://clash2sfa-xmdhs.koyeb.app/sub?sub=https://paste.gg/p/anning123/6d5b8d205b314c4b95b879a8fcb7454b/files/5b3dbf3c374c479cb19d7f90c66c4e8c/raw
+Sing-Box订阅：https://clash2sfa-xmdhs.koyeb.app/sub?sub=https://paste.gg/p/anning123/39a5cd868df34ef08ba98c0330b2a434/files/50729de51b0e42a7bb51a41d843eb5a6/raw
 
 ====================================================
 
