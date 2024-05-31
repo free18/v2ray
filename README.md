@@ -79,13 +79,13 @@ clash订阅(自建节点)：https://suo.st/22Oq24b
 
 + https://t.me/proxy?server=185.22.154.143&port=443&secret=eed0d6e111bada5511fcce9584deadbeef722e62696e672e636f6d
 
-+ https://t.me/proxy?server=46.29.166.195&port=443&secret=eed0d6e111bada5511fcce9584deadbeef722e62696e672e636f6d
-
-+ https://t.me/proxy?server=137.175.14.147&port=8806&secret=ee9dea485711e242613affc5add56b6d666761736461736464613333793231732e6363
-
 + https://t.me/proxy?server=46.29.166.21&port=443&secret=eed0d6e111bada5511fcce9584deadbeef722e62696e672e636f6d
 
-+ https://t.me/proxy?server=45.130.147.248&port=443&secret=eed0d6e111bada5511fcce9584deadbeef722e62696e672e636f6d
++ https://t.me/proxy?server=46.29.166.228&port=443&secret=eed0d6e111bada5511fcce9584deadbeef722e62696e672e636f6d
+
++ https://t.me/proxy?server=192.74.232.208&port=8806&secret=ee9dea485711e242613affc5add56b6d666761736461736464613333793231732e6363
+
++ https://t.me/proxy?server=192.74.243.138&port=8803&secret=ee14cfe18cc3e90bd03f54b6e3668394c46761736461736464617364617364617364732e6363
 ====================================================
 
 ## 国外信用卡（最便宜，无需实名）
