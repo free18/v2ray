@@ -22,13 +22,13 @@
 
 ## 免费订阅
 
-PS:如果不能正常更新，请在外网状态下更新
+PS:如果不能正常更新，请在外网状态下更新-(安卓版Clash请使用Clash Meta)
 
-Clash Meta订阅：https://paste.gg/p/anning123/53acad69753f4077b38dc05a153aa2fe/files/8d4864c07dde4c97bb4017b7d9cdd3f2/raw
+Clash Meta订阅：https://paste.gg/p/anning123/4f9db0a8e86e4e848585481540ec66be/files/ea4e24977cc54ab8a55d2c7631aa0412/raw
 
-V2ray订阅：https://paste.gg/p/anning123/53acad69753f4077b38dc05a153aa2fe/files/8041099880204700a7ec72221fbf8409/raw
+V2ray订阅：https://paste.gg/p/anning123/4f9db0a8e86e4e848585481540ec66be/files/ac00bf5931c94f2db357ac3ebd60724b/raw
 
-Sing-Box订阅：https://clash2sfa-xmdhs.koyeb.app/sub?sub=https://paste.gg/p/anning123/53acad69753f4077b38dc05a153aa2fe/files/8d4864c07dde4c97bb4017b7d9cdd3f2/raw
+Sing-Box订阅：https://clash2sfa-xmdhs.koyeb.app/sub?sub=https://paste.gg/p/anning123/4f9db0a8e86e4e848585481540ec66be/files/ea4e24977cc54ab8a55d2c7631aa0412/raw
 
 ====================================================
 
