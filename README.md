@@ -28,7 +28,7 @@ Clash Meta订阅：https://tt.vg/Nmlli
 
 V2ray订阅：https://tt.vg/xYWBn
 
-Sing-Box订阅：https://clash2sfa-xmdhs.koyeb.app/sub?sub=https://paste.ee/d/m2Hga
+Sing-Box订阅：https://tt.vg/qwUAp
 
 ====================================================
 
