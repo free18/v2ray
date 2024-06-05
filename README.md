@@ -24,9 +24,9 @@
 
 PS:如果不能正常更新，请在外网状态下更新-(安卓版Clash请使用Clash Meta)
 
-Clash Meta订阅：https://paste.ee/d/m2Hga
+Clash Meta订阅：https://tt.vg/Nmlli
 
-V2ray订阅：https://tt.vg/Nmlli
+V2ray订阅：https://tt.vg/xYWBn
 
 Sing-Box订阅：https://clash2sfa-xmdhs.koyeb.app/sub?sub=https://paste.ee/d/m2Hga
 
