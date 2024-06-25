@@ -24,11 +24,9 @@
 
 PS:如果不能正常更新，请在外网状态下更新-(安卓版Clash请使用Clash Meta)
 
-🚀Clash  Meta订阅：https://tt.vg/vPLkQ
+🚀Clash  Meta订阅：https://clv.lshan.eu.org/25/Shadowrocket/%E7%94%B1%E9%9B%B6%E9%96%8B%E5%A7%8B-Youtube.txt
  
-🚀V2ray订阅1：https://tt.vg/UYBbb
- 
-🚀Sing-Box订阅：https://tt.vg/pqdoZ
+🚀V2ray订阅：https://clv.lshan.eu.org/25/V2rayN/%E7%94%B1%E9%9B%B6%E9%96%8B%E5%A7%8B-Youtube.txt
 
 ====================================================
 
