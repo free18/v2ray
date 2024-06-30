@@ -79,15 +79,27 @@ clash订阅(自建节点)：https://suo.st/22Oq24b
 
 使用方法：复制到电报收藏，点发送，再点开
 
-+ https://t.me/proxy?server=47.236.42.176&port=11888&secret=ee16b2c036dbf701e409c2e55064549bf563662e71712e636f6d
-
 + https://t.me/proxy?server=47.237.3.58&port=1888&secret=ee3b222154b9d0cfa5e5cb432d01d4c08063662e71712e636f6d
 
-+ https://t.me/proxy?server=47.236.238.25&port=1888&secret=ee9453153127b95991e2017b0cfbe27fd963662e71712e636f6d
++ https://t.me/proxy?server=47.238.245.8&port=443&secret=ee9dff93ab470b1cd77630e25eff69e41b617a7572652e6d6963726f736f66742e636f6d
+
++ https://t.me/proxy?server=47.238.141.138&port=443&secret=eecca757832fbddecf876bbd3ca7d607c7617a7572652e6d6963726f736f66742e636f6d
+
++ https://t.me/proxy?server=47.243.242.137&port=443&secret=eeefd363d760d12d6bdbf9af1b26a2382a617a7572652e6d6963726f736f66742e636f6d
 
 + https://t.me/proxy?server=8.219.167.21&port=1888&secret=eef05ca9a3bba3abedbd20f0b5b83282b763662e71712e636f6d
 
-+ https://t.me/proxy?server=47.238.245.8&port=443&secret=ee9dff93ab470b1cd77630e25eff69e41b617a7572652e6d6963726f736f66742e636f6d
+TG代理-使用后，不需要开翻墙程序就能直接使用Telegram
+
+👉👉点我分享给好基友👈👈转发一次网速提高至100M
+
+🌟 节点分享群: @vvkj11
+
+🌟 破解软件群: @qwh01
+
+长期维护  长期更新
+
+✅付费定制代理小店 ：https://juzi.tg88.us?from=23980
   
 ====================================================
 
