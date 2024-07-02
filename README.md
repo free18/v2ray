@@ -24,11 +24,11 @@
 
 PS:如果不能正常更新，请在外网状态下更新-(安卓版Clash请使用Clash Meta)
 
-🚀Clash  Meta订阅：https://tt.vg/AoVws
+🚀Clash  Meta订阅：https://tt.vg/kBiPo
  
-🚀V2ray订阅：https://tt.vg/fAuHi
+🚀V2ray订阅：https://tt.vg/tshEJ
 
-🚀Sing-box：https://tt.vg/OGKOa
+🚀Sing-box：https://tt.vg/Pmkgx
 
 ====================================================
 
