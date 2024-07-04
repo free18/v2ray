@@ -79,15 +79,15 @@ clash订阅(自建节点)：https://suo.st/22Oq24b
 
 使用方法：复制到电报收藏，点发送，再点开
 
-+ https://t.me/proxy?server=47.236.238.25&port=1888&secret=ee9453153127b95991e2017b0cfbe27fd963662e71712e636f6d
-
 + https://t.me/proxy?server=47.236.42.176&port=11888&secret=ee16b2c036dbf701e409c2e55064549bf563662e71712e636f6d
 
 + https://t.me/proxy?server=8.219.167.21&port=1888&secret=eef05ca9a3bba3abedbd20f0b5b83282b763662e71712e636f6d
 
++ https://t.me/proxy?server=8.222.152.113&port=1888&secret=eea63f60078a3012392ab25dcf02918e4063662e71712e636f6d
+
 + https://t.me/proxy?server=47.237.3.58&port=1888&secret=ee3b222154b9d0cfa5e5cb432d01d4c08063662e71712e636f6d
 
-+ https://t.me/proxy?server=8.222.152.113&port=1888&secret=eea63f60078a3012392ab25dcf02918e4063662e71712e636f6d
++ https://t.me/proxy?server=47.236.238.25&port=1888&secret=ee9453153127b95991e2017b0cfbe27fd963662e71712e636f6d
 
 TG代理-使用后，不需要开翻墙程序就能直接使用Telegram
 
