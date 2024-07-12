@@ -79,13 +79,13 @@ clash订阅(自建节点)：https://suo.st/22Oq24b
 
 使用方法：复制到电报收藏，点发送，再点开
 
-+ https://t.me/proxy?server=enamad.cin.cloudflare.com.nokia.com.co.uk.do_yo.want_to.clash_with.this.www.microsoft.com.there_is_no.place_like.localhost.www.bing.com.count_with_me.cyou.net.digikala.com.www.enamad.ir.google.com.again_to_fight.everyone.i_am.the0internet.pezishkian.lol.&port=443&secret=7gAAAAAAAAAAAAAAAAAAAAB0Z2p1Lm9yZw%3D%3D
++ https://t.me/proxy?server=47.237.3.58&port=1888&secret=ee3b222154b9d0cfa5e5cb432d01d4c08063662e71712e636f6d
 
 + https://t.me/proxy?server=8.222.152.113&port=1888&secret=eea63f60078a3012392ab25dcf02918e4063662e71712e636f6d
 
 + https://t.me/proxy?server=47.236.42.176&port=11888&secret=ee16b2c036dbf701e409c2e55064549bf563662e71712e636f6d
 
-+ https://t.me/proxy?server=8.219.167.21&port=1888&secret=eef05ca9a3bba3abedbd20f0b5b83282b763662e71712e636f6d
++ https://t.me/proxy?server=47.243.242.137&port=443&secret=eeefd363d760d12d6bdbf9af1b26a2382a617a7572652e6d6963726f736f66742e636f6d
 
 + https://t.me/proxy?server=benz.ishala-mashal0.co.uk.pwkxjjrhks-skci.co.uk.pwkxjjrhks-ikcj.co.uk.fskxjjrhks-rkcr.co.uk.mstukxjjrhkss-jscj.co.uk.blnztweet.co.uk.&port=7443&secret=eeRighJJvXrFGRMCIMJdCQ
 
