@@ -14,7 +14,7 @@
 
 ## 便宜机场推荐（速度快价格便宜）
 
-**【飞鸟云机场】优惠码：150m0Une** [点击注册](https://feiniaoyun.org/#/register?code=150m0Une)
+**【飞鸟云机场】优惠码：150m0Une** [点击注册](https://feiniaoyun10.life/#/register?code=150m0Une)
 
 **【各种帐号购买】** [点击注册](https://wandoukj.eu.org/)
 
