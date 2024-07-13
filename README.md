@@ -77,7 +77,7 @@ clash订阅(自建节点)：https://suo.st/22Oq24b
 
 **失效请加频道：** https://t.me/v2ray3
 
-使用方法：复制到电报收藏，点发送，再点开
+使用方法：复制到电报，点发送，再点开
 
 + https://t.me/proxy?server=79.127.227.161&port=9090&secret=FgMBAgABAAH8AwOG4kw63QtY2RueWVrdGFuZXQuY29tZmFyYWthdi5jb212YW4ubmFqdmEuY29tAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 
@@ -88,18 +88,6 @@ clash订阅(自建节点)：https://suo.st/22Oq24b
 + https://t.me/proxy?server=benz.ishala-mashal0.co.uk.pwkxjjrhks-skci.co.uk.pwkxjjrhks-ikcj.co.uk.fskxjjrhks-rkcr.co.uk.mstukxjjrhkss-jscj.co.uk.blnztweet.co.uk.&port=7443&secret=eeRighJJvXrFGRMCIMJdCQ
 
 + https://t.me/proxy?server=154.30.210.18&port=9090&secret=EERighJJvXrFGRMCIMJdCQ
-
-TG代理-使用后，不需要开翻墙程序就能直接使用Telegram
-
-👉👉点我分享给好基友👈👈转发一次网速提高至100M
-
-🌟 节点分享群: @vvkj11
-
-🌟 破解软件群: @qwh01
-
-长期维护  长期更新
-
-✅付费定制代理小店 ：https://juzi.tg88.us?from=23980
   
 ====================================================
 
