@@ -81,15 +81,15 @@ clash订阅(自建节点)：https://suo.st/22Oq24b
 
 使用方法：复制到电报，点发送，再点开
 
-+ https://t.me/proxy?server=5.161.143.155&port=443&secret=ee1603010200010001fc030386e24c3add7777772e6170617261742e636f6d2d7765622e65697461612e636f6d
++ https://t.me/proxy?server=47.237.137.80&port=3256&secret=ee91566a0fa46f7cd716ce43052ac1b27c617a7572652e6d6963726f736f66742e636f6d
+
++ https://t.me/proxy?server=47.237.137.80&port=443&secret=ee7911478137789f2510765c30e95a00f8617a7572652e6d6963726f736f66742e636f6d
+
++ https://t.me/proxy?server=47.237.137.80&port=26519&secret=ee55184efc736c9decdc3dc56130e57baf617a7572652e6d6963726f736f66742e636f6d
 
 + https://t.me/proxy?server=43.247.135.87&port=1888&secret=ee766e315d78748378713f1e8b654218c963662e71712e636f6d
 
 + https://t.me/proxy?server=5.161.158.205&port=91&secret=ee1603010200010001fc030386e24c3add7777772e6170617261742e636f6d2d7765622e65697461612e636f6d
-
-+ https://t.me/proxy?server=cloudflare.com.nokia.com.co.uk.do_yo.want_to.clash_with.this.www.microsoft.com.there_is_no.place_like.localhost.www.bing.com.count_with_me.cyou.net.digikala.com.www.enamad.ir.www.google.com.bmi.again_to_fight.everyone.i_am.the_internet.wordccounter.shop.&port=5777&secret=eeRigzNJvXrFGRMCIMJdEA
-
-+ https://t.me/proxy?server=cloudflare.com.nokia.com.co.uk.do_yo.want_to.clash_with.this.www.microsoft.com.there_is_no.place_like.localhost.www.bing.com.count_with_me.cyou.net.digikala.com.www.enamad.ir.www.google.com.bmi.again_to_fight.everyone.i_am.the_internet.ponisha.online.&port=443&secret=7gAAAAAAAAAAAAAAAAAAAAB0Z2p1Lm9yZw%3D%3D
   
 ====================================================
 
