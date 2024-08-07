@@ -32,6 +32,8 @@ PS:如果不能正常更新，请在外网状态下更新-(安卓版Clash请使�
 
 🚀Sing-box订阅：https://tt.vg/thdoQ
 
+**【免费白嫖-安易VPN】白嫖365天** [官网地址](https://www.anyi555.com/?mid=1033)
+
 ====================================================
 
 ## 自建节点
@@ -46,16 +48,6 @@ vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIlRHLUB2dmtqMTEiLA0KICAiYWRkIjogIjEwOS4x
 trojan://Puj01Rc8UcA9IzcFcYOs8KMOhCz6aX2Q@mfyousheng.nl.eu.org:443?security=tls&type=ws&path=%2FtjwsLhx0SFASG4l9FERJ1g#TG-%40vvkj11
 ```
 clash订阅(自建节点)：https://suo.st/22Oq24b
-
-====================================================
-
-## 白嫖VPN
-
-**【免费白嫖-安易VPN】白嫖365天** [官网地址](https://www.anyi555.com/?mid=1033)
-
-**【免费安卓版快连VPN】三天白嫖码：244846304** [官网地址](https://pay.eradpd.xyz)
-
-**【免费苹果版快连VPN】三天白嫖** [官网地址](https://promter-management.onelink.me/WxKq/fb306fec)
 
 ====================================================
 
