@@ -26,11 +26,11 @@
 
 PS:如果不能正常更新，请在外网状态下更新-(安卓版Clash请使用Clash Meta)
 
-🚀Clash Meta订阅：https://tt.vg/FFNSy
+🚀Clash Meta订阅：https://tt.vg/NWAcq
 
-🚀V2ray订阅：https://tt.vg/dysBC
+🚀V2ray订阅：https://tt.vg/wtGcM
 
-🚀Sing-box订阅：https://tt.vg/Hrler
+🚀Sing-box订阅：https://tt.vg/ZcZyk
 
 **【免费白嫖-安易VPN】不限流量，赠送365天** [官网地址](https://www.anyi555.com/?mid=1033)
 
@@ -73,15 +73,15 @@ clash订阅(自建节点)：https://suo.st/22Oq24b
 
 使用方法：复制到电报，点发送，再点开
 
-+ https://t.me/proxy?server=223.113.54.227&port=28053&secret=ee3a4e0ee61ef7549a0241bf1cafabe66a617a7572652e6d6963726f736f66742e636f6d
++ https://t.me/proxy?server=223.113.54.36&port=17440&secret=ee8514db93adcedc8275d53629f17fdeca617a7572652e6d6963726f736f66742e636f6d
 
-+ https://t.me/proxy?server=223.113.54.227&port=40111&secret=ee337f078835cd1a54747b3626a3837455617a7572652e6d6963726f736f66742e636f6d
++ https://t.me/proxy?server=223.113.54.36&port=50567&secret=ee8514db93adcedc8275d53629f17fdeca617a7572652e6d6963726f736f66742e636f6d
 
-+ https://t.me/proxy?server=36.158.206.103&port=17858&secret=eee54c58e329588ff421160199563adef7617a7572652e6d6963726f736f66742e636f6d
++ https://t.me/proxy?server=223.113.54.36&port=44575&secret=ee9bb399ec4093e8a44def62279637224c617a7572652e6d6963726f736f66742e636f6d
 
-+ https://t.me/proxy?server=36.158.206.103&port=56405&secret=ee3a6a57a61ad834e327765f6806f00765617a7572652e6d6963726f736f66742e636f6d
++ https://t.me/proxy?server=223.113.54.36&port=50542&secret=ee9bb399ec4093e8a44def62279637224c617a7572652e6d6963726f736f66742e636f6d
 
-+ https://t.me/proxy?server=36.158.206.103&port=49401&secret=ee5a1058f56c9bfe3a57b23b5a072dd976617a7572652e6d6963726f736f66742e636f6d
++ https://t.me/proxy?server=223.113.54.36&port=31919&secret=ee3a3b5e5570e8ef104cb012a31100d8e2617a7572652e6d6963726f736f66742e636f6d
   
 ====================================================
 
