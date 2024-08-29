@@ -92,6 +92,16 @@ clash订阅(自建节点)：https://suo.st/22Oq24b
 + tg://proxy?server=120.241.46.92&port=27546&secret=7kMVxF4Ck3P6TQ7NiGtn6cJhenVyZS5taWNyb3NvZnQuY29t
 
 + tg://proxy?server=120.241.46.92&port=23806&secret=7pGs9l1LrmQcTeZn5y2uUjNhenVyZS5taWNyb3NvZnQuY29t
+
++ tg://proxy?server=120.240.236.87&port=27021&secret=eefdfc5275b93d8a7547041f340153d56a617a7572652e6d6963726f736f66742e636f6d
+
++ tg://proxy?server=120.240.236.87&port=27023&secret=ee6640aa7a8d6a00ff6d4743afbf37f6dd617a7572652e6d6963726f736f66742e636f6d
+
++ tg://proxy?server=120.240.236.87&port=27025&secret=eeea7ec8e9de02b22f2ca170eec0c17fa2617a7572652e6d6963726f736f66742e636f6d
+
++ tg://proxy?server=120.240.236.87&port=27027&secret=ee7b6921188932169a9eca78a411fde7a4617a7572652e6d6963726f736f66742e636f6d
+
++ tg://proxy?server=120.240.236.87&port=27029&secret=eee250ae01dd02bc35afcaa87693e5cb00617a7572652e6d6963726f736f66742e636f6d
   
 ====================================================
 
