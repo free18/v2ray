@@ -26,11 +26,11 @@
 
 PS:如果不能正常更新，请在外网状态下更新-(安卓版Clash请使用Clash Meta)
 
-🚀Clash Meta订阅：https://tt.vg/XRgzT
+🚀Clash Meta订阅：https://tt.vg/BupCv
 
-🚀V2ray订阅：https://tt.vg/xiQcm
+🚀V2ray订阅：https://tt.vg/PiiHo
 
-🚀Sing-box订阅：https://tt.vg/GPadz
+🚀Sing-box订阅：https://tt.vg/ERUyC
 
 **【免费白嫖-安易VPN】不限流量，赠送365天** [官网地址](https://www.anyi555.com/?mid=1033)
 
