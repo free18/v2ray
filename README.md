@@ -51,17 +51,15 @@ clash订阅(自建节点)：https://suo.st/22Oq24b
 
 ## 小火箭帐号获取
 
-1、https://free.iosapp.icu
-
-2、https://idfree.top
-
-3、https://apple.laogoubi.net/s/c7d1e73290a646f2513f6f0b75843b0b
-
-4、https://idshare.me
-
-5、https://idshare001.me
-
-6、https://id.fcjs.xyz
+1、https://free.iosapp.icu/
+2、https://idfree.top/
+3、https://idshare.me/
+4、https://gososhare2d6.com/
+5、https://idshare.me/
+6、https://idshare001.me/
+7、https://ccbaohe.com/appleID/
+8、https://free.mayun.us/ 密码4018
+9、https://appleid.22ne.com/
 
 ====================================================
 
