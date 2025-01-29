@@ -1,8 +1,6 @@
-免费【安卓版快连VPN】白嫖码：244846304
-https://pay.eradpd.xyz
+【免费安易VPN】注册白嫖365天，不需花一分钱
+官网地址：https://www.anyi555.com/?mid=1033
 
-免费【苹果版快连VPN】
-https://promter-management.onelink.me/WxKq/fb306fec
-
-免费白嫖【安易VPN】不用花一分钱，不用白不用
-https://www.anyi555.com/?mid=1033
+高速IEPL专线机场，5元撸220G套餐（赠小火箭账号）
+👉官网注册：https://hongxingdl.com/web/#/login?code=cCDWstFY
+👉5折优惠码：vv888
