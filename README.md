@@ -69,8 +69,6 @@ clash订阅(自建节点)：https://suo.st/22Oq24b
 
 使用方法：复制到电报，点发送，再点开
 
-+ https://t.me/proxy?server=120.241.144.143&port=49401&secret=ee5a1058f56c9bfe3a57b23b5a072dd976617a7572652e6d6963726f736f66742e636f6d
-
 + https://t.me/proxy?server=120.241.144.143&port=49363&secret=ee5a1058f56c9bfe3a57b23b5a072dd976617a7572652e6d6963726f736f66742e636f6d
 
 + https://t.me/proxy?server=120.241.144.143&port=34485&secret=ee3a6a57a61ad834e327765f6806f00765617a7572652e6d6963726f736f66742e636f6d
@@ -78,6 +76,8 @@ clash订阅(自建节点)：https://suo.st/22Oq24b
 + https://t.me/proxy?server=120.241.144.143&port=25921&secret=eee54c58e329588ff421160199563adef7617a7572652e6d6963726f736f66742e636f6d
 
 + https://t.me/proxy?server=120.241.144.143&port=47135&secret=eed8674e989d3ad6b6ee00303799abfbf1617a7572652e6d6963726f736f66742e636f6d
+
++ https://t.me/proxy?server=120.241.144.143&port=44252&secret=eea9d3f7a570571c3479fc58d9e3162e7d617a7572652e6d6963726f736f66742e636f6d
   
 ====================================================
 
