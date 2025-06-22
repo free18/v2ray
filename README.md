@@ -16,7 +16,7 @@
 
 **【飞鸟云机场】优惠码：150m0Une** [点击注册](https://feiniaoyun10.life/#/register?code=150m0Une)
 
-**【新开高速IEPL专线机场，5元撸220G套餐】优惠码：hx2025** [点击注册](https://hongxingyun3.vip/web/#/login?code=Yl8rfX6T)
+**【新开高速IEPL专线机场，9元撸220G套餐】优惠码：hx2025** [点击注册](https://hongxingyun3.vip/web/#/login?code=Yl8rfX6T)
 
 **【各种帐号购买】** [点击注册](https://wandoukj.eu.org/)
 
