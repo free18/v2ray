@@ -1,9 +1,9 @@
 #
 #-------------------------------------------------------------#
 #  创建者：https://v2rayse.com
-#  创建时间：2025-10-27 10:48:43
+#  创建时间：2025-10-28 11:30:00
 #  模版：v2rayse默认模版
-#  节点数量：92
+#  节点数量：110
 #-------------------------------------------------------------#
 #
 port: 7890
@@ -13,103 +13,119 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"type":"vless","name":"电报群：https://t.me/vvkj11","server":"138.124.125.63","port":2052,"uuid":"36b5fc1b-f139-5342-a2c9-7d0f027dec19","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"uk.xvless.onlinespeedtest.net","ws-opts":{"path":"/vless#@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL","headers":{"host":"uk.xvless.onlinespeedtest.net"}}}
+  - {"type":"trojan","name":"电报群：https://t.me/vvkj11","server":"_WvT8Ho@LW%w_,@nop-55q.pages.dev","port":2053,"password":"T","udp":true,"skip-cert-verify":true,"sni":"NOp-55q.pAgEs.dEv","network":"ws","ws-opts":{"path":"/trGPZDfetEwuO25SAs","headers":{"host":"NOp-55q.pAgEs.dEv"}}}
   - {"type":"trojan","name":"每天更新，请加电报群防止失联","server":"_WvT8Ho@LW%w_,@nop-55q.pages.dev","port":2053,"password":"T","udp":true,"skip-cert-verify":true,"sni":"NOp-55q.pAgEs.dEv","network":"ws","ws-opts":{"path":"/trGPZDfetEwuO25SAs","headers":{"host":"NOp-55q.pAgEs.dEv"}}}
-  - {"type":"trojan","name":"日期：10-27","server":"_WvT8Ho@LW%w_,@nop-55q.pages.dev","port":2053,"password":"T","udp":true,"skip-cert-verify":true,"sni":"NOp-55q.pAgEs.dEv","network":"ws","ws-opts":{"path":"/trGPZDfetEwuO25SAs","headers":{"host":"NOp-55q.pAgEs.dEv"}}}
+  - {"type":"trojan","name":"日期：10-28","server":"_WvT8Ho@LW%w_,@nop-55q.pages.dev","port":2053,"password":"T","udp":true,"skip-cert-verify":true,"sni":"NOp-55q.pAgEs.dEv","network":"ws","ws-opts":{"path":"/trGPZDfetEwuO25SAs","headers":{"host":"NOp-55q.pAgEs.dEv"}}}
   - {"type":"trojan","name":"免费VPN：https://tt.vg/gwaAy","server":"_WvT8Ho@LW%w_,@nop-55q.pages.dev","port":2053,"password":"T","udp":true,"skip-cert-verify":true,"sni":"NOp-55q.pAgEs.dEv","network":"ws","ws-opts":{"path":"/trGPZDfetEwuO25SAs","headers":{"host":"NOp-55q.pAgEs.dEv"}}}
-  - {"type":"trojan","name":"US_1","server":"_WvT8Ho@LW%w_,@nop-55q.pages.dev","port":2053,"password":"T","udp":true,"skip-cert-verify":true,"sni":"NOp-55q.pAgEs.dEv","network":"ws","ws-opts":{"path":"/trGPZDfetEwuO25SAs","headers":{"host":"NOp-55q.pAgEs.dEv"}}}
-  - {"type":"vmess","name":"法国_1","ws-opts":{"path":"/?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN"},"server":"2001:bc8:32d7:302::10","port":"44579","uuid":"8e34e170-13ae-4892-9d20-05962acc9f84","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"法国_2","ws-opts":{"path":"/?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN"},"server":"2001:bc8:32d7:302::10","port":"44579","uuid":"8e34e170-13ae-4892-9d20-05962acc9f84","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"法国_1","ws-opts":{"path":"/"},"server":"2001:bc8:32d7:302::10","port":"44579","uuid":"8e34e170-13ae-4892-9d20-05962acc9f84","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"法国_2","ws-opts":{"path":"/"},"server":"2001:bc8:32d7:302::10","port":"44579","uuid":"8e34e170-13ae-4892-9d20-05962acc9f84","alterId":"0","cipher":"auto","network":"ws"}
   - {"type":"vmess","name":"法国_3","ws-opts":{"path":"/"},"server":"2001:bc8:32d7:302::10","port":"44579","uuid":"8e34e170-13ae-4892-9d20-05962acc9f84","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"美国_1","ws-opts":{"path":"/?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN"},"server":"2001:bc8:32d7:302::10","port":"44579","uuid":"8e34e170-13ae-4892-9d20-05962acc9f84","alterId":"0","cipher":"auto","network":"ws"}
   - {"type":"vmess","name":"法国_4","ws-opts":{"path":"/"},"server":"2001:bc8:32d7:302::10","port":"44579","uuid":"8e34e170-13ae-4892-9d20-05962acc9f84","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"法国_5","ws-opts":{"path":"/?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN"},"server":"2001:bc8:32d7:302::10","port":"44579","uuid":"8e34e170-13ae-4892-9d20-05962acc9f84","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"法国_5","ws-opts":{"path":"/"},"server":"2001:bc8:32d7:302::10","port":"44579","uuid":"8e34e170-13ae-4892-9d20-05962acc9f84","alterId":"0","cipher":"auto","network":"ws"}
   - {"type":"vmess","name":"法国_6","ws-opts":{"path":"/?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN"},"server":"2001:bc8:32d7:302::10","port":"44579","uuid":"8e34e170-13ae-4892-9d20-05962acc9f84","alterId":"0","cipher":"auto","network":"ws"}
   - {"type":"vmess","name":"法国_7","ws-opts":{"path":"/"},"server":"2001:bc8:32d7:302::10","port":"44579","uuid":"8e34e170-13ae-4892-9d20-05962acc9f84","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"法国_8","ws-opts":{"path":"/?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN"},"server":"2001:bc8:32d7:302::10","port":"44579","uuid":"8e34e170-13ae-4892-9d20-05962acc9f84","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"法国_8","ws-opts":{"path":"/"},"server":"2001:bc8:32d7:302::10","port":"44579","uuid":"8e34e170-13ae-4892-9d20-05962acc9f84","alterId":"0","cipher":"auto","network":"ws"}
   - {"type":"vmess","name":"法国_9","ws-opts":{"path":"/"},"server":"2001:bc8:32d7:302::10","port":"44579","uuid":"8e34e170-13ae-4892-9d20-05962acc9f84","alterId":"0","cipher":"auto","network":"ws"}
   - {"type":"vmess","name":"法国_10","ws-opts":{"path":"/"},"server":"2001:bc8:32d7:302::10","port":"44579","uuid":"8e34e170-13ae-4892-9d20-05962acc9f84","alterId":"0","cipher":"auto","network":"ws"}
   - {"type":"vmess","name":"法国_11","ws-opts":{"path":"/"},"server":"2001:bc8:32d7:302::10","port":"44579","uuid":"8e34e170-13ae-4892-9d20-05962acc9f84","alterId":"0","cipher":"auto","network":"ws"}
   - {"type":"vmess","name":"法国_12","ws-opts":{"path":"/"},"server":"2001:bc8:32d7:302::10","port":"44579","uuid":"8e34e170-13ae-4892-9d20-05962acc9f84","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"法国_13","ws-opts":{"path":"/"},"server":"2001:bc8:32d7:302::10","port":"44579","uuid":"8e34e170-13ae-4892-9d20-05962acc9f84","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"法国_14","ws-opts":{"path":"/?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN"},"server":"2001:bc8:32d7:302::10","port":"44579","uuid":"8e34e170-13ae-4892-9d20-05962acc9f84","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"法国_15","ws-opts":{"path":"/"},"server":"2001:bc8:32d7:302::10","port":"44579","uuid":"8e34e170-13ae-4892-9d20-05962acc9f84","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"法国_13","ws-opts":{"path":"/?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN"},"server":"2001:bc8:32d7:302::10","port":"44579","uuid":"8e34e170-13ae-4892-9d20-05962acc9f84","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"美国_1","ws-opts":{"path":"/"},"server":"2001:bc8:32d7:302::10","port":"44579","uuid":"8e34e170-13ae-4892-9d20-05962acc9f84","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"法国_14","ws-opts":{"path":"/"},"server":"2001:bc8:32d7:302::10","port":"44579","uuid":"8e34e170-13ae-4892-9d20-05962acc9f84","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"法国_15","ws-opts":{"path":"/?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN"},"server":"2001:bc8:32d7:302::10","port":"44579","uuid":"8e34e170-13ae-4892-9d20-05962acc9f84","alterId":"0","cipher":"auto","network":"ws"}
   - {"type":"vmess","name":"法国_16","ws-opts":{"path":"/?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN"},"server":"2001:bc8:32d7:302::10","port":"44579","uuid":"8e34e170-13ae-4892-9d20-05962acc9f84","alterId":"0","cipher":"auto","network":"ws"}
   - {"type":"vmess","name":"法国_17","ws-opts":{"path":"/?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN"},"server":"2001:bc8:32d7:302::10","port":"44579","uuid":"8e34e170-13ae-4892-9d20-05962acc9f84","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"法国_18","ws-opts":{"path":"/?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN"},"server":"2001:bc8:32d7:302::10","port":"44579","uuid":"8e34e170-13ae-4892-9d20-05962acc9f84","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vless","name":"韩国_1","server":"211.197.161.123","port":10041,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"gaosir.unfeeling.sbs","ws-opts":{"path":"/Telegram🇨🇳
-    @WangCai2 /?ed=2560","headers":{"host":"gaosir.unfeeling.sbs"}}}
-  - {"type":"vless","name":"韩国_2","server":"222.113.18.206","port":10004,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"gaosir.unfeeling.sbs","ws-opts":{"path":"/freecodes/?ed=2560","headers":{"host":"gaosir.unfeeling.sbs"}}}
-  - {"type":"vless","name":"韩国_3","server":"115.40.244.240","port":18888,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"gaosir.unfeeling.sbs","ws-opts":{"path":"/Telegram🇨🇳
-    @WangCai2 /?ed=2560","headers":{"host":"gaosir.unfeeling.sbs"}}}
-  - {"type":"vless","name":"美国_2","server":"172.64.144.19","port":443,"uuid":"db2c8a95-f751-46e3-b05e-d2def66850fb","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"ayanamirei.11160321.xyz","ws-opts":{"path":"/socks5://test123:test123@122.10.144.6:1080/","headers":{"host":"ayanamirei.11160321.xyz"}}}
-  - {"type":"vless","name":"韩国_4","server":"59.25.160.141","port":50008,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"gaosir.unfeeling.sbs","ws-opts":{"path":"/Telegram🇨🇳
-    @WangCai2 /?ed=2560","headers":{"host":"gaosir.unfeeling.sbs"}}}
-  - {"type":"vless","name":"韩国_5","server":"220.72.245.245","port":50001,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"gaosir.unfeeling.sbs","ws-opts":{"path":"/X@节点狂魔/?ed=2560","headers":{"host":"gaosir.unfeeling.sbs"}}}
-  - {"type":"vless","name":"韩国_6","server":"27.100.189.152","port":50000,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"gaosir.unfeeling.sbs","ws-opts":{"path":"/Telegram🇨🇳
-    @WangCai2 /?ed=2560","headers":{"host":"gaosir.unfeeling.sbs"}}}
-  - {"type":"vless","name":"韩国_7","server":"220.90.247.28","port":50001,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"gaosir.unfeeling.sbs","ws-opts":{"path":"telegram@freecodes/?ed=2560","headers":{"host":"gaosir.unfeeling.sbs"}}}
-  - {"type":"vless","name":"韩国_8","server":"222.113.18.207","port":10090,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"gaosir.unfeeling.sbs","ws-opts":{"path":"/Telegram🇨🇳
-    @WangCai2 /?ed=2560","headers":{"host":"gaosir.unfeeling.sbs"}}}
-  - {"type":"trojan","name":"日本_1","server":"36.150.215.241","port":1924,"password":"BxceQaOe","udp":true,"skip-cert-verify":true,"network":"tcp"}
-  - {"type":"trojan","name":"日本_2","server":"36.150.215.241","port":1924,"password":"BxceQaOe","udp":true,"skip-cert-verify":true,"network":"tcp"}
-  - {"type":"trojan","name":"香港_1","server":"36.151.251.23","port":4451,"password":"BxceQaOe","udp":true,"skip-cert-verify":true,"sni":"36.151.251.23","network":"tcp"}
-  - {"type":"trojan","name":"HK_1","server":"36.151.251.23","port":4451,"password":"BxceQaOe","udp":true,"skip-cert-verify":true,"network":"tcp"}
-  - {"type":"vless","name":"德国","server":"141.11.250.222","port":24820,"uuid":"cf67d1b3-5104-411f-b212-dbe9bac73fbc","skip-cert-verify":true,"network":"tcp","tls":false,"udp":true}
-  - {"type":"trojan","name":"香港_2","server":"36.151.251.23","port":4451,"password":"BxceQaOe","udp":true,"skip-cert-verify":true,"network":"tcp"}
-  - {"type":"vless","name":"US_2","server":"212.129.5.242","port":33009,"uuid":"77a33d77-7af9-4c33-9556-d6711becca04","skip-cert-verify":true,"network":"tcp","flow":"xtls-rprx-vision","servername":"www.yahoo.com","tls":false,"udp":true}
-  - {"type":"vless","name":"美国_3","server":"212.129.5.242","port":33009,"uuid":"77a33d77-7af9-4c33-9556-d6711becca04","skip-cert-verify":true,"network":"tcp","flow":"xtls-rprx-vision","servername":"www.yahoo.com","tls":false,"udp":true}
-  - {"type":"vmess","name":"美国_4","server":"salamdash.bedonemarz.site","port":"444","uuid":"89de8c17-9b41-4632-9a0b-440f850548fd","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vless","name":"US_3","server":"212.129.5.242","port":33009,"uuid":"77a33d77-7af9-4c33-9556-d6711becca04","skip-cert-verify":true,"network":"tcp","flow":"xtls-rprx-vision","servername":"www.yahoo.com","tls":false,"udp":true}
-  - {"type":"vless","name":"美国_5","server":"141.11.250.222","port":24820,"uuid":"cf67d1b3-5104-411f-b212-dbe9bac73fbc","skip-cert-verify":true,"network":"tcp","tls":false,"udp":true}
-  - {"type":"vless","name":"美国_6","server":"212.129.5.242","port":33009,"uuid":"77a33d77-7af9-4c33-9556-d6711becca04","skip-cert-verify":true,"network":"tcp","flow":"xtls-rprx-vision","servername":"www.yahoo.com","tls":false,"udp":true}
-  - {"type":"vless","name":"希腊","server":"185.39.207.121","port":443,"uuid":"677615f7-87d5-5019-a44d-4fc3ff8d59d7","skip-cert-verify":true,"network":"tcp","flow":"xtls-rprx-vision","servername":"vk.cc","tls":false,"udp":true}
-  - {"type":"vless","name":"美国_7","server":"178.130.47.106","port":443,"uuid":"b7437f7a-783f-4e6f-a555-a2a589f42b5a","skip-cert-verify":true,"network":"tcp","flow":"xtls-rprx-vision","servername":"apple.com","tls":false,"udp":true}
-  - {"type":"vless","name":"俄罗斯_1","server":"212.18.104.19","port":443,"uuid":"677615f7-87d5-5019-a44d-4fc3ff8d59d7","skip-cert-verify":true,"network":"tcp","flow":"xtls-rprx-vision","servername":"nspk.ru","tls":false,"udp":true}
-  - {"type":"vless","name":"美国_8","server":"212.18.104.19","port":443,"uuid":"677615f7-87d5-5019-a44d-4fc3ff8d59d7","skip-cert-verify":true,"network":"tcp","flow":"xtls-rprx-vision","servername":"vk.cc","tls":false,"udp":true}
-  - {"type":"vmess","name":"美国_9","server":"salamdash.bedonemarz.site","port":"444","uuid":"89de8c17-9b41-4632-9a0b-440f850548fd","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vless","name":"美国_10","server":"77.110.109.72","port":443,"uuid":"045eb821-bdae-43c5-8945-9cb181e65dcb","skip-cert-verify":true,"network":"tcp","flow":"xtls-rprx-vision","servername":"ad.mail.ru","tls":false,"udp":true}
-  - {"type":"vless","name":"俄罗斯_2","server":"109.172.54.49","port":443,"uuid":"677615f7-87d5-5019-a44d-4fc3ff8d59d7","skip-cert-verify":true,"network":"tcp","flow":"xtls-rprx-vision","servername":"vk.cc","tls":false,"udp":true}
-  - {"type":"vless","name":"美国_11","server":"77.110.109.72","port":443,"uuid":"045eb821-bdae-43c5-8945-9cb181e65dcb","skip-cert-verify":true,"network":"tcp","flow":"xtls-rprx-vision","servername":"ad.mail.ru","tls":false,"udp":true}
-  - {"type":"vless","name":"美国_12","server":"77.110.109.72","port":443,"uuid":"045eb821-bdae-43c5-8945-9cb181e65dcb","skip-cert-verify":true,"network":"tcp","flow":"xtls-rprx-vision","servername":"ad.mail.ru","tls":false,"udp":true}
-  - {"type":"vless","name":"美国_13","server":"77.110.109.72","port":443,"uuid":"045eb821-bdae-43c5-8945-9cb181e65dcb","skip-cert-verify":true,"network":"tcp","flow":"xtls-rprx-vision","servername":"ad.mail.ru","tls":false,"udp":true}
-  - {"type":"vless","name":"美国_14","server":"77.110.109.72","port":443,"uuid":"045eb821-bdae-43c5-8945-9cb181e65dcb","skip-cert-verify":true,"network":"tcp","flow":"xtls-rprx-vision","servername":"ad.mail.ru","tls":false,"udp":true}
-  - {"type":"vless","name":"美国_15","server":"77.110.109.72","port":443,"uuid":"045eb821-bdae-43c5-8945-9cb181e65dcb","skip-cert-verify":true,"network":"tcp","flow":"xtls-rprx-vision","servername":"ad.mail.ru","tls":false,"udp":true}
-  - {"type":"vless","name":"美国_16","server":"77.110.109.72","port":443,"uuid":"045eb821-bdae-43c5-8945-9cb181e65dcb","skip-cert-verify":true,"network":"tcp","flow":"xtls-rprx-vision","servername":"ad.mail.ru","tls":false,"udp":true}
-  - {"type":"vless","name":"美国_17","server":"hk01.youyacloud.me","port":28888,"uuid":"8da7bd17-70ab-472d-a925-cc827857dc35","skip-cert-verify":true,"network":"tcp","flow":"xtls-rprx-vision","servername":"www.tvb.com","tls":false,"udp":true}
-  - {"type":"vless","name":"俄罗斯_3","server":"81.19.140.131","port":443,"uuid":"677615f7-87d5-5019-a44d-4fc3ff8d59d7","skip-cert-verify":true,"network":"tcp","flow":"xtls-rprx-vision","servername":"vk.cc","tls":false,"udp":true}
-  - {"type":"vless","name":"美国_18","server":"77.110.109.72","port":443,"uuid":"045eb821-bdae-43c5-8945-9cb181e65dcb","skip-cert-verify":true,"network":"tcp","flow":"xtls-rprx-vision","servername":"ad.mail.ru","tls":false,"udp":true}
-  - {"type":"trojan","name":"香港_3","server":"58.152.46.98","port":443,"password":"BxceQaOe","udp":true,"skip-cert-verify":true,"network":"tcp"}
-  - {"type":"vless","name":"美国_19","server":"77.110.109.72","port":443,"uuid":"045eb821-bdae-43c5-8945-9cb181e65dcb","skip-cert-verify":true,"network":"tcp","flow":"xtls-rprx-vision","servername":"ad.mail.ru","tls":false,"udp":true}
-  - {"type":"vless","name":"美国_20","server":"77.110.109.72","port":443,"uuid":"045eb821-bdae-43c5-8945-9cb181e65dcb","skip-cert-verify":true,"network":"tcp","flow":"xtls-rprx-vision","servername":"ad.mail.ru","tls":false,"udp":true}
+  - {"type":"vmess","name":"美国_2","ws-opts":{"path":"/?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN"},"server":"2001:bc8:32d7:302::10","port":"44579","uuid":"8e34e170-13ae-4892-9d20-05962acc9f84","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"法国_18","ws-opts":{"path":"/"},"server":"2001:bc8:32d7:302::10","port":"44579","uuid":"8e34e170-13ae-4892-9d20-05962acc9f84","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"法国_19","ws-opts":{"path":"/"},"server":"2001:bc8:32d7:302::10","port":"44579","uuid":"8e34e170-13ae-4892-9d20-05962acc9f84","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"法国_20","ws-opts":{"path":"/"},"server":"2001:bc8:32d7:302::10","port":"44579","uuid":"8e34e170-13ae-4892-9d20-05962acc9f84","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"法国_21","ws-opts":{"path":"/"},"server":"2001:bc8:32d7:302::10","port":"44579","uuid":"8e34e170-13ae-4892-9d20-05962acc9f84","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"法国_22","ws-opts":{"path":"/?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN"},"server":"2001:bc8:32d7:302::10","port":"44579","uuid":"8e34e170-13ae-4892-9d20-05962acc9f84","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"法国_23","ws-opts":{"path":"/"},"server":"2001:bc8:32d7:302::10","port":"44579","uuid":"8e34e170-13ae-4892-9d20-05962acc9f84","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"法国_24","ws-opts":{"path":"/?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN"},"server":"2001:bc8:32d7:302::10","port":"44579","uuid":"8e34e170-13ae-4892-9d20-05962acc9f84","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"法国_25","ws-opts":{"path":"/"},"server":"2001:bc8:32d7:302::10","port":"44579","uuid":"8e34e170-13ae-4892-9d20-05962acc9f84","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"法国_26","ws-opts":{"path":"/"},"server":"2001:bc8:32d7:302::10","port":"44579","uuid":"8e34e170-13ae-4892-9d20-05962acc9f84","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"法国_27","ws-opts":{"path":"/?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN"},"server":"2001:bc8:32d7:302::10","port":"44579","uuid":"8e34e170-13ae-4892-9d20-05962acc9f84","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"美国_3","ws-opts":{"path":"/?BIA_TELEGRAM
+    (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM
+    (@AZARBAYJAB1) TM
+    (@AZARBAYJAB1)","headers":{"host":"google.whatsapp.snapp.torob.basalam.leoshopping77.ir."}},"server":"104.18.240.238","port":"80","uuid":"d967ffca-de90-4daa-bd00-d527e5bae11f","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"法国_28","ws-opts":{"path":"/?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN"},"server":"2001:bc8:32d7:302::10","port":"44579","uuid":"8e34e170-13ae-4892-9d20-05962acc9f84","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"法国_29","ws-opts":{"path":"/?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN"},"server":"2001:bc8:32d7:302::10","port":"44579","uuid":"8e34e170-13ae-4892-9d20-05962acc9f84","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"美国_4","ws-opts":{"path":"/"},"server":"2001:bc8:32d7:302::10","port":"44579","uuid":"8e34e170-13ae-4892-9d20-05962acc9f84","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"法国_30","ws-opts":{"path":"/"},"server":"2001:bc8:32d7:302::10","port":"44579","uuid":"8e34e170-13ae-4892-9d20-05962acc9f84","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vless","name":"HK","server":"183.240.252.82","port":3443,"uuid":"3c7a1d84-2f9e-4c13-a5b2-8d9e7f4c2a66","skip-cert-verify":true,"network":"tcp","tls":false,"udp":true}
+  - {"type":"trojan","name":"香港_1","server":"58.152.46.98","port":443,"password":"BxceQaOe","udp":true,"skip-cert-verify":true,"network":"tcp"}
+  - {"type":"vless","name":"JP","server":"183.240.252.102","port":11443,"uuid":"df245bf8-8253-4029-90d8-ef30cfac75f4","skip-cert-verify":true,"network":"tcp","tls":false,"udp":true}
+  - {"type":"vless","name":"美国_5","server":"183.240.252.102","port":11443,"uuid":"df245bf8-8253-4029-90d8-ef30cfac75f4","skip-cert-verify":true,"network":"tcp","tls":false,"udp":true}
+  - {"type":"trojan","name":"日本","server":"36.150.215.241","port":1924,"password":"BxceQaOe","udp":true,"skip-cert-verify":true,"network":"tcp"}
+  - {"type":"trojan","name":"美国_6","server":"36.150.215.241","port":1924,"password":"BxceQaOe","udp":true,"skip-cert-verify":true,"sni":"36.150.215.241","network":"tcp"}
+  - {"type":"vless","name":"美国_7","server":"183.240.252.102","port":11443,"uuid":"df245bf8-8253-4029-90d8-ef30cfac75f4","skip-cert-verify":true,"network":"tcp","tls":false,"udp":true}
+  - {"type":"trojan","name":"美国_8","server":"36.150.215.241","port":1924,"password":"BxceQaOe","udp":true,"skip-cert-verify":true,"network":"tcp"}
+  - {"type":"trojan","name":"中国","server":"36.150.215.241","port":1924,"password":"BxceQaOe","udp":true,"skip-cert-verify":true,"network":"tcp"}
+  - {"type":"vless","name":"美国_9","server":"46.20.111.246","port":33534,"uuid":"4d6ef6fc-29f6-455d-bd93-39d506669b28","skip-cert-verify":true,"network":"tcp","tls":false,"udp":true}
+  - {"type":"trojan","name":"us","server":"58.152.46.98","port":443,"password":"BxceQaOe","udp":true,"skip-cert-verify":true,"network":"tcp"}
+  - {"type":"trojan","name":"美国_10","server":"58.152.46.98","port":443,"password":"BxceQaOe","udp":true,"skip-cert-verify":true,"sni":"58.152.46.98","network":"tcp"}
+  - {"type":"vless","name":"美国_11","server":"nl.crynasty.ru","port":443,"uuid":"dfb01e06-7538-424b-8e83-b24d9760ef55","skip-cert-verify":true,"network":"tcp","flow":"xtls-rprx-vision","servername":"nl.crynasty.ru","tls":false,"udp":true}
+  - {"type":"vless","name":"俄罗斯_1","server":"109.172.54.49","port":443,"uuid":"677615f7-87d5-5019-a44d-4fc3ff8d59d7","skip-cert-verify":true,"network":"tcp","flow":"xtls-rprx-vision","servername":"vk.cc","tls":false,"udp":true}
+  - {"type":"vless","name":"美国_12","server":"91.224.75.112","port":443,"uuid":"88b9b7e2-7d97-4a6c-9c19-7e9d1da82183","skip-cert-verify":true,"network":"tcp","flow":"xtls-rprx-vision","servername":"poland24.clearorbitllc.com","tls":false,"udp":true}
+  - {"type":"vless","name":"美国_13","server":"103.88.242.119","port":443,"uuid":"9d0d265d-0df6-4bcd-b029-9407a88ec2d8","skip-cert-verify":true,"network":"tcp","flow":"xtls-rprx-vision","servername":"ru.moktana.digital","tls":false,"udp":true}
+  - {"type":"vless","name":"俄罗斯_2","server":"212.18.104.19","port":443,"uuid":"677615f7-87d5-5019-a44d-4fc3ff8d59d7","skip-cert-verify":true,"network":"tcp","flow":"xtls-rprx-vision","servername":"nspk.ru","tls":false,"udp":true}
+  - {"type":"vless","name":"俄罗斯_3","server":"212.18.104.19","port":443,"uuid":"677615f7-87d5-5019-a44d-4fc3ff8d59d7","skip-cert-verify":true,"network":"tcp","flow":"xtls-rprx-vision","servername":"nspk.ru","tls":false,"udp":true}
+  - {"type":"vless","name":"希腊_1","server":"185.39.207.121","port":443,"uuid":"677615f7-87d5-5019-a44d-4fc3ff8d59d7","skip-cert-verify":true,"network":"tcp","flow":"xtls-rprx-vision","servername":"vk.cc","tls":false,"udp":true}
+  - {"type":"vless","name":"希腊_2","server":"185.39.207.121","port":443,"uuid":"677615f7-87d5-5019-a44d-4fc3ff8d59d7","skip-cert-verify":true,"network":"tcp","flow":"xtls-rprx-vision","servername":"vk.cc","tls":false,"udp":true}
+  - {"type":"vless","name":"美国_14","server":"178.130.47.106","port":443,"uuid":"b7437f7a-783f-4e6f-a555-a2a589f42b5a","skip-cert-verify":true,"network":"tcp","flow":"xtls-rprx-vision","servername":"apple.com","tls":false,"udp":true}
+  - {"type":"vless","name":"美国_15","server":"212.18.104.19","port":443,"uuid":"677615f7-87d5-5019-a44d-4fc3ff8d59d7","skip-cert-verify":true,"network":"tcp","flow":"xtls-rprx-vision","servername":"vk.cc","tls":false,"udp":true}
+  - {"type":"vless","name":"俄罗斯_4","server":"109.172.54.49","port":443,"uuid":"677615f7-87d5-5019-a44d-4fc3ff8d59d7","skip-cert-verify":true,"network":"tcp","flow":"xtls-rprx-vision","servername":"vk.cc","tls":false,"udp":true}
+  - {"type":"vless","name":"俄罗斯_5","server":"81.19.140.131","port":443,"uuid":"677615f7-87d5-5019-a44d-4fc3ff8d59d7","skip-cert-verify":true,"network":"tcp","flow":"xtls-rprx-vision","servername":"vk.cc","tls":false,"udp":true}
+  - {"type":"vless","name":"美国_16","server":"91.224.75.112","port":443,"uuid":"88b9b7e2-7d97-4a6c-9c19-7e9d1da82183","skip-cert-verify":true,"network":"tcp","flow":"xtls-rprx-vision","servername":"poland24.clearorbitllc.com","tls":false,"udp":true}
+  - {"type":"vless","name":"美国_17","server":"178.130.47.106","port":443,"uuid":"b7437f7a-783f-4e6f-a555-a2a589f42b5a","skip-cert-verify":true,"network":"tcp","flow":"xtls-rprx-vision","servername":"apple.com","tls":false,"udp":true}
+  - {"type":"vless","name":"美国_18","server":"178.130.47.106","port":443,"uuid":"b7437f7a-783f-4e6f-a555-a2a589f42b5a","skip-cert-verify":true,"network":"tcp","flow":"xtls-rprx-vision","servername":"apple.com","tls":false,"udp":true}
+  - {"type":"vless","name":"美国_19","server":"realdom-fr.panelfreedom.com","port":20810,"uuid":"1c4193bb-5130-46b3-9e78-3a2703979c4e","skip-cert-verify":true,"network":"tcp","servername":"refersion.com","tls":false,"udp":true}
+  - {"type":"vless","name":"美国_20","server":"ytr.fasssst.ru","port":8443,"uuid":"762ddd62-0ea8-4a98-bc21-b25fb1c10c3f","skip-cert-verify":true,"network":"tcp","flow":"xtls-rprx-vision","servername":"ytr.fasssst.ru","tls":false,"udp":true}
   - {"type":"vless","name":"美国_21","server":"ytr.fasssst.ru","port":8443,"uuid":"762ddd62-0ea8-4a98-bc21-b25fb1c10c3f","skip-cert-verify":true,"network":"tcp","flow":"xtls-rprx-vision","servername":"ytr.fasssst.ru","tls":false,"udp":true}
-  - {"type":"trojan","name":"美国_22","server":"36.150.215.241","port":26373,"password":"BxceQaOe","udp":true,"skip-cert-verify":true,"network":"tcp"}
-  - {"type":"vless","name":"美国_23","server":"77.110.109.72","port":443,"uuid":"045eb821-bdae-43c5-8945-9cb181e65dcb","skip-cert-verify":true,"network":"tcp","flow":"xtls-rprx-vision","servername":"ad.mail.ru","tls":false,"udp":true}
-  - {"type":"vmess","name":"美国_24","http-opts":{"path":["/"],"headers":{"Host":["103.243.26.209"]}},"server":"103.243.26.209","port":"8080","uuid":"bc7e6840-ab83-4570-eaae-d9aff1e2da09","alterId":"0","cipher":"auto","network":"http"}
-  - {"type":"vmess","name":"美国_25","http-opts":{"path":["/"],"headers":{"Host":["103.243.26.209"]}},"server":"103.243.26.209","port":"10086","uuid":"c5ec2e3f-c058-46a8-a148-1831824bb94b","alterId":"0","cipher":"auto","network":"http"}
-  - {"type":"vmess","name":"美国_26","http-opts":{"path":["/"],"headers":{"Host":["103.243.26.209"]}},"server":"103.243.26.209","port":"8080","uuid":"bc7e6840-ab83-4570-eaae-d9aff1e2da09","alterId":"0","cipher":"auto","network":"http"}
-  - {"type":"vless","name":"美国_27","server":"178.160.211.182","port":20155,"uuid":"dc28e2d3-7c69-47c6-b5b0-f76914454294","skip-cert-verify":true,"network":"tcp","tls":false,"udp":true}
-  - {"type":"vless","name":"美国_28","server":"178.160.211.182","port":20155,"uuid":"dc28e2d3-7c69-47c6-b5b0-f76914454294","skip-cert-verify":true,"network":"tcp","tls":false,"udp":true}
+  - {"type":"vless","name":"美国_22","server":"91.224.75.112","port":443,"uuid":"88b9b7e2-7d97-4a6c-9c19-7e9d1da82183","skip-cert-verify":true,"network":"tcp","flow":"xtls-rprx-vision","servername":"poland24.clearorbitllc.com","tls":false,"udp":true}
+  - {"type":"vless","name":"俄罗斯_6","server":"81.19.140.131","port":443,"uuid":"677615f7-87d5-5019-a44d-4fc3ff8d59d7","skip-cert-verify":true,"network":"tcp","flow":"xtls-rprx-vision","servername":"vk.cc","tls":false,"udp":true}
+  - {"type":"trojan","name":"美国_23","server":"58.152.46.98","port":443,"password":"BxceQaOe","udp":true,"skip-cert-verify":true,"sni":"58.152.46.98","network":"tcp"}
+  - {"type":"trojan","name":"美国_24","server":"36.150.215.241","port":26373,"password":"BxceQaOe","udp":true,"skip-cert-verify":true,"sni":"36.150.215.241","network":"tcp"}
+  - {"type":"trojan","name":"美国_25","server":"36.150.215.241","port":26373,"password":"BxceQaOe","udp":true,"skip-cert-verify":true,"network":"tcp"}
+  - {"type":"trojan","name":"美国_26","server":"36.150.215.241","port":26373,"password":"BxceQaOe","udp":true,"skip-cert-verify":true,"network":"tcp"}
+  - {"type":"trojan","name":"美国_27","server":"36.150.215.241","port":27409,"password":"BxceQaOe","udp":true,"skip-cert-verify":true,"sni":"36.150.215.241","network":"tcp"}
+  - {"type":"trojan","name":"美国_28","server":"36.150.215.241","port":27409,"password":"BxceQaOe","udp":true,"skip-cert-verify":true,"sni":"36.150.215.241","network":"tcp"}
+  - {"type":"trojan","name":"美国_29","server":"36.150.215.241","port":26373,"password":"BxceQaOe","udp":true,"skip-cert-verify":true,"sni":"36.150.215.241","network":"tcp"}
+  - {"type":"trojan","name":"美国_30","server":"36.150.215.241","port":26373,"password":"BxceQaOe","udp":true,"skip-cert-verify":true,"sni":"36.150.215.241","network":"tcp"}
+  - {"type":"trojan","name":"美国_31","server":"36.150.215.241","port":27409,"password":"BxceQaOe","udp":true,"skip-cert-verify":true,"network":"tcp"}
+  - {"type":"vless","name":"美国_32","server":"178.160.211.182","port":20155,"uuid":"dc28e2d3-7c69-47c6-b5b0-f76914454294","skip-cert-verify":true,"network":"tcp","tls":false,"udp":true}
+  - {"type":"vless","name":"美国_33","server":"178.160.211.182","port":20155,"uuid":"dc28e2d3-7c69-47c6-b5b0-f76914454294","skip-cert-verify":true,"network":"tcp","tls":false,"udp":true}
+  - {"type":"vless","name":"美国_34","server":"178.160.211.182","port":20155,"uuid":"dc28e2d3-7c69-47c6-b5b0-f76914454294","skip-cert-verify":true,"network":"tcp","tls":false,"udp":true}
+  - {"type":"vless","name":"美国_35","server":"178.160.211.182","port":20155,"uuid":"dc28e2d3-7c69-47c6-b5b0-f76914454294","skip-cert-verify":true,"network":"tcp","tls":false,"udp":true}
+  - {"type":"vless","name":"美国_36","server":"64.188.74.120","port":443,"uuid":"b7437f7a-783f-4e6f-a555-a2a589f42b5a","skip-cert-verify":true,"network":"tcp","flow":"xtls-rprx-vision","servername":"www.amd.com","tls":false,"udp":true}
+  - {"type":"vless","name":"美国_37","server":"178.160.211.182","port":20155,"uuid":"dc28e2d3-7c69-47c6-b5b0-f76914454294","skip-cert-verify":true,"network":"tcp","tls":false,"udp":true}
+  - {"type":"trojan","name":"香港_2","server":"58.152.46.98","port":443,"password":"BxceQaOe","udp":true,"skip-cert-verify":true,"network":"tcp"}
+  - {"type":"trojan","name":"香港_3","server":"58.152.46.98","port":443,"password":"BxceQaOe","udp":true,"skip-cert-verify":true,"sni":"58.152.46.98","network":"tcp"}
+  - {"type":"vmess","name":"美国_38","http-opts":{"path":["/"],"headers":{"Host":["103.243.26.209"]}},"server":"103.243.26.209","port":"8080","uuid":"bc7e6840-ab83-4570-eaae-d9aff1e2da09","alterId":"0","cipher":"auto","network":"http"}
+  - {"type":"vmess","name":"美国_39","http-opts":{"path":["/"],"headers":{"Host":["103.243.26.209"]}},"server":"103.243.26.209","port":"10086","uuid":"c5ec2e3f-c058-46a8-a148-1831824bb94b","alterId":"0","cipher":"auto","network":"http"}
+  - {"type":"vmess","name":"美国_40","http-opts":{"path":["/"]},"server":"103.243.26.209","port":"10086","uuid":"c5ec2e3f-c058-46a8-a148-1831824bb94b","alterId":"0","cipher":"auto","network":"http"}
+  - {"type":"vmess","name":"美国_41","http-opts":{"path":["/"],"headers":{"Host":["103.243.26.209"]}},"server":"103.243.26.209","port":"8080","uuid":"bc7e6840-ab83-4570-eaae-d9aff1e2da09","alterId":"0","cipher":"auto","network":"http"}
+  - {"type":"trojan","name":"美国_42","server":"oss-cn-shanghai.letssepub.com","port":20021,"password":"adbac894-90b9-4913-b77e-a715a8d4ebc8","udp":true,"skip-cert-verify":true,"sni":"dingding-doc.com","network":"tcp"}
+  - {"type":"trojan","name":"US_1","server":"oss-cn-shanghai.letssepub.com","port":20021,"password":"adbac894-90b9-4913-b77e-a715a8d4ebc8","udp":true,"skip-cert-verify":true,"sni":"dingding-doc.com","network":"tcp"}
+  - {"type":"vmess","name":"美国_43","http-opts":{"path":["/"],"headers":{"Host":["103.243.26.209"]}},"server":"103.243.26.209","port":"10086","uuid":"c5ec2e3f-c058-46a8-a148-1831824bb94b","alterId":"0","cipher":"auto","network":"http"}
+  - {"type":"vmess","name":"美国_44","http-opts":{"path":["/"]},"server":"103.243.26.209","port":"10086","uuid":"c5ec2e3f-c058-46a8-a148-1831824bb94b","alterId":"0","cipher":"auto","network":"http"}
+  - {"type":"vmess","name":"美国_45","http-opts":{"path":["/"],"headers":{"Host":["103.243.26.209"]}},"server":"103.243.26.209","port":"8080","uuid":"bc7e6840-ab83-4570-eaae-d9aff1e2da09","alterId":"0","cipher":"auto","network":"http"}
   - {"type":"trojan","name":"香港_4","server":"58.152.46.98","port":443,"password":"BxceQaOe","udp":true,"skip-cert-verify":true,"network":"tcp"}
-  - {"type":"trojan","name":"HK_2","server":"36.151.251.23","port":4451,"password":"BxceQaOe","udp":true,"skip-cert-verify":true,"network":"tcp"}
-  - {"type":"trojan","name":"HK_3","server":"36.151.251.35","port":24392,"password":"BxceQaOe","udp":true,"skip-cert-verify":true,"network":"tcp"}
-  - {"type":"trojan","name":"中国_1","server":"36.151.251.35","port":24392,"password":"BxceQaOe","udp":true,"skip-cert-verify":true,"network":"tcp"}
-  - {"type":"vless","name":"中国_2","server":"183.240.252.102","port":11443,"uuid":"df245bf8-8253-4029-90d8-ef30cfac75f4","skip-cert-verify":true,"network":"tcp","tls":false,"udp":true}
-  - {"type":"trojan","name":"台湾_1","server":"125.227.86.45","port":443,"password":"3f5bc61547b1f0d9","udp":true,"skip-cert-verify":true,"sni":"TG.节点狂魔","network":"grpc"}
-  - {"type":"trojan","name":"台湾_2","server":"125.227.86.48","port":443,"password":"3f5bc61547b1f0d9","udp":true,"skip-cert-verify":true,"sni":"TG.节点狂魔","network":"grpc"}
-  - {"type":"trojan","name":"台湾_3","server":"125.227.86.47","port":443,"password":"3f5bc61547b1f0d9","udp":true,"skip-cert-verify":true,"sni":"TG.节点狂魔","network":"grpc"}
-  - {"type":"trojan","name":"台湾_4","server":"125.227.86.48","port":443,"password":"0a9f1f5a397bd427","udp":true,"skip-cert-verify":true,"sni":"TG.节点狂魔","network":"grpc"}
-  - {"type":"vless","name":"美国_29","server":"638969264971593315.abadan-blkaft-aaaw.info","port":8880,"uuid":"df0680ca-e43c-498d-ed86-8e196eedd012","skip-cert-verify":true,"udp":true,"network":"grpc","tls":true}
-  - {"type":"vless","name":"US_4","server":"638966574572431911.rome-blkaft-aaau.info","port":8880,"uuid":"df0680ca-e43c-498d-ed86-8e196eedd012","skip-cert-verify":true,"udp":true,"network":"grpc","tls":true}
-  - {"type":"trojan","name":"台湾_5","server":"125.227.86.44","port":443,"password":"0a9f1f5a397bd427","udp":true,"skip-cert-verify":true,"sni":"TG.节点狂魔","network":"grpc"}
-  - {"type":"trojan","name":"台湾_6","server":"125.227.86.44","port":443,"password":"3f5bc61547b1f0d9","udp":true,"skip-cert-verify":true,"sni":"TG.节点狂魔","network":"grpc"}
-  - {"type":"vless","name":"US_5","server":"638966574572431911.rome-blkaft-aaau.info","port":8880,"uuid":"df0680ca-e43c-498d-ed86-8e196eedd012","skip-cert-verify":true,"udp":true,"network":"grpc","tls":true}
-  - {"type":"trojan","name":"台湾_7","server":"125.227.86.46","port":443,"password":"0a9f1f5a397bd427","udp":true,"skip-cert-verify":true,"sni":"TG.节点狂魔","network":"grpc"}
-  - {"type":"vless","name":"美国_30","server":"638969264971590621.abadan-blkaft-aaaw.info","port":8880,"uuid":"df0680ca-e43c-498d-ed86-8e196eedd012","skip-cert-verify":true,"udp":true,"network":"grpc","tls":true}
-  - {"type":"vless","name":"美国_31","server":"all.tellmethetrue.shop","port":443,"uuid":"e4824193-4f54-453b-d037-88368e85ef0e","skip-cert-verify":true,"udp":true,"network":"grpc","tls":true,"servername":"pqh30v5.hiddendom.shop"}
-  - {"type":"ss","name":"美国_32","server":"113.99.143.139","port":40316,"cipher":"aes-128-gcm","password":"b637f2e47b7827b308ebf399008075d2"}
-  - {"type":"ss","name":"美国_33","server":"switcher-nick-croquet.freesocks.work","port":443,"cipher":"chacha20-ietf-poly1305","password":"RFK38Cg7APneSB5cWDcpbm"}
-  - {"type":"ss","name":"美国_34","server":"switcher-nick-croquet.freesocks.work","port":443,"cipher":"chacha20-ietf-poly1305","password":"9tqhMdIrTkgQ46PvhyAtMH"}
+  - {"type":"vless","name":"美国_46","server":"638969264971590621.abadan-blkaft-aaaw.info","port":8880,"uuid":"df0680ca-e43c-498d-ed86-8e196eedd012","skip-cert-verify":true,"udp":true,"network":"grpc","tls":true}
+  - {"type":"vless","name":"美国_47","server":"638969264971590621.abadan-blkaft-aaaw.info","port":8880,"uuid":"df0680ca-e43c-498d-ed86-8e196eedd012","skip-cert-verify":true,"udp":true,"network":"grpc","tls":true}
+  - {"type":"vless","name":"美国_48","server":"95.164.6.65","port":8880,"uuid":"df0680ca-e43c-498d-ed86-8e196eedd012","skip-cert-verify":true,"udp":true,"network":"grpc","tls":true}
+  - {"type":"vless","name":"意大利_1","server":"638966574572431911.rome-blkaft-aaau.info","port":8880,"uuid":"df0680ca-e43c-498d-ed86-8e196eedd012","skip-cert-verify":true,"udp":true,"network":"grpc","tls":true}
+  - {"type":"vless","name":"美国_49","server":"638969264971590621.abadan-blkaft-aaaw.info","port":8880,"uuid":"df0680ca-e43c-498d-ed86-8e196eedd012","skip-cert-verify":true,"udp":true,"network":"grpc","tls":true}
+  - {"type":"vless","name":"意大利_2","server":"638966574572431911.rome-blkaft-aaau.info","port":8880,"uuid":"df0680ca-e43c-498d-ed86-8e196eedd012","skip-cert-verify":true,"udp":true,"network":"grpc","tls":true}
+  - {"type":"vless","name":"意大利_3","server":"638966574572431911.rome-blkaft-aaau.info","port":8880,"uuid":"df0680ca-e43c-498d-ed86-8e196eedd012","skip-cert-verify":true,"udp":true,"network":"grpc","tls":true}
+  - {"type":"vless","name":"美国_50","server":"638966574572431911.rome-blkaft-aaau.info","port":8880,"uuid":"df0680ca-e43c-498d-ed86-8e196eedd012","skip-cert-verify":true,"udp":true,"network":"grpc","tls":true}
+  - {"type":"vless","name":"意大利_4","server":"638966574572431911.rome-blkaft-aaau.info","port":8880,"uuid":"df0680ca-e43c-498d-ed86-8e196eedd012","skip-cert-verify":true,"udp":true,"network":"grpc","tls":true}
+  - {"type":"vless","name":"US_2","server":"638966574572431911.rome-blkaft-aaau.info","port":8880,"uuid":"df0680ca-e43c-498d-ed86-8e196eedd012","skip-cert-verify":true,"udp":true,"network":"grpc","tls":true}
+  - {"type":"vless","name":"US_3","server":"638966574572431911.rome-blkaft-aaau.info","port":8880,"uuid":"df0680ca-e43c-498d-ed86-8e196eedd012","skip-cert-verify":true,"udp":true,"network":"grpc","tls":true}
+  - {"type":"vless","name":"美国_51","server":"91.98.164.168","port":40647,"uuid":"c3980834-0e40-43a5-9d8c-ce9389ab9d70","skip-cert-verify":true,"udp":true,"network":"grpc","tls":true,"grpc-opts":{"grpc-service-name":"91.98.164.168"},"servername":"iranhost.com"}
+  - {"type":"vless","name":"美国_52","server":"638970136771547794.athens-blkaft-aaay.info","port":8880,"uuid":"df0680ca-e43c-498d-ed86-8e196eedd012","skip-cert-verify":true,"udp":true,"network":"grpc","tls":true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -118,13 +134,11 @@ proxy-groups:
       - DIRECT
       - 电报群：https://t.me/vvkj11
       - 每天更新，请加电报群防止失联
-      - 日期：10-27
+      - 日期：10-28
       - 免费VPN：https://tt.vg/gwaAy
-      - US_1
       - 法国_1
       - 法国_2
       - 法国_3
-      - 美国_1
       - 法国_4
       - 法国_5
       - 法国_6
@@ -135,79 +149,99 @@ proxy-groups:
       - 法国_11
       - 法国_12
       - 法国_13
+      - 美国_1
       - 法国_14
       - 法国_15
       - 法国_16
       - 法国_17
-      - 法国_18
-      - 韩国_1
-      - 韩国_2
-      - 韩国_3
       - 美国_2
-      - 韩国_4
-      - 韩国_5
-      - 韩国_6
-      - 韩国_7
-      - 韩国_8
-      - 日本_1
-      - 日本_2
-      - 香港_1
-      - HK_1
-      - 德国
-      - 香港_2
-      - US_2
+      - 法国_18
+      - 法国_19
+      - 法国_20
+      - 法国_21
+      - 法国_22
+      - 法国_23
+      - 法国_24
+      - 法国_25
+      - 法国_26
+      - 法国_27
       - 美国_3
+      - 法国_28
+      - 法国_29
       - 美国_4
-      - US_3
+      - 法国_30
+      - HK
+      - 香港_1
+      - JP
       - 美国_5
+      - 日本
       - 美国_6
-      - 希腊
       - 美国_7
-      - 俄罗斯_1
       - 美国_8
+      - 中国
       - 美国_9
+      - us
       - 美国_10
-      - 俄罗斯_2
       - 美国_11
+      - 俄罗斯_1
       - 美国_12
       - 美国_13
+      - 俄罗斯_2
+      - 俄罗斯_3
+      - 希腊_1
+      - 希腊_2
       - 美国_14
       - 美国_15
+      - 俄罗斯_4
+      - 俄罗斯_5
       - 美国_16
       - 美国_17
-      - 俄罗斯_3
       - 美国_18
-      - 香港_3
       - 美国_19
       - 美国_20
       - 美国_21
       - 美国_22
+      - 俄罗斯_6
       - 美国_23
       - 美国_24
       - 美国_25
       - 美国_26
       - 美国_27
       - 美国_28
-      - 香港_4
-      - HK_2
-      - HK_3
-      - 中国_1
-      - 中国_2
-      - 台湾_1
-      - 台湾_2
-      - 台湾_3
-      - 台湾_4
       - 美国_29
-      - US_4
-      - 台湾_5
-      - 台湾_6
-      - US_5
-      - 台湾_7
       - 美国_30
       - 美国_31
       - 美国_32
       - 美国_33
       - 美国_34
+      - 美国_35
+      - 美国_36
+      - 美国_37
+      - 香港_2
+      - 香港_3
+      - 美国_38
+      - 美国_39
+      - 美国_40
+      - 美国_41
+      - 美国_42
+      - US_1
+      - 美国_43
+      - 美国_44
+      - 美国_45
+      - 香港_4
+      - 美国_46
+      - 美国_47
+      - 美国_48
+      - 意大利_1
+      - 美国_49
+      - 意大利_2
+      - 意大利_3
+      - 美国_50
+      - 意大利_4
+      - US_2
+      - US_3
+      - 美国_51
+      - 美国_52
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -216,13 +250,11 @@ proxy-groups:
     proxies:
       - 电报群：https://t.me/vvkj11
       - 每天更新，请加电报群防止失联
-      - 日期：10-27
+      - 日期：10-28
       - 免费VPN：https://tt.vg/gwaAy
-      - US_1
       - 法国_1
       - 法国_2
       - 法国_3
-      - 美国_1
       - 法国_4
       - 法国_5
       - 法国_6
@@ -233,79 +265,99 @@ proxy-groups:
       - 法国_11
       - 法国_12
       - 法国_13
+      - 美国_1
       - 法国_14
       - 法国_15
       - 法国_16
       - 法国_17
-      - 法国_18
-      - 韩国_1
-      - 韩国_2
-      - 韩国_3
       - 美国_2
-      - 韩国_4
-      - 韩国_5
-      - 韩国_6
-      - 韩国_7
-      - 韩国_8
-      - 日本_1
-      - 日本_2
-      - 香港_1
-      - HK_1
-      - 德国
-      - 香港_2
-      - US_2
+      - 法国_18
+      - 法国_19
+      - 法国_20
+      - 法国_21
+      - 法国_22
+      - 法国_23
+      - 法国_24
+      - 法国_25
+      - 法国_26
+      - 法国_27
       - 美国_3
+      - 法国_28
+      - 法国_29
       - 美国_4
-      - US_3
+      - 法国_30
+      - HK
+      - 香港_1
+      - JP
       - 美国_5
+      - 日本
       - 美国_6
-      - 希腊
       - 美国_7
-      - 俄罗斯_1
       - 美国_8
+      - 中国
       - 美国_9
+      - us
       - 美国_10
-      - 俄罗斯_2
       - 美国_11
+      - 俄罗斯_1
       - 美国_12
       - 美国_13
+      - 俄罗斯_2
+      - 俄罗斯_3
+      - 希腊_1
+      - 希腊_2
       - 美国_14
       - 美国_15
+      - 俄罗斯_4
+      - 俄罗斯_5
       - 美国_16
       - 美国_17
-      - 俄罗斯_3
       - 美国_18
-      - 香港_3
       - 美国_19
       - 美国_20
       - 美国_21
       - 美国_22
+      - 俄罗斯_6
       - 美国_23
       - 美国_24
       - 美国_25
       - 美国_26
       - 美国_27
       - 美国_28
-      - 香港_4
-      - HK_2
-      - HK_3
-      - 中国_1
-      - 中国_2
-      - 台湾_1
-      - 台湾_2
-      - 台湾_3
-      - 台湾_4
       - 美国_29
-      - US_4
-      - 台湾_5
-      - 台湾_6
-      - US_5
-      - 台湾_7
       - 美国_30
       - 美国_31
       - 美国_32
       - 美国_33
       - 美国_34
+      - 美国_35
+      - 美国_36
+      - 美国_37
+      - 香港_2
+      - 香港_3
+      - 美国_38
+      - 美国_39
+      - 美国_40
+      - 美国_41
+      - 美国_42
+      - US_1
+      - 美国_43
+      - 美国_44
+      - 美国_45
+      - 香港_4
+      - 美国_46
+      - 美国_47
+      - 美国_48
+      - 意大利_1
+      - 美国_49
+      - 意大利_2
+      - 意大利_3
+      - 美国_50
+      - 意大利_4
+      - US_2
+      - US_3
+      - 美国_51
+      - 美国_52
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -314,13 +366,11 @@ proxy-groups:
       - 🎯 全球直连
       - 电报群：https://t.me/vvkj11
       - 每天更新，请加电报群防止失联
-      - 日期：10-27
+      - 日期：10-28
       - 免费VPN：https://tt.vg/gwaAy
-      - US_1
       - 法国_1
       - 法国_2
       - 法国_3
-      - 美国_1
       - 法国_4
       - 法国_5
       - 法国_6
@@ -331,79 +381,99 @@ proxy-groups:
       - 法国_11
       - 法国_12
       - 法国_13
+      - 美国_1
       - 法国_14
       - 法国_15
       - 法国_16
       - 法国_17
-      - 法国_18
-      - 韩国_1
-      - 韩国_2
-      - 韩国_3
       - 美国_2
-      - 韩国_4
-      - 韩国_5
-      - 韩国_6
-      - 韩国_7
-      - 韩国_8
-      - 日本_1
-      - 日本_2
-      - 香港_1
-      - HK_1
-      - 德国
-      - 香港_2
-      - US_2
+      - 法国_18
+      - 法国_19
+      - 法国_20
+      - 法国_21
+      - 法国_22
+      - 法国_23
+      - 法国_24
+      - 法国_25
+      - 法国_26
+      - 法国_27
       - 美国_3
+      - 法国_28
+      - 法国_29
       - 美国_4
-      - US_3
+      - 法国_30
+      - HK
+      - 香港_1
+      - JP
       - 美国_5
+      - 日本
       - 美国_6
-      - 希腊
       - 美国_7
-      - 俄罗斯_1
       - 美国_8
+      - 中国
       - 美国_9
+      - us
       - 美国_10
-      - 俄罗斯_2
       - 美国_11
+      - 俄罗斯_1
       - 美国_12
       - 美国_13
+      - 俄罗斯_2
+      - 俄罗斯_3
+      - 希腊_1
+      - 希腊_2
       - 美国_14
       - 美国_15
+      - 俄罗斯_4
+      - 俄罗斯_5
       - 美国_16
       - 美国_17
-      - 俄罗斯_3
       - 美国_18
-      - 香港_3
       - 美国_19
       - 美国_20
       - 美国_21
       - 美国_22
+      - 俄罗斯_6
       - 美国_23
       - 美国_24
       - 美国_25
       - 美国_26
       - 美国_27
       - 美国_28
-      - 香港_4
-      - HK_2
-      - HK_3
-      - 中国_1
-      - 中国_2
-      - 台湾_1
-      - 台湾_2
-      - 台湾_3
-      - 台湾_4
       - 美国_29
-      - US_4
-      - 台湾_5
-      - 台湾_6
-      - US_5
-      - 台湾_7
       - 美国_30
       - 美国_31
       - 美国_32
       - 美国_33
       - 美国_34
+      - 美国_35
+      - 美国_36
+      - 美国_37
+      - 香港_2
+      - 香港_3
+      - 美国_38
+      - 美国_39
+      - 美国_40
+      - 美国_41
+      - 美国_42
+      - US_1
+      - 美国_43
+      - 美国_44
+      - 美国_45
+      - 香港_4
+      - 美国_46
+      - 美国_47
+      - 美国_48
+      - 意大利_1
+      - 美国_49
+      - 意大利_2
+      - 意大利_3
+      - 美国_50
+      - 意大利_4
+      - US_2
+      - US_3
+      - 美国_51
+      - 美国_52
   - name: 📲 电报信息
     type: select
     proxies:
@@ -411,13 +481,11 @@ proxy-groups:
       - 🎯 全球直连
       - 电报群：https://t.me/vvkj11
       - 每天更新，请加电报群防止失联
-      - 日期：10-27
+      - 日期：10-28
       - 免费VPN：https://tt.vg/gwaAy
-      - US_1
       - 法国_1
       - 法国_2
       - 法国_3
-      - 美国_1
       - 法国_4
       - 法国_5
       - 法国_6
@@ -428,79 +496,99 @@ proxy-groups:
       - 法国_11
       - 法国_12
       - 法国_13
+      - 美国_1
       - 法国_14
       - 法国_15
       - 法国_16
       - 法国_17
-      - 法国_18
-      - 韩国_1
-      - 韩国_2
-      - 韩国_3
       - 美国_2
-      - 韩国_4
-      - 韩国_5
-      - 韩国_6
-      - 韩国_7
-      - 韩国_8
-      - 日本_1
-      - 日本_2
-      - 香港_1
-      - HK_1
-      - 德国
-      - 香港_2
-      - US_2
+      - 法国_18
+      - 法国_19
+      - 法国_20
+      - 法国_21
+      - 法国_22
+      - 法国_23
+      - 法国_24
+      - 法国_25
+      - 法国_26
+      - 法国_27
       - 美国_3
+      - 法国_28
+      - 法国_29
       - 美国_4
-      - US_3
+      - 法国_30
+      - HK
+      - 香港_1
+      - JP
       - 美国_5
+      - 日本
       - 美国_6
-      - 希腊
       - 美国_7
-      - 俄罗斯_1
       - 美国_8
+      - 中国
       - 美国_9
+      - us
       - 美国_10
-      - 俄罗斯_2
       - 美国_11
+      - 俄罗斯_1
       - 美国_12
       - 美国_13
+      - 俄罗斯_2
+      - 俄罗斯_3
+      - 希腊_1
+      - 希腊_2
       - 美国_14
       - 美国_15
+      - 俄罗斯_4
+      - 俄罗斯_5
       - 美国_16
       - 美国_17
-      - 俄罗斯_3
       - 美国_18
-      - 香港_3
       - 美国_19
       - 美国_20
       - 美国_21
       - 美国_22
+      - 俄罗斯_6
       - 美国_23
       - 美国_24
       - 美国_25
       - 美国_26
       - 美国_27
       - 美国_28
-      - 香港_4
-      - HK_2
-      - HK_3
-      - 中国_1
-      - 中国_2
-      - 台湾_1
-      - 台湾_2
-      - 台湾_3
-      - 台湾_4
       - 美国_29
-      - US_4
-      - 台湾_5
-      - 台湾_6
-      - US_5
-      - 台湾_7
       - 美国_30
       - 美国_31
       - 美国_32
       - 美国_33
       - 美国_34
+      - 美国_35
+      - 美国_36
+      - 美国_37
+      - 香港_2
+      - 香港_3
+      - 美国_38
+      - 美国_39
+      - 美国_40
+      - 美国_41
+      - 美国_42
+      - US_1
+      - 美国_43
+      - 美国_44
+      - 美国_45
+      - 香港_4
+      - 美国_46
+      - 美国_47
+      - 美国_48
+      - 意大利_1
+      - 美国_49
+      - 意大利_2
+      - 意大利_3
+      - 美国_50
+      - 意大利_4
+      - US_2
+      - US_3
+      - 美国_51
+      - 美国_52
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -508,13 +596,11 @@ proxy-groups:
       - 🚀 节点选择
       - 电报群：https://t.me/vvkj11
       - 每天更新，请加电报群防止失联
-      - 日期：10-27
+      - 日期：10-28
       - 免费VPN：https://tt.vg/gwaAy
-      - US_1
       - 法国_1
       - 法国_2
       - 法国_3
-      - 美国_1
       - 法国_4
       - 法国_5
       - 法国_6
@@ -525,79 +611,99 @@ proxy-groups:
       - 法国_11
       - 法国_12
       - 法国_13
+      - 美国_1
       - 法国_14
       - 法国_15
       - 法国_16
       - 法国_17
-      - 法国_18
-      - 韩国_1
-      - 韩国_2
-      - 韩国_3
       - 美国_2
-      - 韩国_4
-      - 韩国_5
-      - 韩国_6
-      - 韩国_7
-      - 韩国_8
-      - 日本_1
-      - 日本_2
-      - 香港_1
-      - HK_1
-      - 德国
-      - 香港_2
-      - US_2
+      - 法国_18
+      - 法国_19
+      - 法国_20
+      - 法国_21
+      - 法国_22
+      - 法国_23
+      - 法国_24
+      - 法国_25
+      - 法国_26
+      - 法国_27
       - 美国_3
+      - 法国_28
+      - 法国_29
       - 美国_4
-      - US_3
+      - 法国_30
+      - HK
+      - 香港_1
+      - JP
       - 美国_5
+      - 日本
       - 美国_6
-      - 希腊
       - 美国_7
-      - 俄罗斯_1
       - 美国_8
+      - 中国
       - 美国_9
+      - us
       - 美国_10
-      - 俄罗斯_2
       - 美国_11
+      - 俄罗斯_1
       - 美国_12
       - 美国_13
+      - 俄罗斯_2
+      - 俄罗斯_3
+      - 希腊_1
+      - 希腊_2
       - 美国_14
       - 美国_15
+      - 俄罗斯_4
+      - 俄罗斯_5
       - 美国_16
       - 美国_17
-      - 俄罗斯_3
       - 美国_18
-      - 香港_3
       - 美国_19
       - 美国_20
       - 美国_21
       - 美国_22
+      - 俄罗斯_6
       - 美国_23
       - 美国_24
       - 美国_25
       - 美国_26
       - 美国_27
       - 美国_28
-      - 香港_4
-      - HK_2
-      - HK_3
-      - 中国_1
-      - 中国_2
-      - 台湾_1
-      - 台湾_2
-      - 台湾_3
-      - 台湾_4
       - 美国_29
-      - US_4
-      - 台湾_5
-      - 台湾_6
-      - US_5
-      - 台湾_7
       - 美国_30
       - 美国_31
       - 美国_32
       - 美国_33
       - 美国_34
+      - 美国_35
+      - 美国_36
+      - 美国_37
+      - 香港_2
+      - 香港_3
+      - 美国_38
+      - 美国_39
+      - 美国_40
+      - 美国_41
+      - 美国_42
+      - US_1
+      - 美国_43
+      - 美国_44
+      - 美国_45
+      - 香港_4
+      - 美国_46
+      - 美国_47
+      - 美国_48
+      - 意大利_1
+      - 美国_49
+      - 意大利_2
+      - 意大利_3
+      - 美国_50
+      - 意大利_4
+      - US_2
+      - US_3
+      - 美国_51
+      - 美国_52
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -605,13 +711,11 @@ proxy-groups:
       - 🎯 全球直连
       - 电报群：https://t.me/vvkj11
       - 每天更新，请加电报群防止失联
-      - 日期：10-27
+      - 日期：10-28
       - 免费VPN：https://tt.vg/gwaAy
-      - US_1
       - 法国_1
       - 法国_2
       - 法国_3
-      - 美国_1
       - 法国_4
       - 法国_5
       - 法国_6
@@ -622,79 +726,99 @@ proxy-groups:
       - 法国_11
       - 法国_12
       - 法国_13
+      - 美国_1
       - 法国_14
       - 法国_15
       - 法国_16
       - 法国_17
-      - 法国_18
-      - 韩国_1
-      - 韩国_2
-      - 韩国_3
       - 美国_2
-      - 韩国_4
-      - 韩国_5
-      - 韩国_6
-      - 韩国_7
-      - 韩国_8
-      - 日本_1
-      - 日本_2
-      - 香港_1
-      - HK_1
-      - 德国
-      - 香港_2
-      - US_2
+      - 法国_18
+      - 法国_19
+      - 法国_20
+      - 法国_21
+      - 法国_22
+      - 法国_23
+      - 法国_24
+      - 法国_25
+      - 法国_26
+      - 法国_27
       - 美国_3
+      - 法国_28
+      - 法国_29
       - 美国_4
-      - US_3
+      - 法国_30
+      - HK
+      - 香港_1
+      - JP
       - 美国_5
+      - 日本
       - 美国_6
-      - 希腊
       - 美国_7
-      - 俄罗斯_1
       - 美国_8
+      - 中国
       - 美国_9
+      - us
       - 美国_10
-      - 俄罗斯_2
       - 美国_11
+      - 俄罗斯_1
       - 美国_12
       - 美国_13
+      - 俄罗斯_2
+      - 俄罗斯_3
+      - 希腊_1
+      - 希腊_2
       - 美国_14
       - 美国_15
+      - 俄罗斯_4
+      - 俄罗斯_5
       - 美国_16
       - 美国_17
-      - 俄罗斯_3
       - 美国_18
-      - 香港_3
       - 美国_19
       - 美国_20
       - 美国_21
       - 美国_22
+      - 俄罗斯_6
       - 美国_23
       - 美国_24
       - 美国_25
       - 美国_26
       - 美国_27
       - 美国_28
-      - 香港_4
-      - HK_2
-      - HK_3
-      - 中国_1
-      - 中国_2
-      - 台湾_1
-      - 台湾_2
-      - 台湾_3
-      - 台湾_4
       - 美国_29
-      - US_4
-      - 台湾_5
-      - 台湾_6
-      - US_5
-      - 台湾_7
       - 美国_30
       - 美国_31
       - 美国_32
       - 美国_33
       - 美国_34
+      - 美国_35
+      - 美国_36
+      - 美国_37
+      - 香港_2
+      - 香港_3
+      - 美国_38
+      - 美国_39
+      - 美国_40
+      - 美国_41
+      - 美国_42
+      - US_1
+      - 美国_43
+      - 美国_44
+      - 美国_45
+      - 香港_4
+      - 美国_46
+      - 美国_47
+      - 美国_48
+      - 意大利_1
+      - 美国_49
+      - 意大利_2
+      - 意大利_3
+      - 美国_50
+      - 意大利_4
+      - US_2
+      - US_3
+      - 美国_51
+      - 美国_52
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -719,13 +843,11 @@ proxy-groups:
       - ♻️ 自动选择
       - 电报群：https://t.me/vvkj11
       - 每天更新，请加电报群防止失联
-      - 日期：10-27
+      - 日期：10-28
       - 免费VPN：https://tt.vg/gwaAy
-      - US_1
       - 法国_1
       - 法国_2
       - 法国_3
-      - 美国_1
       - 法国_4
       - 法国_5
       - 法国_6
@@ -736,79 +858,99 @@ proxy-groups:
       - 法国_11
       - 法国_12
       - 法国_13
+      - 美国_1
       - 法国_14
       - 法国_15
       - 法国_16
       - 法国_17
-      - 法国_18
-      - 韩国_1
-      - 韩国_2
-      - 韩国_3
       - 美国_2
-      - 韩国_4
-      - 韩国_5
-      - 韩国_6
-      - 韩国_7
-      - 韩国_8
-      - 日本_1
-      - 日本_2
-      - 香港_1
-      - HK_1
-      - 德国
-      - 香港_2
-      - US_2
+      - 法国_18
+      - 法国_19
+      - 法国_20
+      - 法国_21
+      - 法国_22
+      - 法国_23
+      - 法国_24
+      - 法国_25
+      - 法国_26
+      - 法国_27
       - 美国_3
+      - 法国_28
+      - 法国_29
       - 美国_4
-      - US_3
+      - 法国_30
+      - HK
+      - 香港_1
+      - JP
       - 美国_5
+      - 日本
       - 美国_6
-      - 希腊
       - 美国_7
-      - 俄罗斯_1
       - 美国_8
+      - 中国
       - 美国_9
+      - us
       - 美国_10
-      - 俄罗斯_2
       - 美国_11
+      - 俄罗斯_1
       - 美国_12
       - 美国_13
+      - 俄罗斯_2
+      - 俄罗斯_3
+      - 希腊_1
+      - 希腊_2
       - 美国_14
       - 美国_15
+      - 俄罗斯_4
+      - 俄罗斯_5
       - 美国_16
       - 美国_17
-      - 俄罗斯_3
       - 美国_18
-      - 香港_3
       - 美国_19
       - 美国_20
       - 美国_21
       - 美国_22
+      - 俄罗斯_6
       - 美国_23
       - 美国_24
       - 美国_25
       - 美国_26
       - 美国_27
       - 美国_28
-      - 香港_4
-      - HK_2
-      - HK_3
-      - 中国_1
-      - 中国_2
-      - 台湾_1
-      - 台湾_2
-      - 台湾_3
-      - 台湾_4
       - 美国_29
-      - US_4
-      - 台湾_5
-      - 台湾_6
-      - US_5
-      - 台湾_7
       - 美国_30
       - 美国_31
       - 美国_32
       - 美国_33
       - 美国_34
+      - 美国_35
+      - 美国_36
+      - 美国_37
+      - 香港_2
+      - 香港_3
+      - 美国_38
+      - 美国_39
+      - 美国_40
+      - 美国_41
+      - 美国_42
+      - US_1
+      - 美国_43
+      - 美国_44
+      - 美国_45
+      - 香港_4
+      - 美国_46
+      - 美国_47
+      - 美国_48
+      - 意大利_1
+      - 美国_49
+      - 意大利_2
+      - 意大利_3
+      - 美国_50
+      - 意大利_4
+      - US_2
+      - US_3
+      - 美国_51
+      - 美国_52
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
