@@ -59,6 +59,65 @@ tun:
 
 proxies:
   - type: vmess
+    name: 🇭🇰_香港
+    server: 103.243.26.209
+    port: 8080
+    uuid: bc7e6840-ab83-4570-eaae-d9aff1e2da09
+    alterId: 0
+    network: tcp
+    cipher: auto
+  - type: vmess
+    name: 🇭🇰_香港_1
+    server: 43.247.134.213
+    port: 59516
+    uuid: 2906e19e-c99f-456e-bcb3-c5472fd594e5
+    alterId: 0
+    network: tcp
+    cipher: auto
+  - type: vmess
+    name: 🇭🇰_香港_2
+    server: 103.243.26.209
+    port: 8080
+    uuid: bc7e6840-ab83-4570-eaae-d9aff1e2da09
+    alterId: 0
+    network: tcp
+    cipher: auto
+    servername: 103.243.26.209
+  - type: vmess
+    name: 🇭🇰_香港_3
+    server: 43.247.134.213
+    port: 59516
+    uuid: 2906e19e-c99f-456e-bcb3-c5472fd594e5
+    alterId: 0
+    network: tcp
+    cipher: auto
+    servername: 43.247.134.213
+  - type: vmess
+    name: 🇧🇩_孟加拉国
+    server: 175.29.22.101
+    port: 28032
+    uuid: d2540325-9ad6-33d7-be86-259b5bba4ef8
+    alterId: 0
+    network: tcp
+    cipher: auto
+  - type: vmess
+    name: 🇭🇰_香港_4
+    server: 103.243.26.209
+    port: 10086
+    uuid: c5ec2e3f-c058-46a8-a148-1831824bb94b
+    alterId: 0
+    network: tcp
+    cipher: auto
+    servername: 103.243.26.209
+  - type: vmess
+    name: 🇧🇩_孟加拉国_1
+    server: 175.29.22.101
+    port: 28021
+    uuid: d2540325-9ad6-33d7-be86-259b5bba4ef8
+    alterId: 0
+    network: tcp
+    cipher: auto
+  - type: vmess
     name: 🇰🇷_韩国
     server: 152.70.92.69
     port: 80
@@ -67,7 +126,7 @@ proxies:
     network: tcp
     cipher: auto
   - type: vmess
-    name: 🇭🇰_香港
+    name: 🇭🇰_香港_5
     server: 103.243.26.209
     port: 10086
     uuid: c5ec2e3f-c058-46a8-a148-1831824bb94b
@@ -90,57 +149,43 @@ proxies:
     network: tcp
     sni: dingding-doc.com
     tls: true
-  - type: vmess
-    name: 🇭🇰_香港_1
-    server: 43.247.134.213
-    port: 59516
-    uuid: 2906e19e-c99f-456e-bcb3-c5472fd594e5
-    alterId: 0
-    network: tcp
-    cipher: auto
   - type: trojan
-    name: 🇨🇳_中国_1
-    server: 36.150.215.147
-    port: 4666
+    name: 🇭🇰_香港_6
+    server: 116.49.237.130
+    port: 518
     password: BxceQaOe
     network: tcp
-    sni: t.me/ripaojiedian
+    sni: "🔒 [By EbraSha] b2n.ir/v2ray-configs | 816 "
     skip-cert-verify: true
     tls: true
   - type: trojan
-    name: 🇭🇰_香港_3
-    server: 203.198.122.97
+    name: 🇭🇰_香港_7
+    server: 58.152.46.98
     port: 443
     password: BxceQaOe
     network: tcp
-    sni: t.me/ripaojiedian
+    skip-cert-verify: true
+    tls: true
+  - type: trojan
+    name: 🇭🇰_香港_8
+    server: 58.152.110.25
+    port: 443
+    password: 1b57001bd214304027025a740b6cf1ac
+    network: tcp
+    sni: www.nintendogames.net
     skip-cert-verify: true
     tls: true
   - type: vmess
-    name: 🇫🇷_法国
-    server: 2001:bc8:32d7:302::10
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    name: 🇰🇷_韩国_1
+    server: 152.70.92.69
+    port: 80
+    uuid: bb9c3993-a4b9-4dad-aeb9-ac86371ae68b
     alterId: 0
-    network: ws
+    network: tcp
     cipher: auto
-    ws-opts:
-      path: /
-  - type: trojan
-    name: 🇬🇧_英国
-    server: 51.89.128.93
-    port: 44004
-    password: 6b5b50ff-7798-40dc-9888-b4dd581e5435
-    network: ws
-    sni: joss.dus.biz.id
-    tls: true
-    ws-opts:
-      path: /Free-VPN-CF-Geo-Project/51.89.128.93=44004
-      headers:
-        Host: joss.dus.biz.id
   - type: vmess
-    name: 未知
-    server: 141.101.121.120
+    name: 未知_8
+    server: 104.18.240.238
     port: 80
     uuid: d967ffca-de90-4daa-bd00-d527e5bae11f
     alterId: 0
@@ -151,45 +196,8 @@ proxies:
       path: /?BIA_TELEGRAM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)
       headers:
         Host: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.
-  - type: trojan
-    name: 🇬🇧_英国_1
-    server: 89.28.236.243
-    port: 443
-    password: 63b8ce6d-9a30-4122-a00f-fd47f020dc27
-    network: ws
-    sni: joss.dus.biz.id
-    tls: true
-    ws-opts:
-      path: /Free-VPN-CF-Geo-Project/89.28.236.243=443
-      headers:
-        Host: joss.dus.biz.id
   - type: vmess
-    name: 🇸🇪_瑞典
-    server: 185.146.173.16
-    port: 80
-    uuid: d967ffca-de90-4daa-bd00-d527e5bae11f
-    alterId: 0
-    network: ws
-    cipher: auto
-    servername: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.
-    ws-opts:
-      path: /?BIA_TELEGRAM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)
-      headers:
-        Host: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.
-  - type: trojan
-    name: 🇫🇷_法国_1
-    server: 51.38.226.4
-    port: 2053
-    password: 8bf6e7d7-23e8-4655-8f07-c3827e2d6ebf
-    network: ws
-    sni: joss.dus.biz.id
-    tls: true
-    ws-opts:
-      path: /Free-VPN-CF-Geo-Project/51.38.226.4=2053
-      headers:
-        Host: joss.dus.biz.id
-  - type: vmess
-    name: 未知_2
+    name: 未知_9
     server: 141.101.121.26
     port: 80
     uuid: d967ffca-de90-4daa-bd00-d527e5bae11f
@@ -202,8 +210,8 @@ proxies:
       headers:
         Host: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.
   - type: vmess
-    name: 🇸🇪_瑞典_1
-    server: 185.146.173.117
+    name: 🇸🇪_瑞典
+    server: 185.146.173.24
     port: 80
     uuid: d967ffca-de90-4daa-bd00-d527e5bae11f
     alterId: 0
@@ -215,20 +223,32 @@ proxies:
       headers:
         Host: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.
   - type: vmess
-    name: 🇸🇪_瑞典_2
-    server: 185.146.173.82
-    port: 80
-    uuid: d967ffca-de90-4daa-bd00-d527e5bae11f
+    name: 🇨🇳_中国_1
+    server: 111.47.247.155
+    port: 16641
+    uuid: 57b1c09c-6325-4a6d-b897-d02719ab512c
     alterId: 0
     network: ws
     cipher: auto
-    servername: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.
+    servername: c8c6e8b788aed5dc0412c747e8a4eaf5.mobgslb.tbcache.com
     ws-opts:
-      path: /?BIA_TELEGRAM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)
+      path: /
       headers:
-        Host: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.
+        Host: c8c6e8b788aed5dc0412c747e8a4eaf5.mobgslb.tbcache.com
+  - type: trojan
+    name: 🇬🇧_英国_2
+    server: 89.28.236.243
+    port: 443
+    password: 63b8ce6d-9a30-4122-a00f-fd47f020dc27
+    network: ws
+    sni: joss.dus.biz.id
+    tls: true
+    ws-opts:
+      path: /Free-VPN-CF-Geo-Project/89.28.236.243=443
+      headers:
+        Host: joss.dus.biz.id
   - type: vmess
-    name: 🇺🇸_美国_3
+    name: 🇺🇸_美国_2
     server: azerb.net
     port: 443
     uuid: 5f726fe3-d82e-4da5-a711-8af0cbb2b682
@@ -242,7 +262,52 @@ proxies:
         Host: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top
     tls: true
   - type: vmess
-    name: 🇫🇷_法国_4
+    name: 🇫🇷_法国
+    server: 2001:bc8:32d7:302::10
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    network: ws
+    cipher: auto
+    ws-opts:
+      path: /
+  - type: vmess
+    name: 🇫🇷_法国_1
+    server: 2001:bc8:32d7:302::10
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    network: ws
+    cipher: auto
+    servername: 2001:bc8:32d7:302::10
+    ws-opts:
+      path: /
+      headers:
+        Host: 2001:bc8:32d7:302::10
+  - type: trojan
+    name: 🇷🇺_俄罗斯
+    server: 213.159.208.88
+    port: 2053
+    password: 14d6efcf-b0d3-4054-9d4e-e1347e3ceaa2
+    network: ws
+    sni: joss.dus.biz.id
+    tls: true
+    ws-opts:
+      path: /Free-VPN-CF-Geo-Project/213.159.208.88=2053
+      headers:
+        Host: joss.dus.biz.id
+  - type: vmess
+    name: 🇫🇷_法国_2
+    server: 2001:bc8:32d7:302::10
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    network: ws
+    cipher: auto
+    ws-opts:
+      path: /?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN
+  - type: vmess
+    name: 🇫🇷_法国_3
     server: 2001:bc8:1203:209::50
     port: 23008
     uuid: e994b804-345c-4e8b-a827-7e005694d146
@@ -255,28 +320,15 @@ proxies:
       headers:
         Host: www.bing.com
   - type: vmess
+    name: 🇫🇷_法国_4
+    server: 2001:bc8:32d7:302::10
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    network: ws
+    cipher: auto
+  - type: vmess
     name: 🇫🇷_法国_5
-    server: 2001:bc8:32d7:302::10
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-    alterId: 0
-    network: ws
-    cipher: auto
-  - type: vmess
-    name: 🇫🇷_法国_6
-    server: 2001:bc8:32d7:302::10
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-    alterId: 0
-    network: ws
-    cipher: auto
-    servername: 2001:bc8:32d7:302::10
-    ws-opts:
-      path: /
-      headers:
-        Host: 2001:bc8:32d7:302::10
-  - type: vmess
-    name: 🇫🇷_法国_7
     server: 2001:bc8:32d7:302::10
     port: 44579
     uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
@@ -289,7 +341,118 @@ proxies:
       headers:
         Host: 2001:bc8:32d7:302::10
   - type: vmess
-    name: 🇫🇷_法国_8
+    name: 🇸🇪_瑞典_1
+    server: 185.146.173.126
+    port: 80
+    uuid: d967ffca-de90-4daa-bd00-d527e5bae11f
+    alterId: 0
+    network: ws
+    cipher: auto
+    servername: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.
+    ws-opts:
+      path: /?BIA_TELEGRAM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)
+      headers:
+        Host: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.
+  - type: trojan
+    name: 🇳🇱_荷兰
+    server: 194.147.115.149
+    port: 443
+    password: c2d6a850-7e35-44f5-ab9f-8299f6f8c72b
+    network: ws
+    sni: joss.dus.biz.id
+    tls: true
+    ws-opts:
+      path: /Free-VPN-CF-Geo-Project/194.147.115.149=443
+      headers:
+        Host: joss.dus.biz.id
+  - type: vmess
+    name: 🇸🇪_瑞典_2
+    server: 185.146.173.16
+    port: 80
+    uuid: d967ffca-de90-4daa-bd00-d527e5bae11f
+    alterId: 0
+    network: ws
+    cipher: auto
+    servername: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.
+    ws-opts:
+      path: /?BIA_TELEGRAM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)
+      headers:
+        Host: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.
+  - type: trojan
+    name: 🇮🇱_以色列
+    server: 94.131.114.50
+    port: 81
+    password: a5a3350e-6ea2-4e12-ae84-20db849ce1fc
+    network: ws
+    sni: joss.dus.biz.id
+    tls: true
+    ws-opts:
+      path: /Free-VPN-CF-Geo-Project/94.131.114.50=81
+      headers:
+        Host: joss.dus.biz.id
+  - type: trojan
+    name: 🇬🇧_英国_4
+    server: 51.89.128.93
+    port: 44004
+    password: 6b5b50ff-7798-40dc-9888-b4dd581e5435
+    network: ws
+    sni: joss.dus.biz.id
+    tls: true
+    ws-opts:
+      path: /Free-VPN-CF-Geo-Project/51.89.128.93=44004
+      headers:
+        Host: joss.dus.biz.id
+  - type: trojan
+    name: 🇵🇱_波兰
+    server: 45.144.48.158
+    port: 8443
+    password: 49d416e1-4cec-41e1-bff6-3748c466f275
+    network: ws
+    sni: joss.dus.biz.id
+    tls: true
+    ws-opts:
+      path: /Free-VPN-CF-Geo-Project/45.144.48.158=8443
+      headers:
+        Host: joss.dus.biz.id
+  - type: trojan
+    name: 🇷🇺_俄罗斯_1
+    server: 193.233.115.79
+    port: 8443
+    password: 0c7edd8f-96d8-4227-b086-1ffc3aeecc96
+    network: ws
+    sni: joss.dus.biz.id
+    tls: true
+    ws-opts:
+      path: /Free-VPN-CF-Geo-Project/193.233.115.79=8443
+      headers:
+        Host: joss.dus.biz.id
+  - type: trojan
+    name: 🇫🇷_法国_6
+    server: 51.38.226.4
+    port: 2053
+    password: 8bf6e7d7-23e8-4655-8f07-c3827e2d6ebf
+    network: ws
+    sni: joss.dus.biz.id
+    tls: true
+    ws-opts:
+      path: /Free-VPN-CF-Geo-Project/51.38.226.4=2053
+      headers:
+        Host: joss.dus.biz.id
+  - type: vmess
+    name: 未知_13
+    server: 141.101.121.120
+    port: 80
+    uuid: d967ffca-de90-4daa-bd00-d527e5bae11f
+    alterId: 0
+    network: ws
+    cipher: auto
+    servername: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.
+    ws-opts:
+      path: /?BIA_TELEGRAM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)
+      headers:
+        Host: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.
+  - type: vmess
+    name: 🇫🇷_法国_7
     server: 2001:bc8:32d7:302::10
     port: 44579
     uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
@@ -299,74 +462,145 @@ proxies:
     ws-opts:
       path: ?ed=2048
   - type: vmess
-    name: 🇭🇰_香港_4
-    server: n1744453320.lie5d.cyou
-    port: 443
-    uuid: 8889a08a-09f8-4c97-bed2-df31b62fcf23
+    name: 🇫🇷_法国_8
+    server: 2001:bc8:32d7:302::10
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
     alterId: 0
     network: ws
     cipher: auto
-    servername: n1744453320.lie5d.cyou
+    ws-opts:
+      path: /?ed=2048
+  - type: vmess
+    name: 🇭🇰_香港_9
+    server: 219.76.13.166
+    port: 443
+    uuid: ffde381b-4a30-41d4-90eb-151f228b06ea
+    alterId: 0
+    network: ws
+    cipher: auto
+    ws-opts:
+      path: /qq
+    tls: true
+  - type: trojan
+    name: 🇫🇷_法国_9
+    server: 51.38.226.4
+    port: 2053
+    password: 8bf6e7d7-23e8-4655-8f07-c3827e2d6ebf
+    network: ws
+    sni: joss.dus.biz.id
+    skip-cert-verify: true
+    tls: true
     ws-opts:
       path: /
       headers:
-        Host: n1744453320.lie5d.cyou
+        Host: joss.dus.biz.id
+  - type: trojan
+    name: 🇬🇧_英国_5
+    server: 51.89.128.93
+    port: 44004
+    password: 6b5b50ff-7798-40dc-9888-b4dd581e5435
+    network: ws
+    sni: joss.dus.biz.id
+    skip-cert-verify: true
     tls: true
+    ws-opts:
+      path: /
+      headers:
+        Host: joss.dus.biz.id
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇰🇷_韩国
       - 🇭🇰_香港
+      - 🇭🇰_香港_1
+      - 🇭🇰_香港_2
+      - 🇭🇰_香港_3
+      - 🇧🇩_孟加拉国
+      - 🇭🇰_香港_4
+      - 🇧🇩_孟加拉国_1
+      - 🇰🇷_韩国
+      - 🇭🇰_香港_5
       - 🇸🇬_新加坡
       - 🇨🇳_中国
-      - 🇭🇰_香港_1
-      - 🇨🇳_中国_1
-      - 🇭🇰_香港_3
-      - 🇫🇷_法国
-      - 🇬🇧_英国
-      - 未知
-      - 🇬🇧_英国_1
+      - 🇭🇰_香港_6
+      - 🇭🇰_香港_7
+      - 🇭🇰_香港_8
+      - 🇰🇷_韩国_1
+      - 未知_8
+      - 未知_9
       - 🇸🇪_瑞典
+      - 🇨🇳_中国_1
+      - 🇬🇧_英国_2
+      - 🇺🇸_美国_2
+      - 🇫🇷_法国
       - 🇫🇷_法国_1
-      - 未知_2
-      - 🇸🇪_瑞典_1
-      - 🇸🇪_瑞典_2
-      - 🇺🇸_美国_3
+      - 🇷🇺_俄罗斯
+      - 🇫🇷_法国_2
+      - 🇫🇷_法国_3
       - 🇫🇷_法国_4
       - 🇫🇷_法国_5
+      - 🇸🇪_瑞典_1
+      - 🇳🇱_荷兰
+      - 🇸🇪_瑞典_2
+      - 🇮🇱_以色列
+      - 🇬🇧_英国_4
+      - 🇵🇱_波兰
+      - 🇷🇺_俄罗斯_1
       - 🇫🇷_法国_6
+      - 未知_13
       - 🇫🇷_法国_7
       - 🇫🇷_法国_8
-      - 🇭🇰_香港_4
+      - 🇭🇰_香港_9
+      - 🇫🇷_法国_9
+      - 🇬🇧_英国_5
   - name: ♻️ 自动选择
     type: url-test
     proxies:
-      - 🇰🇷_韩国
       - 🇭🇰_香港
+      - 🇭🇰_香港_1
+      - 🇭🇰_香港_2
+      - 🇭🇰_香港_3
+      - 🇧🇩_孟加拉国
+      - 🇭🇰_香港_4
+      - 🇧🇩_孟加拉国_1
+      - 🇰🇷_韩国
+      - 🇭🇰_香港_5
       - 🇸🇬_新加坡
       - 🇨🇳_中国
-      - 🇭🇰_香港_1
-      - 🇨🇳_中国_1
-      - 🇭🇰_香港_3
-      - 🇫🇷_法国
-      - 🇬🇧_英国
-      - 未知
-      - 🇬🇧_英国_1
+      - 🇭🇰_香港_6
+      - 🇭🇰_香港_7
+      - 🇭🇰_香港_8
+      - 🇰🇷_韩国_1
+      - 未知_8
+      - 未知_9
       - 🇸🇪_瑞典
+      - 🇨🇳_中国_1
+      - 🇬🇧_英国_2
+      - 🇺🇸_美国_2
+      - 🇫🇷_法国
       - 🇫🇷_法国_1
-      - 未知_2
-      - 🇸🇪_瑞典_1
-      - 🇸🇪_瑞典_2
-      - 🇺🇸_美国_3
+      - 🇷🇺_俄罗斯
+      - 🇫🇷_法国_2
+      - 🇫🇷_法国_3
       - 🇫🇷_法国_4
       - 🇫🇷_法国_5
+      - 🇸🇪_瑞典_1
+      - 🇳🇱_荷兰
+      - 🇸🇪_瑞典_2
+      - 🇮🇱_以色列
+      - 🇬🇧_英国_4
+      - 🇵🇱_波兰
+      - 🇷🇺_俄罗斯_1
       - 🇫🇷_法国_6
+      - 未知_13
       - 🇫🇷_法国_7
       - 🇫🇷_法国_8
-      - 🇭🇰_香港_4
+      - 🇭🇰_香港_9
+      - 🇫🇷_法国_9
+      - 🇬🇧_英国_5
     url: http://www.gstatic.com/generate_204
     interval: 300
   - name: 🎯 全球直连
@@ -386,29 +620,48 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇰🇷_韩国
       - 🇭🇰_香港
+      - 🇭🇰_香港_1
+      - 🇭🇰_香港_2
+      - 🇭🇰_香港_3
+      - 🇧🇩_孟加拉国
+      - 🇭🇰_香港_4
+      - 🇧🇩_孟加拉国_1
+      - 🇰🇷_韩国
+      - 🇭🇰_香港_5
       - 🇸🇬_新加坡
       - 🇨🇳_中国
-      - 🇭🇰_香港_1
-      - 🇨🇳_中国_1
-      - 🇭🇰_香港_3
-      - 🇫🇷_法国
-      - 🇬🇧_英国
-      - 未知
-      - 🇬🇧_英国_1
+      - 🇭🇰_香港_6
+      - 🇭🇰_香港_7
+      - 🇭🇰_香港_8
+      - 🇰🇷_韩国_1
+      - 未知_8
+      - 未知_9
       - 🇸🇪_瑞典
+      - 🇨🇳_中国_1
+      - 🇬🇧_英国_2
+      - 🇺🇸_美国_2
+      - 🇫🇷_法国
       - 🇫🇷_法国_1
-      - 未知_2
-      - 🇸🇪_瑞典_1
-      - 🇸🇪_瑞典_2
-      - 🇺🇸_美国_3
+      - 🇷🇺_俄罗斯
+      - 🇫🇷_法国_2
+      - 🇫🇷_法国_3
       - 🇫🇷_法国_4
       - 🇫🇷_法国_5
+      - 🇸🇪_瑞典_1
+      - 🇳🇱_荷兰
+      - 🇸🇪_瑞典_2
+      - 🇮🇱_以色列
+      - 🇬🇧_英国_4
+      - 🇵🇱_波兰
+      - 🇷🇺_俄罗斯_1
       - 🇫🇷_法国_6
+      - 未知_13
       - 🇫🇷_法国_7
       - 🇫🇷_法国_8
-      - 🇭🇰_香港_4
+      - 🇭🇰_香港_9
+      - 🇫🇷_法国_9
+      - 🇬🇧_英国_5
 rule-providers:
   LocalAreaNetwork:
     type: http
