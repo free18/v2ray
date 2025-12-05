@@ -81,24 +81,17 @@ clash订阅(自建节点)：https://suo.st/22Oq24b
 
 使用方法：复制到电报，点发送，再点开
 
-+ https://t.me/proxy?server=120.241.144.251&port=50567&secret=ee8514db93adcedc8275d53629f17fdeca617a7572652e6d6963726f736f66742e636f6d
-+ https://t.me/proxy?server=120.241.144.251&port=44575&secret=ee9bb399ec4093e8a44def62279637224c617a7572652e6d6963726f736f66742e636f6d
-+ https://t.me/proxy?server=120.241.144.251&port=50542&secret=ee9bb399ec4093e8a44def62279637224c617a7572652e6d6963726f736f66742e636f6d
-+ https://t.me/proxy?server=120.241.144.251&port=31919&secret=ee3a3b5e5570e8ef104cb012a31100d8e2617a7572652e6d6963726f736f66742e636f6d
-+ https://t.me/proxy?server=120.241.144.251&port=19655&secret=ee2b2e4abe28ef391379615e549b4e9ac4617a7572652e6d6963726f736f66742e636f6d
-+ https://t.me/proxy?server=120.241.144.156&port=49401&secret=ee5a1058f56c9bfe3a57b23b5a072dd976617a7572652e6d6963726f736f66742e636f6d
-+ https://t.me/proxy?server=120.241.144.156&port=49363&secret=ee5a1058f56c9bfe3a57b23b5a072dd976617a7572652e6d6963726f736f66742e636f6d
-+ https://t.me/proxy?server=120.241.144.156&port=34485&secret=ee3a6a57a61ad834e327765f6806f00765617a7572652e6d6963726f736f66742e636f6d
-+ https://t.me/proxy?server=120.241.144.156&port=25921&secret=eee54c58e329588ff421160199563adef7617a7572652e6d6963726f736f66742e636f6d
-+ https://t.me/proxy?server=120.241.144.156&port=47135&secret=eed8674e989d3ad6b6ee00303799abfbf1617a7572652e6d6963726f736f66742e636f6d
-+ https://t.me/proxy?server=120.241.144.156&port=44252&secret=eea9d3f7a570571c3479fc58d9e3162e7d617a7572652e6d6963726f736f66742e636f6d
-+ https://t.me/proxy?server=120.241.144.252&port=33940&secret=ee7f7989cc8ab007b5437da2841b6817b2617a7572652e6d6963726f736f66742e636f6d
-+ https://t.me/proxy?server=120.241.144.252&port=10575&secret=eedb2dcbee75faa6f5bf10dda691437828617a7572652e6d6963726f736f66742e636f6d
-+ https://t.me/proxy?server=120.241.144.252&port=52547&secret=ee93fc3075e0a58371e4647b8aa390ba76617a7572652e6d6963726f736f66742e636f6d
-+ https://t.me/proxy?server=120.241.144.252&port=46044&secret=ee79ecee69ff89b5fff284a16a5dd5456e617a7572652e6d6963726f736f66742e636f6d
-+ https://t.me/proxy?server=120.241.144.252&port=54138&secret=ee05a1c166daa5cf5766a580167dd998b4617a7572652e6d6963726f736f66742e636f6d
-+ https://t.me/proxy?server=120.241.144.252&port=50808&secret=ee05a1c166daa5cf5766a580167dd998b4617a7572652e6d6963726f736f66742e636f6d
-  
++ tg://proxy?server=hgwzcd.com&port=54947&secret=dd3d2b86826f267b5c28f2df4b6c7f39d6
++ tg://proxy?server=hgwzcd.com&port=56927&secret=dd44cbf9a70406065180ab8b6a2f3fb6a2
++ tg://proxy?server=hgwzcd.com&port=10668&secret=dd05a93f6c425557fa84f69d1aee68f9e6
++ tg://proxy?server=hgwzcd.com&port=22371&secret=dde549f5ed21014659bbe0157562467582
++ tg://proxy?server=hgwzcd.com&port=57293&secret=dd073dbbafc547e2e4d95c8f467143b740
++ tg://proxy?server=103.219.176.205&port=35066&secret=dd83752ef1e9dc66a49c00d7dfa9bbc319
++ tg://proxy?server=103.219.176.205&port=28346&secret=dd2dfd109c975df300491d5456d6483a5c
++ tg://proxy?server=103.219.176.205&port=22304&secret=dd9e96caeeab55fed2274aa3a4ba2a79cb
++ tg://proxy?server=103.219.176.205&port=53325&secret=dddce11973b270e5ed3a3ac19bcd17eaa9
++ tg://proxy?server=103.219.176.205&port=44612&secret=dd807a83ea7e24cc4483afa9226e894454
+
 ====================================================
 
 ## 国外信用卡（最便宜，无需实名）
