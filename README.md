@@ -81,16 +81,15 @@ clash订阅(自建节点)：https://suo.st/22Oq24b
 
 使用方法：复制到电报，点发送，再点开
 
-+ tg://proxy?server=hgwzcd.com&port=54947&secret=dd3d2b86826f267b5c28f2df4b6c7f39d6
-+ tg://proxy?server=hgwzcd.com&port=56927&secret=dd44cbf9a70406065180ab8b6a2f3fb6a2
-+ tg://proxy?server=hgwzcd.com&port=10668&secret=dd05a93f6c425557fa84f69d1aee68f9e6
-+ tg://proxy?server=hgwzcd.com&port=22371&secret=dde549f5ed21014659bbe0157562467582
-+ tg://proxy?server=hgwzcd.com&port=57293&secret=dd073dbbafc547e2e4d95c8f467143b740
-+ tg://proxy?server=103.219.176.205&port=35066&secret=dd83752ef1e9dc66a49c00d7dfa9bbc319
-+ tg://proxy?server=103.219.176.205&port=28346&secret=dd2dfd109c975df300491d5456d6483a5c
-+ tg://proxy?server=103.219.176.205&port=22304&secret=dd9e96caeeab55fed2274aa3a4ba2a79cb
-+ tg://proxy?server=103.219.176.205&port=53325&secret=dddce11973b270e5ed3a3ac19bcd17eaa9
-+ tg://proxy?server=103.219.176.205&port=44612&secret=dd807a83ea7e24cc4483afa9226e894454
++ tg://proxy?server=gaosuwang.icu&port=47828&secret=dd26051b99d2f0412f168df8265d42057d
+
++ tg://proxy?server=gaosuwang.icu&port=5314&secret=dd26051b99d2f0412f168df8265d42057d
+
++ tg://proxy?server=gaosuwang.icu&port=8215&secret=dd26051b99d2f0412f168df8265d42057d
+
++ tg://proxy?server=gaosuwang.icu&port=34147&secret=dd26051b99d2f0412f168df8265d42057d
+
++ tg://proxy?server=gaosuwang.icu&port=29127&secret=dd26051b99d2f0412f168df8265d42057d
 
 ====================================================
 
