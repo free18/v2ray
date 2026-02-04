@@ -1,7 +1,5 @@
 # [关注我，不迷路！](https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fw379740999)
 
-欢迎加入我的
-
 节点电报群：https://t.me/vvkj11
 
 安卓应用—-破解频道：https://t.me/vvkj1
