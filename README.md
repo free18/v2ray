@@ -1,5 +1,8 @@
 # [关注我，不迷路！](https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fw379740999)
 
+欢迎订阅我的YouTube频道（VV科技）：[点击订阅](https://www.youtube.com/channel/UCqdGfxwYKrllrHv_Bc-9vAw?sub_confirmation=1)
+(第一时间优先在youtube频道发布）
+
 节点电报群：https://t.me/vvkj11
 
 软件破解频道：https://t.me/vvkj1
@@ -7,9 +10,6 @@
 电报免费代理：https://t.me/v2ray3
 
 免费VPN：https://www.anyi555.com/?mid=1033
-
-欢迎订阅我的YouTube频道（VV科技）：[点击订阅](https://www.youtube.com/channel/UCqdGfxwYKrllrHv_Bc-9vAw?sub_confirmation=1)
-(第一时间优先在youtube频道发布）
 
 ## 安卓应用—-破解频道（欢迎大家加入）
 
