@@ -2,7 +2,7 @@
 
 节点电报群：https://t.me/vvkj11
 
-安卓应用—-破解频道：https://t.me/vvkj1
+软件破解频道：https://t.me/vvkj1
 
 电报免费代理：https://t.me/v2ray3
 
