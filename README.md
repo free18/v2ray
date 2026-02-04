@@ -11,15 +11,13 @@
 
 免费VPN：https://www.anyi555.com/?mid=1033
 
-## 安卓应用—-破解频道（欢迎大家加入）
-
-**频道：https://t.me/vvkj1**
-
 ====================================================
 
 ## 便宜机场推荐（速度快价格便宜）
 
 **【飞鸟云机场】优惠码：150m0Une** [点击注册](https://x2.344222.cc/#/register?code=150m0Une)
+
+**【红杏云机场】优惠码：hx2026** [点击注册](https://hongxingdl.com/web/#/login?code=cCDWstFY)
 
 **【😚乌龟加速😚新上线的中转机场】优惠码：VV888** [点击注册](http://wgjsq.net/#/login?code=VYpJWjFb)
 
@@ -50,7 +48,6 @@ trojan://Puj01Rc8UcA9IzcFcYOs8KMOhCz6aX2Q@mfyousheng.nl.eu.org:443?security=tls&
 vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIlRHLUB2dmtqMTEiLA0KICAiYWRkIjogIjEwOS4xMDQuMTUyLjIyMCIsDQogICJwb3J0IjogIjIzMDk5IiwNCiAgImlkIjogIjVlM2NlNmE3LTE3MGUtNDkzOS05YWFlLWM4ZmVmYjM1YTdlYSIsDQogICJhaWQiOiAiMCIsDQogICJzY3kiOiAiYXV0byIsDQogICJuZXQiOiAid3MiLA0KICAidHlwZSI6ICJub25lIiwNCiAgImhvc3QiOiAiIiwNCiAgInBhdGgiOiAiL0h6dU9paEI2LyIsDQogICJ0bHMiOiAiIiwNCiAgInNuaSI6ICIiLA0KICAiYWxwbiI6ICIiLA0KICAiZnAiOiAiIg0KfQ==
 trojan://Puj01Rc8UcA9IzcFcYOs8KMOhCz6aX2Q@mfyousheng.nl.eu.org:443?security=tls&type=ws&path=%2FtjwsLhx0SFASG4l9FERJ1g#TG-%40vvkj11
 ```
-clash订阅(自建节点)：https://suo.st/22Oq24b
 
 ====================================================
 
