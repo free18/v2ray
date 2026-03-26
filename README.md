@@ -60,7 +60,7 @@ trojan://Puj01Rc8UcA9IzcFcYOs8KMOhCz6aX2Q@mfyousheng.nl.eu.org:443?security=tls&
 通过任何途径获取的海外共享 iOS ID 账号，请仅在 App Store 中登录使用。禁止在 iOS 系统设置和iCloud中登录此类账号！若因操作不当导致设备被锁，我们概不负责。登陆时禁止绑定自己的手机号。安装好所需软件后请退出共享账户。
 
 + https://idshare001.me/chong.html
-
+  
 + https://ccbaohe.com/appleID/
 
 + https://id.jincaii.com
@@ -71,11 +71,23 @@ trojan://Puj01Rc8UcA9IzcFcYOs8KMOhCz6aX2Q@mfyousheng.nl.eu.org:443?security=tls&
 
 + https://free.iosapp.icu
 
-+ https://appleid.22ne.com/ https://ios.wwkejishe.top/ 
++ https://appleid.22ne.com/
 
-+ https://stymei.github.io/ https://id88888888.com/
++ https://ios.wwkejishe.top/ 
+
++ https://stymei.github.io/
+
++ https://id88888888.com/
 
 + https://www.lanhaiblog.com/post/3.html 
+
++ https://applc.cc/h/888 
+
++ https://vpnnew.net/article/freeAppleID/
+
++ https://www.ermao.net/blog/freeappleid 
+
++ https://free.338558.xyz/ 
 
 ====================================================
 
