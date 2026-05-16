@@ -97,15 +97,15 @@ trojan://Puj01Rc8UcA9IzcFcYOs8KMOhCz6aX2Q@mfyousheng.nl.eu.org:443?security=tls&
 
 使用方法：复制到电报，点发送，再点开
 
-+ tg://proxy?server=gaosuwang.icu&port=47828&secret=dd26051b99d2f0412f168df8265d42057d
++ tg://proxy?server=151.242.182.218&port=41520&secret=dd094b8c446b8366507735d6416a528fbf
 
-+ tg://proxy?server=gaosuwang.icu&port=5314&secret=dd26051b99d2f0412f168df8265d42057d
++ tg://proxy?server=151.242.182.218&port=17170&secret=dd917cf7e559d4106b558033920db4c019
+ 
++ tg://proxy?server=151.242.182.218&port=40018&secret=dd5252926cc667b40ad2272ddd706c7b34
 
-+ tg://proxy?server=gaosuwang.icu&port=8215&secret=dd26051b99d2f0412f168df8265d42057d
++ tg://proxy?server=151.242.182.218&port=24272&secret=dd34fe2b5a4dfdfd9f2e5cca9bd9b9e21f
 
-+ tg://proxy?server=gaosuwang.icu&port=34147&secret=dd26051b99d2f0412f168df8265d42057d
-
-+ tg://proxy?server=gaosuwang.icu&port=29127&secret=dd26051b99d2f0412f168df8265d42057d
++ tg://proxy?server=151.242.182.218&port=44599&secret=dd26a4980bc85d3145534341c3c76c3570 
 
 ====================================================
 
