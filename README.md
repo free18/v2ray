@@ -15,7 +15,7 @@
 
 ## 便宜机场推荐（速度快价格便宜）
 
-**【飞鸟云机场】优惠码：150m0Une** [点击注册](https://01.fnxx.cc/#/register?code=150m0Une)
+**【飞鸟云机场】优惠码：150m0Une** [点击注册](https://fn3.170809.xyz/#/register?code=150m0Une)
 
 **【红杏云机场】优惠码：hx2026** [点击注册](https://hongxingdl.com/web/#/login?code=cCDWstFY)
 
