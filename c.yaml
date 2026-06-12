@@ -18,168 +18,67 @@ dns:
     - https://doh.pub/dns-query
 proxies:
   - name: 每天更新，请加电报群防止失联
-    type: vmess
-    server: 82.198.246.250
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: 电报群：https://t.me/vvkj11
-    type: vmess
-    server: 82.198.246.250
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: 日期：06-11
-    type: vmess
-    server: 82.198.246.250
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: 免费VPN：https://tt.vg/OWeaF
-    type: vmess
-    server: 82.198.246.250
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: 英国
-    type: vmess
-    server: 82.198.246.250
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: 英国_1
-    type: vmess
-    server: 82.198.246.250
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: 英国_2
-    type: vmess
-    server: 82.198.246.214
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: 英国_3
-    type: vmess
-    server: 82.198.246.214
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: 英国_4
-    type: vmess
-    server: 82.198.246.214
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: 英国_5
-    type: vmess
-    server: 82.198.246.214
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: 英国_6
-    type: vmess
-    server: 82.198.246.214
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: 英国_7
-    type: vless
-    server: 1.sdwan.realm-sync.com
-    port: 5457
-    uuid: 8faf6e38-0531-4d63-91f0-2aba5b9ff864
-    servername: swcdn.apple.com
-    tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: 8Ct9wBZLha-ePZMWbSau9ViKgbwlCgEsbGMjNnoVDzw
-      short-id: 9da3779ceafd
-    skip-cert-verify: true
-    udp: true
-  - name: 英国_8
-    type: vless
-    server: 85.234.114.53
-    port: 443
-    uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
-    servername: r1.mizulina.top
-    tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: edge
-    skip-cert-verify: true
-    udp: true
-  - name: 英国_9
-    type: vless
-    server: 85.234.114.53
-    port: 22231
-    uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
-    servername: r1.mizulina.top
-    tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: edge
-    skip-cert-verify: true
-    udp: true
-  - name: 英国_10
-    type: vless
-    server: r1.mizulina.top
-    port: 22231
-    uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
-    servername: r1.mizulina.top
-    tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: edge
-    skip-cert-verify: true
-    udp: true
-  - name: 未知
     type: vless
     server: speedtest.net
     port: 80
     uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
     network: ws
+    servername: max-gb1.global.ssl.fastly.net
+    tls: false
+    ws-opts:
+      path: /
+      headers:
+        Host: max-gb1.global.ssl.fastly.net
+    skip-cert-verify: true
+    udp: true
+  - name: 电报群：https://t.me/vvkj11
+    type: vless
+    server: speedtest.net
+    port: 80
+    uuid: cabbfe13-038b-4dbb-9c45-5079c829abfa
+    network: ws
+    servername: max-gb1.global.ssl.fastly.net
+    tls: false
+    ws-opts:
+      path: /
+      headers:
+        Host: max-gb1.global.ssl.fastly.net
+    skip-cert-verify: true
+    udp: true
+  - name: 日期：06-12
+    type: vless
+    server: 199.232.197.131
+    port: 80
+    uuid: cabbfe13-038b-4dbb-9c45-5079c829abfa
+    network: ws
+    tls: false
+    ws-opts:
+      path: /
+      headers:
+        Host: max-gb1.global.ssl.fastly.net
+    skip-cert-verify: true
+    udp: true
+  - name: 免费VPN：https://tt.vg/OWeaF
+    type: vless
+    server: 151.101.0.1
+    port: 80
+    uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+    network: ws
+    servername: max-gb1.global.ssl.fastly.net
+    tls: false
+    ws-opts:
+      path: /
+      headers:
+        Host: max-gb1.global.ssl.fastly.net
+    skip-cert-verify: true
+    udp: true
+  - name: 未知
+    type: vless
+    server: 199.232.197.131
+    port: 80
+    uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+    network: ws
+    servername: max-gb1.global.ssl.fastly.net
     tls: false
     ws-opts:
       path: /
@@ -188,187 +87,26 @@ proxies:
     skip-cert-verify: true
     udp: true
   - name: 未知_1
-    type: trojan
-    server: 45.130.125.96
-    port: 443
-    password: humanity
-    sni: www.calmloud.com
-    skip-cert-verify: true
-    tls: true
+    type: vless
+    server: 167.82.0.1
+    port: 80
+    uuid: cabbfe13-038b-4dbb-9c45-5079c829abfa
+    network: ws
+    servername: max-gb1.global.ssl.fastly.net
+    tls: false
     ws-opts:
-      path: /assignment
+      path: /
       headers:
-        Host: www.calmloud.com
+        Host: max-gb1.global.ssl.fastly.net
+    skip-cert-verify: true
     udp: true
   - name: 未知_2
-    type: trojan
-    server: 104.20.6.134
-    port: 443
-    password: humanity
-    sni: www.calmloud.com
-    skip-cert-verify: true
-    tls: true
-    ws-opts:
-      path: /assignment
-      headers:
-        Host: www.calmloud.com
-    udp: true
-  - name: 日本
-    type: vmess
-    server: 2a02:6ea0:d32f::f8fe:349b
-    port: 24202
-    uuid: b20a7042-70ff-4376-a79f-b68f9edb7519
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /github.com/Alvin9999-newpac/fanqiang
-      headers:
-        Host: 2a02:6ea0:d32f::f8fe:349b
-    udp: true
-  - name: 日本_1
     type: vless
-    server: 1.sdwan.realm-sync.com
-    port: 5454
-    uuid: 8faf6e38-0531-4d63-91f0-2aba5b9ff864
-    servername: swcdn.apple.com
-    tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: 7Mb18pl7fH3NvhVevIVTgRdPlAorUucOWMlUaTrDV0o
-      short-id: 4265cc8365
-    skip-cert-verify: true
-    udp: true
-  - name: 日本_2
-    type: vless
-    server: 13.193.215.148
-    port: 57921
-    uuid: f4e306dd-7919-41a1-bc29-5a37408e92a6
-    servername: www.nvidia.com
-    tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: firefox
-    reality-opts:
-      public-key: MZUXW6zSUtYRBiP7Zu7v6A5AjhrbSgOOz731CJhE3EQ
-      short-id: 2c35f2ac05bf15a0
-    skip-cert-verify: true
-    udp: true
-  - name: 美国
-    type: vless
-    server: 151.101.194.219
-    port: 80
-    uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-    network: ws
-    tls: false
-    ws-opts:
-      path: /
-      headers:
-        Host: max-gb1.global.ssl.fastly.net
-    skip-cert-verify: true
-    udp: true
-  - name: 美国_1
-    type: vless
-    server: lt.hhhhh.eu.org
-    port: 443
-    uuid: c135158e-5869-4397-8116-6695ca18cd48
-    network: ws
-    servername: cf.hulume.ccwu.cc
-    tls: true
-    client-fingerprint: chrome
-    ws-opts:
-      path: /
-      headers:
-        Host: cf.hulume.ccwu.cc
-    skip-cert-verify: true
-    udp: true
-  - name: 美国_2
-    type: vless
-    server: lt.hhhhh.eu.org
-    port: 443
-    uuid: c135158e-5869-4397-8116-6695ca18cd48
-    network: ws
-    servername: cf.hulume.ccwu.cc
-    tls: true
-    ws-opts:
-      path: /
-      headers:
-        Host: cf.hulume.ccwu.cc
-    skip-cert-verify: true
-    udp: true
-  - name: 美国_3
-    type: trojan
-    server: 165.215.250.14
-    port: 443
-    password: humanity
-    sni: www.calmlunch.com
-    skip-cert-verify: true
-    tls: true
-    ws-opts:
-      path: /assignment
-      headers:
-        Host: www.calmlunch.com
-    udp: true
-  - name: 美国_4
-    type: trojan
-    server: 165.215.250.14
-    port: 443
-    password: humanity
-    sni: www.ignitelimit.com
-    skip-cert-verify: true
-    tls: true
-    ws-opts:
-      path: /assignment
-      headers:
-        Host: www.ignitelimit.com
-    udp: true
-  - name: 美国_5
-    type: trojan
-    server: 165.215.250.14
-    port: 443
-    password: humanity
-    sni: www.creationlong.org
-    skip-cert-verify: true
-    tls: true
-    ws-opts:
-      path: /assignment
-      headers:
-        Host: www.creationlong.org
-    udp: true
-  - name: 美国_6
-    type: vless
-    server: 31.185.108.30
-    port: 8880
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    network: ws
-    tls: false
-    ws-opts:
-      path: /
-      headers:
-        Host: vms.lifetime23.workers.dev
-    skip-cert-verify: true
-    udp: true
-  - name: 美国_7
-    type: vless
-    server: 141.193.213.30
-    port: 443
-    uuid: fc965ad9-bdd7-4815-ad71-b39ec5972dc1
-    network: ws
-    servername: octopusss4.com
-    tls: true
-    client-fingerprint: chrome
-    ws-opts:
-      path: /tsghdws
-    skip-cert-verify: true
-    udp: true
-  - name: 美国_8
-    type: vless
-    server: speedtest.net
+    server: 151.101.2.219
     port: 80
     uuid: cabbfe13-038b-4dbb-9c45-5079c829abfa
     network: ws
+    servername: max-gb1.global.ssl.fastly.net
     tls: false
     ws-opts:
       path: /
@@ -376,7 +114,7 @@ proxies:
         Host: max-gb1.global.ssl.fastly.net
     skip-cert-verify: true
     udp: true
-  - name: 美国_9
+  - name: 未知_3
     type: vless
     server: 151.101.0.1
     port: 80
@@ -389,889 +127,110 @@ proxies:
         Host: max-gb1.global.ssl.fastly.net
     skip-cert-verify: true
     udp: true
-  - name: 美国_10
-    type: trojan
-    server: 11u8k6n04q3y4ajoai.lovebaipiao.net
-    port: 443
-    password: 497dae1f-6db8-4c35-957f-ceb8c1500909
-    sni: 11u8k6n04q3y4ajoai.lovebaipiao.net
-    skip-cert-verify: true
-    tls: true
-    ws-opts:
-      path: /89a0z7oqmwpkfhp4/mmq32sjmt37omy2b
-      headers:
-        Host: baidu.com
-    udp: true
-  - name: 美国_11
+  - name: 未知_4
     type: vless
-    server: 89.116.46.8
+    server: 199.232.78.159
     port: 443
-    uuid: fc965ad9-bdd7-4815-ad71-b39ec5972dc1
+    uuid: bd6f4e13-80fd-4dd6-8de8-21f23f8c4cdf
     network: ws
-    servername: octopusss4.com
+    servername: default.ssl.fastly.net
     tls: true
     ws-opts:
-      path: /tsghdws
+      path: /
+      headers:
+        Host: pan1.global.ssl.fastly.net
     skip-cert-verify: true
     udp: true
-  - name: 美国_12
+  - name: 奥地利
     type: trojan
-    server: 188.253.12.99
-    port: 46424
-    password: 4f4d1167-ef14-4304-9bce-0740472503ef
-    sni: de.01.naiun.bilibili.com
-    skip-cert-verify: true
-    tls: true
-    udp: true
-  - name: 美国_13
-    type: vless
-    server: r1.mizulina.top
-    port: 22231
-    uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
-    tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    skip-cert-verify: true
-    udp: true
-  - name: 美国_14
-    type: vless
-    server: 85.234.114.53
-    port: 22231
-    uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
-    servername: r1.mizulina.top
-    tls: true
-    client-fingerprint: edge
-    skip-cert-verify: true
-    udp: true
-  - name: 美国_15
-    type: trojan
-    server: 188.253.12.99
-    port: 45553
-    password: 4f4d1167-ef14-4304-9bce-0740472503ef
-    sni: ch.01.naiun.bilibili.com
-    skip-cert-verify: true
-    tls: true
-    udp: true
-  - name: 美国_16
-    type: trojan
-    server: 188.253.12.94
-    port: 45553
-    password: 4f4d1167-ef14-4304-9bce-0740472503ef
-    sni: ch.01.naiun.bilibili.com
-    skip-cert-verify: true
-    tls: true
-    udp: true
-  - name: 美国_17
-    type: vless
-    server: 85.234.114.53
+    server: 185.126.236.44
     port: 443
-    uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
-    servername: r1.mizulina.top
-    tls: true
-    flow: xtls-rprx-vision
+    password: BSs5IAVMQdYuykvDsOYZoa6gNPSGBjAbLL
+    sni: www.mesaly.click
     skip-cert-verify: true
+    tls: true
     udp: true
-  - name: 美国_18
+  - name: 奥地利_1
     type: vless
-    server: 85.234.114.53
-    port: 22231
-    uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
-    servername: r1.mizulina.top
-    tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    skip-cert-verify: true
-    udp: true
-  - name: 美国_19
-    type: trojan
-    server: 188.253.12.92
-    port: 41943
-    password: 4f4d1167-ef14-4304-9bce-0740472503ef
-    sni: az.01.naiun.bilibili.com
-    skip-cert-verify: true
-    tls: true
-    udp: true
-  - name: 美国_20
-    type: trojan
-    server: 188.253.12.98
-    port: 47909
-    password: 4f4d1167-ef14-4304-9bce-0740472503ef
-    sni: is.01.naiun.bilibili.com
-    skip-cert-verify: true
-    tls: true
-    udp: true
-  - name: 美国_21
-    type: trojan
-    server: 188.253.12.99
-    port: 45619
-    password: 4f4d1167-ef14-4304-9bce-0740472503ef
-    sni: fr.01.naiun.bilibili.com
-    skip-cert-verify: true
-    tls: true
-    udp: true
-  - name: 美国_22
-    type: vless
-    server: 85.234.114.53
-    port: 443
-    uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
-    servername: r1.mizulina.top
-    tls: true
-    client-fingerprint: edge
-    skip-cert-verify: true
-    udp: true
-  - name: 美国_23
-    type: trojan
-    server: 188.253.12.94
-    port: 48697
-    password: 4f4d1167-ef14-4304-9bce-0740472503ef
-    sni: gh.01.naiun.bilibili.com
-    skip-cert-verify: true
-    tls: true
-    udp: true
-  - name: 美国_24
-    type: trojan
-    server: 188.253.12.93
-    port: 41943
-    password: 4f4d1167-ef14-4304-9bce-0740472503ef
-    sni: az.01.naiun.bilibili.com
-    skip-cert-verify: true
-    tls: true
-    udp: true
-  - name: 美国_25
-    type: vless
-    server: r1.mizulina.top
-    port: 22231
-    uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
-    tls: true
-    flow: xtls-rprx-vision
-    skip-cert-verify: true
-    udp: true
-  - name: 美国_26
-    type: vless
-    server: 85.234.114.53
-    port: 22231
-    uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
-    servername: r1.mizulina.top
-    tls: true
-    client-fingerprint: chrome
-    skip-cert-verify: true
-    udp: true
-  - name: 美国_27
-    type: trojan
-    server: 188.253.12.94
-    port: 47909
-    password: 4f4d1167-ef14-4304-9bce-0740472503ef
-    sni: is.01.naiun.bilibili.com
-    skip-cert-verify: true
-    tls: true
-    udp: true
-  - name: 美国_28
-    type: trojan
-    server: 188.253.12.99
-    port: 41943
-    password: 4f4d1167-ef14-4304-9bce-0740472503ef
-    sni: az.01.naiun.bilibili.com
-    skip-cert-verify: true
-    tls: true
-    udp: true
-  - name: 美国_29
-    type: trojan
-    server: 188.253.12.93
-    port: 47909
-    password: 4f4d1167-ef14-4304-9bce-0740472503ef
-    sni: is.01.naiun.bilibili.com
-    skip-cert-verify: true
-    tls: true
-    udp: true
-  - name: 美国_30
-    type: trojan
-    server: 188.253.12.99
-    port: 47909
-    password: 4f4d1167-ef14-4304-9bce-0740472503ef
-    sni: is.01.naiun.bilibili.com
-    skip-cert-verify: true
-    tls: true
-    udp: true
-  - name: 美国_31
-    type: trojan
-    server: 188.253.12.92
-    port: 45619
-    password: 4f4d1167-ef14-4304-9bce-0740472503ef
-    sni: fr.01.naiun.bilibili.com
-    skip-cert-verify: true
-    tls: true
-    udp: true
-  - name: 美国_32
-    type: vless
-    server: 85.234.114.53
-    port: 443
-    uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
-    servername: r1.mizulina.top
-    tls: true
-    skip-cert-verify: true
-    udp: true
-  - name: 美国_33
-    type: vless
-    server: r1.mizulina.top
-    port: 22231
-    uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
-    servername: r1.mizulina.top
-    tls: true
-    skip-cert-verify: true
-    udp: true
-  - name: 美国_34
-    type: trojan
-    server: 188.253.12.94
-    port: 41943
-    password: 4f4d1167-ef14-4304-9bce-0740472503ef
-    sni: az.01.naiun.bilibili.com
-    skip-cert-verify: true
-    tls: true
-    udp: true
-  - name: 美国_35
-    type: trojan
-    server: 188.253.12.98
-    port: 45619
-    password: 4f4d1167-ef14-4304-9bce-0740472503ef
-    sni: fr.01.naiun.bilibili.com
-    skip-cert-verify: true
-    tls: true
-    udp: true
-  - name: 美国_36
-    type: trojan
-    server: 188.253.12.93
-    port: 45553
-    password: 4f4d1167-ef14-4304-9bce-0740472503ef
-    sni: ch.01.naiun.bilibili.com
-    skip-cert-verify: true
-    tls: true
-    udp: true
-  - name: 美国_37
-    type: trojan
-    server: 188.253.12.93
-    port: 48697
-    password: 4f4d1167-ef14-4304-9bce-0740472503ef
-    sni: gh.01.naiun.bilibili.com
-    skip-cert-verify: true
-    tls: true
-    udp: true
-  - name: 美国_38
-    type: trojan
-    server: 188.253.12.98
-    port: 41943
-    password: 4f4d1167-ef14-4304-9bce-0740472503ef
-    sni: az.01.naiun.bilibili.com
-    skip-cert-verify: true
-    tls: true
-    udp: true
-  - name: 美国_39
-    type: vless
-    server: 85.234.114.53
-    port: 443
-    uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
-    servername: r1.mizulina.top
-    tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    skip-cert-verify: true
-    udp: true
-  - name: 美国_40
-    type: trojan
-    server: 188.253.12.93
-    port: 45619
-    password: 4f4d1167-ef14-4304-9bce-0740472503ef
-    sni: fr.01.naiun.bilibili.com
-    skip-cert-verify: true
-    tls: true
-    udp: true
-  - name: 美国_41
-    type: vless
-    server: r1.mizulina.top
-    port: 22231
-    uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
-    servername: r1.mizulina.top
-    tls: true
-    client-fingerprint: chrome
-    skip-cert-verify: true
-    udp: true
-  - name: 美国_42
-    type: vless
-    server: 85.234.114.53
-    port: 22231
-    uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
-    servername: r1.mizulina.top
-    tls: true
-    skip-cert-verify: true
-    udp: true
-  - name: 美国_43
-    type: vless
-    server: 34.222.27.94
-    port: 42824
-    uuid: 52a8ef22-2670-4119-8623-98c0baa7ae74
-    servername: www.nvidia.com
-    tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: firefox
-    reality-opts:
-      public-key: dgRCtQunFv3gRWN29nDbzyGVzXTWuMUa0bvWZxq0B3o
-      short-id: 66a5ca7fd2bca7da
-    skip-cert-verify: true
-    udp: true
-  - name: 美国_44
-    type: vless
-    server: 34.222.27.94
-    port: 42824
-    uuid: 52a8ef22-2670-4119-8623-98c0baa7ae74
-    servername: www.nvidia.com
+    server: bc-at-ph.ray-balance.space
+    port: 10443
+    uuid: f6431ff1-dec0-4a6c-be4a-ce917913b589
+    servername: www.cloudflare.com
     tls: true
     flow: xtls-rprx-vision
     client-fingerprint: chrome
     reality-opts:
-      public-key: dgRCtQunFv3gRWN29nDbzyGVzXTWuMUa0bvWZxq0B3o
-      short-id: 66a5ca7fd2bca7da
+      public-key: WeShDM0MdunM6N8btrY8tXlL0GT1Ah-0jcplNQf9FEo
     skip-cert-verify: true
     udp: true
-  - name: 美国_45
+  - name: 澳大利亚
     type: vless
-    server: newyorkcity.instasup.ir
-    port: 1004
-    uuid: ad356e93-cc14-417d-9f4e-32376d03f5b7
+    server: 16.176.5.2
+    port: 58981
+    uuid: 649dcb36-db0c-41b0-ad50-26ec755bee55
     servername: yahoo.com
     tls: true
+    flow: xtls-rprx-vision
     client-fingerprint: firefox
     reality-opts:
-      public-key: 437UW8qHz_L4qlOZ_AgufdsA9me_uS5MWM-eptxM3w4
-      short-id: 998ad2ef2d977802
+      public-key: 4pGooKDmjXPxY0u7IJoYAfj6fw2sf6Tbhi_tW0n34zw
+      short-id: 4333dc36
     skip-cert-verify: true
     udp: true
-  - name: 美国_46
-    type: vless
-    server: 147.90.234.202
-    port: 27758
-    uuid: 497dae1f-6db8-4c35-957f-ceb8c1500909
-    servername: www.fourplex.net
-    tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: safari
-    reality-opts:
-      public-key: xU0H8062b3J3Zh1LpRB2Fyi1fYYRzu3tdGT_CzZolBo
-      short-id: cec1595d
-    skip-cert-verify: true
-    udp: true
-  - name: 美国_47
-    type: vless
-    server: 147.90.234.200
+  - name: 波兰
+    type: trojan
+    server: 64.176.65.85
     port: 443
-    uuid: 497dae1f-6db8-4c35-957f-ceb8c1500909
-    servername: www.lamer.com.hk
-    tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: ios
-    reality-opts:
-      public-key: h7zG7IJbN9NcuazkYc7abwjJo-j-uzqgOgsl4yIbO3g
-      short-id: cfad6c4b
+    password: iGccGWTMHtoXtBhGYK4mogg7iIUhGbcvCf
+    sni: 64.176.65.85
     skip-cert-verify: true
+    tls: true
     udp: true
-  - name: 美国_48
+  - name: 波兰_1
     type: trojan
-    server: 90081bb25c.node.tro.cac.cab
-    port: 45553
-    password: 4f4d1167-ef14-4304-9bce-0740472503ef
-    sni: ch.01.naiun.bilibili.com
-    skip-cert-verify: true
-    tls: true
-    udp: true
-  - name: 美国_49
-    type: trojan
-    server: 90081bb25c.node.tro.cac.cab
-    port: 47909
-    password: 4f4d1167-ef14-4304-9bce-0740472503ef
-    sni: is.01.naiun.bilibili.com
-    skip-cert-verify: true
-    tls: true
-    udp: true
-  - name: 美国_50
-    type: trojan
-    server: 155.117.198.89
-    port: 45619
-    password: 4f4d1167-ef14-4304-9bce-0740472503ef
-    sni: fr.01.naiun.bilibili.com
-    skip-cert-verify: true
-    tls: true
-    udp: true
-  - name: 美国_51
-    type: trojan
-    server: 90081bb25c.node.tro.cac.cab
-    port: 48697
-    password: 4f4d1167-ef14-4304-9bce-0740472503ef
-    sni: gh.01.naiun.bilibili.com
-    skip-cert-verify: true
-    tls: true
-    udp: true
-  - name: 美国_52
-    type: trojan
-    server: 155.117.198.89
-    port: 48697
-    password: 4f4d1167-ef14-4304-9bce-0740472503ef
-    sni: gh.01.naiun.bilibili.com
-    skip-cert-verify: true
-    tls: true
-    udp: true
-  - name: 美国_53
-    type: trojan
-    server: 155.117.198.84
-    port: 46424
-    password: 4f4d1167-ef14-4304-9bce-0740472503ef
-    sni: de.01.naiun.bilibili.com
-    skip-cert-verify: true
-    tls: true
-    udp: true
-  - name: 美国_54
-    type: trojan
-    server: 155.117.198.89
-    port: 45553
-    password: 4f4d1167-ef14-4304-9bce-0740472503ef
-    sni: ch.01.naiun.bilibili.com
-    skip-cert-verify: true
-    tls: true
-    udp: true
-  - name: 美国_55
-    type: trojan
-    server: 155.117.198.84
-    port: 48697
-    password: 4f4d1167-ef14-4304-9bce-0740472503ef
-    sni: gh.01.naiun.bilibili.com
-    skip-cert-verify: true
-    tls: true
-    udp: true
-  - name: 美国_56
-    type: trojan
-    server: 155.117.198.85
-    port: 46424
-    password: 4f4d1167-ef14-4304-9bce-0740472503ef
-    sni: de.01.naiun.bilibili.com
-    skip-cert-verify: true
-    tls: true
-    udp: true
-  - name: 美国_57
-    type: trojan
-    server: 90081bb25c.node.tro.cac.cab
-    port: 41943
-    password: 4f4d1167-ef14-4304-9bce-0740472503ef
-    sni: az.01.naiun.bilibili.com
-    skip-cert-verify: true
-    tls: true
-    udp: true
-  - name: 美国_58
-    type: trojan
-    server: 155.117.198.84
-    port: 47909
-    password: 4f4d1167-ef14-4304-9bce-0740472503ef
-    sni: is.01.naiun.bilibili.com
-    skip-cert-verify: true
-    tls: true
-    udp: true
-  - name: 美国_59
-    type: trojan
-    server: 90081bb25c.node.tro.cac.cab
-    port: 46424
-    password: 4f4d1167-ef14-4304-9bce-0740472503ef
-    sni: de.01.naiun.bilibili.com
-    skip-cert-verify: true
-    tls: true
-    udp: true
-  - name: 美国_60
-    type: trojan
-    server: 155.117.198.3
-    port: 47909
-    password: 4f4d1167-ef14-4304-9bce-0740472503ef
-    sni: is.01.naiun.bilibili.com
-    skip-cert-verify: true
-    tls: true
-    udp: true
-  - name: 美国_61
-    type: trojan
-    server: 155.117.198.85
-    port: 41943
-    password: 4f4d1167-ef14-4304-9bce-0740472503ef
-    sni: az.01.naiun.bilibili.com
-    skip-cert-verify: true
-    tls: true
-    udp: true
-  - name: 美国_62
-    type: trojan
-    server: 155.117.198.89
-    port: 41943
-    password: 4f4d1167-ef14-4304-9bce-0740472503ef
-    sni: az.01.naiun.bilibili.com
-    skip-cert-verify: true
-    tls: true
-    udp: true
-  - name: 美国_63
-    type: trojan
-    server: 155.117.198.85
-    port: 47909
-    password: 4f4d1167-ef14-4304-9bce-0740472503ef
-    sni: is.01.naiun.bilibili.com
-    skip-cert-verify: true
-    tls: true
-    udp: true
-  - name: 美国_64
-    type: trojan
-    server: 155.117.198.3
-    port: 45619
-    password: 4f4d1167-ef14-4304-9bce-0740472503ef
-    sni: fr.01.naiun.bilibili.com
-    skip-cert-verify: true
-    tls: true
-    udp: true
-  - name: 美国_65
-    type: trojan
-    server: 155.117.198.89
-    port: 47909
-    password: 4f4d1167-ef14-4304-9bce-0740472503ef
-    sni: is.01.naiun.bilibili.com
-    skip-cert-verify: true
-    tls: true
-    udp: true
-  - name: 美国_66
-    type: trojan
-    server: 155.117.198.84
-    port: 45553
-    password: 4f4d1167-ef14-4304-9bce-0740472503ef
-    sni: ch.01.naiun.bilibili.com
-    skip-cert-verify: true
-    tls: true
-    udp: true
-  - name: 美国_67
-    type: trojan
-    server: 155.117.198.85
-    port: 45553
-    password: 4f4d1167-ef14-4304-9bce-0740472503ef
-    sni: ch.01.naiun.bilibili.com
-    skip-cert-verify: true
-    tls: true
-    udp: true
-  - name: 美国_68
-    type: trojan
-    server: 103.177.136.43
-    port: 47909
-    password: 4f4d1167-ef14-4304-9bce-0740472503ef
-    sni: is.01.naiun.bilibili.com
-    skip-cert-verify: true
-    tls: true
-    udp: true
-  - name: 美国_69
-    type: trojan
-    server: 103.177.136.42
-    port: 46424
-    password: 4f4d1167-ef14-4304-9bce-0740472503ef
-    sni: de.01.naiun.bilibili.com
-    skip-cert-verify: true
-    tls: true
-    udp: true
-  - name: 美国_70
-    type: trojan
-    server: 103.177.136.44
-    port: 45553
-    password: 4f4d1167-ef14-4304-9bce-0740472503ef
-    sni: ch.01.naiun.bilibili.com
-    skip-cert-verify: true
-    tls: true
-    udp: true
-  - name: 美国_71
-    type: trojan
-    server: 103.177.136.44
-    port: 46424
-    password: 4f4d1167-ef14-4304-9bce-0740472503ef
-    sni: de.01.naiun.bilibili.com
-    skip-cert-verify: true
-    tls: true
-    udp: true
-  - name: 美国_72
-    type: trojan
-    server: 103.177.136.44
-    port: 47909
-    password: 4f4d1167-ef14-4304-9bce-0740472503ef
-    sni: is.01.naiun.bilibili.com
-    skip-cert-verify: true
-    tls: true
-    udp: true
-  - name: 美国_73
-    type: trojan
-    server: 103.177.136.42
-    port: 47909
-    password: 4f4d1167-ef14-4304-9bce-0740472503ef
-    sni: is.01.naiun.bilibili.com
-    skip-cert-verify: true
-    tls: true
-    udp: true
-  - name: 美国_74
-    type: trojan
-    server: 103.177.136.45
-    port: 47909
-    password: 4f4d1167-ef14-4304-9bce-0740472503ef
-    sni: is.01.naiun.bilibili.com
-    skip-cert-verify: true
-    tls: true
-    udp: true
-  - name: 美国_75
-    type: trojan
-    server: 103.177.136.44
-    port: 41943
-    password: 4f4d1167-ef14-4304-9bce-0740472503ef
-    sni: az.01.naiun.bilibili.com
-    skip-cert-verify: true
-    tls: true
-    udp: true
-  - name: 美国_76
-    type: trojan
-    server: 103.177.136.42
-    port: 45619
-    password: 4f4d1167-ef14-4304-9bce-0740472503ef
-    sni: fr.01.naiun.bilibili.com
-    skip-cert-verify: true
-    tls: true
-    udp: true
-  - name: 美国_77
-    type: trojan
-    server: 103.177.136.43
-    port: 46424
-    password: 4f4d1167-ef14-4304-9bce-0740472503ef
-    sni: de.01.naiun.bilibili.com
-    skip-cert-verify: true
-    tls: true
-    udp: true
-  - name: 加拿大
-    type: vless
-    server: 151.101.66.219
-    port: 80
-    uuid: cabbfe13-038b-4dbb-9c45-5079c829abfa
-    network: ws
-    tls: false
-    ws-opts:
-      path: /
-      headers:
-        Host: max-gb1.global.ssl.fastly.net
-    skip-cert-verify: true
-    udp: true
-  - name: 加拿大_1
-    type: vless
-    server: 151.101.130.219
-    port: 80
-    uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-    network: ws
-    tls: false
-    ws-opts:
-      path: /
-      headers:
-        Host: max-gb1.global.ssl.fastly.net
-    skip-cert-verify: true
-    udp: true
-  - name: 加拿大_2
-    type: vless
-    server: 151.101.0.1
-    port: 80
-    uuid: cabbfe13-038b-4dbb-9c45-5079c829abfa
-    network: ws
-    tls: false
-    ws-opts:
-      path: /
-      headers:
-        Host: max-gb1.global.ssl.fastly.net
-    skip-cert-verify: true
-    udp: true
-  - name: 加拿大_3
-    type: vless
-    server: 199.232.197.131
-    port: 80
-    uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-    network: ws
-    tls: false
-    ws-opts:
-      path: /
-      headers:
-        Host: max-gb1.global.ssl.fastly.net
-    skip-cert-verify: true
-    udp: true
-  - name: 加拿大_4
-    type: vless
-    server: ip.feywebsite.ir
-    port: 2096
-    uuid: ad356e93-cc14-417d-9f4e-32376d03f5b7
-    network: ws
-    servername: 07e357aa7e747ca4.hOzHeEn.Ir
-    tls: true
-    ws-opts:
-      path: /ws
-      headers:
-        Host: greattehran.hozheen.ir
-    skip-cert-verify: true
-    udp: true
-  - name: 加拿大_5
-    type: vless
-    server: 104.20.6.134
-    port: 2096
-    uuid: ad356e93-cc14-417d-9f4e-32376d03f5b7
-    network: ws
-    servername: 4dcb0d80784f3081.hozheen.ir
-    tls: true
-    ws-opts:
-      path: /ws
-      headers:
-        Host: newgen14.hozheen.ir
-    skip-cert-verify: true
-    udp: true
-  - name: 法国
-    type: vmess
-    server: 172.67.187.219
-    port: 80
-    uuid: 65b17c0b-0a52-4b54-9bc9-60e31397b841
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /65b17c0b-0a52-4b54-9bc9-60e31397b841-vmess
-      headers:
-        Host: accklsj.bufu.us.ci
-    udp: true
-  - name: 法国_1
-    type: trojan
-    server: 46.29.142.57
-    port: 4443
-    password: 0ldyjdhd-vpnjantit.com
-    sni: hu2.vpnjantit.com
-    skip-cert-verify: true
-    tls: true
-    udp: true
-  - name: 法国_2
-    type: trojan
-    server: 90081bb25c.node.tro.cac.cab
-    port: 45619
-    password: 4f4d1167-ef14-4304-9bce-0740472503ef
-    sni: fr.01.naiun.bilibili.com
-    skip-cert-verify: true
-    tls: true
-    udp: true
-  - name: 俄罗斯
-    type: vless
-    server: r1.mizulina.top
-    port: 22231
-    uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
-    servername: r1.mizulina.top
-    tls: true
-    flow: xtls-rprx-vision
-    skip-cert-verify: true
-    udp: true
-  - name: 俄罗斯_1
-    type: vless
-    server: 85.234.114.53
+    server: 64.176.65.85
     port: 443
-    uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
-    servername: r1.mizulina.top
-    tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
+    password: iGccGWTMHtoXtBhGYK4mogg7iIUhGbcvCf
     skip-cert-verify: true
-    udp: true
-  - name: 俄罗斯_2
-    type: vless
-    server: r1.mizulina.top
-    port: 22231
-    uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
-    servername: r1.mizulina.top
     tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    skip-cert-verify: true
-    udp: true
-  - name: 俄罗斯_3
-    type: vless
-    server: 85.234.114.53
-    port: 22231
-    uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
-    servername: r1.mizulina.top
-    tls: true
-    flow: xtls-rprx-vision
-    skip-cert-verify: true
-    udp: true
-  - name: 俄罗斯_4
-    type: vless
-    server: r1.mizulina.top
-    port: 22231
-    uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
-    servername: r1.mizulina.top
-    tls: true
-    client-fingerprint: edge
-    skip-cert-verify: true
-    udp: true
-  - name: 俄罗斯_5
-    type: vless
-    server: r1.mizulina.top
-    port: 22231
-    uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
-    servername: r1.mizulina.top
-    tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: edge
-    skip-cert-verify: true
-    udp: true
-  - name: 俄罗斯_6
-    type: vless
-    server: r1.mizulina.top
-    port: 22231
-    uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
-    servername: r1.mizulina.top
-    tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    skip-cert-verify: true
-    udp: true
-  - name: 俄罗斯_7
-    type: vless
-    server: r1.mizulina.top
-    port: 22231
-    uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
-    servername: r1.mizulina.top
-    tls: true
-    flow: xtls-rprx-vision
-    skip-cert-verify: true
-    udp: true
-  - name: 俄罗斯_8
-    type: vless
-    server: cloud.cdnru.net
-    port: 443
-    uuid: 33612cbf-0639-4285-81da-f88eba1d4f85
-    servername: cloud.cdnru.net
-    tls: true
-    flow: xtls-rprx-vision
-    skip-cert-verify: true
     udp: true
   - name: 德国
-    type: vless
-    server: 85.234.114.53
+    type: trojan
+    server: 91.233.8.138
     port: 443
-    uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
-    servername: r1.mizulina.top
-    tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: edge
+    password: qDVh0NalwefxyZlHh3Ni2JSlhErcuC3Wiq
+    sni: www.homelywebs.click
     skip-cert-verify: true
+    tls: true
     udp: true
   - name: 德国_1
-    type: vless
-    server: 85.234.114.53
-    port: 22231
-    uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
-    servername: r1.mizulina.top
-    tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
+    type: trojan
+    server: 91.233.8.25
+    port: 443
+    password: I1vtf6pjYsAu-nFnraWAMjKTy90AHitdAz
+    sni: fra34.tracker-ws.click
     skip-cert-verify: true
+    tls: true
     udp: true
   - name: 德国_2
+    type: trojan
+    server: 52.59.53.96
+    port: 22222
+    password: telegram-id-privatevpns
+    sni: trojan.burgerip.co.uk
+    skip-cert-verify: true
+    tls: true
+    udp: true
+  - name: 德国_3
+    type: trojan
+    server: de-1.hysteria.ltd
+    port: 9443
+    password: LYaEYwjN8LjWTRJdCCTzW7V6gK7atJVu
+    sni: de-1.hysteria.ltd
+    skip-cert-verify: true
+    tls: true
+    udp: true
+  - name: 德国_4
     type: vless
     server: 78.17.96.198
     port: 443
@@ -1285,72 +244,1652 @@ proxies:
       short-id: a1b2c3d4e5f6
     skip-cert-verify: true
     udp: true
-  - name: 美国_78
-    type: vmess
-    server: 82.198.246.250
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
+  - name: 德国_5
+    type: vless
+    server: 159.195.60.65
+    port: 443
+    uuid: c897facf-2836-4538-be6e-25386fb49284
+    servername: free1.anotherboring.top
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: firefox
+    reality-opts:
+      public-key: vTtRZ_FeFQoAigFr_pmVc_O85RaE9H8aVL0SitFYcmI
+      short-id: 53cd45d26d7b53fe
     skip-cert-verify: true
     udp: true
-  - name: 美国_79
-    type: vmess
-    server: 82.198.246.214
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
+  - name: 德国_6
+    type: vless
+    server: speedtest.net
+    port: 80
+    uuid: cabbfe13-038b-4dbb-9c45-5079c829abfa
+    network: ws
     tls: false
+    ws-opts:
+      path: /
+      headers:
+        Host: max-gb1.global.ssl.fastly.net
     skip-cert-verify: true
     udp: true
-  - name: 日本_3
-    type: vmess
-    server: v6.hdacd.com
-    port: 30806
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
+  - name: 德国_7
+    type: vless
+    server: 104.24.45.247
+    port: 80
+    uuid: 2e71d8fc-d2e8-44fc-89bd-c8a449a193aa
+    network: ws
     tls: false
+    ws-opts:
+      path: /
+      headers:
+        Host: odd-bread-435d.ahmadrezasteamacc.workers.dev
     skip-cert-verify: true
+    udp: true
+  - name: 俄罗斯联邦
+    type: vless
+    server: 85.234.114.53
+    port: 22231
+    uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+    servername: r1.mizulina.top
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    skip-cert-verify: true
+    udp: true
+  - name: 俄罗斯联邦_1
+    type: vless
+    server: r1.mizulina.top
+    port: 22231
+    uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+    servername: r1.mizulina.top
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    skip-cert-verify: true
+    udp: true
+  - name: 俄罗斯联邦_2
+    type: vless
+    server: r1.mizulina.top
+    port: 22231
+    uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+    servername: r1.mizulina.top
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: edge
+    skip-cert-verify: true
+    udp: true
+  - name: 法国
+    type: trojan
+    server: 13.38.194.86
+    port: 22222
+    password: telegram-id-privatevpns
+    sni: trojan.burgerip.co.uk
+    skip-cert-verify: true
+    tls: true
+    udp: true
+  - name: 法国_1
+    type: trojan
+    server: 217.69.2.107
+    port: 443
+    password: YGWIMlg.W1wRWQkRDcKfjZY7sng09aC=Yh
+    sni: www.weavenet.click
+    skip-cert-verify: true
+    tls: true
+    udp: true
+  - name: 法国_2
+    type: trojan
+    server: 104.17.238.76
+    port: 443
+    password: 407ecce0-dc85-465f-89f5-e520e9378baf
+    sni: ld.223350.xyz
+    skip-cert-verify: true
+    tls: true
+    ws-opts:
+      path: /
+      headers:
+        Host: ld.223350.xyz
     udp: true
   - name: 法国_3
-    type: vmess
-    server: v35.hdacd.com
-    port: 30835
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: 日本_4
-    type: vmess
-    server: 103.182.97.12
-    port: 30806
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: 中国香港
-    type: vmess
-    server: v10.hdacd.com
-    port: 30807
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: 德国_3
     type: vless
-    server: 95.179.165.163
-    port: 2020
-    uuid: 32f5d535-781e-4612-a7cd-66e68bb9666c
+    server: 162.159.49.145
+    port: 443
+    uuid: 407ecce0-dc85-465f-89f5-e520e9378baf
+    network: ws
+    servername: ld.223350.xyz
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /
+      headers:
+        Host: ld.223350.xyz
+    skip-cert-verify: true
+    udp: true
+  - name: 法国_4
+    type: vless
+    server: 104.19.87.194
+    port: 443
+    uuid: 407ecce0-dc85-465f-89f5-e520e9378baf
+    network: ws
+    servername: ld.223350.xyz
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /
+      headers:
+        Host: ld.223350.xyz
+    skip-cert-verify: true
+    udp: true
+  - name: 法国_5
+    type: vless
+    server: 104.24.9.6
+    port: 443
+    uuid: 407ecce0-dc85-465f-89f5-e520e9378baf
+    network: ws
+    servername: ld.223350.xyz
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /
+      headers:
+        Host: ld.223350.xyz
+    skip-cert-verify: true
+    udp: true
+  - name: 法国_6
+    type: vless
+    server: 162.159.43.131
+    port: 443
+    uuid: 407ecce0-dc85-465f-89f5-e520e9378baf
+    network: ws
+    servername: ld.223350.xyz
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /
+      headers:
+        Host: ld.223350.xyz
+    skip-cert-verify: true
+    udp: true
+  - name: 荷兰
+    type: vless
+    server: cdn9-33.vk-cdnvideo.com
+    port: 8443
+    uuid: 931729a8-3c20-4841-89a1-f18dc9ce0a6f
+    servername: cdn9-33.vk-cdnvideo.com
+    tls: true
+    client-fingerprint: chrome
+    skip-cert-verify: true
+    udp: true
+  - name: 荷兰_1
+    type: vless
+    server: fans.liverpool.qzz.io
+    port: 2083
+    uuid: 2b8738de-1af5-4267-b101-c05707769ed4
+    network: ws
+    servername: FANs.LIVeRPOol.QZz.IO
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /
+      headers:
+        Host: FANs.LIVeRPOol.QZz.IO
+    skip-cert-verify: true
+    udp: true
+  - name: 荷兰_2
+    type: vless
+    server: nl08.abvpn.ru
+    port: 443
+    uuid: 95e118b4-4352-4218-8493-f20cc7fc467a
+    network: ws
+    servername: nl08.abvpn.ru
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /websocket
+      headers:
+        Host: nl08.abvpn.ru
+    skip-cert-verify: true
+    udp: true
+  - name: 荷兰_3
+    type: vless
+    server: nl08.abvpn.ru
+    port: 443
+    uuid: 95e118b4-4352-4218-8493-f20cc7fc467a
+    network: ws
+    servername: nl08.abvpn.ru
+    tls: true
+    ws-opts:
+      path: /websocket
+    skip-cert-verify: true
+    udp: true
+  - name: 荷兰_4
+    type: vless
+    server: nl08.abvpn.ru
+    port: 443
+    uuid: 95e118b4-4352-4218-8493-f20cc7fc467a
+    network: ws
+    servername: nl08.abvpn.ru
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /websocket
+    skip-cert-verify: true
+    udp: true
+  - name: 加拿大
+    type: vless
+    server: 199.232.197.131
+    port: 80
+    uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+    network: ws
     tls: false
+    ws-opts:
+      path: /
+      headers:
+        Host: max-gb1.global.ssl.fastly.net
+    skip-cert-verify: true
+    udp: true
+  - name: 加拿大-
+    type: vless
+    server: 151.101.130.219
+    port: 80
+    uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+    network: ws
+    tls: false
+    ws-opts:
+      path: /
+      headers:
+        Host: max-gb1.global.ssl.fastly.net
+    skip-cert-verify: true
+    udp: true
+  - name: 美国
+    type: vless
+    server: 193.23.222.99
+    port: 55152
+    uuid: 827466ba-0910-4c48-b156-2f37fdbda362
+    servername: cloudflare.com
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: fX2XkujtqhnkQDy-Lwgqm_OofDs1qO5ytvVNM6aV4C4
+      short-id: ddcac8ed
+    skip-cert-verify: true
+    udp: true
+  - name: 美国_1
+    type: vless
+    server: 104.253.43.225
+    port: 443
+    uuid: 5f57df48-45c4-4e1d-aa13-dd539ecb257d
+    servername: 104.253.43.225
+    tls: true
+    skip-cert-verify: true
+    udp: true
+  - name: 美国_2
+    type: trojan
+    server: 149.104.87.182
+    port: 443
+    password: PtRV8to08i8FMsY.Uw7=yMuIaR3eVTGmvA
+    sni: www.jewelapp.click
+    skip-cert-verify: true
+    tls: true
+    udp: true
+  - name: 美国_3
+    type: vless
+    server: 185.151.241.186
+    port: 2443
+    uuid: 129400e5-7d1b-4720-bf3e-f877c3e5021e
+    servername: www.microsoft.com
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: firefox
+    reality-opts:
+      public-key: wa00o0wO4pEn9ki565dMNkzt0SBcuJ4aRyz6tpTYmQw
+      short-id: 9d35004ad989e412
+    skip-cert-verify: true
+    udp: true
+  - name: 美国_4
+    type: vless
+    server: 186.246.2.119
+    port: 443
+    uuid: 5729c1fc-c7cf-41b7-8c17-f9b5f59772da
+    servername: se.sellflow.org
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: firefox
+    reality-opts:
+      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    skip-cert-verify: true
+    udp: true
+  - name: 美国_5
+    type: vless
+    server: 93.92.80.5
+    port: 2443
+    uuid: 87c26575-4ccc-4d93-a967-21d98a8f05d8
+    servername: www.microsoft.com
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: firefox
+    reality-opts:
+      public-key: FuTPREnx4yIuC5tNUDrS1VOHBo9y9Dq22C354dritlM
+      short-id: efbd846f848d8d37
+    skip-cert-verify: true
+    udp: true
+  - name: 美国_6
+    type: vless
+    server: 185.86.146.15
+    port: 5443
+    uuid: a6bd2cf2-cb83-4ac3-82a3-350cc9d0d469
+    servername: max.ru
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: LGcG8Sqv5vPDypbaEgHV0ZGqQOBkgDepPWXyDohbVXQ
+    skip-cert-verify: true
+    udp: true
+  - name: 美国_7
+    type: vless
+    server: 47.87.65.216
+    port: 443
+    uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
+    servername: api.digital-help-prd.autodesk.com
+    tls: true
+    client-fingerprint: random
+    reality-opts:
+      public-key: TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw
+    skip-cert-verify: true
+    udp: true
+  - name: 美国_8
+    type: vless
+    server: 2.26.116.183
+    port: 47200
+    uuid: ffaa8e95-74e2-4ef4-8974-69dd3651b6f9
+    servername: stats.vk-portal.net
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: firefox
+    reality-opts:
+      public-key: aom9XGtg9tre2RGo8XkCaRqlE02nrZ4smmnpLpzidRE
+      short-id: b2a9bd658fc81dc6
+    skip-cert-verify: true
+    udp: true
+  - name: 美国_9
+    type: vless
+    server: newyorkcity.instasup.ir
+    port: 1004
+    uuid: ad356e93-cc14-417d-9f4e-32376d03f5b7
+    servername: yahoo.com
+    tls: true
+    client-fingerprint: firefox
+    reality-opts:
+      public-key: 437UW8qHz_L4qlOZ_AgufdsA9me_uS5MWM-eptxM3w4
+      short-id: 998ad2ef2d977802
+    skip-cert-verify: true
+    udp: true
+  - name: 美国_10
+    type: vless
+    server: 172.65.111.43
+    port: 22
+    uuid: monacoVPN
+    tls: false
+    skip-cert-verify: true
+    udp: true
+  - name: 美国_11
+    type: trojan
+    server: 155.117.198.85
+    port: 47909
+    password: 4f4d1167-ef14-4304-9bce-0740472503ef
+    sni: is.01.naiun.bilibili.com
+    skip-cert-verify: true
+    tls: true
+    udp: true
+  - name: 美国_12
+    type: trojan
+    server: 155.117.198.85
+    port: 46424
+    password: 4f4d1167-ef14-4304-9bce-0740472503ef
+    sni: de.01.naiun.bilibili.com
+    skip-cert-verify: true
+    tls: true
+    udp: true
+  - name: 美国_13
+    type: trojan
+    server: 155.117.198.85
+    port: 45553
+    password: 4f4d1167-ef14-4304-9bce-0740472503ef
+    sni: ch.01.naiun.bilibili.com
+    skip-cert-verify: true
+    tls: true
+    udp: true
+  - name: 美国_14
+    type: trojan
+    server: 155.117.198.85
+    port: 41943
+    password: 4f4d1167-ef14-4304-9bce-0740472503ef
+    sni: az.01.naiun.bilibili.com
+    skip-cert-verify: true
+    tls: true
+    udp: true
+  - name: 美国_15
+    type: trojan
+    server: 103.177.136.45
+    port: 47909
+    password: 4f4d1167-ef14-4304-9bce-0740472503ef
+    sni: is.01.naiun.bilibili.com
+    skip-cert-verify: true
+    tls: true
+    udp: true
+  - name: 美国_16
+    type: trojan
+    server: 103.177.136.45
+    port: 41943
+    password: 4f4d1167-ef14-4304-9bce-0740472503ef
+    sni: az.01.naiun.bilibili.com
+    skip-cert-verify: true
+    tls: true
+    udp: true
+  - name: 美国_17
+    type: trojan
+    server: 103.177.136.42
+    port: 47909
+    password: 4f4d1167-ef14-4304-9bce-0740472503ef
+    sni: is.01.naiun.bilibili.com
+    skip-cert-verify: true
+    tls: true
+    udp: true
+  - name: 美国_18
+    type: trojan
+    server: 103.177.136.42
+    port: 46424
+    password: 4f4d1167-ef14-4304-9bce-0740472503ef
+    sni: de.01.naiun.bilibili.com
+    skip-cert-verify: true
+    tls: true
+    udp: true
+  - name: 美国_19
+    type: trojan
+    server: 103.177.136.42
+    port: 41943
+    password: 4f4d1167-ef14-4304-9bce-0740472503ef
+    sni: az.01.naiun.bilibili.com
+    skip-cert-verify: true
+    tls: true
+    udp: true
+  - name: 美国_20
+    type: trojan
+    server: 103.177.136.42
+    port: 48697
+    password: 4f4d1167-ef14-4304-9bce-0740472503ef
+    sni: gh.01.naiun.bilibili.com
+    skip-cert-verify: true
+    tls: true
+    udp: true
+  - name: 美国_21
+    type: trojan
+    server: 103.177.136.42
+    port: 45619
+    password: 4f4d1167-ef14-4304-9bce-0740472503ef
+    sni: fr.01.naiun.bilibili.com
+    skip-cert-verify: true
+    tls: true
+    udp: true
+  - name: 美国_22
+    type: vless
+    server: 172.67.111.41
+    port: 443
+    uuid: 69d38faa-21a1-4d18-82cb-796a942c181b
+    network: ws
+    servername: sfsl.ardomains1.dpdns.org
+    tls: true
+    ws-opts:
+      path: /
+      headers:
+        Host: sfsl.ardomains1.dpdns.org
+    skip-cert-verify: true
+    udp: true
+  - name: 美国_23
+    type: vless
+    server: 172.64.53.74
+    port: 443
+    uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+    network: ws
+    servername: fgnix832fx.fx6hsv0.ccwu.cc
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /
+      headers:
+        Host: fgnix832fx.fx6hsv0.ccwu.cc
+    skip-cert-verify: true
+    udp: true
+  - name: 美国_24
+    type: vless
+    server: 151.101.0.1
+    port: 80
+    uuid: cabbfe13-038b-4dbb-9c45-5079c829abfa
+    network: ws
+    tls: false
+    ws-opts:
+      path: /
+      headers:
+        Host: max-gb1.global.ssl.fastly.net
+    skip-cert-verify: true
+    udp: true
+  - name: 美国_25
+    type: vless
+    server: 151.101.130.219
+    port: 80
+    uuid: cabbfe13-038b-4dbb-9c45-5079c829abfa
+    network: ws
+    tls: false
+    ws-opts:
+      path: /
+      headers:
+        Host: max-gb1.global.ssl.fastly.net
+    skip-cert-verify: true
+    udp: true
+  - name: 美国_26
+    type: vless
+    server: 151.101.66.219
+    port: 80
+    uuid: cabbfe13-038b-4dbb-9c45-5079c829abfa
+    network: ws
+    tls: false
+    ws-opts:
+      path: /
+      headers:
+        Host: max-gb1.global.ssl.fastly.net
+    skip-cert-verify: true
+    udp: true
+  - name: 美国_27
+    type: vless
+    server: 151.101.194.219
+    port: 80
+    uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+    network: ws
+    servername: max-gb1.global.ssl.fastly.net
+    tls: false
+    ws-opts:
+      path: /
+      headers:
+        Host: max-gb1.global.ssl.fastly.net
+    skip-cert-verify: true
+    udp: true
+  - name: 美国_28
+    type: vless
+    server: 151.101.194.219
+    port: 80
+    uuid: cabbfe13-038b-4dbb-9c45-5079c829abfa
+    network: ws
+    tls: false
+    ws-opts:
+      path: /
+      headers:
+        Host: max-gb1.global.ssl.fastly.net
+    skip-cert-verify: true
+    udp: true
+  - name: 美国_29
+    type: vless
+    server: 151.101.2.219
+    port: 80
+    uuid: cabbfe13-038b-4dbb-9c45-5079c829abfa
+    network: ws
+    tls: false
+    client-fingerprint: chrome
+    ws-opts:
+      path: /
+      headers:
+        Host: max-gb1.global.ssl.fastly.net
+    skip-cert-verify: true
+    udp: true
+  - name: 美国_30
+    type: vless
+    server: 167.82.0.1
+    port: 80
+    uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+    network: ws
+    tls: false
+    ws-opts:
+      path: /
+      headers:
+        Host: max-gb1.global.ssl.fastly.net
+    skip-cert-verify: true
+    udp: true
+  - name: 美国_31
+    type: vless
+    server: 198.41.208.251
+    port: 443
+    uuid: 7872e85d-fd7e-4472-99e5-49cb48d0f668
+    network: ws
+    servername: freepol2.3r8sv.workers.dev
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /
+    skip-cert-verify: true
+    udp: true
+  - name: 美国_32
+    type: vless
+    server: 104.16.158.162
+    port: 80
+    uuid: a7444b2b-20fb-461f-9840-63e5c8c7d883
+    network: ws
+    tls: false
+    ws-opts:
+      path: /
+      headers:
+        Host: mute-violet-c674.poviy66273.workers.dev
+    skip-cert-verify: true
+    udp: true
+  - name: 美国_33
+    type: vless
+    server: cloudflare.182682.xyz
+    port: 443
+    uuid: c135158e-5869-4397-8116-6695ca18cd48
+    network: ws
+    servername: cf.hulume.ccwu.cc
+    tls: true
+    ws-opts:
+      path: /
+      headers:
+        Host: cf.hulume.ccwu.cc
+    skip-cert-verify: true
+    udp: true
+  - name: 美国_34
+    type: vless
+    server: lt.hhhhh.eu.org
+    port: 443
+    uuid: c135158e-5869-4397-8116-6695ca18cd48
+    network: ws
+    servername: cf.hulume.ccwu.cc
+    tls: true
+    ws-opts:
+      path: /
+      headers:
+        Host: cf.hulume.ccwu.cc
+    skip-cert-verify: true
+    udp: true
+  - name: 美国_35
+    type: vless
+    server: 181.214.1.30
+    port: 8880
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    network: ws
+    tls: false
+    ws-opts:
+      path: /
+      headers:
+        Host: vms.lifetime39.workers.dev
+    skip-cert-verify: true
+    udp: true
+  - name: 美国_36
+    type: vless
+    server: 45.153.7.50
+    port: 8880
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    network: ws
+    tls: false
+    ws-opts:
+      path: /
+      headers:
+        Host: vms.lifetime11.workers.dev
+    skip-cert-verify: true
+    udp: true
+  - name: 美国_37
+    type: vless
+    server: 104.18.15.19
+    port: 80
+    uuid: a2af6e7c-a792-4e51-9460-fff4bd74fbfc
+    network: ws
+    tls: false
+    ws-opts:
+      path: /
+      headers:
+        Host: vahidqaz-ft33vt-1.vahidqaz.workers.dev
+    skip-cert-verify: true
+    udp: true
+  - name: 美国_38
+    type: vless
+    server: 104.129.164.30
+    port: 8880
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    network: ws
+    tls: false
+    ws-opts:
+      path: /
+      headers:
+        Host: vms.lifetime40.workers.dev
+    skip-cert-verify: true
+    udp: true
+  - name: 美国_39
+    type: vless
+    server: 104.18.0.3
+    port: 443
+    uuid: c135158e-5869-4397-8116-6695ca18cd48
+    network: ws
+    servername: cfnode-1xg.pages.dev
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /
+      headers:
+        Host: cfnode-1xg.pages.dev
+    skip-cert-verify: true
+    udp: true
+  - name: 美国_40
+    type: vless
+    server: www.visa.com
+    port: 80
+    uuid: a2af6e7c-a792-4e51-9460-fff4bd74fbfc
+    network: ws
+    tls: false
+    ws-opts:
+      path: /
+      headers:
+        Host: vahidqaz-ft33vt-1.vahidqaz.workers.dev
+    skip-cert-verify: true
+    udp: true
+  - name: 美国_41
+    type: vless
+    server: 104.18.0.5
+    port: 443
+    uuid: c135158e-5869-4397-8116-6695ca18cd48
+    network: ws
+    servername: cfnode-1xg.pages.dev
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /
+      headers:
+        Host: cfnode-1xg.pages.dev
+    skip-cert-verify: true
+    udp: true
+  - name: 美国_42
+    type: vless
+    server: 108.162.198.18
+    port: 443
+    uuid: c135158e-5869-4397-8116-6695ca18cd48
+    network: ws
+    servername: cfnode-1xg.pages.dev
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /
+      headers:
+        Host: cfnode-1xg.pages.dev
+    skip-cert-verify: true
+    udp: true
+  - name: 美国_43
+    type: vless
+    server: 162.159.44.100
+    port: 2087
+    uuid: 55d9ec38-1b8a-454b-981a-6acfe8f56d8c
+    network: ws
+    servername: fu.baiproxy.us.ci
+    tls: true
+    ws-opts:
+      path: /
+      headers:
+        Host: fu.baiproxy.us.ci
+    skip-cert-verify: true
+    udp: true
+  - name: 美国_44
+    type: vless
+    server: 108.162.198.11
+    port: 2096
+    uuid: c135158e-5869-4397-8116-6695ca18cd48
+    network: ws
+    servername: cfnode-1xg.pages.dev
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /
+      headers:
+        Host: cfnode-1xg.pages.dev
+    skip-cert-verify: true
+    udp: true
+  - name: 美国_45
+    type: vless
+    server: 104.17.0.1
+    port: 443
+    uuid: c135158e-5869-4397-8116-6695ca18cd48
+    network: ws
+    servername: cfnode-1xg.pages.dev
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /
+      headers:
+        Host: cfnode-1xg.pages.dev
+    skip-cert-verify: true
+    udp: true
+  - name: 美国_46
+    type: vless
+    server: 104.129.164.30
+    port: 8880
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    network: ws
+    tls: false
+    ws-opts:
+      path: /?https://t.me/🇨🇳
+      headers:
+        Host: vms.lifetime40.workers.dev
+    skip-cert-verify: true
+    udp: true
+  - name: 美国_47
+    type: vless
+    server: na.877774.xyz
+    port: 443
+    uuid: c135158e-5869-4397-8116-6695ca18cd48
+    network: ws
+    servername: cfnode-1xg.pages.dev
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /
+      headers:
+        Host: cfnode-1xg.pages.dev
+    skip-cert-verify: true
+    udp: true
+  - name: 美国_48
+    type: vless
+    server: 104.19.0.1
+    port: 443
+    uuid: c135158e-5869-4397-8116-6695ca18cd48
+    network: ws
+    servername: cfnode-1xg.pages.dev
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /
+      headers:
+        Host: cfnode-1xg.pages.dev
+    skip-cert-verify: true
+    udp: true
+  - name: 美国_49
+    type: vless
+    server: 108.162.198.7
+    port: 443
+    uuid: c135158e-5869-4397-8116-6695ca18cd48
+    network: ws
+    servername: cfnode-1xg.pages.dev
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /
+      headers:
+        Host: cfnode-1xg.pages.dev
+    skip-cert-verify: true
+    udp: true
+  - name: 美国_50
+    type: vless
+    server: 162.159.40.181
+    port: 2096
+    uuid: c135158e-5869-4397-8116-6695ca18cd48
+    network: ws
+    servername: cfnode-1xg.pages.dev
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /
+      headers:
+        Host: cfnode-1xg.pages.dev
+    skip-cert-verify: true
+    udp: true
+  - name: 美国_51
+    type: vless
+    server: 104.19.0.5
+    port: 443
+    uuid: c135158e-5869-4397-8116-6695ca18cd48
+    network: ws
+    servername: cfnode-1xg.pages.dev
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /
+      headers:
+        Host: cfnode-1xg.pages.dev
+    skip-cert-verify: true
+    udp: true
+  - name: 美国_52
+    type: vless
+    server: 162.159.198.1
+    port: 443
+    uuid: c135158e-5869-4397-8116-6695ca18cd48
+    network: ws
+    servername: cfnode-1xg.pages.dev
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /
+      headers:
+        Host: cfnode-1xg.pages.dev
+    skip-cert-verify: true
+    udp: true
+  - name: 美国_53
+    type: vless
+    server: hongkongairport.com
+    port: 443
+    uuid: c135158e-5869-4397-8116-6695ca18cd48
+    network: ws
+    servername: cf.hulume.ccwu.cc
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /
+      headers:
+        Host: cf.hulume.ccwu.cc
+    skip-cert-verify: true
+    udp: true
+  - name: 美国_54
+    type: vless
+    server: 104.17.0.5
+    port: 443
+    uuid: c135158e-5869-4397-8116-6695ca18cd48
+    network: ws
+    servername: cfnode-1xg.pages.dev
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /
+      headers:
+        Host: cfnode-1xg.pages.dev
+    skip-cert-verify: true
+    udp: true
+  - name: 美国_55
+    type: vless
+    server: 162.159.45.175
+    port: 2053
+    uuid: 55d9ec38-1b8a-454b-981a-6acfe8f56d8c
+    network: ws
+    servername: fu.baiproxy.us.ci
+    tls: true
+    ws-opts:
+      path: /
+      headers:
+        Host: fu.baiproxy.us.ci
+    skip-cert-verify: true
+    udp: true
+  - name: 美国_56
+    type: vless
+    server: 162.159.44.198
+    port: 443
+    uuid: 55d9ec38-1b8a-454b-981a-6acfe8f56d8c
+    network: ws
+    servername: fu.baiproxy.us.ci
+    tls: true
+    ws-opts:
+      path: /
+      headers:
+        Host: fu.baiproxy.us.ci
+    skip-cert-verify: true
+    udp: true
+  - name: 美国_57
+    type: vless
+    server: hongkongairport.com
+    port: 443
+    uuid: c135158e-5869-4397-8116-6695ca18cd48
+    network: ws
+    servername: cf.hulume.ccwu.cc
+    tls: true
+    ws-opts:
+      path: /
+      headers:
+        Host: cf.hulume.ccwu.cc
+    skip-cert-verify: true
+    udp: true
+  - name: 美国_58
+    type: vless
+    server: 108.162.198.11
+    port: 443
+    uuid: c135158e-5869-4397-8116-6695ca18cd48
+    network: ws
+    servername: cfnode-1xg.pages.dev
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /
+      headers:
+        Host: cfnode-1xg.pages.dev
+    skip-cert-verify: true
+    udp: true
+  - name: 美国_59
+    type: vless
+    server: 141.193.213.30
+    port: 443
+    uuid: fc965ad9-bdd7-4815-ad71-b39ec5972dc1
+    network: ws
+    servername: octopusss4.com
+    tls: true
+    ws-opts:
+      path: /tsghdws
+    skip-cert-verify: true
+    udp: true
+  - name: 美国_60
+    type: vless
+    server: 102.177.189.30
+    port: 8880
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    network: ws
+    tls: false
+    ws-opts:
+      path: /
+      headers:
+        Host: vms.lifetime29.workers.dev
+    skip-cert-verify: true
+    udp: true
+  - name: 美国_61
+    type: trojan
+    server: 213.35.108.135
+    port: 12596
+    password: trojan
+    sni: store.timimi.dpdns.org
+    skip-cert-verify: true
+    tls: true
+    ws-opts:
+      path: /
+      headers:
+        Host: store.timimi.dpdns.org
+    udp: true
+  - name: 美国_62
+    type: trojan
+    server: 165.215.250.14
+    port: 443
+    password: humanity
+    sni: www.ignitelimit.com
+    skip-cert-verify: true
+    tls: true
+    ws-opts:
+      path: /assignment
+      headers:
+        Host: www.ignitelimit.com
+    udp: true
+  - name: 美国_63
+    type: trojan
+    server: 165.215.250.14
+    port: 443
+    password: humanity
+    sni: www.calmlunch.com
+    skip-cert-verify: true
+    tls: true
+    ws-opts:
+      path: /assignment
+      headers:
+        Host: www.calmlunch.com
+    udp: true
+  - name: 美国_64
+    type: trojan
+    server: 165.215.250.14
+    port: 443
+    password: humanity
+    sni: www.creationlong.org
+    skip-cert-verify: true
+    tls: true
+    ws-opts:
+      path: /assignment
+      headers:
+        Host: www.creationlong.org
+    udp: true
+  - name: 美国_65
+    type: vless
+    server: 103.31.4.1
+    port: 443
+    uuid: c135158e-5869-4397-8116-6695ca18cd48
+    network: ws
+    servername: cfnode-1xg.pages.dev
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /
+      headers:
+        Host: cfnode-1xg.pages.dev
+    skip-cert-verify: true
+    udp: true
+  - name: 美国_66
+    type: trojan
+    server: www.ignitelimit.com
+    port: 443
+    password: humanity
+    skip-cert-verify: true
+    tls: true
+    ws-opts:
+      path: /assignment
+    udp: true
+  - name: 美国_67
+    type: vless
+    server: acha.claudify.org
+    port: 443
+    uuid: 7752f6f7-7052-42bf-b571-34a02658cc71
+    network: ws
+    servername: Cdn8-pro.postshup.ir.
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /news
+      headers:
+        Host: Cdn8-pro.postshup.ir.
+    skip-cert-verify: true
+    udp: true
+  - name: 美国_68
+    type: vless
+    server: 199.232.78.160
+    port: 443
+    uuid: 52c0dab9-2187-49a4-8e31-f1db94bd7a9e
+    network: ws
+    servername: speedtest.net
+    tls: true
+    ws-opts:
+      path: /
+      headers:
+        Host: alesis724.global.ssl.fastly.net
+    skip-cert-verify: true
+    udp: true
+  - name: 美国_69
+    type: vless
+    server: 185.18.250.252
+    port: 443
+    uuid: fc965ad9-bdd7-4815-ad71-b39ec5972dc1
+    network: ws
+    servername: octopusss4.com
+    tls: true
+    ws-opts:
+      path: /tsghdws
+    skip-cert-verify: true
+    udp: true
+  - name: 美国_70
+    type: vless
+    server: 89.116.46.68
+    port: 443
+    uuid: fc965ad9-bdd7-4815-ad71-b39ec5972dc1
+    network: ws
+    servername: octopusss4.com
+    tls: true
+    ws-opts:
+      path: /tsghdws
+    skip-cert-verify: true
+    udp: true
+  - name: 美国_71
+    type: vless
+    server: 104.18.155.229
+    port: 2053
+    uuid: e26b40ff-5182-42bf-8529-dbeb5859b46a
+    network: ws
+    servername: mrnetwork.pages.dev
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /en/http://nz6dNVWWqy:iqKcbEJGQP@91.228.227.175:9996
+      headers:
+        Host: mrnetwork.pages.dev
+    skip-cert-verify: true
+    udp: true
+  - name: 美国-
+    type: trojan
+    server: 11u8k6n04q3y4ajoai.lovebaipiao.net
+    port: 443
+    password: 497dae1f-6db8-4c35-957f-ceb8c1500909
+    sni: 11u8k6n04q3y4ajoai.lovebaipiao.net
+    skip-cert-verify: true
+    tls: true
+    ws-opts:
+      path: /89a0z7oqmwpkfhp4/mmq32sjmt37omy2b
+      headers:
+        Host: baidu.com
+    udp: true
+  - name: 日本
+    type: vless
+    server: 1.sdwan.realm-sync.com
+    port: 5454
+    uuid: 8faf6e38-0531-4d63-91f0-2aba5b9ff864
+    servername: swcdn.apple.com
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: 7Mb18pl7fH3NvhVevIVTgRdPlAorUucOWMlUaTrDV0o
+      short-id: 4265cc8365
+    skip-cert-verify: true
+    udp: true
+  - name: 日本_1
+    type: vless
+    server: 178.249.213.177
+    port: 8443
+    uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+    servername: jp1.fromblancwithlove.com
+    tls: true
+    skip-cert-verify: true
+    udp: true
+  - name: 日本_2
+    type: vless
+    server: 147.90.234.200
+    port: 443
+    uuid: 497dae1f-6db8-4c35-957f-ceb8c1500909
+    servername: www.lamer.com.hk
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: ios
+    reality-opts:
+      public-key: h7zG7IJbN9NcuazkYc7abwjJo-j-uzqgOgsl4yIbO3g
+      short-id: cfad6c4b
+    skip-cert-verify: true
+    udp: true
+  - name: 香港
+    type: trojan
+    server: f533f9b2-c69a-4dd0-bc63-f2ab94dd5f53.f1eb10ae-1d82-4c6a-b4dd-bd9525520956.com
+    port: 23006
+    password: fa01895e-7bb9-4414-b405-857900e6e5a5
+    sni: 248.yuanul.com
+    skip-cert-verify: true
+    tls: true
+    udp: true
+  - name: 香港_1
+    type: trojan
+    server: f533f9b2-c69a-4dd0-bc63-f2ab94dd5f53.f1eb10ae-1d82-4c6a-b4dd-bd9525520956.com
+    port: 12106
+    password: fa01895e-7bb9-4414-b405-857900e6e5a5
+    sni: 110.yuanul.com
+    skip-cert-verify: true
+    tls: true
+    udp: true
+  - name: 香港_2
+    type: trojan
+    server: f533f9b2-c69a-4dd0-bc63-f2ab94dd5f53.f1eb10ae-1d82-4c6a-b4dd-bd9525520956.com
+    port: 10110
+    password: d1e0e296-8617-4c86-8ba3-ddb615fb9b72
+    sni: 99.yuanul.com
+    skip-cert-verify: true
+    tls: true
+    udp: true
+  - name: 香港_3
+    type: trojan
+    server: f533f9b2-c69a-4dd0-bc63-f2ab94dd5f53.f1eb10ae-1d82-4c6a-b4dd-bd9525520956.com
+    port: 10111
+    password: fac593ac-d6aa-4523-bea9-b3eb2a2b3da3
+    sni: 267.yuanul.com
+    skip-cert-verify: true
+    tls: true
+    udp: true
+  - name: 香港_4
+    type: trojan
+    server: f533f9b2-c69a-4dd0-bc63-f2ab94dd5f53.f1eb10ae-1d82-4c6a-b4dd-bd9525520956.com
+    port: 23004
+    password: d1e0e296-8617-4c86-8ba3-ddb615fb9b72
+    sni: 81.yuanul.com
+    skip-cert-verify: true
+    tls: true
+    udp: true
+  - name: 香港_5
+    type: trojan
+    server: f533f9b2-c69a-4dd0-bc63-f2ab94dd5f53.f1eb10ae-1d82-4c6a-b4dd-bd9525520956.com
+    port: 13208
+    password: fa01895e-7bb9-4414-b405-857900e6e5a5
+    sni: 141.yuanul.com
+    skip-cert-verify: true
+    tls: true
+    udp: true
+  - name: 香港_6
+    type: trojan
+    server: f533f9b2-c69a-4dd0-bc63-f2ab94dd5f53.f1eb10ae-1d82-4c6a-b4dd-bd9525520956.com
+    port: 23005
+    password: fac593ac-d6aa-4523-bea9-b3eb2a2b3da3
+    sni: 82.yuanul.com
+    skip-cert-verify: true
+    tls: true
+    udp: true
+  - name: 香港_7
+    type: trojan
+    server: f533f9b2-c69a-4dd0-bc63-f2ab94dd5f53.f1eb10ae-1d82-4c6a-b4dd-bd9525520956.com
+    port: 21101
+    password: d1e0e296-8617-4c86-8ba3-ddb615fb9b72
+    sni: 261.yuanul.com
+    skip-cert-verify: true
+    tls: true
+    udp: true
+  - name: 香港_8
+    type: trojan
+    server: f533f9b2-c69a-4dd0-bc63-f2ab94dd5f53.f1eb10ae-1d82-4c6a-b4dd-bd9525520956.com
+    port: 21101
+    password: fac593ac-d6aa-4523-bea9-b3eb2a2b3da3
+    sni: 261.yuanul.com
+    skip-cert-verify: true
+    tls: true
+    udp: true
+  - name: 香港_9
+    type: trojan
+    server: f533f9b2-c69a-4dd0-bc63-f2ab94dd5f53.f1eb10ae-1d82-4c6a-b4dd-bd9525520956.com
+    port: 13209
+    password: fac593ac-d6aa-4523-bea9-b3eb2a2b3da3
+    sni: 207.yuanul.com
+    skip-cert-verify: true
+    tls: true
+    udp: true
+  - name: 香港_10
+    type: trojan
+    server: f533f9b2-c69a-4dd0-bc63-f2ab94dd5f53.f1eb10ae-1d82-4c6a-b4dd-bd9525520956.com
+    port: 21101
+    password: fa01895e-7bb9-4414-b405-857900e6e5a5
+    sni: 261.yuanul.com
+    skip-cert-verify: true
+    tls: true
+    udp: true
+  - name: 香港_11
+    type: trojan
+    server: f533f9b2-c69a-4dd0-bc63-f2ab94dd5f53.f1eb10ae-1d82-4c6a-b4dd-bd9525520956.com
+    port: 12011
+    password: fa01895e-7bb9-4414-b405-857900e6e5a5
+    sni: 52.yuanul.com
+    skip-cert-verify: true
+    tls: true
+    udp: true
+  - name: 香港_12
+    type: vless
+    server: iiv.edit-sync.com
+    port: 443
+    uuid: 008310a2-11c6-4d6b-beda-9751d3b25caf
+    network: ws
+    servername: iiv.edit-sync.com
+    tls: true
+    client-fingerprint: edge
+    ws-opts:
+      path: /soundtrack
+      headers:
+        Host: iiv.edit-sync.com
+    skip-cert-verify: true
+    udp: true
+  - name: 香港_13
+    type: vless
+    server: ggj5msy.edit-sync.com
+    port: 443
+    uuid: 03115ef0-e7da-4f82-adbf-9f26d3b2df24
+    network: ws
+    servername: ggj5msy.edit-sync.com
+    tls: true
+    client-fingerprint: edge
+    ws-opts:
+      path: /soundtrack
+      headers:
+        Host: ggj5msy.edit-sync.com
+    skip-cert-verify: true
+    udp: true
+  - name: 香港_14
+    type: vless
+    server: 337.edit-sync.com
+    port: 443
+    uuid: 03115ef0-e7da-4f82-adbf-9f26d3b2df24
+    network: ws
+    servername: 337.edit-sync.com
+    tls: true
+    client-fingerprint: edge
+    ws-opts:
+      path: /video_track
+      headers:
+        Host: 337.edit-sync.com
+    skip-cert-verify: true
+    udp: true
+  - name: 新加坡
+    type: trojan
+    server: 188.253.12.98
+    port: 41943
+    password: 4f4d1167-ef14-4304-9bce-0740472503ef
+    sni: az.01.naiun.bilibili.com
+    skip-cert-verify: true
+    tls: true
+    udp: true
+  - name: 新加坡_1
+    type: trojan
+    server: 188.253.12.96
+    port: 47909
+    password: 4f4d1167-ef14-4304-9bce-0740472503ef
+    sni: is.01.naiun.bilibili.com
+    skip-cert-verify: true
+    tls: true
+    udp: true
+  - name: 新加坡_2
+    type: trojan
+    server: 188.253.12.99
+    port: 45553
+    password: 4f4d1167-ef14-4304-9bce-0740472503ef
+    sni: ch.01.naiun.bilibili.com
+    skip-cert-verify: true
+    tls: true
+    udp: true
+  - name: 新加坡_3
+    type: trojan
+    server: 188.253.12.90
+    port: 45553
+    password: 4f4d1167-ef14-4304-9bce-0740472503ef
+    sni: ch.01.naiun.bilibili.com
+    skip-cert-verify: true
+    tls: true
+    udp: true
+  - name: 新加坡_4
+    type: trojan
+    server: 188.253.12.93
+    port: 48697
+    password: 4f4d1167-ef14-4304-9bce-0740472503ef
+    sni: gh.01.naiun.bilibili.com
+    skip-cert-verify: true
+    tls: true
+    udp: true
+  - name: 新加坡_5
+    type: trojan
+    server: 188.253.12.90
+    port: 41943
+    password: 4f4d1167-ef14-4304-9bce-0740472503ef
+    sni: az.01.naiun.bilibili.com
+    skip-cert-verify: true
+    tls: true
+    udp: true
+  - name: 新加坡_6
+    type: trojan
+    server: 188.253.12.94
+    port: 47909
+    password: 4f4d1167-ef14-4304-9bce-0740472503ef
+    sni: is.01.naiun.bilibili.com
+    skip-cert-verify: true
+    tls: true
+    udp: true
+  - name: 新加坡_7
+    type: trojan
+    server: 188.253.12.96
+    port: 45553
+    password: 4f4d1167-ef14-4304-9bce-0740472503ef
+    sni: ch.01.naiun.bilibili.com
+    skip-cert-verify: true
+    tls: true
+    udp: true
+  - name: 新加坡_8
+    type: trojan
+    server: 188.253.12.96
+    port: 48697
+    password: 4f4d1167-ef14-4304-9bce-0740472503ef
+    sni: gh.01.naiun.bilibili.com
+    skip-cert-verify: true
+    tls: true
+    udp: true
+  - name: 新加坡_9
+    type: trojan
+    server: 188.253.12.98
+    port: 45619
+    password: 4f4d1167-ef14-4304-9bce-0740472503ef
+    sni: fr.01.naiun.bilibili.com
+    skip-cert-verify: true
+    tls: true
+    udp: true
+  - name: 新加坡_10
+    type: trojan
+    server: 188.253.12.94
+    port: 48697
+    password: 4f4d1167-ef14-4304-9bce-0740472503ef
+    sni: gh.01.naiun.bilibili.com
+    skip-cert-verify: true
+    tls: true
+    udp: true
+  - name: 新加坡_11
+    type: trojan
+    server: 188.253.12.99
+    port: 41943
+    password: 4f4d1167-ef14-4304-9bce-0740472503ef
+    sni: az.01.naiun.bilibili.com
+    skip-cert-verify: true
+    tls: true
+    udp: true
+  - name: 新加坡_12
+    type: trojan
+    server: 188.253.12.96
+    port: 41943
+    password: 4f4d1167-ef14-4304-9bce-0740472503ef
+    sni: az.01.naiun.bilibili.com
+    skip-cert-verify: true
+    tls: true
+    udp: true
+  - name: 新加坡_13
+    type: trojan
+    server: 188.253.12.99
+    port: 47909
+    password: 4f4d1167-ef14-4304-9bce-0740472503ef
+    sni: is.01.naiun.bilibili.com
+    skip-cert-verify: true
+    tls: true
+    udp: true
+  - name: 新加坡_14
+    type: trojan
+    server: 188.253.12.92
+    port: 45619
+    password: 4f4d1167-ef14-4304-9bce-0740472503ef
+    sni: fr.01.naiun.bilibili.com
+    skip-cert-verify: true
+    tls: true
+    udp: true
+  - name: 新加坡_15
+    type: trojan
+    server: 188.253.12.93
+    port: 45619
+    password: 4f4d1167-ef14-4304-9bce-0740472503ef
+    sni: fr.01.naiun.bilibili.com
+    skip-cert-verify: true
+    tls: true
+    udp: true
+  - name: 新加坡_16
+    type: trojan
+    server: 188.253.12.98
+    port: 47909
+    password: 4f4d1167-ef14-4304-9bce-0740472503ef
+    sni: is.01.naiun.bilibili.com
+    skip-cert-verify: true
+    tls: true
+    udp: true
+  - name: 新加坡_17
+    type: trojan
+    server: 188.253.12.90
+    port: 48697
+    password: 4f4d1167-ef14-4304-9bce-0740472503ef
+    sni: gh.01.naiun.bilibili.com
+    skip-cert-verify: true
+    tls: true
+    udp: true
+  - name: 新加坡_18
+    type: trojan
+    server: 188.253.12.99
+    port: 45619
+    password: 4f4d1167-ef14-4304-9bce-0740472503ef
+    sni: fr.01.naiun.bilibili.com
+    skip-cert-verify: true
+    tls: true
+    udp: true
+  - name: 新加坡_19
+    type: trojan
+    server: 188.253.12.99
+    port: 46424
+    password: 4f4d1167-ef14-4304-9bce-0740472503ef
+    sni: de.01.naiun.bilibili.com
+    skip-cert-verify: true
+    tls: true
+    udp: true
+  - name: 新加坡_20
+    type: trojan
+    server: 188.253.12.90
+    port: 45619
+    password: 4f4d1167-ef14-4304-9bce-0740472503ef
+    sni: fr.01.naiun.bilibili.com
+    skip-cert-verify: true
+    tls: true
+    udp: true
+  - name: 新加坡_21
+    type: trojan
+    server: 188.253.12.93
+    port: 47909
+    password: 4f4d1167-ef14-4304-9bce-0740472503ef
+    sni: is.01.naiun.bilibili.com
+    skip-cert-verify: true
+    tls: true
+    udp: true
+  - name: 新加坡_22
+    type: trojan
+    server: 188.253.12.93
+    port: 45553
+    password: 4f4d1167-ef14-4304-9bce-0740472503ef
+    sni: ch.01.naiun.bilibili.com
+    skip-cert-verify: true
+    tls: true
+    udp: true
+  - name: 新加坡_23
+    type: trojan
+    server: 188.253.12.90
+    port: 46424
+    password: 4f4d1167-ef14-4304-9bce-0740472503ef
+    sni: de.01.naiun.bilibili.com
+    skip-cert-verify: true
+    tls: true
+    udp: true
+  - name: 英国
+    type: vless
+    server: 31.76.53.0
+    port: 443
+    uuid: 749a5df1-2d12-45cf-80f3-f85ea6b2e405
+    servername: google.com
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: random
+    reality-opts:
+      public-key: Fp0-VrMBeaQe9xOrehDYHt0mqTZL-5CdfuMEzoXkOE8
+    skip-cert-verify: true
+    udp: true
+  - name: 英国_1
+    type: vless
+    server: 138.68.150.88
+    port: 443
+    uuid: 2c53af1c-c440-38f0-94f1-8bc32a4274f8
+    servername: learn.microsoft.com
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: random
+    reality-opts:
+      public-key: SAgG_t0cdKBPSvJzlIjrwTRjtBjfaUZnpYWhXyxEHSg
+      short-id: 2fe2afb9c7978f36
+    skip-cert-verify: true
+    udp: true
+  - name: 英国_2
+    type: vless
+    server: 2.26.134.124
+    port: 443
+    uuid: c5945c28-ecab-4c5b-8681-f742b7c88cf5
+    network: ws
+    tls: false
+    ws-opts:
+      path: /Begoo_VPN/Begoo_VPN/Begoo_VPN/Begoo_VPN/Begoo_VPN/Begoo_VPN/Begoo_VPN/Begoo_VPN/Begoo_VPN/Begoo_VPN/Begoo_VPN/Begoo_VPN/Begoo_VPN/Begoo_VPN/Begoo_VPN/Begoo_VPN/Begoo_VPN/Begoo_VPN/Begoo_VPN/Begoo_VPN
+    skip-cert-verify: true
+    udp: true
+  - name: 英国-
+    type: vless
+    server: 1.sdwan.realm-sync.com
+    port: 5457
+    uuid: 8faf6e38-0531-4d63-91f0-2aba5b9ff864
+    servername: swcdn.apple.com
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: 8Ct9wBZLha-ePZMWbSau9ViKgbwlCgEsbGMjNnoVDzw
+      short-id: 9da3779ceafd
     skip-cert-verify: true
     udp: true
 proxy-groups:
@@ -1361,25 +1900,43 @@ proxy-groups:
       - DIRECT
       - 每天更新，请加电报群防止失联
       - 电报群：https://t.me/vvkj11
-      - 日期：06-11
+      - 日期：06-12
       - 免费VPN：https://tt.vg/OWeaF
-      - 英国
-      - 英国_1
-      - 英国_2
-      - 英国_3
-      - 英国_4
-      - 英国_5
-      - 英国_6
-      - 英国_7
-      - 英国_8
-      - 英国_9
-      - 英国_10
       - 未知
       - 未知_1
       - 未知_2
-      - 日本
-      - 日本_1
-      - 日本_2
+      - 未知_3
+      - 未知_4
+      - 奥地利
+      - 奥地利_1
+      - 澳大利亚
+      - 波兰
+      - 波兰_1
+      - 德国
+      - 德国_1
+      - 德国_2
+      - 德国_3
+      - 德国_4
+      - 德国_5
+      - 德国_6
+      - 德国_7
+      - 俄罗斯联邦
+      - 俄罗斯联邦_1
+      - 俄罗斯联邦_2
+      - 法国
+      - 法国_1
+      - 法国_2
+      - 法国_3
+      - 法国_4
+      - 法国_5
+      - 法国_6
+      - 荷兰
+      - 荷兰_1
+      - 荷兰_2
+      - 荷兰_3
+      - 荷兰_4
+      - 加拿大
+      - 加拿大-
       - 美国
       - 美国_1
       - 美国_2
@@ -1452,64 +2009,95 @@ proxy-groups:
       - 美国_69
       - 美国_70
       - 美国_71
-      - 美国_72
-      - 美国_73
-      - 美国_74
-      - 美国_75
-      - 美国_76
-      - 美国_77
-      - 加拿大
-      - 加拿大_1
-      - 加拿大_2
-      - 加拿大_3
-      - 加拿大_4
-      - 加拿大_5
-      - 法国
-      - 法国_1
-      - 法国_2
-      - 俄罗斯
-      - 俄罗斯_1
-      - 俄罗斯_2
-      - 俄罗斯_3
-      - 俄罗斯_4
-      - 俄罗斯_5
-      - 俄罗斯_6
-      - 俄罗斯_7
-      - 俄罗斯_8
-      - 德国
-      - 德国_1
-      - 德国_2
-      - 美国_78
-      - 美国_79
-      - 日本_3
-      - 法国_3
-      - 日本_4
-      - 中国香港
-      - 德国_3
+      - 美国-
+      - 日本
+      - 日本_1
+      - 日本_2
+      - 香港
+      - 香港_1
+      - 香港_2
+      - 香港_3
+      - 香港_4
+      - 香港_5
+      - 香港_6
+      - 香港_7
+      - 香港_8
+      - 香港_9
+      - 香港_10
+      - 香港_11
+      - 香港_12
+      - 香港_13
+      - 香港_14
+      - 新加坡
+      - 新加坡_1
+      - 新加坡_2
+      - 新加坡_3
+      - 新加坡_4
+      - 新加坡_5
+      - 新加坡_6
+      - 新加坡_7
+      - 新加坡_8
+      - 新加坡_9
+      - 新加坡_10
+      - 新加坡_11
+      - 新加坡_12
+      - 新加坡_13
+      - 新加坡_14
+      - 新加坡_15
+      - 新加坡_16
+      - 新加坡_17
+      - 新加坡_18
+      - 新加坡_19
+      - 新加坡_20
+      - 新加坡_21
+      - 新加坡_22
+      - 新加坡_23
+      - 英国
+      - 英国_1
+      - 英国_2
+      - 英国-
   - name: ♻️ 自动选择
     type: url-test
     proxies:
       - 每天更新，请加电报群防止失联
       - 电报群：https://t.me/vvkj11
-      - 日期：06-11
+      - 日期：06-12
       - 免费VPN：https://tt.vg/OWeaF
-      - 英国
-      - 英国_1
-      - 英国_2
-      - 英国_3
-      - 英国_4
-      - 英国_5
-      - 英国_6
-      - 英国_7
-      - 英国_8
-      - 英国_9
-      - 英国_10
       - 未知
       - 未知_1
       - 未知_2
-      - 日本
-      - 日本_1
-      - 日本_2
+      - 未知_3
+      - 未知_4
+      - 奥地利
+      - 奥地利_1
+      - 澳大利亚
+      - 波兰
+      - 波兰_1
+      - 德国
+      - 德国_1
+      - 德国_2
+      - 德国_3
+      - 德国_4
+      - 德国_5
+      - 德国_6
+      - 德国_7
+      - 俄罗斯联邦
+      - 俄罗斯联邦_1
+      - 俄罗斯联邦_2
+      - 法国
+      - 法国_1
+      - 法国_2
+      - 法国_3
+      - 法国_4
+      - 法国_5
+      - 法国_6
+      - 荷兰
+      - 荷兰_1
+      - 荷兰_2
+      - 荷兰_3
+      - 荷兰_4
+      - 加拿大
+      - 加拿大-
       - 美国
       - 美国_1
       - 美国_2
@@ -1582,40 +2170,53 @@ proxy-groups:
       - 美国_69
       - 美国_70
       - 美国_71
-      - 美国_72
-      - 美国_73
-      - 美国_74
-      - 美国_75
-      - 美国_76
-      - 美国_77
-      - 加拿大
-      - 加拿大_1
-      - 加拿大_2
-      - 加拿大_3
-      - 加拿大_4
-      - 加拿大_5
-      - 法国
-      - 法国_1
-      - 法国_2
-      - 俄罗斯
-      - 俄罗斯_1
-      - 俄罗斯_2
-      - 俄罗斯_3
-      - 俄罗斯_4
-      - 俄罗斯_5
-      - 俄罗斯_6
-      - 俄罗斯_7
-      - 俄罗斯_8
-      - 德国
-      - 德国_1
-      - 德国_2
-      - 美国_78
-      - 美国_79
-      - 日本_3
-      - 法国_3
-      - 日本_4
-      - 中国香港
-      - 德国_3
+      - 美国-
+      - 日本
+      - 日本_1
+      - 日本_2
+      - 香港
+      - 香港_1
+      - 香港_2
+      - 香港_3
+      - 香港_4
+      - 香港_5
+      - 香港_6
+      - 香港_7
+      - 香港_8
+      - 香港_9
+      - 香港_10
+      - 香港_11
+      - 香港_12
+      - 香港_13
+      - 香港_14
+      - 新加坡
+      - 新加坡_1
+      - 新加坡_2
+      - 新加坡_3
+      - 新加坡_4
+      - 新加坡_5
+      - 新加坡_6
+      - 新加坡_7
+      - 新加坡_8
+      - 新加坡_9
+      - 新加坡_10
+      - 新加坡_11
+      - 新加坡_12
+      - 新加坡_13
+      - 新加坡_14
+      - 新加坡_15
+      - 新加坡_16
+      - 新加坡_17
+      - 新加坡_18
+      - 新加坡_19
+      - 新加坡_20
+      - 新加坡_21
+      - 新加坡_22
+      - 新加坡_23
+      - 英国
+      - 英国_1
+      - 英国_2
+      - 英国-
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
@@ -1627,25 +2228,43 @@ proxy-groups:
       - 🎯 全球直连
       - 每天更新，请加电报群防止失联
       - 电报群：https://t.me/vvkj11
-      - 日期：06-11
+      - 日期：06-12
       - 免费VPN：https://tt.vg/OWeaF
-      - 英国
-      - 英国_1
-      - 英国_2
-      - 英国_3
-      - 英国_4
-      - 英国_5
-      - 英国_6
-      - 英国_7
-      - 英国_8
-      - 英国_9
-      - 英国_10
       - 未知
       - 未知_1
       - 未知_2
-      - 日本
-      - 日本_1
-      - 日本_2
+      - 未知_3
+      - 未知_4
+      - 奥地利
+      - 奥地利_1
+      - 澳大利亚
+      - 波兰
+      - 波兰_1
+      - 德国
+      - 德国_1
+      - 德国_2
+      - 德国_3
+      - 德国_4
+      - 德国_5
+      - 德国_6
+      - 德国_7
+      - 俄罗斯联邦
+      - 俄罗斯联邦_1
+      - 俄罗斯联邦_2
+      - 法国
+      - 法国_1
+      - 法国_2
+      - 法国_3
+      - 法国_4
+      - 法国_5
+      - 法国_6
+      - 荷兰
+      - 荷兰_1
+      - 荷兰_2
+      - 荷兰_3
+      - 荷兰_4
+      - 加拿大
+      - 加拿大-
       - 美国
       - 美国_1
       - 美国_2
@@ -1718,40 +2337,53 @@ proxy-groups:
       - 美国_69
       - 美国_70
       - 美国_71
-      - 美国_72
-      - 美国_73
-      - 美国_74
-      - 美国_75
-      - 美国_76
-      - 美国_77
-      - 加拿大
-      - 加拿大_1
-      - 加拿大_2
-      - 加拿大_3
-      - 加拿大_4
-      - 加拿大_5
-      - 法国
-      - 法国_1
-      - 法国_2
-      - 俄罗斯
-      - 俄罗斯_1
-      - 俄罗斯_2
-      - 俄罗斯_3
-      - 俄罗斯_4
-      - 俄罗斯_5
-      - 俄罗斯_6
-      - 俄罗斯_7
-      - 俄罗斯_8
-      - 德国
-      - 德国_1
-      - 德国_2
-      - 美国_78
-      - 美国_79
-      - 日本_3
-      - 法国_3
-      - 日本_4
-      - 中国香港
-      - 德国_3
+      - 美国-
+      - 日本
+      - 日本_1
+      - 日本_2
+      - 香港
+      - 香港_1
+      - 香港_2
+      - 香港_3
+      - 香港_4
+      - 香港_5
+      - 香港_6
+      - 香港_7
+      - 香港_8
+      - 香港_9
+      - 香港_10
+      - 香港_11
+      - 香港_12
+      - 香港_13
+      - 香港_14
+      - 新加坡
+      - 新加坡_1
+      - 新加坡_2
+      - 新加坡_3
+      - 新加坡_4
+      - 新加坡_5
+      - 新加坡_6
+      - 新加坡_7
+      - 新加坡_8
+      - 新加坡_9
+      - 新加坡_10
+      - 新加坡_11
+      - 新加坡_12
+      - 新加坡_13
+      - 新加坡_14
+      - 新加坡_15
+      - 新加坡_16
+      - 新加坡_17
+      - 新加坡_18
+      - 新加坡_19
+      - 新加坡_20
+      - 新加坡_21
+      - 新加坡_22
+      - 新加坡_23
+      - 英国
+      - 英国_1
+      - 英国_2
+      - 英国-
   - name: 📲 电报信息
     type: select
     proxies:
@@ -1759,25 +2391,43 @@ proxy-groups:
       - 🎯 全球直连
       - 每天更新，请加电报群防止失联
       - 电报群：https://t.me/vvkj11
-      - 日期：06-11
+      - 日期：06-12
       - 免费VPN：https://tt.vg/OWeaF
-      - 英国
-      - 英国_1
-      - 英国_2
-      - 英国_3
-      - 英国_4
-      - 英国_5
-      - 英国_6
-      - 英国_7
-      - 英国_8
-      - 英国_9
-      - 英国_10
       - 未知
       - 未知_1
       - 未知_2
-      - 日本
-      - 日本_1
-      - 日本_2
+      - 未知_3
+      - 未知_4
+      - 奥地利
+      - 奥地利_1
+      - 澳大利亚
+      - 波兰
+      - 波兰_1
+      - 德国
+      - 德国_1
+      - 德国_2
+      - 德国_3
+      - 德国_4
+      - 德国_5
+      - 德国_6
+      - 德国_7
+      - 俄罗斯联邦
+      - 俄罗斯联邦_1
+      - 俄罗斯联邦_2
+      - 法国
+      - 法国_1
+      - 法国_2
+      - 法国_3
+      - 法国_4
+      - 法国_5
+      - 法国_6
+      - 荷兰
+      - 荷兰_1
+      - 荷兰_2
+      - 荷兰_3
+      - 荷兰_4
+      - 加拿大
+      - 加拿大-
       - 美国
       - 美国_1
       - 美国_2
@@ -1850,40 +2500,53 @@ proxy-groups:
       - 美国_69
       - 美国_70
       - 美国_71
-      - 美国_72
-      - 美国_73
-      - 美国_74
-      - 美国_75
-      - 美国_76
-      - 美国_77
-      - 加拿大
-      - 加拿大_1
-      - 加拿大_2
-      - 加拿大_3
-      - 加拿大_4
-      - 加拿大_5
-      - 法国
-      - 法国_1
-      - 法国_2
-      - 俄罗斯
-      - 俄罗斯_1
-      - 俄罗斯_2
-      - 俄罗斯_3
-      - 俄罗斯_4
-      - 俄罗斯_5
-      - 俄罗斯_6
-      - 俄罗斯_7
-      - 俄罗斯_8
-      - 德国
-      - 德国_1
-      - 德国_2
-      - 美国_78
-      - 美国_79
-      - 日本_3
-      - 法国_3
-      - 日本_4
-      - 中国香港
-      - 德国_3
+      - 美国-
+      - 日本
+      - 日本_1
+      - 日本_2
+      - 香港
+      - 香港_1
+      - 香港_2
+      - 香港_3
+      - 香港_4
+      - 香港_5
+      - 香港_6
+      - 香港_7
+      - 香港_8
+      - 香港_9
+      - 香港_10
+      - 香港_11
+      - 香港_12
+      - 香港_13
+      - 香港_14
+      - 新加坡
+      - 新加坡_1
+      - 新加坡_2
+      - 新加坡_3
+      - 新加坡_4
+      - 新加坡_5
+      - 新加坡_6
+      - 新加坡_7
+      - 新加坡_8
+      - 新加坡_9
+      - 新加坡_10
+      - 新加坡_11
+      - 新加坡_12
+      - 新加坡_13
+      - 新加坡_14
+      - 新加坡_15
+      - 新加坡_16
+      - 新加坡_17
+      - 新加坡_18
+      - 新加坡_19
+      - 新加坡_20
+      - 新加坡_21
+      - 新加坡_22
+      - 新加坡_23
+      - 英国
+      - 英国_1
+      - 英国_2
+      - 英国-
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -1891,25 +2554,43 @@ proxy-groups:
       - 🚀 节点选择
       - 每天更新，请加电报群防止失联
       - 电报群：https://t.me/vvkj11
-      - 日期：06-11
+      - 日期：06-12
       - 免费VPN：https://tt.vg/OWeaF
-      - 英国
-      - 英国_1
-      - 英国_2
-      - 英国_3
-      - 英国_4
-      - 英国_5
-      - 英国_6
-      - 英国_7
-      - 英国_8
-      - 英国_9
-      - 英国_10
       - 未知
       - 未知_1
       - 未知_2
-      - 日本
-      - 日本_1
-      - 日本_2
+      - 未知_3
+      - 未知_4
+      - 奥地利
+      - 奥地利_1
+      - 澳大利亚
+      - 波兰
+      - 波兰_1
+      - 德国
+      - 德国_1
+      - 德国_2
+      - 德国_3
+      - 德国_4
+      - 德国_5
+      - 德国_6
+      - 德国_7
+      - 俄罗斯联邦
+      - 俄罗斯联邦_1
+      - 俄罗斯联邦_2
+      - 法国
+      - 法国_1
+      - 法国_2
+      - 法国_3
+      - 法国_4
+      - 法国_5
+      - 法国_6
+      - 荷兰
+      - 荷兰_1
+      - 荷兰_2
+      - 荷兰_3
+      - 荷兰_4
+      - 加拿大
+      - 加拿大-
       - 美国
       - 美国_1
       - 美国_2
@@ -1982,40 +2663,53 @@ proxy-groups:
       - 美国_69
       - 美国_70
       - 美国_71
-      - 美国_72
-      - 美国_73
-      - 美国_74
-      - 美国_75
-      - 美国_76
-      - 美国_77
-      - 加拿大
-      - 加拿大_1
-      - 加拿大_2
-      - 加拿大_3
-      - 加拿大_4
-      - 加拿大_5
-      - 法国
-      - 法国_1
-      - 法国_2
-      - 俄罗斯
-      - 俄罗斯_1
-      - 俄罗斯_2
-      - 俄罗斯_3
-      - 俄罗斯_4
-      - 俄罗斯_5
-      - 俄罗斯_6
-      - 俄罗斯_7
-      - 俄罗斯_8
-      - 德国
-      - 德国_1
-      - 德国_2
-      - 美国_78
-      - 美国_79
-      - 日本_3
-      - 法国_3
-      - 日本_4
-      - 中国香港
-      - 德国_3
+      - 美国-
+      - 日本
+      - 日本_1
+      - 日本_2
+      - 香港
+      - 香港_1
+      - 香港_2
+      - 香港_3
+      - 香港_4
+      - 香港_5
+      - 香港_6
+      - 香港_7
+      - 香港_8
+      - 香港_9
+      - 香港_10
+      - 香港_11
+      - 香港_12
+      - 香港_13
+      - 香港_14
+      - 新加坡
+      - 新加坡_1
+      - 新加坡_2
+      - 新加坡_3
+      - 新加坡_4
+      - 新加坡_5
+      - 新加坡_6
+      - 新加坡_7
+      - 新加坡_8
+      - 新加坡_9
+      - 新加坡_10
+      - 新加坡_11
+      - 新加坡_12
+      - 新加坡_13
+      - 新加坡_14
+      - 新加坡_15
+      - 新加坡_16
+      - 新加坡_17
+      - 新加坡_18
+      - 新加坡_19
+      - 新加坡_20
+      - 新加坡_21
+      - 新加坡_22
+      - 新加坡_23
+      - 英国
+      - 英国_1
+      - 英国_2
+      - 英国-
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -2023,25 +2717,43 @@ proxy-groups:
       - 🎯 全球直连
       - 每天更新，请加电报群防止失联
       - 电报群：https://t.me/vvkj11
-      - 日期：06-11
+      - 日期：06-12
       - 免费VPN：https://tt.vg/OWeaF
-      - 英国
-      - 英国_1
-      - 英国_2
-      - 英国_3
-      - 英国_4
-      - 英国_5
-      - 英国_6
-      - 英国_7
-      - 英国_8
-      - 英国_9
-      - 英国_10
       - 未知
       - 未知_1
       - 未知_2
-      - 日本
-      - 日本_1
-      - 日本_2
+      - 未知_3
+      - 未知_4
+      - 奥地利
+      - 奥地利_1
+      - 澳大利亚
+      - 波兰
+      - 波兰_1
+      - 德国
+      - 德国_1
+      - 德国_2
+      - 德国_3
+      - 德国_4
+      - 德国_5
+      - 德国_6
+      - 德国_7
+      - 俄罗斯联邦
+      - 俄罗斯联邦_1
+      - 俄罗斯联邦_2
+      - 法国
+      - 法国_1
+      - 法国_2
+      - 法国_3
+      - 法国_4
+      - 法国_5
+      - 法国_6
+      - 荷兰
+      - 荷兰_1
+      - 荷兰_2
+      - 荷兰_3
+      - 荷兰_4
+      - 加拿大
+      - 加拿大-
       - 美国
       - 美国_1
       - 美国_2
@@ -2114,40 +2826,53 @@ proxy-groups:
       - 美国_69
       - 美国_70
       - 美国_71
-      - 美国_72
-      - 美国_73
-      - 美国_74
-      - 美国_75
-      - 美国_76
-      - 美国_77
-      - 加拿大
-      - 加拿大_1
-      - 加拿大_2
-      - 加拿大_3
-      - 加拿大_4
-      - 加拿大_5
-      - 法国
-      - 法国_1
-      - 法国_2
-      - 俄罗斯
-      - 俄罗斯_1
-      - 俄罗斯_2
-      - 俄罗斯_3
-      - 俄罗斯_4
-      - 俄罗斯_5
-      - 俄罗斯_6
-      - 俄罗斯_7
-      - 俄罗斯_8
-      - 德国
-      - 德国_1
-      - 德国_2
-      - 美国_78
-      - 美国_79
-      - 日本_3
-      - 法国_3
-      - 日本_4
-      - 中国香港
-      - 德国_3
+      - 美国-
+      - 日本
+      - 日本_1
+      - 日本_2
+      - 香港
+      - 香港_1
+      - 香港_2
+      - 香港_3
+      - 香港_4
+      - 香港_5
+      - 香港_6
+      - 香港_7
+      - 香港_8
+      - 香港_9
+      - 香港_10
+      - 香港_11
+      - 香港_12
+      - 香港_13
+      - 香港_14
+      - 新加坡
+      - 新加坡_1
+      - 新加坡_2
+      - 新加坡_3
+      - 新加坡_4
+      - 新加坡_5
+      - 新加坡_6
+      - 新加坡_7
+      - 新加坡_8
+      - 新加坡_9
+      - 新加坡_10
+      - 新加坡_11
+      - 新加坡_12
+      - 新加坡_13
+      - 新加坡_14
+      - 新加坡_15
+      - 新加坡_16
+      - 新加坡_17
+      - 新加坡_18
+      - 新加坡_19
+      - 新加坡_20
+      - 新加坡_21
+      - 新加坡_22
+      - 新加坡_23
+      - 英国
+      - 英国_1
+      - 英国_2
+      - 英国-
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -2172,25 +2897,43 @@ proxy-groups:
       - ♻️ 自动选择
       - 每天更新，请加电报群防止失联
       - 电报群：https://t.me/vvkj11
-      - 日期：06-11
+      - 日期：06-12
       - 免费VPN：https://tt.vg/OWeaF
-      - 英国
-      - 英国_1
-      - 英国_2
-      - 英国_3
-      - 英国_4
-      - 英国_5
-      - 英国_6
-      - 英国_7
-      - 英国_8
-      - 英国_9
-      - 英国_10
       - 未知
       - 未知_1
       - 未知_2
-      - 日本
-      - 日本_1
-      - 日本_2
+      - 未知_3
+      - 未知_4
+      - 奥地利
+      - 奥地利_1
+      - 澳大利亚
+      - 波兰
+      - 波兰_1
+      - 德国
+      - 德国_1
+      - 德国_2
+      - 德国_3
+      - 德国_4
+      - 德国_5
+      - 德国_6
+      - 德国_7
+      - 俄罗斯联邦
+      - 俄罗斯联邦_1
+      - 俄罗斯联邦_2
+      - 法国
+      - 法国_1
+      - 法国_2
+      - 法国_3
+      - 法国_4
+      - 法国_5
+      - 法国_6
+      - 荷兰
+      - 荷兰_1
+      - 荷兰_2
+      - 荷兰_3
+      - 荷兰_4
+      - 加拿大
+      - 加拿大-
       - 美国
       - 美国_1
       - 美国_2
@@ -2263,40 +3006,53 @@ proxy-groups:
       - 美国_69
       - 美国_70
       - 美国_71
-      - 美国_72
-      - 美国_73
-      - 美国_74
-      - 美国_75
-      - 美国_76
-      - 美国_77
-      - 加拿大
-      - 加拿大_1
-      - 加拿大_2
-      - 加拿大_3
-      - 加拿大_4
-      - 加拿大_5
-      - 法国
-      - 法国_1
-      - 法国_2
-      - 俄罗斯
-      - 俄罗斯_1
-      - 俄罗斯_2
-      - 俄罗斯_3
-      - 俄罗斯_4
-      - 俄罗斯_5
-      - 俄罗斯_6
-      - 俄罗斯_7
-      - 俄罗斯_8
-      - 德国
-      - 德国_1
-      - 德国_2
-      - 美国_78
-      - 美国_79
-      - 日本_3
-      - 法国_3
-      - 日本_4
-      - 中国香港
-      - 德国_3
+      - 美国-
+      - 日本
+      - 日本_1
+      - 日本_2
+      - 香港
+      - 香港_1
+      - 香港_2
+      - 香港_3
+      - 香港_4
+      - 香港_5
+      - 香港_6
+      - 香港_7
+      - 香港_8
+      - 香港_9
+      - 香港_10
+      - 香港_11
+      - 香港_12
+      - 香港_13
+      - 香港_14
+      - 新加坡
+      - 新加坡_1
+      - 新加坡_2
+      - 新加坡_3
+      - 新加坡_4
+      - 新加坡_5
+      - 新加坡_6
+      - 新加坡_7
+      - 新加坡_8
+      - 新加坡_9
+      - 新加坡_10
+      - 新加坡_11
+      - 新加坡_12
+      - 新加坡_13
+      - 新加坡_14
+      - 新加坡_15
+      - 新加坡_16
+      - 新加坡_17
+      - 新加坡_18
+      - 新加坡_19
+      - 新加坡_20
+      - 新加坡_21
+      - 新加坡_22
+      - 新加坡_23
+      - 英国
+      - 英国_1
+      - 英国_2
+      - 英国-
 rule-providers:
   LocalAreaNetwork:
     type: http
