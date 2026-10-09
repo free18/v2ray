@@ -17,8 +17,6 @@
 
 **【飞鸟云机场】优惠码：150m0Une** [点击注册](https://fn3.170809.xyz/#/register?code=150m0Une)
 
-**【红杏云机场】优惠码：hx2026** [点击注册](https://hongxingdl.com/web/#/login?code=cCDWstFY)
-
 **【😚乌龟加速😚新上线的中转机场】优惠码：VV888** [点击注册](http://wgjsq.net/#/login?code=VYpJWjFb)
 
 **【各种帐号购买】** [点击注册](https://wandoukj.eu.org/)
@@ -106,14 +104,6 @@ trojan://Puj01Rc8UcA9IzcFcYOs8KMOhCz6aX2Q@mfyousheng.nl.eu.org:443?security=tls&
 + tg://proxy?server=151.242.182.218&port=24272&secret=dd34fe2b5a4dfdfd9f2e5cca9bd9b9e21f
 
 + tg://proxy?server=151.242.182.218&port=44599&secret=dd26a4980bc85d3145534341c3c76c3570 
-
-====================================================
-
-## 国外信用卡（最便宜，无需实名）
-
-:red_circle: fomepay：[点击注册](https://gpt.fomepay.com/#/pages/login/index?d=918895)
-
-:red_circle: 飞扬卡平台：[点击注册](https://vc.fyetd.com/vc_web/main.html#/login?inNo=vtghps)
 
 ====================================================
 
