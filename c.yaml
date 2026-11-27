@@ -40,13 +40,13 @@ dns:
 proxies:
   - type: vless
     name: 每天更新，请加电报群防止失联
-    server: hw7.jirjirakirani.com
+    server: hw8.iranichergh.com
     port: 993
-    uuid: 52406fc7-b008-4985-8de1-4bc43b2b873a
+    uuid: 978d2a58-bd01-4b61-b953-dc8e66728460
     udp: true
     tls: true
-    servername: hw7.jirjirakirani.com.
-    sni: hw7.jirjirakirani.com.
+    servername: hw8.iranichergh.com.
+    sni: hw8.iranichergh.com.
     skip-cert-verify: true
     alpn:
       - http/1.1
@@ -54,237 +54,181 @@ proxies:
     network: ws
     ws-opts:
       path: /
-  - type: vless
+  - type: vmess
     name: 电报群：t.me/vvkj11
-    server: 213.183.45.23
-    port: 8454
-    uuid: eb62cabf-5901-403a-aa0c-b1d9ed1b346d
+    server: 13.51.184.77
+    port: 8086
+    uuid: f970052a-8381-40c7-875e-ef0892e01b7b
+    cipher: aes-128-gcm
+    alterId: 0
     udp: true
     tls: true
-    servername: store.plumstatic.com
-    sni: store.plumstatic.com
+    servername: 13.51.184.77
+    sni: 13.51.184.77
     skip-cert-verify: true
     network: ws
     ws-opts:
-      path: /ws
+      path: /xjf3ry
   - type: vless
-    name: 日期：11-26
-    server: 213.183.45.23
-    port: 8444
-    uuid: eb62cabf-5901-403a-aa0c-b1d9ed1b346d
+    name: 日期：11-27
+    server: 149.28.29.156
+    port: 443
+    uuid: aa1a9052-720f-4bb0-92be-21b6baf9f386
     udp: true
     tls: true
-    servername: media.plumstatic.com
-    sni: media.plumstatic.com
+    servername: itunes.apple.com
+    sni: itunes.apple.com
     skip-cert-verify: true
-    client-fingerprint: firefox
     network: ws
     ws-opts:
       path: /ws
+      headers:
+        Host: itunes.apple.com
   - type: vless
     name: 免费VPN：tt.vg/FJOE2Mm
-    server: 213.183.45.23
-    port: 8454
-    uuid: eb62cabf-5901-403a-aa0c-b1d9ed1b346d
+    server: 139.180.221.53
+    port: 443
+    uuid: 2b30d0df-6ebe-4aed-9bad-b7c554e35e1d
     udp: true
     tls: true
-    servername: store.plumstatic.com
-    sni: store.plumstatic.com
+    servername: itunes.apple.com
+    sni: itunes.apple.com
     skip-cert-verify: true
-    client-fingerprint: firefox
     network: ws
     ws-opts:
       path: /ws
-  - type: vless
-    name: 🇷🇺_俄罗斯 (4)
-    server: 213.183.41.31
-    port: 8463
-    uuid: eb62cabf-5901-403a-aa0c-b1d9ed1b346d
-    udp: true
-    tls: true
-    servername: share.plumstatic.com
-    sni: share.plumstatic.com
-    skip-cert-verify: true
-    client-fingerprint: firefox
-    network: ws
-    ws-opts:
-      path: /ws
+      headers:
+        Host: itunes.apple.com
   - type: vless
     name: 🇺🇸_美国
-    server: xray-b8ct4r2f-sahdon-hosaindoost.cloady.io
-    port: 443
-    uuid: 1fd2e2d1-96f5-2056-19fd-b375b1a9d851
+    server: 172.66.0.172
+    port: 2083
+    uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
     udp: true
     tls: true
-    servername: xray-b8ct4r2f-sahdon-hosaindoost.cloady.io
-    sni: xray-b8ct4r2f-sahdon-hosaindoost.cloady.io
+    servername: wk1.f1w.de5.net
+    sni: wk1.f1w.de5.net
     skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /ffad70ffdfc3bcda
-      headers:
-        Host: xray-b8ct4r2f-sahdon-hosaindoost.cloady.io
-  - type: vless
-    name: 🇷🇺_俄罗斯 (5)
-    server: 213.183.45.23
-    port: 8444
-    uuid: eb62cabf-5901-403a-aa0c-b1d9ed1b346d
-    udp: true
-    tls: true
-    servername: media.plumstatic.com
-    sni: media.plumstatic.com
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /ws
-  - type: vless
-    name: 🇷🇺_俄罗斯 (6)
-    server: 213.183.41.31
-    port: 8463
-    uuid: eb62cabf-5901-403a-aa0c-b1d9ed1b346d
-    udp: true
-    tls: true
-    servername: share.plumstatic.com
-    sni: share.plumstatic.com
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /ws
-  - type: vless
-    name: 🇩🇪_德国 (5)
-    server: hw7.jirjirakirani.com
-    port: 993
-    uuid: 52406fc7-b008-4985-8de1-4bc43b2b873a
-    udp: true
-    tls: true
-    servername: hw7.jirjirakirani.com.
-    sni: hw7.jirjirakirani.com.
-    skip-cert-verify: true
+    client-fingerprint: chrome
     network: ws
     ws-opts:
       path: /
-  - type: vless
-    name: 🇸🇬_新加坡
-    server: 43.170.8.95
-    port: 443
-    uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-    udp: true
-    tls: true
-    servername: jp3.yohototo.top
-    sni: jp3.yohototo.top
-    skip-cert-verify: true
-    client-fingerprint: unsafe
-    network: ws
-    ws-opts:
-      path: /tyxyws
       headers:
-        Host: jp3.yohototo.top
+        Host: wk1.f1w.de5.net
   - type: vless
-    name: 🇷🇺_俄罗斯 (7)
-    server: 46.243.232.149
-    port: 443
-    uuid: b432a23a-acff-425c-bf69-70480cd6ed09
+    name: 🇳🇱_荷兰
+    server: 188.164.248.123
+    port: 8443
+    uuid: 7b102311-43fd-4e8f-877e-8090623c101d
     udp: true
     tls: true
-    servername: devcdn.icu
-    sni: devcdn.icu
-    skip-cert-verify: true
-    alpn:
-      - http/1.1
-    client-fingerprint: firefox
-    network: ws
-    ws-opts:
-      path: /edge/chunk/b2265efffa29/
-      headers:
-        Host: devcdn.icu
-  - type: vless
-    name: 🇮🇳_印度
-    server: xray-dmr3b3hy-calm-maple-7.cloady.io
-    port: 443
-    uuid: 06a5afa1-2bbc-a5d1-1770-becd1089c636
-    udp: true
-    tls: true
-    servername: xray-dmr3b3hy-calm-maple-7.cloady.io
-    sni: xray-dmr3b3hy-calm-maple-7.cloady.io
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /0175469f14317d82
-  - type: vless
-    name: 🇮🇳_印度 (2)
-    server: xray-dmr3b3hy-calm-maple-7.cloady.io
-    port: 443
-    uuid: 06a5afa1-2bbc-a5d1-1770-becd1089c636
-    udp: true
-    tls: true
-    servername: xray-dmr3b3hy-calm-maple-7.cloady.io
-    sni: xray-dmr3b3hy-calm-maple-7.cloady.io
+    servername: vp21.cc.cd
+    sni: vp21.cc.cd
     skip-cert-verify: true
     client-fingerprint: chrome
     network: ws
     ws-opts:
-      path: /0175469f14317d82
-  - type: vless
-    name: 🇷🇺_俄罗斯 (8)
-    server: 213.183.41.31
-    port: 8459
-    uuid: eb62cabf-5901-403a-aa0c-b1d9ed1b346d
-    udp: true
-    tls: true
-    servername: photos.plumstatic.com
-    sni: photos.plumstatic.com
-    skip-cert-verify: true
-    client-fingerprint: firefox
-    network: ws
-    ws-opts:
-      path: /ws
-  - type: vless
-    name: 🇮🇳_印度 (3)
-    server: xray-ikmqcro3-rapid-river-6.cloady.io
-    port: 443
-    uuid: 213224a4-6cd1-b7f4-8bbc-4f50e5ed847b
-    udp: true
-    tls: true
-    servername: xray-ikmqcro3-rapid-river-6.cloady.io
-    sni: xray-ikmqcro3-rapid-river-6.cloady.io
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /c54a815e676d9acc
-  - type: vless
-    name: 🇰🇷_韩国
-    server: krd.80782636.xyz
-    port: 443
-    uuid: db906786-8c49-4b17-9182-cea680ef954d
-    udp: true
-    tls: true
-    servername: krd.80782636.xyz
-    sni: krd.80782636.xyz
-    skip-cert-verify: true
-    client-fingerprint: chrome
-    network: ws
-    ws-opts:
-      path: /kw7x2mq9
+      path: /
       headers:
-        Host: krd.80782636.xyz
+        Host: vp21.cc.cd
   - type: vless
     name: 🇺🇸_美国 (2)
-    server: saas.sin.fan
+    server: 172.66.0.172
     port: 443
-    uuid: 5d7b401c-78fa-4254-872e-6d42bf7e75ec
+    uuid: e53eacb6-cd30-4964-a57c-febcb5151b98
     udp: true
     tls: true
-    servername: v2n6.11676767.xyz
-    sni: v2n6.11676767.xyz
+    servername: wallweb-4r0.pages.dev
+    sni: wallweb-4r0.pages.dev
     skip-cert-verify: true
     client-fingerprint: chrome
     network: ws
     ws-opts:
-      path: /ranking/htm
+      path: /
       headers:
-        Host: v2n6.11676767.xyz
+        Host: wallweb-4r0.pages.dev
+  - type: vless
+    name: 🇸🇬_新加坡 (2)
+    server: 142.91.101.39
+    port: 627
+    uuid: aff1ffd0-594c-44c9-9f79-4096fde005ea
+    udp: true
+    tls: true
+    servername: 9qohadlkywguh.hlf9x1796lkopyju2kplt9c9smz1vyuv0u8azzk.workers.dev
+    sni: 9qohadlkywguh.hlf9x1796lkopyju2kplt9c9smz1vyuv0u8azzk.workers.dev
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    network: ws
+    ws-opts:
+      path: /@Marisa_kristi
+      headers:
+        Host: 9qohadlkywguh.hlf9x1796lkopyju2kplt9c9smz1vyuv0u8azzk.workers.dev
+  - type: vless
+    name: 🇸🇬_新加坡 (3)
+    server: 142.91.101.39
+    port: 627
+    uuid: 8199228b-e84b-42a2-9268-e400391e483a
+    udp: true
+    tls: true
+    servername: 9qohadlkywguh.hlf9x1796lkopyju2kplt9c9smz1vyuv0u8azzk.workers.dev
+    sni: 9qohadlkywguh.hlf9x1796lkopyju2kplt9c9smz1vyuv0u8azzk.workers.dev
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    network: ws
+    ws-opts:
+      path: /@Marisa_kristi
+      headers:
+        Host: 9qohadlkywguh.hlf9x1796lkopyju2kplt9c9smz1vyuv0u8azzk.workers.dev
+  - type: vless
+    name: 🇳🇱_荷兰 (2)
+    server: 188.164.248.48
+    port: 2083
+    uuid: a21b9103-1693-49c1-8dc9-e8e8098ee969
+    udp: true
+    tls: true
+    servername: helloapps.cc.cd
+    sni: helloapps.cc.cd
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: helloapps.cc.cd
+  - type: vless
+    name: 🇳🇱_荷兰 (3)
+    server: 188.164.248.151
+    port: 2096
+    uuid: 9f534ac4-3c58-4a16-8b74-13dff09a0cf1
+    udp: true
+    tls: true
+    servername: d39333476.pages.dev
+    sni: d39333476.pages.dev
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    network: ws
+    ws-opts:
+      path: /item/m
+      headers:
+        Host: d39333476.pages.dev
   - type: vless
     name: 🇺🇸_美国 (3)
+    server: 172.66.0.230
+    port: 2083
+    uuid: a21b9103-1693-49c1-8dc9-e8e8098ee969
+    udp: true
+    tls: true
+    servername: helloapps.cc.cd
+    sni: helloapps.cc.cd
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: helloapps.cc.cd
+  - type: vless
+    name: 🇺🇸_美国 (4)
     server: 179.255.137.204
     port: 8443
     uuid: b69cf773-da16-486e-afce-a45b94f998b3
@@ -300,23 +244,7 @@ proxies:
       headers:
         Host: senflarelink-node-xfcyh2.pages.dev
   - type: vless
-    name: 🇯🇵_日本
-    server: 107.191.53.86
-    port: 4798
-    uuid: 16a5e4f6-246f-406d-9787-1b5686a97cbc
-    udp: true
-    tls: true
-    servername: jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev
-    sni: jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev
-    skip-cert-verify: true
-    client-fingerprint: chrome
-    network: ws
-    ws-opts:
-      path: /@Marisa_kristi
-      headers:
-        Host: jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev
-  - type: vless
-    name: 🇩🇪_德国 (6)
+    name: 🇩🇪_德国 (2)
     server: 178.104.77.229
     port: 8443
     uuid: b69cf773-da16-486e-afce-a45b94f998b3
@@ -331,6 +259,212 @@ proxies:
       path: /
       headers:
         Host: senflarelink-node-m3bfbn.pages.dev
+  - type: vless
+    name: 🇩🇪_德国 (3)
+    server: hw7.jirjirakirani.com
+    port: 993
+    uuid: 52406fc7-b008-4985-8de1-4bc43b2b873a
+    udp: true
+    tls: true
+    servername: hw7.jirjirakirani.com.
+    sni: hw7.jirjirakirani.com.
+    skip-cert-verify: true
+    alpn:
+      - http/1.1
+    client-fingerprint: chrome
+    network: ws
+    ws-opts:
+      path: /
+  - type: vless
+    name: 🇩🇪_德国 (4)
+    server: hw7.jirjirakirani.com
+    port: 993
+    uuid: 52406fc7-b008-4985-8de1-4bc43b2b873a
+    udp: true
+    tls: true
+    servername: hw7.jirjirakirani.com.
+    sni: hw7.jirjirakirani.com.
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /
+  - type: vless
+    name: 🇩🇪_德国 (5)
+    server: hw8.iranichergh.com
+    port: 993
+    uuid: 978d2a58-bd01-4b61-b953-dc8e66728460
+    udp: true
+    tls: true
+    servername: hw8.iranichergh.com.
+    sni: hw8.iranichergh.com.
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /
+  - type: vless
+    name: 🇮🇳_印度
+    server: xray-ikmqcro3-rapid-river-6.cloady.io
+    port: 443
+    uuid: 213224a4-6cd1-b7f4-8bbc-4f50e5ed847b
+    udp: true
+    tls: true
+    servername: xray-ikmqcro3-rapid-river-6.cloady.io
+    sni: xray-ikmqcro3-rapid-river-6.cloady.io
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /c54a815e676d9acc
+  - type: vless
+    name: 🇷🇺_俄罗斯
+    server: 213.183.41.31
+    port: 8463
+    uuid: eb62cabf-5901-403a-aa0c-b1d9ed1b346d
+    udp: true
+    tls: true
+    servername: share.plumstatic.com
+    sni: share.plumstatic.com
+    skip-cert-verify: true
+    client-fingerprint: firefox
+    network: ws
+    ws-opts:
+      path: /ws
+  - type: vless
+    name: 🇷🇺_俄罗斯 (2)
+    server: 213.183.41.31
+    port: 8459
+    uuid: eb62cabf-5901-403a-aa0c-b1d9ed1b346d
+    udp: true
+    tls: true
+    servername: photos.plumstatic.com
+    sni: photos.plumstatic.com
+    skip-cert-verify: true
+    client-fingerprint: firefox
+    network: ws
+    ws-opts:
+      path: /ws
+  - type: vless
+    name: 🇷🇺_俄罗斯 (3)
+    server: 213.183.41.31
+    port: 8463
+    uuid: eb62cabf-5901-403a-aa0c-b1d9ed1b346d
+    udp: true
+    tls: true
+    servername: share.plumstatic.com
+    sni: share.plumstatic.com
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /ws
+  - type: vless
+    name: 🇷🇺_俄罗斯 (4)
+    server: 213.183.45.23
+    port: 8454
+    uuid: eb62cabf-5901-403a-aa0c-b1d9ed1b346d
+    udp: true
+    tls: true
+    servername: store.plumstatic.com
+    sni: store.plumstatic.com
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /ws
+  - type: vless
+    name: 🇷🇺_俄罗斯 (5)
+    server: 213.183.45.23
+    port: 8454
+    uuid: eb62cabf-5901-403a-aa0c-b1d9ed1b346d
+    udp: true
+    tls: true
+    servername: store.plumstatic.com
+    sni: store.plumstatic.com
+    skip-cert-verify: true
+    client-fingerprint: firefox
+    network: ws
+    ws-opts:
+      path: /ws
+  - type: vless
+    name: 🇷🇺_俄罗斯 (6)
+    server: 213.183.45.23
+    port: 8444
+    uuid: eb62cabf-5901-403a-aa0c-b1d9ed1b346d
+    udp: true
+    tls: true
+    servername: media.plumstatic.com
+    sni: media.plumstatic.com
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /ws
+  - type: vless
+    name: 🇷🇺_俄罗斯 (7)
+    server: 213.183.45.23
+    port: 8450
+    uuid: eb62cabf-5901-403a-aa0c-b1d9ed1b346d
+    udp: true
+    tls: true
+    servername: fonts.plumstatic.com
+    sni: fonts.plumstatic.com
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /ws
+  - type: vless
+    name: 🇮🇳_印度 (2)
+    server: xray-dmr3b3hy-calm-maple-7.cloady.io
+    port: 443
+    uuid: 06a5afa1-2bbc-a5d1-1770-becd1089c636
+    udp: true
+    tls: true
+    servername: xray-dmr3b3hy-calm-maple-7.cloady.io
+    sni: xray-dmr3b3hy-calm-maple-7.cloady.io
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /0175469f14317d82
+  - type: vless
+    name: 🇮🇳_印度 (3)
+    server: xray-dmr3b3hy-calm-maple-7.cloady.io
+    port: 443
+    uuid: 06a5afa1-2bbc-a5d1-1770-becd1089c636
+    udp: true
+    tls: true
+    servername: xray-dmr3b3hy-calm-maple-7.cloady.io
+    sni: xray-dmr3b3hy-calm-maple-7.cloady.io
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    network: ws
+    ws-opts:
+      path: /0175469f14317d82
+  - type: vless
+    name: 🇷🇺_俄罗斯 (8)
+    server: 213.183.45.23
+    port: 8444
+    uuid: eb62cabf-5901-403a-aa0c-b1d9ed1b346d
+    udp: true
+    tls: true
+    servername: media.plumstatic.com
+    sni: media.plumstatic.com
+    skip-cert-verify: true
+    client-fingerprint: firefox
+    network: ws
+    ws-opts:
+      path: /ws
+  - type: vless
+    name: 🇺🇸_美国 (5)
+    server: saas.sin.fan
+    port: 443
+    uuid: 5d7b401c-78fa-4254-872e-6d42bf7e75ec
+    udp: true
+    tls: true
+    servername: v2n6.11676767.xyz
+    sni: v2n6.11676767.xyz
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    network: ws
+    ws-opts:
+      path: /ranking/htm
+      headers:
+        Host: v2n6.11676767.xyz
   - type: vless
     name: 🇳🇱_荷兰 (4)
     server: 188.164.248.110
@@ -348,69 +482,52 @@ proxies:
       headers:
         Host: imanvipreserved.pages.dev
   - type: vless
-    name: 🇩🇪_德国 (7)
-    server: 13.140.95.76
-    port: 2087
-    uuid: b69cf773-da16-486e-afce-a45b94f998b3
+    name: 🇺🇸_美国 (6)
+    server: xray-b8ct4r2f-sahdon-hosaindoost.cloady.io
+    port: 443
+    uuid: 1fd2e2d1-96f5-2056-19fd-b375b1a9d851
     udp: true
     tls: true
-    servername: senflarelink-node-6b9.pages.dev
-    sni: senflarelink-node-6b9.pages.dev
+    servername: xray-b8ct4r2f-sahdon-hosaindoost.cloady.io
+    sni: xray-b8ct4r2f-sahdon-hosaindoost.cloady.io
     skip-cert-verify: true
-    client-fingerprint: chrome
     network: ws
     ws-opts:
-      path: /
+      path: /ffad70ffdfc3bcda
       headers:
-        Host: senflarelink-node-6b9.pages.dev
+        Host: xray-b8ct4r2f-sahdon-hosaindoost.cloady.io
   - type: vless
-    name: 🇰🇷_韩国 (2)
-    server: 14.44.19.57
-    port: 12101
-    uuid: b69cf773-da16-486e-afce-a45b94f998b3
+    name: 🇺🇸_美国 (7)
+    server: xray-b8ct4r2f-sahdon-hosaindoost.cloady.io
+    port: 443
+    uuid: 1fd2e2d1-96f5-2056-19fd-b375b1a9d851
     udp: true
     tls: true
-    servername: senflarelink-node-nwz76h.pages.dev
-    sni: senflarelink-node-nwz76h.pages.dev
+    servername: xray-b8ct4r2f-sahdon-hosaindoost.cloady.io
+    sni: xray-b8ct4r2f-sahdon-hosaindoost.cloady.io
     skip-cert-verify: true
     client-fingerprint: chrome
     network: ws
     ws-opts:
-      path: /
+      path: /ffad70ffdfc3bcda
       headers:
-        Host: senflarelink-node-nwz76h.pages.dev
+        Host: xray-b8ct4r2f-sahdon-hosaindoost.cloady.io
   - type: vless
-    name: 🇰🇷_韩国 (3)
-    server: 14.44.19.57
-    port: 12101
-    uuid: b69cf773-da16-486e-afce-a45b94f998b3
+    name: 🇯🇵_日本 (2)
+    server: 107.191.53.86
+    port: 4798
+    uuid: 16a5e4f6-246f-406d-9787-1b5686a97cbc
     udp: true
     tls: true
-    servername: senflarelink-node-nwz76h.pages.dev
-    sni: senflarelink-node-nwz76h.pages.dev
+    servername: jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev
+    sni: jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev
     skip-cert-verify: true
     client-fingerprint: chrome
     network: ws
     ws-opts:
-      path: /flow=
+      path: /@Marisa_kristi
       headers:
-        Host: senflarelink-node-nwz76h.pages.dev
-  - type: vless
-    name: 🇺🇸_美国 (4)
-    server: 179.255.132.42
-    port: 8443
-    uuid: b69cf773-da16-486e-afce-a45b94f998b3
-    udp: true
-    tls: true
-    servername: senflarelink-node-71i.pages.dev
-    sni: senflarelink-node-71i.pages.dev
-    skip-cert-verify: true
-    client-fingerprint: chrome
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: senflarelink-node-71i.pages.dev
+        Host: jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev
   - type: vless
     name: 🇩🇴_多米尼加共和国
     server: 181.36.229.212
@@ -432,6 +549,22 @@ proxies:
       headers:
         Host: 1.proxy2.us.ci.
   - type: vless
+    name: 🇸🇬_新加坡 (4)
+    server: 43.170.8.95
+    port: 443
+    uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+    udp: true
+    tls: true
+    servername: jp3.yohototo.top
+    sni: jp3.yohototo.top
+    skip-cert-verify: true
+    client-fingerprint: unsafe
+    network: ws
+    ws-opts:
+      path: /tyxyws
+      headers:
+        Host: jp3.yohototo.top
+  - type: vless
     name: 🇹🇼_台湾
     server: 154.40.61.186
     port: 8443
@@ -446,27 +579,182 @@ proxies:
       path: /flow=fp=chrome
       headers:
         Host: senflarelink-node-wj1gsa.pages.dev
-  - type: vless
-    name: 🇷🇴_罗马尼亚
-    server: 185.247.224.206
-    port: 443
-    uuid: 58e22afd-bf74-4736-984d-63a8ca03d7f0
+  - type: vmess
+    name: 🇫🇷_法国
+    server: 2001:bc8:32d7:1a9::2
+    port: 18901
+    uuid: 3a966d20-7b9d-48cc-ba2c-8d38161b6d3a
+    cipher: auto
+    alterId: 0
     udp: true
     tls: true
-    servername: accessfooter.cleanfoodshop.org
-    sni: accessfooter.cleanfoodshop.org
     skip-cert-verify: true
-    client-fingerprint: firefox
     network: ws
     ws-opts:
-      path: /media/ws/
-      headers:
-        Host: accessfooter.cleanfoodshop.org
+      path: /github.com/Alvin9999-newpac/fanqiang?ed#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
   - type: vless
-    name: 🇸🇬_新加坡 (2)
-    server: 139.180.221.53
+    name: 🇷🇺_俄罗斯 (9)
+    server: 45.9.15.206
     port: 443
-    uuid: 2b30d0df-6ebe-4aed-9bad-b7c554e35e1d
+    uuid: a289a3d3-5833-4b28-8809-ae72898a98d0
+    udp: true
+    tls: true
+    servername: ru05.abvpn.ru
+    sni: ru05.abvpn.ru
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /websocket
+  - type: vless
+    name: 🇷🇺_俄罗斯 (10)
+    server: ru05.abvpn.ru
+    port: 443
+    uuid: a289a3d3-5833-4b28-8809-ae72898a98d0
+    udp: true
+    tls: true
+    servername: ru05.abvpn.ru
+    sni: ru05.abvpn.ru
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    network: ws
+    ws-opts:
+      path: /websocket
+  - type: vmess
+    name: 🇳🇱_荷兰 (5)
+    server: 64.188.97.153
+    port: 443
+    uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+    cipher: auto
+    alterId: 0
+    udp: true
+    tls: true
+    servername: renderer-stream-2-62.mirra.now
+    sni: renderer-stream-2-62.mirra.now
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /api/v1/gpu-stream/socket
+      headers:
+        Host: renderer-stream-2-62.mirra.now
+  - type: vless
+    name: 🇸🇪_瑞典 (2)
+    server: 167.104.104.138
+    port: 8443
+    uuid: a5194487-9b9a-462f-a047-ac7580d80201
+    udp: true
+    tls: true
+    servername: n.tmkkarss.online
+    sni: n.tmkkarss.online
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    network: ws
+    ws-opts:
+      path: /
+  - type: trojan
+    name: 🇧🇬_保加利亚
+    server: 193.239.160.134
+    port: 443
+    password: humanity
+    udp: true
+    tls: true
+    servername: www.calmlunch.com
+    sni: www.calmlunch.com
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /assignment
+  - type: vmess
+    name: 🇳🇱_荷兰 (6)
+    server: 78.17.71.236
+    port: 33736
+    uuid: b3a11068-1a7e-4643-85de-7c82cce46943
+    cipher: auto
+    alterId: 0
+    udp: true
+    tls: true
+    servername: Telegram-Leviko_v2ray
+    sni: Telegram-Leviko_v2ray
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /vmess-ws
+      headers:
+        Host: Telegram-Leviko_v2ray
+  - type: trojan
+    name: 🇺🇸_美国 (8)
+    server: 199.232.78.160
+    port: 443
+    password: MiTiVPN
+    udp: true
+    tls: true
+    servername: ssl.fastly.com
+    sni: ssl.fastly.com
+    skip-cert-verify: true
+    alpn:
+      - http/1.1
+    client-fingerprint: chrome
+    network: ws
+    ws-opts:
+      path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/NLSs---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+      headers:
+        Host: mitivpn-ss-mitivpn---mitivpn--mitivpn.global.ssl.fastly.net
+  - type: trojan
+    name: 🇬🇧_英国
+    server: 151.101.56.7
+    port: 443
+    password: MiTiVPN
+    udp: true
+    tls: true
+    servername: ssl.fastly.com
+    sni: ssl.fastly.com
+    skip-cert-verify: true
+    alpn:
+      - http/1.1
+    client-fingerprint: chrome
+    network: ws
+    ws-opts:
+      path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/D-e2@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+      headers:
+        Host: mitivpn-mitivpn-mitivpn-bb-mitivpn-mitivpn--mitivpn.global.ssl.fastly.net
+  - type: vmess
+    name: 🇨🇿_捷克
+    server: 95.85.233.138
+    port: 443
+    uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+    cipher: auto
+    alterId: 0
+    udp: true
+    tls: true
+    servername: renderer-stream-2-62.mirra.now
+    sni: renderer-stream-2-62.mirra.now
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /api/v1/gpu-stream/socket
+      headers:
+        Host: renderer-stream-2-62.mirra.now
+  - type: vmess
+    name: 🇩🇪_德国 (6)
+    server: 13.140.28.46
+    port: 443
+    uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+    cipher: auto
+    alterId: 0
+    udp: true
+    tls: true
+    servername: renderer-stream-2-62.mirra.now
+    sni: renderer-stream-2-62.mirra.now
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /api/v1/gpu-stream/socket
+      headers:
+        Host: renderer-stream-2-62.mirra.now
+  - type: vless
+    name: 🇺🇸_美国 (9)
+    server: 172.233.129.172
+    port: 443
+    uuid: 40a4b915-5e6f-4316-9bb1-e899f30608e3
     udp: true
     tls: true
     servername: itunes.apple.com
@@ -474,15 +762,34 @@ proxies:
     skip-cert-verify: true
     client-fingerprint: chrome
     reality-opts:
-      public-key: plfXwkb-ewI6iibJBTRmPnf8eqPId1BfdArMIm3_mB4
-      short-id: 2f6f6f87
+      public-key: LWfC_chpo4uDtzJ9VVnuTcf6zTzWKx-LCJAE2Ltl7h4
+      short-id: 5818adc3
     network: ws
     ws-opts:
       path: /ws
       headers:
         Host: itunes.apple.com
   - type: vless
-    name: 🇺🇸_美国 (5)
+    name: 🇺🇸_美国 (10)
+    server: 172.236.233.130
+    port: 443
+    uuid: a663dc28-28dc-4f97-9665-6ac215c8e567
+    udp: true
+    tls: true
+    servername: itunes.apple.com
+    sni: itunes.apple.com
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: 4wXbhUoSy9s9bGy9PaK18XVTTw3wXkBDjEusiMHaMB4
+      short-id: "53908445"
+    network: ws
+    ws-opts:
+      path: /ws
+      headers:
+        Host: itunes.apple.com
+  - type: vless
+    name: 🇺🇸_美国 (11)
     server: 172.233.142.149
     port: 443
     uuid: 61e3954d-0d66-4b69-b6cd-9b4fc2352303
@@ -501,12 +808,1113 @@ proxies:
       headers:
         Host: itunes.apple.com
   - type: vless
-    name: 🇷🇺_俄罗斯 (9)
-    server: 176.114.95.245
+    name: 🇺🇸_美国 (12)
+    server: 172.236.227.60
     port: 443
-    uuid: 9a591702-24c7-4abf-9f14-ac59438a64e6
+    uuid: 3c8a110d-f04d-4f0e-9579-fd00631b8830
     udp: true
-    tls: false
+    tls: true
+    servername: itunes.apple.com
+    sni: itunes.apple.com
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: BHBzo_I0M-sChoOqTyOczYBP8l1L_dkmB6u3ijAOaGo
+      short-id: 664c1530
+    network: ws
+    ws-opts:
+      path: /ws
+      headers:
+        Host: itunes.apple.com
+  - type: vless
+    name: 🇯🇵_日本 (3)
+    server: 172.104.86.181
+    port: 443
+    uuid: 010431f3-04f6-4404-a801-b93bf2e3c2b2
+    udp: true
+    tls: true
+    servername: itunes.apple.com
+    sni: itunes.apple.com
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: ujYDprigWFLxcj4BtitDNa-hoPjIbpSzrnEcqp3cgjk
+      short-id: c8559ca1
+    network: ws
+    ws-opts:
+      path: /ws
+      headers:
+        Host: itunes.apple.com
+  - type: vless
+    name: 🇯🇵_日本 (4)
+    server: 198.13.53.39
+    port: 443
+    uuid: 8f21c635-ef0a-4b05-8356-f44d463b6e34
+    udp: true
+    tls: true
+    servername: itunes.apple.com
+    sni: itunes.apple.com
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: xxPVgbxguyYuVIml6Eh6ZGcDLO1z0OWKZXfDdUGFv1k
+      short-id: 7a7cc838
+    network: ws
+    ws-opts:
+      path: /ws
+      headers:
+        Host: itunes.apple.com
+  - type: vless
+    name: 🇯🇵_日本 (5)
+    server: 149.28.29.156
+    port: 443
+    uuid: aa1a9052-720f-4bb0-92be-21b6baf9f386
+    udp: true
+    tls: true
+    servername: itunes.apple.com
+    sni: itunes.apple.com
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: qgCGmxD1lyAEIGZVEk4buAMGcvGvHLl9wGxPQlHCYX0
+      short-id: e535df57
+    network: ws
+    ws-opts:
+      path: /ws
+      headers:
+        Host: itunes.apple.com
+  - type: vless
+    name: 🇺🇸_美国 (13)
+    server: 172.236.231.45
+    port: 443
+    uuid: 4c4f7955-3b05-4795-b3b7-6c83b7f82b0f
+    udp: true
+    tls: true
+    servername: itunes.apple.com
+    sni: itunes.apple.com
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: M6kLOIYA9IagUu0eiplnPZFObYVzTc4GfPyEqKQnZWQ
+      short-id: 8353867a
+    network: ws
+    ws-opts:
+      path: /ws
+      headers:
+        Host: itunes.apple.com
+  - type: vless
+    name: 🇯🇵_日本 (6)
+    server: 172.237.27.143
+    port: 443
+    uuid: f17019c8-b994-4913-b6f6-a443786349c9
+    udp: true
+    tls: true
+    servername: itunes.apple.com
+    sni: itunes.apple.com
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: 9CQoJIcxVVzF6ByYdoWAV80kjWNwsoyv_3Sii1bc-UI
+      short-id: 27bb3638
+    network: ws
+    ws-opts:
+      path: /ws
+      headers:
+        Host: itunes.apple.com
+  - type: vless
+    name: 🇯🇵_日本 (7)
+    server: 139.162.91.182
+    port: 443
+    uuid: b4ec7f6b-b41e-4018-9f76-19204e138db9
+    udp: true
+    tls: true
+    servername: itunes.apple.com
+    sni: itunes.apple.com
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: k0o_QkU2gSE5m1a6tWbkkZ-Z28GTj30UHW8cHWCulzU
+      short-id: db1a5f5e
+    network: ws
+    ws-opts:
+      path: /ws
+      headers:
+        Host: itunes.apple.com
+  - type: vless
+    name: 🇯🇵_日本 (8)
+    server: 139.162.101.74
+    port: 443
+    uuid: 1e709d98-d4c3-45c1-bdcc-4268cf83eff8
+    udp: true
+    tls: true
+    servername: itunes.apple.com
+    sni: itunes.apple.com
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: jd8UNLpim43LVV-iEzIXlUgTVuvi9Pf7E0kgQb3o0CI
+      short-id: 7e1e09f4
+    network: ws
+    ws-opts:
+      path: /ws
+      headers:
+        Host: itunes.apple.com
+  - type: vless
+    name: 🇯🇵_日本 (9)
+    server: 172.105.203.15
+    port: 443
+    uuid: c8c9b995-b4b9-4915-9c7d-dee94aa733ba
+    udp: true
+    tls: true
+    servername: itunes.apple.com
+    sni: itunes.apple.com
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: HyAx05nhCz5mXxVxWXU1TrWRKdpYE0MHF4-V-LtyhTA
+      short-id: 0784b134
+    network: ws
+    ws-opts:
+      path: /ws
+      headers:
+        Host: itunes.apple.com
+  - type: vless
+    name: 🇸🇬_新加坡 (5)
+    server: 172.104.186.185
+    port: 443
+    uuid: 87ff88cc-5c1f-4f46-86b8-c43f55b71dd2
+    udp: true
+    tls: true
+    servername: itunes.apple.com
+    sni: itunes.apple.com
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: xGPjO2ukRsGiMm-vAzcLcFYu5ivYe2paztFS64q3Bkw
+      short-id: b29516da
+    network: ws
+    ws-opts:
+      path: /ws
+      headers:
+        Host: itunes.apple.com
+  - type: vless
+    name: 🇺🇸_美国 (14)
+    server: 172.236.241.130
+    port: 443
+    uuid: 21117a67-21c2-4e2a-ba8f-bc49e23b0ae8
+    udp: true
+    tls: true
+    servername: itunes.apple.com
+    sni: itunes.apple.com
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: ibi0jOH5SfYhh7ycxdBrqq5oN4ajN3-dNiHKWC2VYWs
+      short-id: 51ecfe9e
+    network: ws
+    ws-opts:
+      path: /ws
+      headers:
+        Host: itunes.apple.com
+  - type: vless
+    name: 🇸🇬_新加坡 (6)
+    server: 172.104.48.194
+    port: 443
+    uuid: a28d0884-193d-4591-aa64-8638ba1481ce
+    udp: true
+    tls: true
+    servername: itunes.apple.com
+    sni: itunes.apple.com
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: u_4r8NRmRsN5Ndbt0koyC73DLC7mCcK4wAA0YiIR4ko
+      short-id: b0af872e
+    network: ws
+    ws-opts:
+      path: /ws
+      headers:
+        Host: itunes.apple.com
+  - type: vless
+    name: 🇸🇬_新加坡 (7)
+    server: 139.180.215.25
+    port: 443
+    uuid: bbc20d3e-0391-48f1-ad72-90a6802f728e
+    udp: true
+    tls: true
+    servername: itunes.apple.com
+    sni: itunes.apple.com
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: ybu5pFdSV23WsnMNhbpa8TwV6TJd6NLZ6HX-ggww61A
+      short-id: 83f673ba
+    network: ws
+    ws-opts:
+      path: /ws
+      headers:
+        Host: itunes.apple.com
+  - type: vless
+    name: 🇺🇸_美国 (15)
+    server: 172.235.51.71
+    port: 443
+    uuid: 3c17ead6-201a-4fba-8246-6327b911a1be
+    udp: true
+    tls: true
+    servername: itunes.apple.com
+    sni: itunes.apple.com
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: rzeXNEmuocvPVMnmettRsJbHQGjQGaZoH7jNw_3GUD8
+      short-id: 4bf84b30
+    network: ws
+    ws-opts:
+      path: /ws
+      headers:
+        Host: itunes.apple.com
+  - type: vless
+    name: 🇯🇵_日本 (10)
+    server: 172.238.18.103
+    port: 443
+    uuid: f4a4498a-c02f-4862-93ae-8f495c9cd2c0
+    udp: true
+    tls: true
+    servername: itunes.apple.com
+    sni: itunes.apple.com
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: BDt3yJpYIovC6b1iJF2h8qH4LfQAoSC0u3iVa0cFeSM
+      short-id: 6ff775ae
+    network: ws
+    ws-opts:
+      path: /ws
+      headers:
+        Host: itunes.apple.com
+  - type: vless
+    name: 🇯🇵_日本 (11)
+    server: 139.162.91.247
+    port: 443
+    uuid: 8cfdacf8-e781-42f0-9872-8d1d22469de5
+    udp: true
+    tls: true
+    servername: itunes.apple.com
+    sni: itunes.apple.com
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: _gFFckW3h8hFfllawgec9U2PDBeLJeCK_Jgk1S5tgC8
+      short-id: 536d7739
+    network: ws
+    ws-opts:
+      path: /ws
+      headers:
+        Host: itunes.apple.com
+  - type: vless
+    name: 🇯🇵_日本 (12)
+    server: 139.162.91.224
+    port: 443
+    uuid: ff3038b1-a2f5-428f-89cd-5d5e4efba8e7
+    udp: true
+    tls: true
+    servername: itunes.apple.com
+    sni: itunes.apple.com
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: wmbc3kcjbG9-A9Fi7zaHuRVPH7A7UQkKNNvqyqJtMEk
+      short-id: e5b03494
+    network: ws
+    ws-opts:
+      path: /ws
+      headers:
+        Host: itunes.apple.com
+  - type: vless
+    name: 🇸🇬_新加坡 (8)
+    server: 139.180.221.53
+    port: 443
+    uuid: 2b30d0df-6ebe-4aed-9bad-b7c554e35e1d
+    udp: true
+    tls: true
+    servername: itunes.apple.com
+    sni: itunes.apple.com
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: plfXwkb-ewI6iibJBTRmPnf8eqPId1BfdArMIm3_mB4
+      short-id: 2f6f6f87
+    network: ws
+    ws-opts:
+      path: /ws
+      headers:
+        Host: itunes.apple.com
+  - type: vless
+    name: 🇯🇵_日本 (13)
+    server: 172.237.14.142
+    port: 443
+    uuid: 323aa578-bddb-47ed-bdb6-5650ade5825c
+    udp: true
+    tls: true
+    servername: itunes.apple.com
+    sni: itunes.apple.com
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: UPeN2wAl3WQKsj-IchFF-81OnbhP1FQJ0EtcBFQn0Ak
+      short-id: 6093f81a
+    network: ws
+    ws-opts:
+      path: /ws
+      headers:
+        Host: itunes.apple.com
+  - type: vless
+    name: 🇯🇵_日本 (14)
+    server: 172.237.14.205
+    port: 443
+    uuid: 4796e022-f377-4a97-bc03-fbf525d7913c
+    udp: true
+    tls: true
+    servername: itunes.apple.com
+    sni: itunes.apple.com
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: dllB1KTn7oiEqa6OlmZl-j2kF5GN9bAQeoBinYV2cUQ
+      short-id: da26e5a2
+    network: ws
+    ws-opts:
+      path: /ws
+      headers:
+        Host: itunes.apple.com
+  - type: vless
+    name: 🇯🇵_日本 (15)
+    server: 139.162.91.228
+    port: 443
+    uuid: 911dce8c-a2d7-4267-acb4-1dec7cc360c4
+    udp: true
+    tls: true
+    servername: itunes.apple.com
+    sni: itunes.apple.com
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: s73obybmPs4rzBkigf3zyIwAJWbRUnhPk3m6keetT3c
+      short-id: d1244137
+    network: ws
+    ws-opts:
+      path: /ws
+      headers:
+        Host: itunes.apple.com
+  - type: vless
+    name: 🇯🇵_日本 (16)
+    server: 172.105.197.24
+    port: 443
+    uuid: 81f4e114-5a60-41b5-9038-8d742380c84f
+    udp: true
+    tls: true
+    servername: itunes.apple.com
+    sni: itunes.apple.com
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: EfNOl6-YAuW-WSg7Op-1YOqKZV9emIuLwH8YPhzc7ms
+      short-id: 772bef67
+    network: ws
+    ws-opts:
+      path: /ws
+      headers:
+        Host: itunes.apple.com
+  - type: vless
+    name: 🇯🇵_日本 (17)
+    server: 45.32.31.89
+    port: 443
+    uuid: 37c2e62d-4ca3-4cff-88ad-02af03727775
+    udp: true
+    tls: true
+    servername: itunes.apple.com
+    sni: itunes.apple.com
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: 1nrvR1CH9bMLgc_6gpj4JL1TFfkSLoIlXhRAB-CjeTo
+      short-id: 59a39fe8
+    network: ws
+    ws-opts:
+      path: /ws
+      headers:
+        Host: itunes.apple.com
+  - type: vless
+    name: 🇸🇬_新加坡 (9)
+    server: 149.28.152.20
+    port: 443
+    uuid: e17ca473-bd02-4fe6-873f-5866d729b0a3
+    udp: true
+    tls: true
+    servername: itunes.apple.com
+    sni: itunes.apple.com
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: sli7AT0WEhYMVMARhHh-ZQMK7zHHn0cGsxw2gPhoBis
+      short-id: 107ff148
+    network: ws
+    ws-opts:
+      path: /ws
+      headers:
+        Host: itunes.apple.com
+  - type: vless
+    name: 🇸🇬_新加坡 (10)
+    server: 139.162.20.241
+    port: 443
+    uuid: 7f0270f9-1abc-4c4f-960d-0a23e32f1eb8
+    udp: true
+    tls: true
+    servername: itunes.apple.com
+    sni: itunes.apple.com
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: fG1u2AZj5pgSNWO3MBmkoY6K61xBwnuYX3_z1fSeR0o
+      short-id: 640c807d
+    network: ws
+    ws-opts:
+      path: /ws
+      headers:
+        Host: itunes.apple.com
+  - type: vless
+    name: 🇸🇬_新加坡 (11)
+    server: 172.104.48.162
+    port: 443
+    uuid: 0dbe84f8-74fd-4bd1-99fe-e67eb7eaff85
+    udp: true
+    tls: true
+    servername: itunes.apple.com
+    sni: itunes.apple.com
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: 8yWkbzkxKDySkY_xUKZCb7z-XnoNIvq7bJpa_-8BiX8
+      short-id: 9360f0d0
+    network: ws
+    ws-opts:
+      path: /ws
+      headers:
+        Host: itunes.apple.com
+  - type: vless
+    name: 🇺🇸_美国 (16)
+    server: 172.235.36.11
+    port: 443
+    uuid: a15c47e7-0d24-4e82-a759-891d0e951a01
+    udp: true
+    tls: true
+    servername: itunes.apple.com
+    sni: itunes.apple.com
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: lhkyTN5zj2bK7HhMVfer5RoDz0K67YK8VyiiK8TvkEE
+      short-id: afc7874d
+    network: ws
+    ws-opts:
+      path: /ws
+      headers:
+        Host: itunes.apple.com
+  - type: vless
+    name: 🇺🇸_美国 (17)
+    server: 172.235.49.52
+    port: 443
+    uuid: ff5fc681-8548-4621-87d1-6b123db48f64
+    udp: true
+    tls: true
+    servername: itunes.apple.com
+    sni: itunes.apple.com
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: Md-qJgtcKVbuLuwCX8r-VZnfKq3z_3CtyPt3CRcqdQE
+      short-id: 270d474c
+    network: ws
+    ws-opts:
+      path: /ws
+      headers:
+        Host: itunes.apple.com
+  - type: vless
+    name: 🇺🇸_美国 (18)
+    server: 172.236.238.71
+    port: 443
+    uuid: 10c27b32-441b-4e73-9987-33b66298ca50
+    udp: true
+    tls: true
+    servername: itunes.apple.com
+    sni: itunes.apple.com
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: pdd8WbKVyeQOAGdDTzBxRGdote46rGljB7ZSuUsTAhw
+      short-id: 2419337b
+    network: ws
+    ws-opts:
+      path: /ws
+      headers:
+        Host: itunes.apple.com
+  - type: vless
+    name: 🇺🇸_美国 (19)
+    server: 172.233.139.212
+    port: 443
+    uuid: b21a60ef-9042-42c8-bb13-160528ea19c6
+    udp: true
+    tls: true
+    servername: itunes.apple.com
+    sni: itunes.apple.com
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: bRB-Z_UOQ_sk8UFczAjrpkgKIg6cVdTNGnsyC7vAoyg
+      short-id: 7a87386b
+    network: ws
+    ws-opts:
+      path: /ws
+      headers:
+        Host: itunes.apple.com
+  - type: vless
+    name: 🇺🇸_美国 (20)
+    server: 172.235.53.103
+    port: 443
+    uuid: 38ae2bc6-577c-4e0a-b49c-81c44a0b4383
+    udp: true
+    tls: true
+    servername: itunes.apple.com
+    sni: itunes.apple.com
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: YS1T3hKkZSWZBej5I1O2s3QQ-jf5JOAY24EZbp9faX8
+      short-id: 60e39a7e
+    network: ws
+    ws-opts:
+      path: /ws
+      headers:
+        Host: itunes.apple.com
+  - type: vless
+    name: 🇺🇸_美国 (21)
+    server: 172.235.32.253
+    port: 443
+    uuid: 62fe4c8e-2620-478c-9c39-3d4e12848ff4
+    udp: true
+    tls: true
+    servername: itunes.apple.com
+    sni: itunes.apple.com
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: r__vI0YVD9j6Fttsb4aZ0TwvUggV493v6GILKXWIZwA
+      short-id: ac184496
+    network: ws
+    ws-opts:
+      path: /ws
+      headers:
+        Host: itunes.apple.com
+  - type: vless
+    name: 🇺🇸_美国 (22)
+    server: 45.63.53.81
+    port: 443
+    uuid: c512dcbd-1847-40a2-9c99-989c8bfe4717
+    udp: true
+    tls: true
+    servername: itunes.apple.com
+    sni: itunes.apple.com
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: 6nTROV2ELz-3vNUl0A00hp378QngpYABrPgjCpUknD0
+      short-id: f436f707
+    network: ws
+    ws-opts:
+      path: /ws
+      headers:
+        Host: itunes.apple.com
+  - type: vless
+    name: 🇵🇱_波兰
+    server: 177.3.252.114
+    port: 443
+    uuid: 639b131f-d0f3-460c-aa17-423047f8a5df
+    flow: xtls-rprx-vision
+    udp: true
+    tls: true
+    servername: poland.mcufa.pro
+    sni: poland.mcufa.pro
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: -P8DgKISSG4jnLuj6ihZDqZs1_zt-juBrhVhTylHiAo
+  - type: trojan
+    name: 🇺🇸_美国 (23)
+    server: 66.163.114.114
+    port: 443
+    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+    udp: true
+    tls: true
+    servername: learn.findconnectwithemployersandbuildprofessionalnetwork.com
+    sni: learn.findconnectwithemployersandbuildprofessionalnetwork.com
+    skip-cert-verify: true
+    client-fingerprint: chrome
+  - type: vless
+    name: 🇷🇺_俄罗斯 (11)
+    server: 165.231.157.126
+    port: 8443
+    uuid: 0173d52e-8e1b-4681-831e-11529677b72f
+    flow: xtls-rprx-vision
+    udp: true
+    tls: true
+    servername: api-6b04608f.adhil.uk
+    sni: api-6b04608f.adhil.uk
+    skip-cert-verify: true
+    client-fingerprint: safari
+  - type: trojan
+    name: 🇺🇸_美国 (24)
+    server: sclass-c2.catcat321.com
+    port: 20017
+    password: 40a8a71b-91d3-4b63-9907-5e12ad2259c1
+    udp: true
+    tls: true
+    servername: hk.catxstar.com
+    sni: hk.catxstar.com
+    skip-cert-verify: true
+  - type: trojan
+    name: 🇺🇸_美国 (25)
+    server: sclass-01.catcat321.com
+    port: 20186
+    password: b179b8a4-9a98-44a0-a1f1-65b8e8cb20a9
+    udp: true
+    tls: true
+    servername: hk.catxstar.com
+    sni: hk.catxstar.com
+    skip-cert-verify: true
+  - type: vless
+    name: 🇧🇬_保加利亚 (2)
+    server: p2real33.greewebservices.ir
+    port: 1330
+    uuid: 8f2940bc-a353-4efc-a9a0-22184cd4f1ac
+    udp: true
+    tls: true
+    servername: play.googleapis.com
+    sni: play.googleapis.com
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: xQnXh5EfPDhcEBB7rRiLca33GYrMEeUa35domLL_yA8
+      short-id: 9b60d3
+  - type: vless
+    name: 🇸🇬_新加坡 (12)
+    server: 43.163.112.174
+    port: 443
+    uuid: 0dedd47d-47b9-4ed1-9c9f-cbeecad57a68
+    flow: xtls-rprx-vision
+    udp: true
+    tls: true
+    servername: www.cloudflare.com
+    sni: www.cloudflare.com
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: mXQudYHNu0pebcdk1_qn-UgcmwhjaV7y9UrYu3HX7Rg
+      short-id: 0123456789abcdef
+  - type: vless
+    name: 🇯🇵_日本 (18)
+    server: djj.zjlo.top
+    port: 23169
+    uuid: 7318caa1-93d1-4a9d-c481-504599902700
+    flow: xtls-rprx-vision
+    udp: true
+    tls: true
+    servername: djj.zjlo.top
+    sni: djj.zjlo.top
+    skip-cert-verify: true
+  - type: vless
+    name: 🇳🇱_荷兰 (7)
+    server: 51.158.206.34
+    port: 23576
+    uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+    flow: xtls-rprx-vision
+    udp: true
+    tls: true
+    servername: fuck.rkn
+    sni: fuck.rkn
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+      short-id: "01"
+  - type: vless
+    name: 🇳🇱_荷兰 (8)
+    server: 51.15.16.68
+    port: 2053
+    uuid: 2e7c6265-6933-4a91-bd43-b4fd2e9566c8
+    udp: true
+    tls: true
+    servername: www.apple.com
+    sni: www.apple.com
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: nyBUWOwOLHOrVSomGfHaPjt-lgbSGk-XSv89voR6T3o
+      short-id: e9272cf492b43a48
+  - type: vless
+    name: 🇳🇱_荷兰 (9)
+    server: 51.158.206.25
+    port: 23576
+    uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+    flow: xtls-rprx-vision
+    udp: true
+    tls: true
+    servername: fuck.rkn
+    sni: fuck.rkn
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+      short-id: "01"
+  - type: vless
+    name: 🇳🇱_荷兰 (10)
+    server: 51.158.206.8
+    port: 23576
+    uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+    flow: xtls-rprx-vision
+    udp: true
+    tls: true
+    servername: fuck.rkn
+    sni: fuck.rkn
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+      short-id: "01"
+  - type: vless
+    name: 🇳🇱_荷兰 (11)
+    server: 51.158.206.29
+    port: 23576
+    uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+    flow: xtls-rprx-vision
+    udp: true
+    tls: true
+    servername: fuck.rkn
+    sni: fuck.rkn
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+      short-id: "01"
+  - type: vless
+    name: 🇳🇱_荷兰 (12)
+    server: 51.158.206.12
+    port: 23576
+    uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+    flow: xtls-rprx-vision
+    udp: true
+    tls: true
+    servername: fuck.rkn
+    sni: fuck.rkn
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+      short-id: "01"
+  - type: vless
+    name: 🇳🇱_荷兰 (13)
+    server: 51.158.206.87
+    port: 23576
+    uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+    flow: xtls-rprx-vision
+    udp: true
+    tls: true
+    servername: fuck.rkn
+    sni: fuck.rkn
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+      short-id: "01"
+  - type: trojan
+    name: 🇨🇭_瑞士
+    server: 208.69.78.33
+    port: 443
+    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+    udp: true
+    tls: true
+    servername: courses.yourultimateprofessionalcareerhub.com
+    sni: courses.yourultimateprofessionalcareerhub.com
+    skip-cert-verify: true
+    client-fingerprint: chrome
+  - type: vless
+    name: 🇳🇱_荷兰 (14)
+    server: 51.158.206.96
+    port: 23576
+    uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+    flow: xtls-rprx-vision
+    udp: true
+    tls: true
+    servername: fuck.rkn
+    sni: fuck.rkn
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+      short-id: "01"
+  - type: vless
+    name: 🇳🇱_荷兰 (15)
+    server: 51.158.206.20
+    port: 23576
+    uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+    flow: xtls-rprx-vision
+    udp: true
+    tls: true
+    servername: fuck.rkn
+    sni: fuck.rkn
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+      short-id: "01"
+  - type: vless
+    name: 🇳🇱_荷兰 (16)
+    server: 51.158.206.26
+    port: 23576
+    uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+    flow: xtls-rprx-vision
+    udp: true
+    tls: true
+    servername: fuck.rkn
+    sni: fuck.rkn
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+      short-id: "01"
+  - type: vless
+    name: 🇳🇱_荷兰 (17)
+    server: 51.158.206.87
+    port: 23576
+    uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+    flow: xtls-rprx-vision
+    udp: true
+    tls: true
+    servername: fuck.rkn
+    sni: fuck.rkn
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+  - type: vless
+    name: 🇬🇧_英国 (2)
+    server: 136.176.68.34
+    port: 443
+    uuid: dbf3f074-3b18-43f3-b82a-debd8c879c69
+    flow: xtls-rprx-vision
+    udp: true
+    tls: true
+    servername: www.apple.com
+    sni: www.apple.com
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: Jcm0TjP_kw-KmJoiG5EGyY5sQ9RGeqlX9Ajd3ZCnSAo
+      short-id: a6040129ad7f4b74
+  - type: vless
+    name: 🇩🇪_德国 (7)
+    server: 93.123.101.198
+    port: 443
+    uuid: a346c521-7a7f-452b-9356-a4893feb5982
+    flow: xtls-rprx-vision
+    udp: true
+    tls: true
+    servername: de14-r.bankai.party
+    sni: de14-r.bankai.party
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: FWitre1jinQR7qz5HQ0q2Q4Gg9xA9B0SyizCziN7Ch0
+  - type: vless
+    name: 🇳🇱_荷兰 (18)
+    server: 51.158.206.80
+    port: 23576
+    uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+    flow: xtls-rprx-vision
+    udp: true
+    tls: true
+    servername: fuck.rkn
+    sni: fuck.rkn
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+      short-id: "01"
+  - type: vless
+    name: 🇸🇨_塞舌尔
+    server: 46.29.255.123
+    port: 59539
+    uuid: 30572b57-f5ab-4eb8-82d4-a24d399b99f6
+    flow: xtls-rprx-vision
+    udp: true
+    tls: true
+    servername: cloudflare-dns.com
+    sni: cloudflare-dns.com
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: R6mPqCsjZMWauci4LHw7Qp1LGKmBd-sxMXplyOn9bSQ
+  - type: trojan
+    name: 🇺🇸_美国 (26)
+    server: resources.findlocaljobnetworkandbuildcommunityconnections.com
+    port: 443
+    password: f0eb8c92ce8946aaba856569cff1a16b
+    udp: true
+    tls: true
+    servername: resources.findlocaljobnetworkandbuildcommunityconnections.com
+    sni: resources.findlocaljobnetworkandbuildcommunityconnections.com
+    skip-cert-verify: true
+    client-fingerprint: chrome
+  - type: vless
+    name: 🇳🇱_荷兰 (19)
+    server: 51.158.206.19
+    port: 23576
+    uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+    flow: xtls-rprx-vision
+    udp: true
+    tls: true
+    servername: fuck.rkn
+    sni: fuck.rkn
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+      short-id: "01"
+  - type: vless
+    name: 🇳🇱_荷兰 (20)
+    server: 51.158.206.20
+    port: 23576
+    uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+    flow: xtls-rprx-vision
+    udp: true
+    tls: true
+    servername: fuck.rkn
+    sni: fuck.rkn
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+  - type: trojan
+    name: 🇺🇸_美国 (27)
+    server: 66.163.112.121
+    port: 443
+    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+    udp: true
+    tls: true
+    servername: www.unlockyourfuturefindyourperfectcareer.com
+    sni: www.unlockyourfuturefindyourperfectcareer.com
+    skip-cert-verify: true
+    client-fingerprint: chrome
+  - type: trojan
+    name: 🇺🇸_美国 (28)
+    server: 66.163.112.171
+    port: 443
+    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+    udp: true
+    tls: true
+    servername: learn.unlockyourfuturefindyourperfectcareer.com
+    sni: learn.unlockyourfuturefindyourperfectcareer.com
+    skip-cert-verify: true
+    client-fingerprint: chrome
+  - type: vless
+    name: 🇳🇱_荷兰 (21)
+    server: 51.158.206.93
+    port: 23576
+    uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+    flow: xtls-rprx-vision
+    udp: true
+    tls: true
+    servername: fuck.rkn
+    sni: fuck.rkn
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+      short-id: "01"
+  - type: vless
+    name: 🇺🇸_美国 (29)
+    server: 38.207.178.28
+    port: 20086
+    uuid: 11a2709f-a1aa-4b97-9212-4d5cb0c83e53
+    flow: xtls-rprx-vision
+    udp: true
+    tls: true
+    servername: www.paypal.com
+    sni: www.paypal.com
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: fSVnXtIce23KOtqQjDuwRkNCM3mvWlva7bPNMfODv04
+  - type: vless
+    name: 🇳🇱_荷兰 (22)
+    server: 51.158.206.98
+    port: 23576
+    uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+    flow: xtls-rprx-vision
+    udp: true
+    tls: true
+    servername: fuck.rkn
+    sni: fuck.rkn
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+      short-id: "01"
+  - type: vless
+    name: 🇳🇱_荷兰 (23)
+    server: 51.158.206.97
+    port: 23576
+    uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+    flow: xtls-rprx-vision
+    udp: true
+    tls: true
+    servername: fuck.rkn
+    sni: fuck.rkn
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+      short-id: "01"
+  - type: vless
+    name: 🇷🇺_俄罗斯 (12)
+    server: 136.148.83.69
+    port: 443
+    uuid: 666821a2-5c3d-0001-a56f-5a3a562d7324
+    udp: true
+    tls: true
+    servername: szqbx-ru-77dc.my-fade.cloud
+    sni: szqbx-ru-77dc.my-fade.cloud
+    skip-cert-verify: true
+    client-fingerprint: qq
+  - type: trojan
+    name: 🇺🇸_美国 (30)
+    server: 66.163.114.166
+    port: 443
+    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+    udp: true
+    tls: true
+    servername: blog.findconnectwithemployersandbuildprofessionalnetwork.com
+    sni: blog.findconnectwithemployersandbuildprofessionalnetwork.com
+    skip-cert-verify: true
+  - type: vless
+    name: 🇷🇺_俄罗斯 (13)
+    server: 165.231.157.150
+    port: 8443
+    uuid: 0173d52e-8e1b-4681-831e-11529677b72f
+    flow: xtls-rprx-vision
+    udp: true
+    tls: true
+    servername: api-6b04608f.adhil.uk
+    sni: api-6b04608f.adhil.uk
     skip-cert-verify: true
   - type: vless
     name: 🇮🇪_爱尔兰
@@ -524,7 +1932,55 @@ proxies:
       public-key: kpQWnVk3fEJXfPGFsMerUoPV_ZqUJUJFRnF1FvKyhRY
       short-id: 7a7d19880a9ee786
   - type: vless
-    name: 🇷🇺_俄罗斯 (10)
+    name: 🇫🇮_芬兰
+    server: mail1.besttotaldns.com
+    port: 443
+    uuid: da14e323-6af7-406f-a5c2-1eb7975ada8b
+    flow: xtls-rprx-vision
+    udp: true
+    tls: true
+    servername: mail1.besttotaldns.com
+    sni: mail1.besttotaldns.com
+    skip-cert-verify: true
+  - type: vless
+    name: 🇷🇺_俄罗斯 (14)
+    server: 165.231.157.126
+    port: 8443
+    uuid: 0173d52e-8e1b-4681-831e-11529677b72f
+    flow: xtls-rprx-vision
+    udp: true
+    tls: true
+    servername: api-6b04608f.adhil.uk
+    sni: api-6b04608f.adhil.uk
+    skip-cert-verify: true
+  - type: vless
+    name: 🇰🇿_哈萨克斯坦
+    server: one.alpheratzz.org
+    port: 8443
+    uuid: 0173d52e-8e1b-4681-831e-11529677b72f
+    flow: xtls-rprx-vision
+    udp: true
+    tls: true
+    servername: api-6b04608f.adhil.uk
+    sni: api-6b04608f.adhil.uk
+    skip-cert-verify: true
+  - type: vless
+    name: 🇸🇨_塞舌尔 (2)
+    server: 196.196.148.76
+    port: 443
+    uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
+    flow: xtls-rprx-vision
+    udp: true
+    tls: true
+    servername: 8a2e72t.nl20.h1clayd.shop
+    sni: 8a2e72t.nl20.h1clayd.shop
+    skip-cert-verify: true
+    client-fingerprint: firefox
+    reality-opts:
+      public-key: VZS639V1i-35g7VXb9EoTYL-Srm7858sxcvFAunncmA
+      short-id: 8d0d0679f42ffd98
+  - type: vless
+    name: 🇷🇺_俄罗斯 (15)
     server: 165.231.157.126
     port: 8443
     uuid: 0173d52e-8e1b-4681-831e-11529677b72f
@@ -536,7 +1992,37 @@ proxies:
     skip-cert-verify: true
     client-fingerprint: safari
   - type: vless
-    name: 🇸🇨_塞舌尔 (10)
+    name: 🇸🇨_塞舌尔 (3)
+    server: 196.196.149.80
+    port: 443
+    uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
+    flow: xtls-rprx-vision
+    udp: true
+    tls: true
+    servername: 7aa271t.es1.h1clayd.click
+    sni: 7aa271t.es1.h1clayd.click
+    skip-cert-verify: true
+    client-fingerprint: firefox
+    reality-opts:
+      public-key: ZSmetD4e9QG5CiXhniHg5HJB68L4kwbgAkJmMHtVwEE
+      short-id: 42426c882c5fcd41
+  - type: vless
+    name: 🇷🇺_俄罗斯 (16)
+    server: 178.248.236.229
+    port: 443
+    uuid: a71d6c6d-c95e-4ec1-a892-22e21733bf09
+    flow: xtls-rprx-vision
+    udp: true
+    tls: true
+    servername: 144.hexdey.com
+    sni: 144.hexdey.com
+    skip-cert-verify: true
+    client-fingerprint: firefox
+    reality-opts:
+      public-key: _3mkK8SY6YVqws73SUVPKL77tzxDVNUt4ag9J9ec-D0
+      short-id: d05a120d3506d2cc
+  - type: vless
+    name: 🇸🇨_塞舌尔 (4)
     server: 196.199.122.2
     port: 443
     uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
@@ -551,65 +2037,232 @@ proxies:
       public-key: ZSmetD4e9QG5CiXhniHg5HJB68L4kwbgAkJmMHtVwEE
       short-id: 42426c882c5fcd41
   - type: vless
-    name: 🇸🇨_塞舌尔 (11)
-    server: 196.196.149.80
+    name: 🇸🇨_塞舌尔 (5)
+    server: 196.196.148.85
     port: 443
-    uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
-    flow: xtls-rprx-vision
+    uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
     udp: true
     tls: true
-    servername: 7aa271t.es1.h1clayd.click
-    sni: 7aa271t.es1.h1clayd.click
+    servername: 5d0319t.nl7.h1clayd.click
+    sni: 5d0319t.nl7.h1clayd.click
     skip-cert-verify: true
     client-fingerprint: firefox
     reality-opts:
-      public-key: ZSmetD4e9QG5CiXhniHg5HJB68L4kwbgAkJmMHtVwEE
-      short-id: 42426c882c5fcd41
+      public-key: l-GzBDuNuhnjxoRlZqKvT7jAt_sbVAxhGFsAttO5kXs
+      short-id: 361d0dd59c70516f
   - type: vless
-    name: 🇸🇨_塞舌尔 (12)
-    server: 196.196.149.80
+    name: 🇸🇨_塞舌尔 (6)
+    server: 196.196.148.76
     port: 443
     uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
     flow: xtls-rprx-vision
     udp: true
     tls: true
-    servername: 7aa271t.es1.h1clayd.click
-    sni: 7aa271t.es1.h1clayd.click
+    servername: 8a2e72t.nl20.h1clayd.shop
+    sni: 8a2e72t.nl20.h1clayd.shop
     skip-cert-verify: true
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: ZSmetD4e9QG5CiXhniHg5HJB68L4kwbgAkJmMHtVwEE
-      short-id: 42426c882c5fcd41
-  - type: vless
-    name: 🇪🇪_爱沙尼亚
-    server: 8a2e72t.nl11.h1clayd.click
-    port: 443
-    uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
-    flow: xtls-rprx-vision
-    udp: true
-    tls: true
-    servername: 8a2e72t.nl11.h1clayd.click
-    sni: 8a2e72t.nl11.h1clayd.click
-    skip-cert-verify: true
-    client-fingerprint: chrome
+    client-fingerprint: firefox
     reality-opts:
       public-key: VZS639V1i-35g7VXb9EoTYL-Srm7858sxcvFAunncmA
       short-id: 8d0d0679f42ffd98
   - type: vless
-    name: 🇸🇨_塞舌尔 (13)
-    server: 196.196.149.80
+    name: 🇸🇨_塞舌尔 (7)
+    server: 196.196.148.177
     port: 443
     uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
     flow: xtls-rprx-vision
     udp: true
     tls: true
-    servername: 7aa271t.es1.h1clayd.click
-    sni: 7aa271t.es1.h1clayd.click
+    servername: 4935e4t.de25.h1clayd.click
+    sni: 4935e4t.de25.h1clayd.click
+    skip-cert-verify: true
+    client-fingerprint: firefox
+    reality-opts:
+      public-key: MzgB17ZFbKqs8pbC3EscTzHid_ENc-k_Cp6nXl-2knw
+      short-id: 6976d670818644cc
+  - type: vless
+    name: 🇳🇱_荷兰 (24)
+    server: 13.141.36.63
+    port: 443
+    uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
+    flow: xtls-rprx-vision
+    udp: true
+    tls: true
+    servername: 4935e4t.de25.h1clayd.click
+    sni: 4935e4t.de25.h1clayd.click
+    skip-cert-verify: true
+    client-fingerprint: firefox
+    reality-opts:
+      public-key: MzgB17ZFbKqs8pbC3EscTzHid_ENc-k_Cp6nXl-2knw
+      short-id: 6976d670818644cc
+  - type: vless
+    name: 🇸🇨_塞舌尔 (8)
+    server: 196.196.148.177
+    port: 443
+    uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
+    flow: xtls-rprx-vision
+    udp: true
+    tls: true
+    servername: 4935e4t.de25.h1clayd.click
+    sni: 4935e4t.de25.h1clayd.click
+    skip-cert-verify: true
+    client-fingerprint: firefox
+    reality-opts:
+      public-key: MzgB17ZFbKqs8pbC3EscTzHid_ENc-k_Cp6nXl-2knw
+      short-id: 6976d670818644cc
+  - type: vless
+    name: 🇸🇨_塞舌尔 (9)
+    server: 196.196.148.177
+    port: 443
+    uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
+    flow: xtls-rprx-vision
+    udp: true
+    tls: true
+    servername: 4935e4t.de25.h1clayd.click
+    sni: 4935e4t.de25.h1clayd.click
+    skip-cert-verify: true
+    client-fingerprint: firefox
+    reality-opts:
+      public-key: MzgB17ZFbKqs8pbC3EscTzHid_ENc-k_Cp6nXl-2knw
+      short-id: 6976d670818644cc
+  - type: vless
+    name: 🇳🇱_荷兰 (25)
+    server: 13.141.36.63
+    port: 443
+    uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
+    flow: xtls-rprx-vision
+    udp: true
+    tls: true
+    servername: 4935e4t.de25.h1clayd.click
+    sni: 4935e4t.de25.h1clayd.click
+    skip-cert-verify: true
+    client-fingerprint: firefox
+    reality-opts:
+      public-key: MzgB17ZFbKqs8pbC3EscTzHid_ENc-k_Cp6nXl-2knw
+      short-id: 6976d670818644cc
+  - type: vless
+    name: 🇸🇨_塞舌尔 (10)
+    server: 196.245.52.187
+    port: 443
+    uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
+    udp: true
+    tls: true
+    servername: 04535dt.us8.h1clayd.click
+    sni: 04535dt.us8.h1clayd.click
+    skip-cert-verify: true
+    client-fingerprint: firefox
+    reality-opts:
+      public-key: UoS8qZ74hP_ECcncCz55lzvlcVss3R7VA0WYZE0YQCY
+      short-id: ba2a3dce62b99092
+  - type: vless
+    name: 🇸🇨_塞舌尔 (11)
+    server: 196.196.148.85
+    port: 443
+    uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
+    udp: true
+    tls: true
+    servername: 5d0319t.nl7.h1clayd.click
+    sni: 5d0319t.nl7.h1clayd.click
+    skip-cert-verify: true
+    client-fingerprint: firefox
+    reality-opts:
+      public-key: l-GzBDuNuhnjxoRlZqKvT7jAt_sbVAxhGFsAttO5kXs
+      short-id: 361d0dd59c70516f
+  - type: vless
+    name: 🇸🇨_塞舌尔 (12)
+    server: 196.196.148.85
+    port: 443
+    uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
+    udp: true
+    tls: true
+    servername: 5d0319t.nl7.h1clayd.click
+    sni: 5d0319t.nl7.h1clayd.click
     skip-cert-verify: true
     client-fingerprint: chrome
     reality-opts:
-      public-key: ZSmetD4e9QG5CiXhniHg5HJB68L4kwbgAkJmMHtVwEE
-      short-id: 42426c882c5fcd41
+      public-key: l-GzBDuNuhnjxoRlZqKvT7jAt_sbVAxhGFsAttO5kXs
+      short-id: 361d0dd59c70516f
+  - type: vless
+    name: 🇸🇨_塞舌尔 (13)
+    server: 196.196.148.85
+    port: 443
+    uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
+    udp: true
+    tls: true
+    servername: 5d0319t.nl7.h1clayd.click
+    sni: 5d0319t.nl7.h1clayd.click
+    skip-cert-verify: true
+    client-fingerprint: firefox
+    reality-opts:
+      public-key: l-GzBDuNuhnjxoRlZqKvT7jAt_sbVAxhGFsAttO5kXs
+      short-id: 361d0dd59c70516f
+  - type: vless
+    name: 🇷🇺_俄罗斯 (17)
+    server: 136.148.83.71
+    port: 443
+    uuid: 00000000-0000-0001-0000-000000000000
+    udp: true
+    tls: true
+    servername: wccfu-ru-79dc.my-fade.cloud
+    sni: wccfu-ru-79dc.my-fade.cloud
+    skip-cert-verify: true
+    client-fingerprint: qq
+  - type: vless
+    name: 🇷🇺_俄罗斯 (18)
+    server: 136.148.83.71
+    port: 443
+    uuid: 00000000-0000-0001-0000-000000000000
+    udp: true
+    tls: true
+    servername: wccfu-ru-79dc.my-fade.cloud
+    sni: wccfu-ru-79dc.my-fade.cloud
+    skip-cert-verify: true
+  - type: vless
+    name: 🇷🇺_俄罗斯 (19)
+    server: 188.225.34.128
+    port: 443
+    uuid: b9ae9395-c3e4-4212-86b8-d27a92f214dd
+    flow: xtls-rprx-vision
+    udp: true
+    tls: true
+    servername: edge-de5.mystatic-cdn.ru
+    sni: edge-de5.mystatic-cdn.ru
+    skip-cert-verify: true
+    alpn:
+      - h2
+    client-fingerprint: qq
+  - type: vless
+    name: 🇷🇺_俄罗斯 (20)
+    server: 136.148.83.70
+    port: 443
+    uuid: 00000000-0000-0001-0000-000000000000
+    udp: true
+    tls: true
+    servername: aszbk-ru-78dc.my-fade.cloud
+    sni: aszbk-ru-78dc.my-fade.cloud
+    skip-cert-verify: true
+    client-fingerprint: qq
+  - type: vless
+    name: 🇷🇺_俄罗斯 (21)
+    server: 136.148.83.70
+    port: 443
+    uuid: 00000000-0000-0001-0000-000000000000
+    udp: true
+    tls: true
+    servername: aszbk-ru-78dc.my-fade.cloud
+    sni: aszbk-ru-78dc.my-fade.cloud
+    skip-cert-verify: true
+  - type: vless
+    name: 🇷🇺_俄罗斯 (22)
+    server: 136.148.83.71
+    port: 443
+    uuid: 00000000-0000-0001-0000-000000000000
+    udp: true
+    tls: true
+    servername: wccfu-ru-79dc.my-fade.cloud
+    sni: wccfu-ru-79dc.my-fade.cloud
+    skip-cert-verify: true
+    client-fingerprint: qq
   - type: vless
     name: 🇸🇨_塞舌尔 (14)
     server: 196.196.149.81
@@ -626,157 +2279,144 @@ proxies:
       public-key: ZSmetD4e9QG5CiXhniHg5HJB68L4kwbgAkJmMHtVwEE
       short-id: 42426c882c5fcd41
   - type: vless
-    name: 🇷🇺_俄罗斯 (11)
-    server: 178.248.236.229
-    port: 443
-    uuid: a71d6c6d-c95e-4ec1-a892-22e21733bf09
-    flow: xtls-rprx-vision
-    udp: true
-    tls: true
-    servername: 144.hexdey.com
-    sni: 144.hexdey.com
-    skip-cert-verify: true
-    client-fingerprint: firefox
-    reality-opts:
-      public-key: _3mkK8SY6YVqws73SUVPKL77tzxDVNUt4ag9J9ec-D0
-      short-id: d05a120d3506d2cc
-  - type: vless
-    name: 🇷🇺_俄罗斯 (12)
-    server: 165.231.157.126
-    port: 8443
-    uuid: 0173d52e-8e1b-4681-831e-11529677b72f
-    flow: xtls-rprx-vision
-    udp: true
-    tls: true
-    servername: api-6b04608f.adhil.uk
-    sni: api-6b04608f.adhil.uk
-    skip-cert-verify: true
-  - type: vless
-    name: 🇩🇪_德国 (8)
-    server: 8a2e72t.nl20.h1clayd.shop
-    port: 443
-    uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
-    flow: xtls-rprx-vision
-    udp: true
-    tls: true
-    servername: 8a2e72t.nl20.h1clayd.shop
-    sni: 8a2e72t.nl20.h1clayd.shop
-    skip-cert-verify: true
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: VZS639V1i-35g7VXb9EoTYL-Srm7858sxcvFAunncmA
-      short-id: 8d0d0679f42ffd98
-  - type: vless
-    name: 🇩🇪_德国 (9)
-    server: 8a2e72t.nl20.h1clayd.shop
-    port: 443
-    uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
-    flow: xtls-rprx-vision
-    udp: true
-    tls: true
-    servername: 8a2e72t.nl20.h1clayd.shop
-    sni: 8a2e72t.nl20.h1clayd.shop
-    skip-cert-verify: true
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: VZS639V1i-35g7VXb9EoTYL-Srm7858sxcvFAunncmA
-      short-id: 8d0d0679f42ffd98
-  - type: vless
-    name: 🇸🇬_新加坡 (3)
-    server: 43.163.112.174
-    port: 443
-    uuid: 0dedd47d-47b9-4ed1-9c9f-cbeecad57a68
-    flow: xtls-rprx-vision
-    udp: true
-    tls: true
-    servername: www.cloudflare.com
-    sni: www.cloudflare.com
-    skip-cert-verify: true
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: mXQudYHNu0pebcdk1_qn-UgcmwhjaV7y9UrYu3HX7Rg
-      short-id: 0123456789abcdef
-  - type: vless
     name: 🇸🇨_塞舌尔 (15)
-    server: 196.196.148.90
+    server: 196.196.149.80
     port: 443
     uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
     flow: xtls-rprx-vision
     udp: true
     tls: true
-    servername: 7aa271t.es9.h1clayd.click
-    sni: 7aa271t.es9.h1clayd.click
+    servername: 7aa271t.es1.h1clayd.click
+    sni: 7aa271t.es1.h1clayd.click
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: ZSmetD4e9QG5CiXhniHg5HJB68L4kwbgAkJmMHtVwEE
+      short-id: 42426c882c5fcd41
+  - type: vless
+    name: 🇸🇨_塞舌尔 (16)
+    server: 196.196.149.81
+    port: 443
+    uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
+    flow: xtls-rprx-vision
+    udp: true
+    tls: true
+    servername: 7aa271t.es1.h1clayd.click
+    sni: 7aa271t.es1.h1clayd.click
     skip-cert-verify: true
     client-fingerprint: firefox
     reality-opts:
       public-key: ZSmetD4e9QG5CiXhniHg5HJB68L4kwbgAkJmMHtVwEE
       short-id: 42426c882c5fcd41
   - type: vless
-    name: 🇸🇨_塞舌尔 (16)
-    server: 196.196.148.76
+    name: 🇸🇨_塞舌尔 (17)
+    server: 196.196.149.80
     port: 443
     uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
     flow: xtls-rprx-vision
     udp: true
     tls: true
-    servername: 8a2e72t.nl20.h1clayd.shop
-    sni: 8a2e72t.nl20.h1clayd.shop
+    servername: 7aa271t.es1.h1clayd.click
+    sni: 7aa271t.es1.h1clayd.click
     skip-cert-verify: true
-    client-fingerprint: firefox
+    client-fingerprint: chrome
     reality-opts:
-      public-key: VZS639V1i-35g7VXb9EoTYL-Srm7858sxcvFAunncmA
-      short-id: 8d0d0679f42ffd98
+      public-key: ZSmetD4e9QG5CiXhniHg5HJB68L4kwbgAkJmMHtVwEE
+      short-id: 42426c882c5fcd41
+  - type: trojan
+    name: 🇺🇸_美国 (31)
+    server: sclass-01.catcat321.com
+    port: 20103
+    password: 2e7ebefd-1572-4a4e-b1ec-51a9cb4157b8
+    udp: true
+    tls: true
+    servername: hk.catxstar.com
+    sni: hk.catxstar.com
+    skip-cert-verify: true
+  - type: trojan
+    name: 🇺🇸_美国 (32)
+    server: sclass-01.catcat321.com
+    port: 20123
+    password: 40a8a71b-91d3-4b63-9907-5e12ad2259c1
+    udp: true
+    tls: true
+    servername: hk.catxstar.com
+    sni: hk.catxstar.com
+    skip-cert-verify: true
   - type: vless
-    name: 🇵🇱_波兰
-    server: 45.142.212.191
+    name: 🇩🇪_德国 (8)
+    server: 2.26.251.236
     port: 443
-    uuid: 148917bd-0b37-42b8-98f4-aa94ca73e75a
+    uuid: c16e8cdb-65dd-4049-bc65-14c051b8a6c6
     flow: xtls-rprx-vision
     udp: true
     tls: true
-    servername: travel.yandex.ru
-    sni: travel.yandex.ru
+    servername: mental-deprivation.ru
+    sni: mental-deprivation.ru
     skip-cert-verify: true
     reality-opts:
-      public-key: tp7awfnKLbhIDkdYlT7Avf-SfUwt7ncX5oyWS5wQmR0
-      short-id: 24c4
+      public-key: 1iVMMhJZgXHRY7tRlR-1kypF0YeaBcB7EjcfHRsYZX4
+      short-id: 4ff31b18d1bd8227
   - type: vless
-    name: 🇹🇷_土耳其
-    server: tr.subscriptionservice.ir
-    port: 8443
-    uuid: c28b9935-9392-48e9-947a-abad1ad9c933
-    udp: true
-    tls: false
-    skip-cert-verify: true
-  - type: vless
-    name: 🇷🇺_俄罗斯 (13)
-    server: 136.148.83.71
+    name: 🇩🇪_德国 (9)
+    server: 2.26.251.236
     port: 443
-    uuid: 00000000-0000-0001-0000-000000000000
+    uuid: c16e8cdb-65dd-4049-bc65-14c051b8a6c6
+    flow: xtls-rprx-vision
     udp: true
     tls: true
-    servername: wccfu-ru-79dc.my-fade.cloud
-    sni: wccfu-ru-79dc.my-fade.cloud
+    servername: mental-deprivation.ru
+    sni: mental-deprivation.ru
     skip-cert-verify: true
+    client-fingerprint: firefox
+    reality-opts:
+      public-key: 1iVMMhJZgXHRY7tRlR-1kypF0YeaBcB7EjcfHRsYZX4
+      short-id: 4ff31b18d1bd8227
   - type: vless
-    name: 🇷🇺_俄罗斯 (14)
-    server: 136.148.83.70
+    name: 🇩🇪_德国 (10)
+    server: 2.26.251.236
     port: 443
-    uuid: 00000000-0000-0001-0000-000000000000
+    uuid: c16e8cdb-65dd-4049-bc65-14c051b8a6c6
+    flow: xtls-rprx-vision
     udp: true
     tls: true
-    servername: aszbk-ru-78dc.my-fade.cloud
-    sni: aszbk-ru-78dc.my-fade.cloud
+    servername: mental-deprivation.ru
+    sni: mental-deprivation.ru
     skip-cert-verify: true
-    client-fingerprint: qq
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: 1iVMMhJZgXHRY7tRlR-1kypF0YeaBcB7EjcfHRsYZX4
+      short-id: 4ff31b18d1bd8227
   - type: vless
-    name: 🇹🇷_土耳其 (2)
-    server: tr.subscriptionservice.ir
-    port: 8443
-    uuid: 00c93313-37e9-4d96-8ab6-b4294170ef06
+    name: 🇸🇨_塞舌尔 (18)
+    server: 196.196.149.80
+    port: 443
+    uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
+    flow: xtls-rprx-vision
     udp: true
-    tls: false
+    tls: true
+    servername: 7aa271t.es1.h1clayd.click
+    sni: 7aa271t.es1.h1clayd.click
     skip-cert-verify: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: ZSmetD4e9QG5CiXhniHg5HJB68L4kwbgAkJmMHtVwEE
+      short-id: 42426c882c5fcd41
+  - type: vless
+    name: 🇸🇨_塞舌尔 (19)
+    server: 196.196.149.81
+    port: 443
+    uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
+    flow: xtls-rprx-vision
+    udp: true
+    tls: true
+    servername: 7aa271t.es1.h1clayd.click
+    sni: 7aa271t.es1.h1clayd.click
+    skip-cert-verify: true
+    client-fingerprint: firefox
+    reality-opts:
+      public-key: ZSmetD4e9QG5CiXhniHg5HJB68L4kwbgAkJmMHtVwEE
+      short-id: 42426c882c5fcd41
   - type: vless
     name: 🇭🇰_香港
     server: 170.168.32.125
@@ -792,281 +2432,7 @@ proxies:
       public-key: tp7awfnKLbhIDkdYlT7Avf-SfUwt7ncX5oyWS5wQmR0
       short-id: 6d
   - type: vless
-    name: 🇷🇺_俄罗斯 (15)
-    server: 188.225.34.128
-    port: 443
-    uuid: b9ae9395-c3e4-4212-86b8-d27a92f214dd
-    flow: xtls-rprx-vision
-    udp: true
-    tls: true
-    servername: edge-de5.mystatic-cdn.ru
-    sni: edge-de5.mystatic-cdn.ru
-    skip-cert-verify: true
-    alpn:
-      - h2
-    client-fingerprint: qq
-  - type: vless
-    name: 🇩🇪_德国 (10)
-    server: 2.26.251.236
-    port: 443
-    uuid: c16e8cdb-65dd-4049-bc65-14c051b8a6c6
-    flow: xtls-rprx-vision
-    udp: true
-    tls: true
-    servername: mental-deprivation.ru
-    sni: mental-deprivation.ru
-    skip-cert-verify: true
-    client-fingerprint: firefox
-    reality-opts:
-      public-key: 1iVMMhJZgXHRY7tRlR-1kypF0YeaBcB7EjcfHRsYZX4
-      short-id: 4ff31b18d1bd8227
-  - type: vless
-    name: 🇩🇪_德国 (11)
-    server: 2.26.251.236
-    port: 443
-    uuid: c16e8cdb-65dd-4049-bc65-14c051b8a6c6
-    flow: xtls-rprx-vision
-    udp: true
-    tls: true
-    servername: mental-deprivation.ru
-    sni: mental-deprivation.ru
-    skip-cert-verify: true
-    reality-opts:
-      public-key: 1iVMMhJZgXHRY7tRlR-1kypF0YeaBcB7EjcfHRsYZX4
-      short-id: 4ff31b18d1bd8227
-  - type: vless
-    name: 🇩🇪_德国 (12)
-    server: 2.26.251.236
-    port: 443
-    uuid: c16e8cdb-65dd-4049-bc65-14c051b8a6c6
-    flow: xtls-rprx-vision
-    udp: true
-    tls: true
-    servername: mental-deprivation.ru
-    sni: mental-deprivation.ru
-    skip-cert-verify: true
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: 1iVMMhJZgXHRY7tRlR-1kypF0YeaBcB7EjcfHRsYZX4
-      short-id: 4ff31b18d1bd8227
-  - type: vless
-    name: 🇷🇺_俄罗斯 (16)
-    server: 136.148.83.71
-    port: 443
-    uuid: 00000000-0000-0001-0000-000000000000
-    udp: true
-    tls: true
-    servername: wccfu-ru-79dc.my-fade.cloud
-    sni: wccfu-ru-79dc.my-fade.cloud
-    skip-cert-verify: true
-    client-fingerprint: qq
-  - type: vless
-    name: 🇷🇺_俄罗斯 (17)
-    server: 84.54.44.117
-    port: 443
-    uuid: 9df9ee1a-0671-4c6c-93c7-65598fb946f7
-    flow: xtls-rprx-vision
-    udp: true
-    tls: true
-    servername: rumicro642.richhoodfoc.com
-    sni: rumicro642.richhoodfoc.com
-    skip-cert-verify: true
-    client-fingerprint: firefox
-    reality-opts:
-      public-key: fPvZxeP0GErdI22fbEAqbMaz-QMumNIDzBNgKZmRsWY
-      short-id: a7b12f3265f97f4a
-  - type: vless
-    name: 🇷🇺_俄罗斯 (18)
-    server: 45.150.37.169
-    port: 443
-    uuid: 9df9ee1a-0671-4c6c-93c7-65598fb946f7
-    flow: xtls-rprx-vision
-    udp: true
-    tls: true
-    servername: rumicro641.richhoodfoc.com
-    sni: rumicro641.richhoodfoc.com
-    skip-cert-verify: true
-    client-fingerprint: firefox
-    reality-opts:
-      public-key: 2GYWewnpSKVqp2AXm1hEZ-av8iApLPa62V7rxpxt1SE
-      short-id: b9bb317e9c9e2627
-  - type: vless
-    name: 🇸🇨_塞舌尔 (17)
-    server: 196.196.149.81
-    port: 443
-    uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
-    flow: xtls-rprx-vision
-    udp: true
-    tls: true
-    servername: 7aa271t.es1.h1clayd.click
-    sni: 7aa271t.es1.h1clayd.click
-    skip-cert-verify: true
-    client-fingerprint: firefox
-    reality-opts:
-      public-key: ZSmetD4e9QG5CiXhniHg5HJB68L4kwbgAkJmMHtVwEE
-      short-id: 42426c882c5fcd41
-  - type: vless
-    name: 🇸🇨_塞舌尔 (18)
-    server: 196.245.52.187
-    port: 443
-    uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
-    udp: true
-    tls: true
-    servername: 04535dt.us8.h1clayd.click
-    sni: 04535dt.us8.h1clayd.click
-    skip-cert-verify: true
-    client-fingerprint: firefox
-    reality-opts:
-      public-key: UoS8qZ74hP_ECcncCz55lzvlcVss3R7VA0WYZE0YQCY
-      short-id: ba2a3dce62b99092
-  - type: vless
-    name: 🇩🇪_德国 (13)
-    server: 8a2e72t.nl20.h1clayd.shop
-    port: 443
-    uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
-    flow: xtls-rprx-vision
-    udp: true
-    tls: true
-    servername: 8a2e72t.nl20.h1clayd.shop
-    sni: 8a2e72t.nl20.h1clayd.shop
-    skip-cert-verify: true
-    client-fingerprint: random
-    reality-opts:
-      public-key: VZS639V1i-35g7VXb9EoTYL-Srm7858sxcvFAunncmA
-      short-id: 8d0d0679f42ffd98
-  - type: vless
-    name: 🇷🇺_俄罗斯 (19)
-    server: 136.148.83.70
-    port: 443
-    uuid: 00000000-0000-0001-0000-000000000000
-    udp: true
-    tls: true
-    servername: aszbk-ru-78dc.my-fade.cloud
-    sni: aszbk-ru-78dc.my-fade.cloud
-    skip-cert-verify: true
-  - type: vless
-    name: 🇸🇨_塞舌尔 (19)
-    server: 196.199.122.2
-    port: 443
-    uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
-    flow: xtls-rprx-vision
-    udp: true
-    tls: true
-    servername: 7aa271t.es1.h1clayd.click
-    sni: 7aa271t.es1.h1clayd.click
-    skip-cert-verify: true
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: ZSmetD4e9QG5CiXhniHg5HJB68L4kwbgAkJmMHtVwEE
-      short-id: 42426c882c5fcd41
-  - type: vless
-    name: 🇸🇨_塞舌尔 (20)
-    server: 196.196.148.76
-    port: 443
-    uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
-    flow: xtls-rprx-vision
-    udp: true
-    tls: true
-    servername: 8a2e72t.nl20.h1clayd.shop
-    sni: 8a2e72t.nl20.h1clayd.shop
-    skip-cert-verify: true
-    client-fingerprint: firefox
-    reality-opts:
-      public-key: VZS639V1i-35g7VXb9EoTYL-Srm7858sxcvFAunncmA
-      short-id: 8d0d0679f42ffd98
-  - type: trojan
-    name: 🇺🇸_美国 (6)
-    server: sclass-01.catcat321.com
-    port: 20006
-    password: 7ad79fc1-d708-45cb-8bfc-a3cbe1400957
-    udp: true
-    tls: true
-    servername: hk.catxstar.com
-    sni: hk.catxstar.com
-    skip-cert-verify: true
-  - type: vless
-    name: 🇳🇱_荷兰 (5)
-    server: 13.141.36.15
-    port: 443
-    uuid: 2ccb06b6-9eac-44eb-ade7-c1e5afb8e7df
-    udp: true
-    tls: true
-    servername: a80b5386.fi2.h1clayd.click
-    sni: a80b5386.fi2.h1clayd.click
-    skip-cert-verify: true
-    reality-opts:
-      public-key: PslSaSQWP4BZZmkL7irab4FMti8sW6BvoC7ytFjJFyc
-      short-id: cc678f10161992a9
-  - type: vless
-    name: 🇳🇱_荷兰 (6)
-    server: 13.141.36.15
-    port: 443
-    uuid: 2ccb06b6-9eac-44eb-ade7-c1e5afb8e7df
-    udp: true
-    tls: true
-    servername: a80b5386.fi2.h1clayd.click
-    sni: a80b5386.fi2.h1clayd.click
-    skip-cert-verify: true
-    client-fingerprint: firefox
-    reality-opts:
-      public-key: PslSaSQWP4BZZmkL7irab4FMti8sW6BvoC7ytFjJFyc
-      short-id: cc678f10161992a9
-  - type: vless
-    name: 🇳🇱_荷兰 (7)
-    server: a80b5386.fi2.h1clayd.click
-    port: 443
-    uuid: 2ccb06b6-9eac-44eb-ade7-c1e5afb8e7df
-    udp: true
-    tls: true
-    servername: a80b5386.fi2.h1clayd.click
-    sni: a80b5386.fi2.h1clayd.click
-    skip-cert-verify: true
-    client-fingerprint: firefox
-    reality-opts:
-      public-key: PslSaSQWP4BZZmkL7irab4FMti8sW6BvoC7ytFjJFyc
-      short-id: cc678f10161992a9
-  - type: trojan
-    name: 🇺🇸_美国 (7)
-    server: sclass-01.catcat321.com
-    port: 20186
-    password: 85dd0cc3-fa1b-49be-9e38-a56e8d76ab4b
-    udp: true
-    tls: true
-    servername: hk.catxstar.com
-    sni: hk.catxstar.com
-    skip-cert-verify: true
-  - type: vless
     name: 🇹🇼_台湾 (2)
-    server: free.fugui.lol
-    port: 19482
-    uuid: ead3595f-4020-4e76-a3ec-c248e1a2f2f7
-    flow: xtls-rprx-vision
-    udp: true
-    tls: true
-    servername: swdist.apple.com
-    sni: swdist.apple.com
-    skip-cert-verify: true
-    client-fingerprint: ios
-    reality-opts:
-      public-key: IjWYbHNrZb3UCQxsTJyekEOA3tHq42L6Jw3O8MmLYVQ
-      short-id: fa514b83
-  - type: vless
-    name: 🇷🇺_俄罗斯 (20)
-    server: 103.88.241.220
-    port: 443
-    uuid: 9df9ee1a-0671-4c6c-93c7-65598fb946f7
-    flow: xtls-rprx-vision
-    udp: true
-    tls: true
-    servername: ruhongmicro2.gangplatform.com
-    sni: ruhongmicro2.gangplatform.com
-    skip-cert-verify: true
-    client-fingerprint: qq
-    reality-opts:
-      public-key: u9GnN8KGzfV0xQj6R8Ydp1nvY4exEWlTIcIbA27N0Wo
-      short-id: bad10ef561d2e2a1
-  - type: vless
-    name: 🇹🇼_台湾 (3)
     server: free.fugui.lol
     port: 51283
     uuid: ead3595f-4020-4e76-a3ec-c248e1a2f2f7
@@ -1076,7 +2442,22 @@ proxies:
     servername: swdist.apple.com
     sni: swdist.apple.com
     skip-cert-verify: true
-    client-fingerprint: ios
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: IjWYbHNrZb3UCQxsTJyekEOA3tHq42L6Jw3O8MmLYVQ
+      short-id: fa514b83
+  - type: vless
+    name: 🇹🇼_台湾 (3)
+    server: free.fugui.lol
+    port: 47396
+    uuid: ead3595f-4020-4e76-a3ec-c248e1a2f2f7
+    flow: xtls-rprx-vision
+    udp: true
+    tls: true
+    servername: swdist.apple.com
+    sni: swdist.apple.com
+    skip-cert-verify: true
+    client-fingerprint: chrome
     reality-opts:
       public-key: IjWYbHNrZb3UCQxsTJyekEOA3tHq42L6Jw3O8MmLYVQ
       short-id: fa514b83
@@ -1098,7 +2479,7 @@ proxies:
   - type: vless
     name: 🇹🇼_台湾 (5)
     server: free.fugui.lol
-    port: 51283
+    port: 47396
     uuid: ead3595f-4020-4e76-a3ec-c248e1a2f2f7
     flow: xtls-rprx-vision
     udp: true
@@ -1110,332 +2491,6 @@ proxies:
     reality-opts:
       public-key: IjWYbHNrZb3UCQxsTJyekEOA3tHq42L6Jw3O8MmLYVQ
       short-id: fa514b83
-  - type: vless
-    name: 🇩🇪_德国 (14)
-    server: 5d0319t.nl7.h1clayd.click
-    port: 443
-    uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
-    udp: true
-    tls: true
-    servername: 5d0319t.nl7.h1clayd.click
-    sni: 5d0319t.nl7.h1clayd.click
-    skip-cert-verify: true
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: l-GzBDuNuhnjxoRlZqKvT7jAt_sbVAxhGFsAttO5kXs
-      short-id: 361d0dd59c70516f
-  - type: vless
-    name: 🇸🇨_塞舌尔 (21)
-    server: 196.196.148.85
-    port: 443
-    uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
-    udp: true
-    tls: true
-    servername: 5d0319t.nl7.h1clayd.click
-    sni: 5d0319t.nl7.h1clayd.click
-    skip-cert-verify: true
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: l-GzBDuNuhnjxoRlZqKvT7jAt_sbVAxhGFsAttO5kXs
-      short-id: 361d0dd59c70516f
-  - type: vless
-    name: 🇸🇨_塞舌尔 (22)
-    server: 196.196.148.177
-    port: 443
-    uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
-    flow: xtls-rprx-vision
-    udp: true
-    tls: true
-    servername: 4935e4t.de25.h1clayd.click
-    sni: 4935e4t.de25.h1clayd.click
-    skip-cert-verify: true
-    client-fingerprint: firefox
-    reality-opts:
-      public-key: MzgB17ZFbKqs8pbC3EscTzHid_ENc-k_Cp6nXl-2knw
-      short-id: 6976d670818644cc
-  - type: vless
-    name: 🇸🇨_塞舌尔 (23)
-    server: 196.196.148.177
-    port: 443
-    uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
-    flow: xtls-rprx-vision
-    udp: true
-    tls: true
-    servername: 4935e4t.de25.h1clayd.click
-    sni: 4935e4t.de25.h1clayd.click
-    skip-cert-verify: true
-    client-fingerprint: firefox
-    reality-opts:
-      public-key: MzgB17ZFbKqs8pbC3EscTzHid_ENc-k_Cp6nXl-2knw
-      short-id: 6976d670818644cc
-  - type: vless
-    name: 🇸🇨_塞舌尔 (24)
-    server: 196.196.148.85
-    port: 443
-    uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
-    udp: true
-    tls: true
-    servername: 5d0319t.nl7.h1clayd.click
-    sni: 5d0319t.nl7.h1clayd.click
-    skip-cert-verify: true
-    client-fingerprint: firefox
-    reality-opts:
-      public-key: l-GzBDuNuhnjxoRlZqKvT7jAt_sbVAxhGFsAttO5kXs
-      short-id: 361d0dd59c70516f
-  - type: vless
-    name: 🇺🇸_美国 (8)
-    server: 31.76.93.112
-    port: 443
-    uuid: d7121b33-e335-4921-bb00-4c0b157e7fc1
-    flow: xtls-rprx-vision
-    udp: true
-    tls: true
-    servername: m47.scan-cdn.com
-    sni: m47.scan-cdn.com
-    skip-cert-verify: true
-  - type: vless
-    name: 🇳🇱_荷兰 (8)
-    server: a80b5386.fi2.h1clayd.click
-    port: 443
-    uuid: 2ccb06b6-9eac-44eb-ade7-c1e5afb8e7df
-    udp: true
-    tls: true
-    servername: a80b5386.fi2.h1clayd.click
-    sni: a80b5386.fi2.h1clayd.click
-    skip-cert-verify: true
-    client-fingerprint: firefox
-    reality-opts:
-      public-key: PslSaSQWP4BZZmkL7irab4FMti8sW6BvoC7ytFjJFyc
-      short-id: cc678f10161992a9
-  - type: vless
-    name: 🇸🇨_塞舌尔 (25)
-    server: 196.196.148.85
-    port: 443
-    uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
-    udp: true
-    tls: true
-    servername: 5d0319t.nl7.h1clayd.click
-    sni: 5d0319t.nl7.h1clayd.click
-    skip-cert-verify: true
-    client-fingerprint: firefox
-    reality-opts:
-      public-key: l-GzBDuNuhnjxoRlZqKvT7jAt_sbVAxhGFsAttO5kXs
-      short-id: 361d0dd59c70516f
-  - type: trojan
-    name: 🇺🇸_美国 (9)
-    server: sclass-01.catcat321.com
-    port: 20047
-    password: 85dd0cc3-fa1b-49be-9e38-a56e8d76ab4b
-    udp: true
-    tls: true
-    servername: hk.catxstar.com
-    sni: hk.catxstar.com
-    skip-cert-verify: true
-  - type: trojan
-    name: 🇺🇸_美国 (10)
-    server: sclass-01.catcat321.com
-    port: 20087
-    password: 82a1c880-a864-4966-9cdd-d606ef82a83b
-    udp: true
-    tls: true
-    servername: hk.catxstar.com
-    sni: hk.catxstar.com
-    skip-cert-verify: true
-  - type: vless
-    name: 🇳🇱_荷兰 (9)
-    server: 13.141.36.63
-    port: 443
-    uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
-    flow: xtls-rprx-vision
-    udp: true
-    tls: true
-    servername: 4935e4t.de25.h1clayd.click
-    sni: 4935e4t.de25.h1clayd.click
-    skip-cert-verify: true
-    client-fingerprint: firefox
-    reality-opts:
-      public-key: MzgB17ZFbKqs8pbC3EscTzHid_ENc-k_Cp6nXl-2knw
-      short-id: 6976d670818644cc
-  - type: vless
-    name: 🇹🇷_土耳其 (3)
-    server: brooded-plod.sports-streams.org
-    port: 443
-    uuid: 5a8f34b3-42ff-4530-96d6-803cefb980db
-    flow: xtls-rprx-vision
-    udp: true
-    tls: true
-    servername: rss.worldoftanks.eu
-    sni: rss.worldoftanks.eu
-    skip-cert-verify: true
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: 6dc3iKXilOQpA_JFrKlk5-CsFjSmOm_5p0kSQcO9qi4
-  - type: vless
-    name: 🇹🇷_土耳其 (4)
-    server: 87.120.106.21
-    port: 443
-    uuid: 5a8f34b3-42ff-4530-96d6-803cefb980db
-    flow: xtls-rprx-vision
-    udp: true
-    tls: true
-    servername: rss.worldoftanks.eu
-    sni: rss.worldoftanks.eu
-    skip-cert-verify: true
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: 6dc3iKXilOQpA_JFrKlk5-CsFjSmOm_5p0kSQcO9qi4
-  - type: vless
-    name: 🇫🇷_法国
-    server: binambinam2.crackerbinam.org
-    port: 26928
-    uuid: 765a0ecf-967a-422d-82d7-ebec2a240ebc
-    udp: true
-    tls: true
-    servername: www.cloudflare.com
-    sni: www.cloudflare.com
-    skip-cert-verify: true
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: yPweL79KiVeV98UvvXMCTiws4gGT5UZDDvEruURgP1w
-      short-id: 30ac6685
-  - type: vmess
-    name: 🇺🇸_美国 (11)
-    server: 172.245.106.236
-    port: 52080
-    uuid: 069b590d-895b-4707-bf71-7c204c3f6e77
-    cipher: auto
-    alterId: 0
-    udp: true
-    tls: true
-    servername: down-cdn.dingtalk.com
-    sni: down-cdn.dingtalk.com
-    skip-cert-verify: true
-  - type: vless
-    name: 🇩🇪_德国 (15)
-    server: 185.179.154.10
-    port: 8880
-    uuid: b5b563ad-e4ef-4873-9d35-66cc08202aec
-    udp: true
-    tls: true
-    servername: www.speedtest.net
-    sni: www.speedtest.net
-    skip-cert-verify: true
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: 3bzTjjj-4U-cjmt1bb4ZMVWrgT7wxs0a-iogJwUMJyM
-      short-id: b73585d5
-  - type: vless
-    name: 🇩🇪_德国 (16)
-    server: 185.179.154.10
-    port: 2095
-    uuid: b5b563ad-e4ef-4873-9d35-66cc08202aec
-    udp: true
-    tls: true
-    servername: www.samsung.com
-    sni: www.samsung.com
-    skip-cert-verify: true
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: HLzZwMW0Pla_QGurI4ejP6kwOUMhbLZmP353QEAxdAw
-      short-id: 14f77592
-  - type: vless
-    name: 🇩🇪_德国 (17)
-    server: 185.179.154.10
-    port: 2053
-    uuid: b5b563ad-e4ef-4873-9d35-66cc08202aec
-    udp: true
-    tls: true
-    servername: addons.mozilla.org
-    sni: addons.mozilla.org
-    skip-cert-verify: true
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: i6QemXVnjBTtI8X-iHkCjpHFK5o1GKkodcOfqgEl12E
-      short-id: 4c82e769
-  - type: vmess
-    name: 🇺🇸_美国 (12)
-    server: 172.245.106.236
-    port: 23567
-    uuid: 94b804fa-f7f0-4105-9544-ec667c876bee
-    cipher: auto
-    alterId: 0
-    udp: true
-    tls: true
-    servername: down-cdn.dingtalk.com
-    sni: down-cdn.dingtalk.com
-    skip-cert-verify: true
-  - type: vless
-    name: 🇩🇪_德国 (18)
-    server: 185.179.154.10
-    port: 8443
-    uuid: b5b563ad-e4ef-4873-9d35-66cc08202aec
-    udp: true
-    tls: true
-    servername: www.datadoghq.com
-    sni: www.datadoghq.com
-    skip-cert-verify: true
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: I6qe1zV_bwYHfPkNNJFKZWMoqkHOrsDsQaQRB9ihFWM
-      short-id: 10374ee0
-  - type: vless
-    name: 🇩🇪_德国 (19)
-    server: v3.cloudof1.ir
-    port: 2083
-    uuid: 308230a0-0097-4158-98d7-8f09bf339d60
-    udp: true
-    tls: true
-    servername: filimo.com
-    sni: filimo.com
-    skip-cert-verify: true
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: JlT5hMexc6DZAB9b6mvDElHbbbdw27cBb5oxQ4TVPh8
-      short-id: 1ad2
-  - type: vless
-    name: 🇫🇷_法国 (2)
-    server: fr1oo.sublinkplas.ir
-    port: 12190
-    uuid: b28e9267-bb15-4e09-b126-a49aad8a52a2
-    udp: true
-    tls: true
-    servername: delivery.mp.microsoft.com
-    sni: delivery.mp.microsoft.com
-    skip-cert-verify: true
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: 33hVTwP-1rQYG0F92oXJ-o1zPo4Cc8n2Uml_i9tv6XM
-      short-id: 3e5cba1bd6eb6221
-  - type: vless
-    name: 🇰🇷_韩国 (4)
-    server: 43.201.31.151
-    port: 443
-    uuid: 7e68e32f-8015-4f37-9082-70e8b0b58043
-    flow: xtls-rprx-vision
-    udp: true
-    tls: true
-    servername: api.moment-line.com
-    sni: api.moment-line.com
-    skip-cert-verify: true
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: DHOrfoin7TeRpnIoU3d6qT5Yrq3QPVFp49kApATA4iE
-      short-id: e04a526b0b09c765
-  - type: vless
-    name: 🇸🇬_新加坡 (4)
-    server: 54.255.246.31
-    port: 443
-    uuid: 7e68e32f-8015-4f37-9082-70e8b0b58043
-    flow: xtls-rprx-vision
-    udp: true
-    tls: true
-    servername: aim.ambiz.com
-    sni: aim.ambiz.com
-    skip-cert-verify: true
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: x8aCD8cJtkDvAjcRrcMG05MNiwh11LaKg70KIRvfN0g
-      short-id: 819a87bf1651bf44
   - type: vless
     name: 🇹🇼_台湾 (6)
     server: free.fugui.lol
@@ -1454,6 +2509,21 @@ proxies:
   - type: vless
     name: 🇹🇼_台湾 (7)
     server: free.fugui.lol
+    port: 51283
+    uuid: ead3595f-4020-4e76-a3ec-c248e1a2f2f7
+    flow: xtls-rprx-vision
+    udp: true
+    tls: true
+    servername: swdist.apple.com
+    sni: swdist.apple.com
+    skip-cert-verify: true
+    client-fingerprint: ios
+    reality-opts:
+      public-key: IjWYbHNrZb3UCQxsTJyekEOA3tHq42L6Jw3O8MmLYVQ
+      short-id: fa514b83
+  - type: vless
+    name: 🇹🇼_台湾 (8)
+    server: free.fugui.lol
     port: 19482
     uuid: ead3595f-4020-4e76-a3ec-c248e1a2f2f7
     flow: xtls-rprx-vision
@@ -1467,9 +2537,49 @@ proxies:
       public-key: IjWYbHNrZb3UCQxsTJyekEOA3tHq42L6Jw3O8MmLYVQ
       short-id: fa514b83
   - type: vless
-    name: 🇹🇼_台湾 (8)
+    name: 🇹🇼_台湾 (9)
     server: free.fugui.lol
-    port: 47396
+    port: 19482
+    uuid: ead3595f-4020-4e76-a3ec-c248e1a2f2f7
+    flow: xtls-rprx-vision
+    udp: true
+    tls: true
+    servername: swdist.apple.com
+    sni: swdist.apple.com
+    skip-cert-verify: true
+    client-fingerprint: ios
+    reality-opts:
+      public-key: IjWYbHNrZb3UCQxsTJyekEOA3tHq42L6Jw3O8MmLYVQ
+      short-id: fa514b83
+  - type: trojan
+    name: 🇺🇸_美国 (33)
+    server: sclass-01.catcat321.com
+    port: 20047
+    password: 85dd0cc3-fa1b-49be-9e38-a56e8d76ab4b
+    udp: true
+    tls: true
+    servername: hk.catxstar.com
+    sni: hk.catxstar.com
+    skip-cert-verify: true
+  - type: vless
+    name: 🇸🇬_新加坡 (13)
+    server: 43.163.112.174
+    port: 443
+    uuid: 0dedd47d-47b9-4ed1-9c9f-cbeecad57a68
+    flow: xtls-rprx-vision
+    udp: true
+    tls: true
+    servername: www.cloudflare.com
+    sni: www.cloudflare.com
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: mXQudYHNu0pebcdk1_qn-UgcmwhjaV7y9UrYu3HX7Rg
+      short-id: 0123456789abcdef
+  - type: vless
+    name: 🇹🇼_台湾 (10)
+    server: free.fugui.lol
+    port: 51283
     uuid: ead3595f-4020-4e76-a3ec-c248e1a2f2f7
     flow: xtls-rprx-vision
     udp: true
@@ -1482,7 +2592,378 @@ proxies:
       public-key: IjWYbHNrZb3UCQxsTJyekEOA3tHq42L6Jw3O8MmLYVQ
       short-id: fa514b83
   - type: vless
-    name: 🇺🇸_美国 (13)
+    name: 🇸🇨_塞舌尔 (20)
+    server: 196.199.122.2
+    port: 443
+    uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
+    flow: xtls-rprx-vision
+    udp: true
+    tls: true
+    servername: 7aa271t.es1.h1clayd.click
+    sni: 7aa271t.es1.h1clayd.click
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: ZSmetD4e9QG5CiXhniHg5HJB68L4kwbgAkJmMHtVwEE
+      short-id: 42426c882c5fcd41
+  - type: vless
+    name: 🇸🇨_塞舌尔 (21)
+    server: 196.199.122.2
+    port: 443
+    uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
+    flow: xtls-rprx-vision
+    udp: true
+    tls: true
+    servername: 7aa271t.es1.h1clayd.click
+    sni: 7aa271t.es1.h1clayd.click
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: ZSmetD4e9QG5CiXhniHg5HJB68L4kwbgAkJmMHtVwEE
+      short-id: 42426c882c5fcd41
+  - type: vless
+    name: 🇵🇱_波兰 (2)
+    server: 45.142.212.191
+    port: 443
+    uuid: 148917bd-0b37-42b8-98f4-aa94ca73e75a
+    flow: xtls-rprx-vision
+    udp: true
+    tls: true
+    servername: travel.yandex.ru
+    sni: travel.yandex.ru
+    skip-cert-verify: true
+    reality-opts:
+      public-key: tp7awfnKLbhIDkdYlT7Avf-SfUwt7ncX5oyWS5wQmR0
+      short-id: 24c4
+  - type: vless
+    name: 🇳🇱_荷兰 (26)
+    server: 13.141.36.15
+    port: 443
+    uuid: 2ccb06b6-9eac-44eb-ade7-c1e5afb8e7df
+    udp: true
+    tls: true
+    servername: a80b5386.fi2.h1clayd.click
+    sni: a80b5386.fi2.h1clayd.click
+    skip-cert-verify: true
+    reality-opts:
+      public-key: PslSaSQWP4BZZmkL7irab4FMti8sW6BvoC7ytFjJFyc
+      short-id: cc678f10161992a9
+  - type: vless
+    name: 🇩🇪_德国 (11)
+    server: 8a2e72t.nl20.h1clayd.shop
+    port: 443
+    uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
+    flow: xtls-rprx-vision
+    udp: true
+    tls: true
+    servername: 8a2e72t.nl20.h1clayd.shop
+    sni: 8a2e72t.nl20.h1clayd.shop
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: VZS639V1i-35g7VXb9EoTYL-Srm7858sxcvFAunncmA
+      short-id: 8d0d0679f42ffd98
+  - type: vless
+    name: 🇩🇪_德国 (12)
+    server: 8a2e72t.nl20.h1clayd.shop
+    port: 443
+    uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
+    flow: xtls-rprx-vision
+    udp: true
+    tls: true
+    servername: 8a2e72t.nl20.h1clayd.shop
+    sni: 8a2e72t.nl20.h1clayd.shop
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: VZS639V1i-35g7VXb9EoTYL-Srm7858sxcvFAunncmA
+      short-id: 8d0d0679f42ffd98
+  - type: vless
+    name: 🇩🇪_德国 (13)
+    server: 8a2e72t.nl20.h1clayd.shop
+    port: 443
+    uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
+    flow: xtls-rprx-vision
+    udp: true
+    tls: true
+    servername: 8a2e72t.nl20.h1clayd.shop
+    sni: 8a2e72t.nl20.h1clayd.shop
+    skip-cert-verify: true
+    client-fingerprint: random
+    reality-opts:
+      public-key: VZS639V1i-35g7VXb9EoTYL-Srm7858sxcvFAunncmA
+      short-id: 8d0d0679f42ffd98
+  - type: vless
+    name: 🇪🇪_爱沙尼亚
+    server: 8a2e72t.nl11.h1clayd.click
+    port: 443
+    uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
+    flow: xtls-rprx-vision
+    udp: true
+    tls: true
+    servername: 8a2e72t.nl11.h1clayd.click
+    sni: 8a2e72t.nl11.h1clayd.click
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: VZS639V1i-35g7VXb9EoTYL-Srm7858sxcvFAunncmA
+      short-id: 8d0d0679f42ffd98
+  - type: vless
+    name: 🇸🇨_塞舌尔 (22)
+    server: 5.157.10.146
+    port: 443
+    uuid: 732255eb-8ce9-4cd5-8bdc-376bd3fa0b11
+    flow: xtls-rprx-vision
+    udp: true
+    tls: true
+    servername: sweb1.loozerp.wiki
+    sni: sweb1.loozerp.wiki
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: x6p656szvu_3CKLsJ4NtkooRvdTVGx7IoPca_p58_jA
+      short-id: fb442438e2223836
+  - type: vless
+    name: 🇭🇺_匈牙利
+    server: 45.9.168.17
+    port: 443
+    uuid: 5d4a87fa-16f1-4b65-b217-225a31e36239
+    flow: xtls-rprx-vision
+    udp: true
+    tls: true
+    servername: hu.convert-flow.net
+    sni: hu.convert-flow.net
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: 8ZYjmjb0b2QJKCGMrcdhQNV28jZZPCKgIQbIdqChQ0w
+      short-id: 00a61d55a07de885
+  - type: vless
+    name: 🇺🇸_美国 (34)
+    server: 45.159.79.71
+    port: 4443
+    uuid: 20dd9433-389e-4573-ba7b-689619cf13da
+    flow: xtls-rprx-vision
+    udp: true
+    tls: true
+    servername: sentry.io
+    sni: sentry.io
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: 321Ii2xbCoyll6WJ0Qm1Sh8qcC0kxXvUaZhe3kyasD8
+      short-id: a1b2c3d4e5f6a7b8
+  - type: vless
+    name: 🇷🇺_俄罗斯 (23)
+    server: 200.165.229.159
+    port: 443
+    uuid: 3db8407b-1f96-4b82-bfeb-55258c1e57b4
+    flow: xtls-rprx-vision
+    udp: true
+    tls: true
+    servername: flarora.ferreo.sbs
+    sni: flarora.ferreo.sbs
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: HKKWGVu7xJfscDTH_28WhqSfSnp8fA5jpj7X1eMO-mU
+      short-id: 1067b23f928e7618
+  - type: vless
+    name: 🇺🇸_美国 (35)
+    server: 130.12.102.125
+    port: 443
+    uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
+    udp: true
+    tls: true
+    servername: localhost
+    sni: localhost
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
+  - type: vless
+    name: 🇺🇸_美国 (36)
+    server: 130.12.102.26
+    port: 443
+    uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
+    udp: true
+    tls: true
+    servername: localhost
+    sni: localhost
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
+  - type: vless
+    name: 🇺🇸_美国 (37)
+    server: 130.12.102.26
+    port: 443
+    uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
+    udp: true
+    tls: true
+    servername: localhost
+    sni: localhost
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
+  - type: vmess
+    name: 🇺🇸_美国 (38)
+    server: 107.172.18.132
+    port: 52080
+    uuid: 2ceddc69-0f1a-44b2-b7b3-fd6674c3fc59
+    cipher: auto
+    alterId: 0
+    udp: true
+    tls: false
+    skip-cert-verify: true
+  - type: vmess
+    name: 🇺🇸_美国 (39)
+    server: 172.245.106.236
+    port: 52080
+    uuid: 069b590d-895b-4707-bf71-7c204c3f6e77
+    cipher: auto
+    alterId: 0
+    udp: true
+    tls: false
+    servername: down-cdn.dingtalk.com
+    sni: down-cdn.dingtalk.com
+    skip-cert-verify: true
+  - type: vmess
+    name: 🇺🇸_美国 (40)
+    server: 172.245.106.236
+    port: 23567
+    uuid: 94b804fa-f7f0-4105-9544-ec667c876bee
+    cipher: auto
+    alterId: 0
+    udp: true
+    tls: false
+    servername: down-cdn.dingtalk.com
+    sni: down-cdn.dingtalk.com
+    skip-cert-verify: true
+  - type: vless
+    name: 🇷🇺_俄罗斯 (24)
+    server: 136.148.83.70
+    port: 443
+    uuid: 00000000-0000-0001-0000-000000000000
+    udp: true
+    tls: true
+    servername: aszbk-ru-78dc.my-fade.cloud
+    sni: aszbk-ru-78dc.my-fade.cloud
+    skip-cert-verify: true
+    client-fingerprint: qq
+  - type: vless
+    name: 🇸🇨_塞舌尔 (23)
+    server: 196.196.148.90
+    port: 443
+    uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
+    flow: xtls-rprx-vision
+    udp: true
+    tls: true
+    servername: 7aa271t.es9.h1clayd.click
+    sni: 7aa271t.es9.h1clayd.click
+    skip-cert-verify: true
+    client-fingerprint: firefox
+    reality-opts:
+      public-key: ZSmetD4e9QG5CiXhniHg5HJB68L4kwbgAkJmMHtVwEE
+      short-id: 42426c882c5fcd41
+  - type: vless
+    name: 🇯🇵_日本 (19)
+    server: jpg1radio.jumpernode.site
+    port: 443
+    uuid: f45ccbaa-521d-4d3a-a4e7-13a3094f2b90
+    flow: xtls-rprx-vision
+    udp: true
+    tls: true
+    servername: www.cdn.amazon.com
+    sni: www.cdn.amazon.com
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: dtNeCNIcRgs8_EKIJg_oTJEsiA8KBU-QaE1yVpkoX0I
+      short-id: 949ddd6bacbc
+  - type: vless
+    name: 🇸🇨_塞舌尔 (24)
+    server: 196.196.148.76
+    port: 443
+    uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
+    flow: xtls-rprx-vision
+    udp: true
+    tls: true
+    servername: 8a2e72t.nl20.h1clayd.shop
+    sni: 8a2e72t.nl20.h1clayd.shop
+    skip-cert-verify: true
+    client-fingerprint: firefox
+    reality-opts:
+      public-key: VZS639V1i-35g7VXb9EoTYL-Srm7858sxcvFAunncmA
+      short-id: 8d0d0679f42ffd98
+  - type: vless
+    name: 🇺🇸_美国 (41)
+    server: 156.229.167.109
+    port: 8443
+    uuid: eb8c97f7-a154-4442-91b0-54c0d055ad0b
+    udp: true
+    tls: true
+    servername: github.githubassets.com
+    sni: github.githubassets.com
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: 4g6gX0ueJap7pY_iTDx23h6bzo3KIOTcFzP1Uacn0QA
+      short-id: 4ad2e4e660550e43
+  - type: vless
+    name: 🇳🇱_荷兰 (27)
+    server: 717252g.nl8.h1clayd.click
+    port: 443
+    uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
+    udp: true
+    tls: true
+    servername: 717252g.nl8.h1clayd.click
+    sni: 717252g.nl8.h1clayd.click
+    skip-cert-verify: true
+    client-fingerprint: firefox
+    reality-opts:
+      public-key: PD8Jdlg3xB9QY--jwQjp8PFPzCS8-Oryw6-HWBcHMFU
+      short-id: d3bd772514c87d28
+    network: grpc
+    grpc-opts:
+      grpc-service-name: 204adda7e3da
+  - type: vless
+    name: 🇹🇷_土耳其
+    server: 185.86.155.4
+    port: 14443
+    uuid: 7af8c5d0-ede6-40ab-9b9e-d7924f79d109
+    udp: true
+    tls: true
+    servername: cosmo-convert.ru
+    sni: cosmo-convert.ru
+    skip-cert-verify: true
+    client-fingerprint: edge
+    reality-opts:
+      public-key: TBvwkxwgTGYba7Jl3f2WcNBFvcKJ8uYHjYYdiyZTYCg
+      short-id: d9662905
+    network: grpc
+    grpc-opts:
+      grpc-service-name: nexusGrpc
+  - type: vless
+    name: 🇦🇹_奥地利
+    server: 144.31.129.67
+    port: 443
+    uuid: 7af8c5d0-ede6-40ab-9b9e-d7924f79d109
+    udp: true
+    tls: true
+    servername: coinjoin-video-stri.ru
+    sni: coinjoin-video-stri.ru
+    skip-cert-verify: true
+    client-fingerprint: firefox
+    reality-opts:
+      public-key: aIxjIWyXHiV-aidKKODGmQva0yUPJzQ0Jzp4lg_urQY
+      short-id: d9662905
+    network: grpc
+    grpc-opts:
+      grpc-service-name: nexusGrpc
+  - type: vless
+    name: 🇺🇸_美国 (42)
     server: 162.35.101.177
     port: 443
     uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
@@ -1491,7 +2972,7 @@ proxies:
     servername: 0592efg.us8.h1clayd.click
     sni: 0592efg.us8.h1clayd.click
     skip-cert-verify: true
-    client-fingerprint: edge
+    client-fingerprint: chrome
     reality-opts:
       public-key: cO3wYHISTeorXcM8ffaDCDdqZ-olBQL-GyZqb-W7rTk
       short-id: bd8f712209a9c283
@@ -1499,7 +2980,7 @@ proxies:
     grpc-opts:
       grpc-service-name: 99f2107b03f8
   - type: vless
-    name: 🇩🇪_德国 (20)
+    name: 🇩🇪_德国 (14)
     server: 153.56.231.73
     port: 443
     uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
@@ -1516,7 +2997,7 @@ proxies:
     grpc-opts:
       grpc-service-name: 204adda7e3da
   - type: vless
-    name: 🇸🇨_塞舌尔 (26)
+    name: 🇸🇨_塞舌尔 (25)
     server: 196.196.149.80
     port: 443
     uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
@@ -1532,7 +3013,7 @@ proxies:
     network: grpc
     grpc-opts: {}
   - type: vless
-    name: 🇸🇨_塞舌尔 (27)
+    name: 🇸🇨_塞舌尔 (26)
     server: 196.245.52.183
     port: 443
     uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
@@ -1548,431 +3029,82 @@ proxies:
     network: grpc
     grpc-opts:
       grpc-service-name: 5b79e8a94241
+  - type: vless
+    name: 🇳🇱_荷兰 (28)
+    server: 98.98.132.110
+    port: 443
+    uuid: e2f43a75-e683-4d09-96e8-3ad1f2e57100
+    udp: true
+    tls: true
+    servername: a1116.afl7t8f.com
+    sni: a1116.afl7t8f.com
+    skip-cert-verify: true
+    alpn:
+      - h2
+    client-fingerprint: chrome
+    network: grpc
+    grpc-opts:
+      grpc-service-name: 2e7d5cf6a7e50c564bfddf62c87e02e1
+  - type: vless
+    name: 🇳🇱_荷兰 (29)
+    server: 51.194.118.38
+    port: 443
+    uuid: 7ff1e7e1-2b5a-4e53-ae77-1516f9eb7754
+    udp: true
+    tls: true
+    servername: a1259.ve8nzuk.com
+    sni: a1259.ve8nzuk.com
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    network: grpc
+    grpc-opts:
+      grpc-service-name: 50a5f706c8ea4433838a207d435fbf031b008a9a
+  - type: vless
+    name: 🇺🇸_美国 (43)
+    server: 162.35.101.177
+    port: 443
+    uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
+    udp: true
+    tls: true
+    servername: 0592efg.us8.h1clayd.click
+    sni: 0592efg.us8.h1clayd.click
+    skip-cert-verify: true
+    client-fingerprint: edge
+    reality-opts:
+      public-key: cO3wYHISTeorXcM8ffaDCDdqZ-olBQL-GyZqb-W7rTk
+      short-id: bd8f712209a9c283
+    network: grpc
+    grpc-opts:
+      grpc-service-name: 99f2107b03f8
   - type: ss
-    name: 🇯🇵_日本 (2)
-    server: 8.209.236.2
-    port: 5555
-    password: "123456"
-    cipher: aes-256-gcm
+    name: 🇩🇪_德国 (15)
+    server: 47.254.128.109
+    port: 443
+    password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
+    cipher: 2022-blake3-chacha20-poly1305
     udp: true
     tls: false
     skip-cert-verify: true
-  - type: ss
-    name: 🇯🇵_日本 (3)
-    server: 8.216.18.170
-    port: 5555
-    password: "123456"
-    cipher: aes-256-gcm
+  - type: hysteria2
+    name: 🇦🇪_阿拉伯联合酋长国
+    server: 128.254.186.190
+    port: 13337
+    password: 900c8c92-1979-4c7c-8f2f-63e87d53d8fe
     udp: true
-    tls: false
+    servername: mother-earth.fyi
+    sni: mother-earth.fyi
     skip-cert-verify: true
-  - type: ss
-    name: 🇯🇵_日本 (4)
-    server: 8.216.9.154
-    port: 5555
-    password: "123456"
-    cipher: aes-256-gcm
+  - type: hysteria2
+    name: 🇦🇪_阿拉伯联合酋长国 (2)
+    server: 128.254.186.57
+    port: 13337
+    password: 900c8c92-1979-4c7c-8f2f-63e87d53d8fe
     udp: true
-    tls: false
-    skip-cert-verify: true
-  - type: ss
-    name: 🇯🇵_日本 (5)
-    server: 8.209.249.205
-    port: 5555
-    password: "123456"
-    cipher: aes-256-gcm
-    udp: true
-    tls: false
-    skip-cert-verify: true
-  - type: ss
-    name: 🇯🇵_日本 (6)
-    server: 8.216.14.14
-    port: 5555
-    password: "123456"
-    cipher: aes-256-gcm
-    udp: true
-    tls: false
-    skip-cert-verify: true
-  - type: ss
-    name: 🇯🇵_日本 (7)
-    server: 8.209.221.90
-    port: 5555
-    password: "123456"
-    cipher: aes-256-gcm
-    udp: true
-    tls: false
-    skip-cert-verify: true
-  - type: ss
-    name: 🇯🇵_日本 (8)
-    server: 8.211.131.30
-    port: 5555
-    password: "123456"
-    cipher: aes-256-gcm
-    udp: true
-    tls: false
-    skip-cert-verify: true
-  - type: ss
-    name: 🇯🇵_日本 (9)
-    server: 8.209.253.213
-    port: 5555
-    password: "123456"
-    cipher: aes-256-gcm
-    udp: true
-    tls: false
-    skip-cert-verify: true
-  - type: ss
-    name: 🇯🇵_日本 (10)
-    server: 8.216.18.173
-    port: 5555
-    password: "123456"
-    cipher: aes-256-gcm
-    udp: true
-    tls: false
-    skip-cert-verify: true
-  - type: ss
-    name: 🇯🇵_日本 (11)
-    server: 8.209.236.164
-    port: 5555
-    password: "123456"
-    cipher: aes-256-gcm
-    udp: true
-    tls: false
-    skip-cert-verify: true
-  - type: ss
-    name: 🇯🇵_日本 (12)
-    server: 47.74.9.21
-    port: 5555
-    password: "123456"
-    cipher: aes-256-gcm
-    udp: true
-    tls: false
-    skip-cert-verify: true
-  - type: ss
-    name: 🇯🇵_日本 (13)
-    server: 47.74.27.11
-    port: 5555
-    password: "123456"
-    cipher: aes-256-gcm
-    udp: true
-    tls: false
-    skip-cert-verify: true
-  - type: ss
-    name: 🇯🇵_日本 (14)
-    server: 8.216.5.230
-    port: 5555
-    password: "123456"
-    cipher: aes-256-gcm
-    udp: true
-    tls: false
-    skip-cert-verify: true
-  - type: ss
-    name: 🇯🇵_日本 (15)
-    server: 8.209.199.75
-    port: 5555
-    password: "123456"
-    cipher: aes-256-gcm
-    udp: true
-    tls: false
-    skip-cert-verify: true
-  - type: ss
-    name: 🇯🇵_日本 (16)
-    server: 47.74.49.154
-    port: 5555
-    password: "123456"
-    cipher: aes-256-gcm
-    udp: true
-    tls: false
-    skip-cert-verify: true
-  - type: ss
-    name: 🇯🇵_日本 (17)
-    server: 8.216.11.25
-    port: 5555
-    password: "123456"
-    cipher: aes-256-gcm
-    udp: true
-    tls: false
-    skip-cert-verify: true
-  - type: ss
-    name: 🇯🇵_日本 (18)
-    server: 8.216.4.158
-    port: 5555
-    password: "123456"
-    cipher: aes-256-gcm
-    udp: true
-    tls: false
-    skip-cert-verify: true
-  - type: ss
-    name: 🇯🇵_日本 (19)
-    server: 8.216.16.102
-    port: 5555
-    password: "123456"
-    cipher: aes-256-gcm
-    udp: true
-    tls: false
+    servername: mother-earth.fyi
+    sni: mother-earth.fyi
     skip-cert-verify: true
   - type: ss
     name: 🇯🇵_日本 (20)
-    server: 47.74.41.139
-    port: 5555
-    password: "123456"
-    cipher: aes-256-gcm
-    udp: true
-    tls: false
-    skip-cert-verify: true
-  - type: ss
-    name: 🇯🇵_日本 (21)
-    server: 47.91.16.50
-    port: 5555
-    password: "123456"
-    cipher: aes-256-gcm
-    udp: true
-    tls: false
-    skip-cert-verify: true
-  - type: ss
-    name: 🇯🇵_日本 (22)
-    server: 8.216.9.142
-    port: 5555
-    password: "123456"
-    cipher: aes-256-gcm
-    udp: true
-    tls: false
-    skip-cert-verify: true
-  - type: ss
-    name: 🇯🇵_日本 (23)
-    server: 47.245.42.226
-    port: 5555
-    password: "123456"
-    cipher: aes-256-gcm
-    udp: true
-    tls: false
-    skip-cert-verify: true
-  - type: ss
-    name: 🇯🇵_日本 (24)
-    server: 47.91.18.202
-    port: 5555
-    password: "123456"
-    cipher: aes-256-gcm
-    udp: true
-    tls: false
-    skip-cert-verify: true
-  - type: ss
-    name: 🇯🇵_日本 (25)
-    server: 47.91.2.13
-    port: 5555
-    password: "123456"
-    cipher: aes-256-gcm
-    udp: true
-    tls: false
-    skip-cert-verify: true
-  - type: ss
-    name: 🇯🇵_日本 (26)
-    server: 8.216.15.30
-    port: 5555
-    password: "123456"
-    cipher: aes-256-gcm
-    udp: true
-    tls: false
-    skip-cert-verify: true
-  - type: ss
-    name: 🇯🇵_日本 (27)
-    server: 8.216.10.204
-    port: 5555
-    password: "123456"
-    cipher: aes-256-gcm
-    udp: true
-    tls: false
-    skip-cert-verify: true
-  - type: ss
-    name: 🇯🇵_日本 (28)
-    server: 8.209.196.11
-    port: 5555
-    password: "123456"
-    cipher: aes-256-gcm
-    udp: true
-    tls: false
-    skip-cert-verify: true
-  - type: ss
-    name: 🇯🇵_日本 (29)
-    server: 47.74.18.249
-    port: 5555
-    password: "123456"
-    cipher: aes-256-gcm
-    udp: true
-    tls: false
-    skip-cert-verify: true
-  - type: ss
-    name: 🇯🇵_日本 (30)
-    server: 47.245.40.193
-    port: 5555
-    password: "123456"
-    cipher: aes-256-gcm
-    udp: true
-    tls: false
-    skip-cert-verify: true
-  - type: ss
-    name: 🇯🇵_日本 (31)
-    server: 47.74.17.125
-    port: 5555
-    password: "123456"
-    cipher: aes-256-gcm
-    udp: true
-    tls: false
-    skip-cert-verify: true
-  - type: ss
-    name: 🇯🇵_日本 (32)
-    server: 47.74.40.243
-    port: 5555
-    password: "123456"
-    cipher: aes-256-gcm
-    udp: true
-    tls: false
-    skip-cert-verify: true
-  - type: ss
-    name: 🇯🇵_日本 (33)
-    server: 8.211.128.146
-    port: 5555
-    password: "123456"
-    cipher: aes-256-gcm
-    udp: true
-    tls: false
-    skip-cert-verify: true
-  - type: ss
-    name: 🇯🇵_日本 (34)
-    server: 8.216.5.89
-    port: 5555
-    password: "123456"
-    cipher: aes-256-gcm
-    udp: true
-    tls: false
-    skip-cert-verify: true
-  - type: ss
-    name: 🇯🇵_日本 (35)
-    server: 47.74.0.207
-    port: 5555
-    password: "123456"
-    cipher: aes-256-gcm
-    udp: true
-    tls: false
-    skip-cert-verify: true
-  - type: ss
-    name: 🇯🇵_日本 (36)
-    server: 8.209.222.150
-    port: 5555
-    password: "123456"
-    cipher: aes-256-gcm
-    udp: true
-    tls: false
-    skip-cert-verify: true
-  - type: ss
-    name: 🇯🇵_日本 (37)
-    server: 8.209.249.190
-    port: 5555
-    password: "123456"
-    cipher: aes-256-gcm
-    udp: true
-    tls: false
-    skip-cert-verify: true
-  - type: ss
-    name: 🇯🇵_日本 (38)
-    server: 8.216.9.41
-    port: 5555
-    password: "123456"
-    cipher: aes-256-gcm
-    udp: true
-    tls: false
-    skip-cert-verify: true
-  - type: ss
-    name: 🇯🇵_日本 (39)
-    server: 8.209.198.176
-    port: 5555
-    password: "123456"
-    cipher: aes-256-gcm
-    udp: true
-    tls: false
-    skip-cert-verify: true
-  - type: ss
-    name: 🇯🇵_日本 (40)
-    server: 8.216.8.135
-    port: 5555
-    password: "123456"
-    cipher: aes-256-gcm
-    udp: true
-    tls: false
-    skip-cert-verify: true
-  - type: ss
-    name: 🇯🇵_日本 (41)
-    server: 8.216.8.84
-    port: 5555
-    password: "123456"
-    cipher: aes-256-gcm
-    udp: true
-    tls: false
-    skip-cert-verify: true
-  - type: ss
-    name: 🇯🇵_日本 (42)
-    server: 47.91.31.150
-    port: 5555
-    password: "123456"
-    cipher: aes-256-gcm
-    udp: true
-    tls: false
-    skip-cert-verify: true
-  - type: ss
-    name: 🇯🇵_日本 (43)
-    server: 8.216.17.189
-    port: 5555
-    password: "123456"
-    cipher: aes-256-gcm
-    udp: true
-    tls: false
-    skip-cert-verify: true
-  - type: ss
-    name: 🇯🇵_日本 (44)
-    server: 47.245.63.105
-    port: 6666
-    password: "123456"
-    cipher: aes-256-gcm
-    udp: true
-    tls: false
-    skip-cert-verify: true
-  - type: ss
-    name: 🇯🇵_日本 (45)
-    server: 8.216.17.86
-    port: 6666
-    password: "123456"
-    cipher: aes-256-gcm
-    udp: true
-    tls: false
-    skip-cert-verify: true
-  - type: ss
-    name: 🇯🇵_日本 (46)
-    server: 8.211.132.94
-    port: 5555
-    password: "123456"
-    cipher: aes-256-gcm
-    udp: true
-    tls: false
-    skip-cert-verify: true
-  - type: ss
-    name: 🇯🇵_日本 (47)
-    server: 8.216.14.94
-    port: 5555
-    password: "123456"
-    cipher: aes-256-gcm
-    udp: true
-    tls: false
-    skip-cert-verify: true
-  - type: ss
-    name: 🇯🇵_日本 (48)
-    server: 8.216.9.151
-    port: 5555
-    password: "123456"
-    cipher: aes-256-gcm
-    udp: true
-    tls: false
-    skip-cert-verify: true
-  - type: ss
-    name: 🇯🇵_日本 (49)
     server: 47.74.24.29
     port: 5555
     password: "123456"
@@ -1981,8 +3113,8 @@ proxies:
     tls: false
     skip-cert-verify: true
   - type: ss
-    name: 🇯🇵_日本 (50)
-    server: 8.209.196.228
+    name: 🇯🇵_日本 (21)
+    server: 47.74.49.154
     port: 5555
     password: "123456"
     cipher: aes-256-gcm
@@ -1990,43 +3122,7 @@ proxies:
     tls: false
     skip-cert-verify: true
   - type: ss
-    name: 🇯🇵_日本 (51)
-    server: 8.216.3.160
-    port: 5555
-    password: "123456"
-    cipher: aes-256-gcm
-    udp: true
-    tls: false
-    skip-cert-verify: true
-  - type: ss
-    name: 🇯🇵_日本 (52)
-    server: 47.74.40.77
-    port: 5555
-    password: "123456"
-    cipher: aes-256-gcm
-    udp: true
-    tls: false
-    skip-cert-verify: true
-  - type: ss
-    name: 🇯🇵_日本 (53)
-    server: 8.216.17.52
-    port: 5555
-    password: "123456"
-    cipher: aes-256-gcm
-    udp: true
-    tls: false
-    skip-cert-verify: true
-  - type: ss
-    name: 🇯🇵_日本 (54)
-    server: 47.91.29.60
-    port: 5555
-    password: "123456"
-    cipher: aes-256-gcm
-    udp: true
-    tls: false
-    skip-cert-verify: true
-  - type: ss
-    name: 🇯🇵_日本 (55)
+    name: 🇯🇵_日本 (22)
     server: 47.245.54.15
     port: 5555
     password: "123456"
@@ -2035,8 +3131,17 @@ proxies:
     tls: false
     skip-cert-verify: true
   - type: ss
-    name: 🇯🇵_日本 (56)
-    server: 8.209.245.25
+    name: 🇺🇸_美国 (44)
+    server: waic.pro.main.sys-metric-report.com
+    port: 28014
+    password: abc62f00-95a8-4c2e-a85d-36a2cdc977da
+    cipher: chacha20-ietf-poly1305
+    udp: true
+    tls: false
+    skip-cert-verify: true
+  - type: ss
+    name: 🇯🇵_日本 (23)
+    server: 47.245.40.193
     port: 5555
     password: "123456"
     cipher: aes-256-gcm
@@ -2044,296 +3149,17 @@ proxies:
     tls: false
     skip-cert-verify: true
   - type: ss
-    name: 🇯🇵_日本 (57)
-    server: 8.216.6.19
-    port: 5555
-    password: "123456"
+    name: 🇰🇷_韩国
+    server: 211.233.33.228
+    port: 8388
+    password: qpowi_vip_tunnel_2026_secure
     cipher: aes-256-gcm
-    udp: true
-    tls: false
-    skip-cert-verify: true
-  - type: ss
-    name: 🇯🇵_日本 (58)
-    server: 8.216.9.190
-    port: 5555
-    password: "123456"
-    cipher: aes-256-gcm
-    udp: true
-    tls: false
-    skip-cert-verify: true
-  - type: ss
-    name: 🇯🇵_日本 (59)
-    server: 8.211.174.60
-    port: 5555
-    password: "123456"
-    cipher: aes-256-gcm
-    udp: true
-    tls: false
-    skip-cert-verify: true
-  - type: ss
-    name: 🇯🇵_日本 (60)
-    server: 8.216.15.46
-    port: 5555
-    password: "123456"
-    cipher: aes-256-gcm
-    udp: true
-    tls: false
-    skip-cert-verify: true
-  - type: ss
-    name: 🇯🇵_日本 (61)
-    server: 8.216.9.42
-    port: 5555
-    password: "123456"
-    cipher: aes-256-gcm
-    udp: true
-    tls: false
-    skip-cert-verify: true
-  - type: ss
-    name: 🇯🇵_日本 (62)
-    server: 8.216.15.55
-    port: 5555
-    password: "123456"
-    cipher: aes-256-gcm
-    udp: true
-    tls: false
-    skip-cert-verify: true
-  - type: ss
-    name: 🇯🇵_日本 (63)
-    server: 8.216.18.139
-    port: 5555
-    password: "123456"
-    cipher: aes-256-gcm
-    udp: true
-    tls: false
-    skip-cert-verify: true
-  - type: ss
-    name: 🇯🇵_日本 (64)
-    server: 8.216.19.169
-    port: 5555
-    password: "123456"
-    cipher: aes-256-gcm
-    udp: true
-    tls: false
-    skip-cert-verify: true
-  - type: ss
-    name: 🇯🇵_日本 (65)
-    server: 47.245.32.129
-    port: 5555
-    password: "123456"
-    cipher: aes-256-gcm
-    udp: true
-    tls: false
-    skip-cert-verify: true
-  - type: ss
-    name: 🇯🇵_日本 (66)
-    server: 8.209.221.183
-    port: 5555
-    password: "123456"
-    cipher: aes-256-gcm
-    udp: true
-    tls: false
-    skip-cert-verify: true
-  - type: ss
-    name: 🇯🇵_日本 (67)
-    server: 8.211.174.191
-    port: 5555
-    password: "123456"
-    cipher: aes-256-gcm
-    udp: true
-    tls: false
-    skip-cert-verify: true
-  - type: ss
-    name: 🇯🇵_日本 (68)
-    server: 8.216.6.223
-    port: 5555
-    password: "123456"
-    cipher: aes-256-gcm
-    udp: true
-    tls: false
-    skip-cert-verify: true
-  - type: ss
-    name: 🇯🇵_日本 (69)
-    server: 8.211.129.80
-    port: 5555
-    password: "123456"
-    cipher: aes-256-gcm
-    udp: true
-    tls: false
-    skip-cert-verify: true
-  - type: ss
-    name: 🇯🇵_日本 (70)
-    server: 8.216.16.98
-    port: 5555
-    password: "123456"
-    cipher: aes-256-gcm
-    udp: true
-    tls: false
-    skip-cert-verify: true
-  - type: ss
-    name: 🇯🇵_日本 (71)
-    server: 8.216.9.15
-    port: 5555
-    password: "123456"
-    cipher: aes-256-gcm
-    udp: true
-    tls: false
-    skip-cert-verify: true
-  - type: ss
-    name: 🇯🇵_日本 (72)
-    server: 8.216.8.0
-    port: 5555
-    password: "123456"
-    cipher: aes-256-gcm
-    udp: true
-    tls: false
-    skip-cert-verify: true
-  - type: ss
-    name: 🇯🇵_日本 (73)
-    server: 8.216.3.83
-    port: 5555
-    password: "123456"
-    cipher: aes-256-gcm
-    udp: true
-    tls: false
-    skip-cert-verify: true
-  - type: ss
-    name: 🇯🇵_日本 (74)
-    server: 8.216.17.19
-    port: 5555
-    password: "123456"
-    cipher: aes-256-gcm
-    udp: true
-    tls: false
-    skip-cert-verify: true
-  - type: ss
-    name: 🇯🇵_日本 (75)
-    server: 8.216.1.127
-    port: 5555
-    password: "123456"
-    cipher: aes-256-gcm
-    udp: true
-    tls: false
-    skip-cert-verify: true
-  - type: ss
-    name: 🇯🇵_日本 (76)
-    server: 8.216.18.167
-    port: 5555
-    password: "123456"
-    cipher: aes-256-gcm
-    udp: true
-    tls: false
-    skip-cert-verify: true
-  - type: ss
-    name: 🇯🇵_日本 (77)
-    server: 8.211.130.59
-    port: 5555
-    password: "123456"
-    cipher: aes-256-gcm
-    udp: true
-    tls: false
-    skip-cert-verify: true
-  - type: ss
-    name: 🇯🇵_日本 (78)
-    server: 8.216.18.189
-    port: 5555
-    password: "123456"
-    cipher: aes-256-gcm
-    udp: true
-    tls: false
-    skip-cert-verify: true
-  - type: ss
-    name: 🇯🇵_日本 (79)
-    server: 8.211.154.126
-    port: 5555
-    password: "123456"
-    cipher: aes-256-gcm
-    udp: true
-    tls: false
-    skip-cert-verify: true
-  - type: ss
-    name: 🇯🇵_日本 (80)
-    server: 8.216.0.168
-    port: 5555
-    password: "123456"
-    cipher: aes-256-gcm
-    udp: true
-    tls: false
-    skip-cert-verify: true
-  - type: ss
-    name: 🇯🇵_日本 (81)
-    server: 8.216.9.217
-    port: 5555
-    password: "123456"
-    cipher: aes-256-gcm
-    udp: true
-    tls: false
-    skip-cert-verify: true
-  - type: ss
-    name: 🇯🇵_日本 (82)
-    server: 47.91.15.111
-    port: 5555
-    password: "123456"
-    cipher: aes-256-gcm
-    udp: true
-    tls: false
-    skip-cert-verify: true
-  - type: ss
-    name: 🇯🇵_日本 (83)
-    server: 8.216.8.176
-    port: 5555
-    password: "123456"
-    cipher: aes-256-gcm
-    udp: true
-    tls: false
-    skip-cert-verify: true
-  - type: ss
-    name: 🇯🇵_日本 (84)
-    server: 8.209.197.190
-    port: 5555
-    password: "123456"
-    cipher: aes-256-gcm
-    udp: true
-    tls: false
-    skip-cert-verify: true
-  - type: ss
-    name: 🇯🇵_日本 (85)
-    server: 47.91.15.175
-    port: 5555
-    password: "123456"
-    cipher: aes-256-gcm
-    udp: true
-    tls: false
-    skip-cert-verify: true
-  - type: ss
-    name: 🇯🇵_日本 (86)
-    server: 8.216.8.185
-    port: 5555
-    password: "123456"
-    cipher: aes-256-gcm
-    udp: true
-    tls: false
-    skip-cert-verify: true
-  - type: ss
-    name: 🇯🇵_日本 (87)
-    server: 8.216.4.146
-    port: 5555
-    password: "123456"
-    cipher: aes-256-gcm
-    udp: true
-    tls: false
-    skip-cert-verify: true
-  - type: ss
-    name: 🇩🇪_德国 (21)
-    server: 47.254.167.157
-    port: 443
-    password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
-    cipher: 2022-blake3-chacha20-poly1305
     udp: true
     tls: false
     skip-cert-verify: true
   - type: ss
     name: 🇮🇹_意大利
-    server: 202.50.253.81
+    server: 202.50.253.27
     port: 19999
     password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
     cipher: aes-256-gcm
@@ -2342,7 +3168,7 @@ proxies:
     skip-cert-verify: true
   - type: ss
     name: 🇮🇹_意大利 (2)
-    server: 202.50.253.27
+    server: 202.50.253.81
     port: 19999
     password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
     cipher: aes-256-gcm
@@ -2360,84 +3186,6 @@ proxies:
     skip-cert-verify: true
   - type: ss
     name: 🇮🇹_意大利 (4)
-    server: 202.50.253.36
-    port: 19999
-    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-    cipher: aes-256-gcm
-    udp: true
-    tls: false
-    skip-cert-verify: true
-  - type: ss
-    name: 🇮🇹_意大利 (5)
-    server: 202.50.253.72
-    port: 19999
-    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-    cipher: aes-256-gcm
-    udp: true
-    tls: false
-    skip-cert-verify: true
-  - type: ss
-    name: 🇮🇹_意大利 (6)
-    server: 202.50.253.63
-    port: 19999
-    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-    cipher: aes-256-gcm
-    udp: true
-    tls: false
-    skip-cert-verify: true
-  - type: ss
-    name: 🇮🇹_意大利 (7)
-    server: 202.50.253.54
-    port: 19999
-    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-    cipher: aes-256-gcm
-    udp: true
-    tls: false
-    skip-cert-verify: true
-  - type: ss
-    name: 🇩🇪_德国 (22)
-    server: 47.254.128.109
-    port: 443
-    password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
-    cipher: 2022-blake3-chacha20-poly1305
-    udp: true
-    tls: false
-    skip-cert-verify: true
-  - type: hysteria2
-    name: 🇫🇷_法国 (3)
-    server: 2001:bc8:32d7:17b::10
-    port: 22000
-    password: dongtaiwang.com
-    udp: true
-    servername: www.microsoft.com
-    sni: www.microsoft.com
-    skip-cert-verify: true
-    alpn:
-      - h3
-  - type: hysteria2
-    name: 🇫🇷_法国 (4)
-    server: 2001:bc8:32d7:17b::12
-    port: 22000
-    password: dongtaiwang.com
-    udp: true
-    servername: www.microsoft.com
-    sni: www.microsoft.com
-    skip-cert-verify: true
-    alpn:
-      - h3
-  - type: hysteria2
-    name: 🇫🇷_法国 (5)
-    server: 2001:bc8:32d7:17b::14
-    port: 22000
-    password: dongtaiwang.com
-    udp: true
-    servername: www.microsoft.com
-    sni: www.microsoft.com
-    skip-cert-verify: true
-    alpn:
-      - h3
-  - type: ss
-    name: 🇮🇹_意大利 (8)
     server: 202.50.253.99
     port: 19999
     password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
@@ -2446,7 +3194,43 @@ proxies:
     tls: false
     skip-cert-verify: true
   - type: ss
-    name: 🇮🇹_意大利 (9)
+    name: 🇮🇹_意大利 (5)
+    server: 202.50.253.63
+    port: 19999
+    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+    cipher: aes-256-gcm
+    udp: true
+    tls: false
+    skip-cert-verify: true
+  - type: ss
+    name: 🇮🇹_意大利 (6)
+    server: 202.50.253.90
+    port: 19999
+    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+    cipher: aes-256-gcm
+    udp: true
+    tls: false
+    skip-cert-verify: true
+  - type: ss
+    name: 🇩🇪_德国 (16)
+    server: 47.254.167.157
+    port: 443
+    password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
+    cipher: 2022-blake3-chacha20-poly1305
+    udp: true
+    tls: false
+    skip-cert-verify: true
+  - type: ss
+    name: 🇮🇹_意大利 (7)
+    server: 202.50.253.72
+    port: 19999
+    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+    cipher: aes-256-gcm
+    udp: true
+    tls: false
+    skip-cert-verify: true
+  - type: ss
+    name: 🇮🇹_意大利 (8)
     server: 202.50.253.45
     port: 19999
     password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
@@ -2454,14 +3238,32 @@ proxies:
     udp: true
     tls: false
     skip-cert-verify: true
-  - type: hysteria2
-    name: 🇺🇸_美国 (14)
-    server: starlink-ft.251313.xyz
-    port: 443
-    password: https://xship.2fa.cat
+  - type: ss
+    name: 🇮🇹_意大利 (9)
+    server: 202.50.253.36
+    port: 19999
+    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+    cipher: aes-256-gcm
     udp: true
-    servername: xship.top
-    sni: xship.top
+    tls: false
+    skip-cert-verify: true
+  - type: ss
+    name: 🇮🇹_意大利 (10)
+    server: 202.50.253.54
+    port: 19999
+    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+    cipher: aes-256-gcm
+    udp: true
+    tls: false
+    skip-cert-verify: true
+  - type: hysteria2
+    name: 🇺🇸_美国 (45)
+    server: fanvpn.634570.xyz
+    port: 443
+    password: fanvpn.net
+    udp: true
+    servername: www.bing.com
+    sni: www.bing.com
     skip-cert-verify: true
 proxy-groups:
   - name: 🚀 节点选择
@@ -2471,421 +3273,451 @@ proxy-groups:
       - DIRECT
       - 每天更新，请加电报群防止失联
       - 电报群：t.me/vvkj11
-      - 日期：11-26
+      - 日期：11-27
       - 免费VPN：tt.vg/FJOE2Mm
-      - 🇷🇺_俄罗斯 (4)
       - 🇺🇸_美国
+      - 🇳🇱_荷兰
+      - 🇺🇸_美国 (2)
+      - 🇸🇬_新加坡 (2)
+      - 🇸🇬_新加坡 (3)
+      - 🇳🇱_荷兰 (2)
+      - 🇳🇱_荷兰 (3)
+      - 🇺🇸_美国 (3)
+      - 🇺🇸_美国 (4)
+      - 🇩🇪_德国 (2)
+      - 🇩🇪_德国 (3)
+      - 🇩🇪_德国 (4)
+      - 🇩🇪_德国 (5)
+      - 🇮🇳_印度
+      - 🇷🇺_俄罗斯
+      - 🇷🇺_俄罗斯 (2)
+      - 🇷🇺_俄罗斯 (3)
+      - 🇷🇺_俄罗斯 (4)
       - 🇷🇺_俄罗斯 (5)
       - 🇷🇺_俄罗斯 (6)
-      - 🇩🇪_德国 (5)
-      - 🇸🇬_新加坡
       - 🇷🇺_俄罗斯 (7)
-      - 🇮🇳_印度
       - 🇮🇳_印度 (2)
-      - 🇷🇺_俄罗斯 (8)
       - 🇮🇳_印度 (3)
-      - 🇰🇷_韩国
-      - 🇺🇸_美国 (2)
-      - 🇺🇸_美国 (3)
-      - 🇯🇵_日本
-      - 🇩🇪_德国 (6)
-      - 🇳🇱_荷兰 (4)
-      - 🇩🇪_德国 (7)
-      - 🇰🇷_韩国 (2)
-      - 🇰🇷_韩国 (3)
-      - 🇺🇸_美国 (4)
-      - 🇩🇴_多米尼加共和国
-      - 🇹🇼_台湾
-      - 🇷🇴_罗马尼亚
-      - 🇸🇬_新加坡 (2)
+      - 🇷🇺_俄罗斯 (8)
       - 🇺🇸_美国 (5)
-      - 🇷🇺_俄罗斯 (9)
-      - 🇮🇪_爱尔兰
-      - 🇷🇺_俄罗斯 (10)
-      - 🇸🇨_塞舌尔 (10)
-      - 🇸🇨_塞舌尔 (11)
-      - 🇸🇨_塞舌尔 (12)
-      - 🇪🇪_爱沙尼亚
-      - 🇸🇨_塞舌尔 (13)
-      - 🇸🇨_塞舌尔 (14)
-      - 🇷🇺_俄罗斯 (11)
-      - 🇷🇺_俄罗斯 (12)
-      - 🇩🇪_德国 (8)
-      - 🇩🇪_德国 (9)
-      - 🇸🇬_新加坡 (3)
-      - 🇸🇨_塞舌尔 (15)
-      - 🇸🇨_塞舌尔 (16)
-      - 🇵🇱_波兰
-      - 🇹🇷_土耳其
-      - 🇷🇺_俄罗斯 (13)
-      - 🇷🇺_俄罗斯 (14)
-      - 🇹🇷_土耳其 (2)
-      - 🇭🇰_香港
-      - 🇷🇺_俄罗斯 (15)
-      - 🇩🇪_德国 (10)
-      - 🇩🇪_德国 (11)
-      - 🇩🇪_德国 (12)
-      - 🇷🇺_俄罗斯 (16)
-      - 🇷🇺_俄罗斯 (17)
-      - 🇷🇺_俄罗斯 (18)
-      - 🇸🇨_塞舌尔 (17)
-      - 🇸🇨_塞舌尔 (18)
-      - 🇩🇪_德国 (13)
-      - 🇷🇺_俄罗斯 (19)
-      - 🇸🇨_塞舌尔 (19)
-      - 🇸🇨_塞舌尔 (20)
+      - 🇳🇱_荷兰 (4)
       - 🇺🇸_美国 (6)
-      - 🇳🇱_荷兰 (5)
-      - 🇳🇱_荷兰 (6)
-      - 🇳🇱_荷兰 (7)
       - 🇺🇸_美国 (7)
-      - 🇹🇼_台湾 (2)
-      - 🇷🇺_俄罗斯 (20)
-      - 🇹🇼_台湾 (3)
-      - 🇹🇼_台湾 (4)
-      - 🇹🇼_台湾 (5)
-      - 🇩🇪_德国 (14)
-      - 🇸🇨_塞舌尔 (21)
-      - 🇸🇨_塞舌尔 (22)
-      - 🇸🇨_塞舌尔 (23)
-      - 🇸🇨_塞舌尔 (24)
+      - 🇯🇵_日本 (2)
+      - 🇩🇴_多米尼加共和国
+      - 🇸🇬_新加坡 (4)
+      - 🇹🇼_台湾
+      - 🇫🇷_法国
+      - 🇷🇺_俄罗斯 (9)
+      - 🇷🇺_俄罗斯 (10)
+      - 🇳🇱_荷兰 (5)
+      - 🇸🇪_瑞典 (2)
+      - 🇧🇬_保加利亚
+      - 🇳🇱_荷兰 (6)
       - 🇺🇸_美国 (8)
-      - 🇳🇱_荷兰 (8)
-      - 🇸🇨_塞舌尔 (25)
+      - 🇬🇧_英国
+      - 🇨🇿_捷克
+      - 🇩🇪_德国 (6)
       - 🇺🇸_美国 (9)
       - 🇺🇸_美国 (10)
-      - 🇳🇱_荷兰 (9)
-      - 🇹🇷_土耳其 (3)
-      - 🇹🇷_土耳其 (4)
-      - 🇫🇷_法国
       - 🇺🇸_美国 (11)
-      - 🇩🇪_德国 (15)
-      - 🇩🇪_德国 (16)
-      - 🇩🇪_德国 (17)
       - 🇺🇸_美国 (12)
-      - 🇩🇪_德国 (18)
-      - 🇩🇪_德国 (19)
-      - 🇫🇷_法国 (2)
-      - 🇰🇷_韩国 (4)
-      - 🇸🇬_新加坡 (4)
-      - 🇹🇼_台湾 (6)
-      - 🇹🇼_台湾 (7)
-      - 🇹🇼_台湾 (8)
-      - 🇺🇸_美国 (13)
-      - 🇩🇪_德国 (20)
-      - 🇸🇨_塞舌尔 (26)
-      - 🇸🇨_塞舌尔 (27)
-      - 🇯🇵_日本 (2)
       - 🇯🇵_日本 (3)
       - 🇯🇵_日本 (4)
       - 🇯🇵_日本 (5)
+      - 🇺🇸_美国 (13)
       - 🇯🇵_日本 (6)
       - 🇯🇵_日本 (7)
       - 🇯🇵_日本 (8)
       - 🇯🇵_日本 (9)
+      - 🇸🇬_新加坡 (5)
+      - 🇺🇸_美国 (14)
+      - 🇸🇬_新加坡 (6)
+      - 🇸🇬_新加坡 (7)
+      - 🇺🇸_美国 (15)
       - 🇯🇵_日本 (10)
       - 🇯🇵_日本 (11)
       - 🇯🇵_日本 (12)
+      - 🇸🇬_新加坡 (8)
       - 🇯🇵_日本 (13)
       - 🇯🇵_日本 (14)
       - 🇯🇵_日本 (15)
       - 🇯🇵_日本 (16)
       - 🇯🇵_日本 (17)
+      - 🇸🇬_新加坡 (9)
+      - 🇸🇬_新加坡 (10)
+      - 🇸🇬_新加坡 (11)
+      - 🇺🇸_美国 (16)
+      - 🇺🇸_美国 (17)
+      - 🇺🇸_美国 (18)
+      - 🇺🇸_美国 (19)
+      - 🇺🇸_美国 (20)
+      - 🇺🇸_美国 (21)
+      - 🇺🇸_美国 (22)
+      - 🇵🇱_波兰
+      - 🇺🇸_美国 (23)
+      - 🇷🇺_俄罗斯 (11)
+      - 🇺🇸_美国 (24)
+      - 🇺🇸_美国 (25)
+      - 🇧🇬_保加利亚 (2)
+      - 🇸🇬_新加坡 (12)
       - 🇯🇵_日本 (18)
+      - 🇳🇱_荷兰 (7)
+      - 🇳🇱_荷兰 (8)
+      - 🇳🇱_荷兰 (9)
+      - 🇳🇱_荷兰 (10)
+      - 🇳🇱_荷兰 (11)
+      - 🇳🇱_荷兰 (12)
+      - 🇳🇱_荷兰 (13)
+      - 🇨🇭_瑞士
+      - 🇳🇱_荷兰 (14)
+      - 🇳🇱_荷兰 (15)
+      - 🇳🇱_荷兰 (16)
+      - 🇳🇱_荷兰 (17)
+      - 🇬🇧_英国 (2)
+      - 🇩🇪_德国 (7)
+      - 🇳🇱_荷兰 (18)
+      - 🇸🇨_塞舌尔
+      - 🇺🇸_美国 (26)
+      - 🇳🇱_荷兰 (19)
+      - 🇳🇱_荷兰 (20)
+      - 🇺🇸_美国 (27)
+      - 🇺🇸_美国 (28)
+      - 🇳🇱_荷兰 (21)
+      - 🇺🇸_美国 (29)
+      - 🇳🇱_荷兰 (22)
+      - 🇳🇱_荷兰 (23)
+      - 🇷🇺_俄罗斯 (12)
+      - 🇺🇸_美国 (30)
+      - 🇷🇺_俄罗斯 (13)
+      - 🇮🇪_爱尔兰
+      - 🇫🇮_芬兰
+      - 🇷🇺_俄罗斯 (14)
+      - 🇰🇿_哈萨克斯坦
+      - 🇸🇨_塞舌尔 (2)
+      - 🇷🇺_俄罗斯 (15)
+      - 🇸🇨_塞舌尔 (3)
+      - 🇷🇺_俄罗斯 (16)
+      - 🇸🇨_塞舌尔 (4)
+      - 🇸🇨_塞舌尔 (5)
+      - 🇸🇨_塞舌尔 (6)
+      - 🇸🇨_塞舌尔 (7)
+      - 🇳🇱_荷兰 (24)
+      - 🇸🇨_塞舌尔 (8)
+      - 🇸🇨_塞舌尔 (9)
+      - 🇳🇱_荷兰 (25)
+      - 🇸🇨_塞舌尔 (10)
+      - 🇸🇨_塞舌尔 (11)
+      - 🇸🇨_塞舌尔 (12)
+      - 🇸🇨_塞舌尔 (13)
+      - 🇷🇺_俄罗斯 (17)
+      - 🇷🇺_俄罗斯 (18)
+      - 🇷🇺_俄罗斯 (19)
+      - 🇷🇺_俄罗斯 (20)
+      - 🇷🇺_俄罗斯 (21)
+      - 🇷🇺_俄罗斯 (22)
+      - 🇸🇨_塞舌尔 (14)
+      - 🇸🇨_塞舌尔 (15)
+      - 🇸🇨_塞舌尔 (16)
+      - 🇸🇨_塞舌尔 (17)
+      - 🇺🇸_美国 (31)
+      - 🇺🇸_美国 (32)
+      - 🇩🇪_德国 (8)
+      - 🇩🇪_德国 (9)
+      - 🇩🇪_德国 (10)
+      - 🇸🇨_塞舌尔 (18)
+      - 🇸🇨_塞舌尔 (19)
+      - 🇭🇰_香港
+      - 🇹🇼_台湾 (2)
+      - 🇹🇼_台湾 (3)
+      - 🇹🇼_台湾 (4)
+      - 🇹🇼_台湾 (5)
+      - 🇹🇼_台湾 (6)
+      - 🇹🇼_台湾 (7)
+      - 🇹🇼_台湾 (8)
+      - 🇹🇼_台湾 (9)
+      - 🇺🇸_美国 (33)
+      - 🇸🇬_新加坡 (13)
+      - 🇹🇼_台湾 (10)
+      - 🇸🇨_塞舌尔 (20)
+      - 🇸🇨_塞舌尔 (21)
+      - 🇵🇱_波兰 (2)
+      - 🇳🇱_荷兰 (26)
+      - 🇩🇪_德国 (11)
+      - 🇩🇪_德国 (12)
+      - 🇩🇪_德国 (13)
+      - 🇪🇪_爱沙尼亚
+      - 🇸🇨_塞舌尔 (22)
+      - 🇭🇺_匈牙利
+      - 🇺🇸_美国 (34)
+      - 🇷🇺_俄罗斯 (23)
+      - 🇺🇸_美国 (35)
+      - 🇺🇸_美国 (36)
+      - 🇺🇸_美国 (37)
+      - 🇺🇸_美国 (38)
+      - 🇺🇸_美国 (39)
+      - 🇺🇸_美国 (40)
+      - 🇷🇺_俄罗斯 (24)
+      - 🇸🇨_塞舌尔 (23)
       - 🇯🇵_日本 (19)
+      - 🇸🇨_塞舌尔 (24)
+      - 🇺🇸_美国 (41)
+      - 🇳🇱_荷兰 (27)
+      - 🇹🇷_土耳其
+      - 🇦🇹_奥地利
+      - 🇺🇸_美国 (42)
+      - 🇩🇪_德国 (14)
+      - 🇸🇨_塞舌尔 (25)
+      - 🇸🇨_塞舌尔 (26)
+      - 🇳🇱_荷兰 (28)
+      - 🇳🇱_荷兰 (29)
+      - 🇺🇸_美国 (43)
+      - 🇩🇪_德国 (15)
+      - 🇦🇪_阿拉伯联合酋长国
+      - 🇦🇪_阿拉伯联合酋长国 (2)
       - 🇯🇵_日本 (20)
       - 🇯🇵_日本 (21)
       - 🇯🇵_日本 (22)
+      - 🇺🇸_美国 (44)
       - 🇯🇵_日本 (23)
-      - 🇯🇵_日本 (24)
-      - 🇯🇵_日本 (25)
-      - 🇯🇵_日本 (26)
-      - 🇯🇵_日本 (27)
-      - 🇯🇵_日本 (28)
-      - 🇯🇵_日本 (29)
-      - 🇯🇵_日本 (30)
-      - 🇯🇵_日本 (31)
-      - 🇯🇵_日本 (32)
-      - 🇯🇵_日本 (33)
-      - 🇯🇵_日本 (34)
-      - 🇯🇵_日本 (35)
-      - 🇯🇵_日本 (36)
-      - 🇯🇵_日本 (37)
-      - 🇯🇵_日本 (38)
-      - 🇯🇵_日本 (39)
-      - 🇯🇵_日本 (40)
-      - 🇯🇵_日本 (41)
-      - 🇯🇵_日本 (42)
-      - 🇯🇵_日本 (43)
-      - 🇯🇵_日本 (44)
-      - 🇯🇵_日本 (45)
-      - 🇯🇵_日本 (46)
-      - 🇯🇵_日本 (47)
-      - 🇯🇵_日本 (48)
-      - 🇯🇵_日本 (49)
-      - 🇯🇵_日本 (50)
-      - 🇯🇵_日本 (51)
-      - 🇯🇵_日本 (52)
-      - 🇯🇵_日本 (53)
-      - 🇯🇵_日本 (54)
-      - 🇯🇵_日本 (55)
-      - 🇯🇵_日本 (56)
-      - 🇯🇵_日本 (57)
-      - 🇯🇵_日本 (58)
-      - 🇯🇵_日本 (59)
-      - 🇯🇵_日本 (60)
-      - 🇯🇵_日本 (61)
-      - 🇯🇵_日本 (62)
-      - 🇯🇵_日本 (63)
-      - 🇯🇵_日本 (64)
-      - 🇯🇵_日本 (65)
-      - 🇯🇵_日本 (66)
-      - 🇯🇵_日本 (67)
-      - 🇯🇵_日本 (68)
-      - 🇯🇵_日本 (69)
-      - 🇯🇵_日本 (70)
-      - 🇯🇵_日本 (71)
-      - 🇯🇵_日本 (72)
-      - 🇯🇵_日本 (73)
-      - 🇯🇵_日本 (74)
-      - 🇯🇵_日本 (75)
-      - 🇯🇵_日本 (76)
-      - 🇯🇵_日本 (77)
-      - 🇯🇵_日本 (78)
-      - 🇯🇵_日本 (79)
-      - 🇯🇵_日本 (80)
-      - 🇯🇵_日本 (81)
-      - 🇯🇵_日本 (82)
-      - 🇯🇵_日本 (83)
-      - 🇯🇵_日本 (84)
-      - 🇯🇵_日本 (85)
-      - 🇯🇵_日本 (86)
-      - 🇯🇵_日本 (87)
-      - 🇩🇪_德国 (21)
+      - 🇰🇷_韩国
       - 🇮🇹_意大利
       - 🇮🇹_意大利 (2)
       - 🇮🇹_意大利 (3)
       - 🇮🇹_意大利 (4)
       - 🇮🇹_意大利 (5)
       - 🇮🇹_意大利 (6)
+      - 🇩🇪_德国 (16)
       - 🇮🇹_意大利 (7)
-      - 🇩🇪_德国 (22)
-      - 🇫🇷_法国 (3)
-      - 🇫🇷_法国 (4)
-      - 🇫🇷_法国 (5)
       - 🇮🇹_意大利 (8)
       - 🇮🇹_意大利 (9)
-      - 🇺🇸_美国 (14)
+      - 🇮🇹_意大利 (10)
+      - 🇺🇸_美国 (45)
   - name: ♻️ 自动选择
     type: url-test
     proxies:
       - 每天更新，请加电报群防止失联
       - 电报群：t.me/vvkj11
-      - 日期：11-26
+      - 日期：11-27
       - 免费VPN：tt.vg/FJOE2Mm
-      - 🇷🇺_俄罗斯 (4)
       - 🇺🇸_美国
+      - 🇳🇱_荷兰
+      - 🇺🇸_美国 (2)
+      - 🇸🇬_新加坡 (2)
+      - 🇸🇬_新加坡 (3)
+      - 🇳🇱_荷兰 (2)
+      - 🇳🇱_荷兰 (3)
+      - 🇺🇸_美国 (3)
+      - 🇺🇸_美国 (4)
+      - 🇩🇪_德国 (2)
+      - 🇩🇪_德国 (3)
+      - 🇩🇪_德国 (4)
+      - 🇩🇪_德国 (5)
+      - 🇮🇳_印度
+      - 🇷🇺_俄罗斯
+      - 🇷🇺_俄罗斯 (2)
+      - 🇷🇺_俄罗斯 (3)
+      - 🇷🇺_俄罗斯 (4)
       - 🇷🇺_俄罗斯 (5)
       - 🇷🇺_俄罗斯 (6)
-      - 🇩🇪_德国 (5)
-      - 🇸🇬_新加坡
       - 🇷🇺_俄罗斯 (7)
-      - 🇮🇳_印度
       - 🇮🇳_印度 (2)
-      - 🇷🇺_俄罗斯 (8)
       - 🇮🇳_印度 (3)
-      - 🇰🇷_韩国
-      - 🇺🇸_美国 (2)
-      - 🇺🇸_美国 (3)
-      - 🇯🇵_日本
-      - 🇩🇪_德国 (6)
-      - 🇳🇱_荷兰 (4)
-      - 🇩🇪_德国 (7)
-      - 🇰🇷_韩国 (2)
-      - 🇰🇷_韩国 (3)
-      - 🇺🇸_美国 (4)
-      - 🇩🇴_多米尼加共和国
-      - 🇹🇼_台湾
-      - 🇷🇴_罗马尼亚
-      - 🇸🇬_新加坡 (2)
+      - 🇷🇺_俄罗斯 (8)
       - 🇺🇸_美国 (5)
-      - 🇷🇺_俄罗斯 (9)
-      - 🇮🇪_爱尔兰
-      - 🇷🇺_俄罗斯 (10)
-      - 🇸🇨_塞舌尔 (10)
-      - 🇸🇨_塞舌尔 (11)
-      - 🇸🇨_塞舌尔 (12)
-      - 🇪🇪_爱沙尼亚
-      - 🇸🇨_塞舌尔 (13)
-      - 🇸🇨_塞舌尔 (14)
-      - 🇷🇺_俄罗斯 (11)
-      - 🇷🇺_俄罗斯 (12)
-      - 🇩🇪_德国 (8)
-      - 🇩🇪_德国 (9)
-      - 🇸🇬_新加坡 (3)
-      - 🇸🇨_塞舌尔 (15)
-      - 🇸🇨_塞舌尔 (16)
-      - 🇵🇱_波兰
-      - 🇹🇷_土耳其
-      - 🇷🇺_俄罗斯 (13)
-      - 🇷🇺_俄罗斯 (14)
-      - 🇹🇷_土耳其 (2)
-      - 🇭🇰_香港
-      - 🇷🇺_俄罗斯 (15)
-      - 🇩🇪_德国 (10)
-      - 🇩🇪_德国 (11)
-      - 🇩🇪_德国 (12)
-      - 🇷🇺_俄罗斯 (16)
-      - 🇷🇺_俄罗斯 (17)
-      - 🇷🇺_俄罗斯 (18)
-      - 🇸🇨_塞舌尔 (17)
-      - 🇸🇨_塞舌尔 (18)
-      - 🇩🇪_德国 (13)
-      - 🇷🇺_俄罗斯 (19)
-      - 🇸🇨_塞舌尔 (19)
-      - 🇸🇨_塞舌尔 (20)
+      - 🇳🇱_荷兰 (4)
       - 🇺🇸_美国 (6)
-      - 🇳🇱_荷兰 (5)
-      - 🇳🇱_荷兰 (6)
-      - 🇳🇱_荷兰 (7)
       - 🇺🇸_美国 (7)
-      - 🇹🇼_台湾 (2)
-      - 🇷🇺_俄罗斯 (20)
-      - 🇹🇼_台湾 (3)
-      - 🇹🇼_台湾 (4)
-      - 🇹🇼_台湾 (5)
-      - 🇩🇪_德国 (14)
-      - 🇸🇨_塞舌尔 (21)
-      - 🇸🇨_塞舌尔 (22)
-      - 🇸🇨_塞舌尔 (23)
-      - 🇸🇨_塞舌尔 (24)
+      - 🇯🇵_日本 (2)
+      - 🇩🇴_多米尼加共和国
+      - 🇸🇬_新加坡 (4)
+      - 🇹🇼_台湾
+      - 🇫🇷_法国
+      - 🇷🇺_俄罗斯 (9)
+      - 🇷🇺_俄罗斯 (10)
+      - 🇳🇱_荷兰 (5)
+      - 🇸🇪_瑞典 (2)
+      - 🇧🇬_保加利亚
+      - 🇳🇱_荷兰 (6)
       - 🇺🇸_美国 (8)
-      - 🇳🇱_荷兰 (8)
-      - 🇸🇨_塞舌尔 (25)
+      - 🇬🇧_英国
+      - 🇨🇿_捷克
+      - 🇩🇪_德国 (6)
       - 🇺🇸_美国 (9)
       - 🇺🇸_美国 (10)
-      - 🇳🇱_荷兰 (9)
-      - 🇹🇷_土耳其 (3)
-      - 🇹🇷_土耳其 (4)
-      - 🇫🇷_法国
       - 🇺🇸_美国 (11)
-      - 🇩🇪_德国 (15)
-      - 🇩🇪_德国 (16)
-      - 🇩🇪_德国 (17)
       - 🇺🇸_美国 (12)
-      - 🇩🇪_德国 (18)
-      - 🇩🇪_德国 (19)
-      - 🇫🇷_法国 (2)
-      - 🇰🇷_韩国 (4)
-      - 🇸🇬_新加坡 (4)
-      - 🇹🇼_台湾 (6)
-      - 🇹🇼_台湾 (7)
-      - 🇹🇼_台湾 (8)
-      - 🇺🇸_美国 (13)
-      - 🇩🇪_德国 (20)
-      - 🇸🇨_塞舌尔 (26)
-      - 🇸🇨_塞舌尔 (27)
-      - 🇯🇵_日本 (2)
       - 🇯🇵_日本 (3)
       - 🇯🇵_日本 (4)
       - 🇯🇵_日本 (5)
+      - 🇺🇸_美国 (13)
       - 🇯🇵_日本 (6)
       - 🇯🇵_日本 (7)
       - 🇯🇵_日本 (8)
       - 🇯🇵_日本 (9)
+      - 🇸🇬_新加坡 (5)
+      - 🇺🇸_美国 (14)
+      - 🇸🇬_新加坡 (6)
+      - 🇸🇬_新加坡 (7)
+      - 🇺🇸_美国 (15)
       - 🇯🇵_日本 (10)
       - 🇯🇵_日本 (11)
       - 🇯🇵_日本 (12)
+      - 🇸🇬_新加坡 (8)
       - 🇯🇵_日本 (13)
       - 🇯🇵_日本 (14)
       - 🇯🇵_日本 (15)
       - 🇯🇵_日本 (16)
       - 🇯🇵_日本 (17)
+      - 🇸🇬_新加坡 (9)
+      - 🇸🇬_新加坡 (10)
+      - 🇸🇬_新加坡 (11)
+      - 🇺🇸_美国 (16)
+      - 🇺🇸_美国 (17)
+      - 🇺🇸_美国 (18)
+      - 🇺🇸_美国 (19)
+      - 🇺🇸_美国 (20)
+      - 🇺🇸_美国 (21)
+      - 🇺🇸_美国 (22)
+      - 🇵🇱_波兰
+      - 🇺🇸_美国 (23)
+      - 🇷🇺_俄罗斯 (11)
+      - 🇺🇸_美国 (24)
+      - 🇺🇸_美国 (25)
+      - 🇧🇬_保加利亚 (2)
+      - 🇸🇬_新加坡 (12)
       - 🇯🇵_日本 (18)
+      - 🇳🇱_荷兰 (7)
+      - 🇳🇱_荷兰 (8)
+      - 🇳🇱_荷兰 (9)
+      - 🇳🇱_荷兰 (10)
+      - 🇳🇱_荷兰 (11)
+      - 🇳🇱_荷兰 (12)
+      - 🇳🇱_荷兰 (13)
+      - 🇨🇭_瑞士
+      - 🇳🇱_荷兰 (14)
+      - 🇳🇱_荷兰 (15)
+      - 🇳🇱_荷兰 (16)
+      - 🇳🇱_荷兰 (17)
+      - 🇬🇧_英国 (2)
+      - 🇩🇪_德国 (7)
+      - 🇳🇱_荷兰 (18)
+      - 🇸🇨_塞舌尔
+      - 🇺🇸_美国 (26)
+      - 🇳🇱_荷兰 (19)
+      - 🇳🇱_荷兰 (20)
+      - 🇺🇸_美国 (27)
+      - 🇺🇸_美国 (28)
+      - 🇳🇱_荷兰 (21)
+      - 🇺🇸_美国 (29)
+      - 🇳🇱_荷兰 (22)
+      - 🇳🇱_荷兰 (23)
+      - 🇷🇺_俄罗斯 (12)
+      - 🇺🇸_美国 (30)
+      - 🇷🇺_俄罗斯 (13)
+      - 🇮🇪_爱尔兰
+      - 🇫🇮_芬兰
+      - 🇷🇺_俄罗斯 (14)
+      - 🇰🇿_哈萨克斯坦
+      - 🇸🇨_塞舌尔 (2)
+      - 🇷🇺_俄罗斯 (15)
+      - 🇸🇨_塞舌尔 (3)
+      - 🇷🇺_俄罗斯 (16)
+      - 🇸🇨_塞舌尔 (4)
+      - 🇸🇨_塞舌尔 (5)
+      - 🇸🇨_塞舌尔 (6)
+      - 🇸🇨_塞舌尔 (7)
+      - 🇳🇱_荷兰 (24)
+      - 🇸🇨_塞舌尔 (8)
+      - 🇸🇨_塞舌尔 (9)
+      - 🇳🇱_荷兰 (25)
+      - 🇸🇨_塞舌尔 (10)
+      - 🇸🇨_塞舌尔 (11)
+      - 🇸🇨_塞舌尔 (12)
+      - 🇸🇨_塞舌尔 (13)
+      - 🇷🇺_俄罗斯 (17)
+      - 🇷🇺_俄罗斯 (18)
+      - 🇷🇺_俄罗斯 (19)
+      - 🇷🇺_俄罗斯 (20)
+      - 🇷🇺_俄罗斯 (21)
+      - 🇷🇺_俄罗斯 (22)
+      - 🇸🇨_塞舌尔 (14)
+      - 🇸🇨_塞舌尔 (15)
+      - 🇸🇨_塞舌尔 (16)
+      - 🇸🇨_塞舌尔 (17)
+      - 🇺🇸_美国 (31)
+      - 🇺🇸_美国 (32)
+      - 🇩🇪_德国 (8)
+      - 🇩🇪_德国 (9)
+      - 🇩🇪_德国 (10)
+      - 🇸🇨_塞舌尔 (18)
+      - 🇸🇨_塞舌尔 (19)
+      - 🇭🇰_香港
+      - 🇹🇼_台湾 (2)
+      - 🇹🇼_台湾 (3)
+      - 🇹🇼_台湾 (4)
+      - 🇹🇼_台湾 (5)
+      - 🇹🇼_台湾 (6)
+      - 🇹🇼_台湾 (7)
+      - 🇹🇼_台湾 (8)
+      - 🇹🇼_台湾 (9)
+      - 🇺🇸_美国 (33)
+      - 🇸🇬_新加坡 (13)
+      - 🇹🇼_台湾 (10)
+      - 🇸🇨_塞舌尔 (20)
+      - 🇸🇨_塞舌尔 (21)
+      - 🇵🇱_波兰 (2)
+      - 🇳🇱_荷兰 (26)
+      - 🇩🇪_德国 (11)
+      - 🇩🇪_德国 (12)
+      - 🇩🇪_德国 (13)
+      - 🇪🇪_爱沙尼亚
+      - 🇸🇨_塞舌尔 (22)
+      - 🇭🇺_匈牙利
+      - 🇺🇸_美国 (34)
+      - 🇷🇺_俄罗斯 (23)
+      - 🇺🇸_美国 (35)
+      - 🇺🇸_美国 (36)
+      - 🇺🇸_美国 (37)
+      - 🇺🇸_美国 (38)
+      - 🇺🇸_美国 (39)
+      - 🇺🇸_美国 (40)
+      - 🇷🇺_俄罗斯 (24)
+      - 🇸🇨_塞舌尔 (23)
       - 🇯🇵_日本 (19)
+      - 🇸🇨_塞舌尔 (24)
+      - 🇺🇸_美国 (41)
+      - 🇳🇱_荷兰 (27)
+      - 🇹🇷_土耳其
+      - 🇦🇹_奥地利
+      - 🇺🇸_美国 (42)
+      - 🇩🇪_德国 (14)
+      - 🇸🇨_塞舌尔 (25)
+      - 🇸🇨_塞舌尔 (26)
+      - 🇳🇱_荷兰 (28)
+      - 🇳🇱_荷兰 (29)
+      - 🇺🇸_美国 (43)
+      - 🇩🇪_德国 (15)
+      - 🇦🇪_阿拉伯联合酋长国
+      - 🇦🇪_阿拉伯联合酋长国 (2)
       - 🇯🇵_日本 (20)
       - 🇯🇵_日本 (21)
       - 🇯🇵_日本 (22)
+      - 🇺🇸_美国 (44)
       - 🇯🇵_日本 (23)
-      - 🇯🇵_日本 (24)
-      - 🇯🇵_日本 (25)
-      - 🇯🇵_日本 (26)
-      - 🇯🇵_日本 (27)
-      - 🇯🇵_日本 (28)
-      - 🇯🇵_日本 (29)
-      - 🇯🇵_日本 (30)
-      - 🇯🇵_日本 (31)
-      - 🇯🇵_日本 (32)
-      - 🇯🇵_日本 (33)
-      - 🇯🇵_日本 (34)
-      - 🇯🇵_日本 (35)
-      - 🇯🇵_日本 (36)
-      - 🇯🇵_日本 (37)
-      - 🇯🇵_日本 (38)
-      - 🇯🇵_日本 (39)
-      - 🇯🇵_日本 (40)
-      - 🇯🇵_日本 (41)
-      - 🇯🇵_日本 (42)
-      - 🇯🇵_日本 (43)
-      - 🇯🇵_日本 (44)
-      - 🇯🇵_日本 (45)
-      - 🇯🇵_日本 (46)
-      - 🇯🇵_日本 (47)
-      - 🇯🇵_日本 (48)
-      - 🇯🇵_日本 (49)
-      - 🇯🇵_日本 (50)
-      - 🇯🇵_日本 (51)
-      - 🇯🇵_日本 (52)
-      - 🇯🇵_日本 (53)
-      - 🇯🇵_日本 (54)
-      - 🇯🇵_日本 (55)
-      - 🇯🇵_日本 (56)
-      - 🇯🇵_日本 (57)
-      - 🇯🇵_日本 (58)
-      - 🇯🇵_日本 (59)
-      - 🇯🇵_日本 (60)
-      - 🇯🇵_日本 (61)
-      - 🇯🇵_日本 (62)
-      - 🇯🇵_日本 (63)
-      - 🇯🇵_日本 (64)
-      - 🇯🇵_日本 (65)
-      - 🇯🇵_日本 (66)
-      - 🇯🇵_日本 (67)
-      - 🇯🇵_日本 (68)
-      - 🇯🇵_日本 (69)
-      - 🇯🇵_日本 (70)
-      - 🇯🇵_日本 (71)
-      - 🇯🇵_日本 (72)
-      - 🇯🇵_日本 (73)
-      - 🇯🇵_日本 (74)
-      - 🇯🇵_日本 (75)
-      - 🇯🇵_日本 (76)
-      - 🇯🇵_日本 (77)
-      - 🇯🇵_日本 (78)
-      - 🇯🇵_日本 (79)
-      - 🇯🇵_日本 (80)
-      - 🇯🇵_日本 (81)
-      - 🇯🇵_日本 (82)
-      - 🇯🇵_日本 (83)
-      - 🇯🇵_日本 (84)
-      - 🇯🇵_日本 (85)
-      - 🇯🇵_日本 (86)
-      - 🇯🇵_日本 (87)
-      - 🇩🇪_德国 (21)
+      - 🇰🇷_韩国
       - 🇮🇹_意大利
       - 🇮🇹_意大利 (2)
       - 🇮🇹_意大利 (3)
       - 🇮🇹_意大利 (4)
       - 🇮🇹_意大利 (5)
       - 🇮🇹_意大利 (6)
+      - 🇩🇪_德国 (16)
       - 🇮🇹_意大利 (7)
-      - 🇩🇪_德国 (22)
-      - 🇫🇷_法国 (3)
-      - 🇫🇷_法国 (4)
-      - 🇫🇷_法国 (5)
       - 🇮🇹_意大利 (8)
       - 🇮🇹_意大利 (9)
-      - 🇺🇸_美国 (14)
+      - 🇮🇹_意大利 (10)
+      - 🇺🇸_美国 (45)
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
@@ -2897,211 +3729,226 @@ proxy-groups:
       - 🎯 全球直连
       - 每天更新，请加电报群防止失联
       - 电报群：t.me/vvkj11
-      - 日期：11-26
+      - 日期：11-27
       - 免费VPN：tt.vg/FJOE2Mm
-      - 🇷🇺_俄罗斯 (4)
       - 🇺🇸_美国
+      - 🇳🇱_荷兰
+      - 🇺🇸_美国 (2)
+      - 🇸🇬_新加坡 (2)
+      - 🇸🇬_新加坡 (3)
+      - 🇳🇱_荷兰 (2)
+      - 🇳🇱_荷兰 (3)
+      - 🇺🇸_美国 (3)
+      - 🇺🇸_美国 (4)
+      - 🇩🇪_德国 (2)
+      - 🇩🇪_德国 (3)
+      - 🇩🇪_德国 (4)
+      - 🇩🇪_德国 (5)
+      - 🇮🇳_印度
+      - 🇷🇺_俄罗斯
+      - 🇷🇺_俄罗斯 (2)
+      - 🇷🇺_俄罗斯 (3)
+      - 🇷🇺_俄罗斯 (4)
       - 🇷🇺_俄罗斯 (5)
       - 🇷🇺_俄罗斯 (6)
-      - 🇩🇪_德国 (5)
-      - 🇸🇬_新加坡
       - 🇷🇺_俄罗斯 (7)
-      - 🇮🇳_印度
       - 🇮🇳_印度 (2)
-      - 🇷🇺_俄罗斯 (8)
       - 🇮🇳_印度 (3)
-      - 🇰🇷_韩国
-      - 🇺🇸_美国 (2)
-      - 🇺🇸_美国 (3)
-      - 🇯🇵_日本
-      - 🇩🇪_德国 (6)
-      - 🇳🇱_荷兰 (4)
-      - 🇩🇪_德国 (7)
-      - 🇰🇷_韩国 (2)
-      - 🇰🇷_韩国 (3)
-      - 🇺🇸_美国 (4)
-      - 🇩🇴_多米尼加共和国
-      - 🇹🇼_台湾
-      - 🇷🇴_罗马尼亚
-      - 🇸🇬_新加坡 (2)
+      - 🇷🇺_俄罗斯 (8)
       - 🇺🇸_美国 (5)
-      - 🇷🇺_俄罗斯 (9)
-      - 🇮🇪_爱尔兰
-      - 🇷🇺_俄罗斯 (10)
-      - 🇸🇨_塞舌尔 (10)
-      - 🇸🇨_塞舌尔 (11)
-      - 🇸🇨_塞舌尔 (12)
-      - 🇪🇪_爱沙尼亚
-      - 🇸🇨_塞舌尔 (13)
-      - 🇸🇨_塞舌尔 (14)
-      - 🇷🇺_俄罗斯 (11)
-      - 🇷🇺_俄罗斯 (12)
-      - 🇩🇪_德国 (8)
-      - 🇩🇪_德国 (9)
-      - 🇸🇬_新加坡 (3)
-      - 🇸🇨_塞舌尔 (15)
-      - 🇸🇨_塞舌尔 (16)
-      - 🇵🇱_波兰
-      - 🇹🇷_土耳其
-      - 🇷🇺_俄罗斯 (13)
-      - 🇷🇺_俄罗斯 (14)
-      - 🇹🇷_土耳其 (2)
-      - 🇭🇰_香港
-      - 🇷🇺_俄罗斯 (15)
-      - 🇩🇪_德国 (10)
-      - 🇩🇪_德国 (11)
-      - 🇩🇪_德国 (12)
-      - 🇷🇺_俄罗斯 (16)
-      - 🇷🇺_俄罗斯 (17)
-      - 🇷🇺_俄罗斯 (18)
-      - 🇸🇨_塞舌尔 (17)
-      - 🇸🇨_塞舌尔 (18)
-      - 🇩🇪_德国 (13)
-      - 🇷🇺_俄罗斯 (19)
-      - 🇸🇨_塞舌尔 (19)
-      - 🇸🇨_塞舌尔 (20)
+      - 🇳🇱_荷兰 (4)
       - 🇺🇸_美国 (6)
-      - 🇳🇱_荷兰 (5)
-      - 🇳🇱_荷兰 (6)
-      - 🇳🇱_荷兰 (7)
       - 🇺🇸_美国 (7)
-      - 🇹🇼_台湾 (2)
-      - 🇷🇺_俄罗斯 (20)
-      - 🇹🇼_台湾 (3)
-      - 🇹🇼_台湾 (4)
-      - 🇹🇼_台湾 (5)
-      - 🇩🇪_德国 (14)
-      - 🇸🇨_塞舌尔 (21)
-      - 🇸🇨_塞舌尔 (22)
-      - 🇸🇨_塞舌尔 (23)
-      - 🇸🇨_塞舌尔 (24)
+      - 🇯🇵_日本 (2)
+      - 🇩🇴_多米尼加共和国
+      - 🇸🇬_新加坡 (4)
+      - 🇹🇼_台湾
+      - 🇫🇷_法国
+      - 🇷🇺_俄罗斯 (9)
+      - 🇷🇺_俄罗斯 (10)
+      - 🇳🇱_荷兰 (5)
+      - 🇸🇪_瑞典 (2)
+      - 🇧🇬_保加利亚
+      - 🇳🇱_荷兰 (6)
       - 🇺🇸_美国 (8)
-      - 🇳🇱_荷兰 (8)
-      - 🇸🇨_塞舌尔 (25)
+      - 🇬🇧_英国
+      - 🇨🇿_捷克
+      - 🇩🇪_德国 (6)
       - 🇺🇸_美国 (9)
       - 🇺🇸_美国 (10)
-      - 🇳🇱_荷兰 (9)
-      - 🇹🇷_土耳其 (3)
-      - 🇹🇷_土耳其 (4)
-      - 🇫🇷_法国
       - 🇺🇸_美国 (11)
-      - 🇩🇪_德国 (15)
-      - 🇩🇪_德国 (16)
-      - 🇩🇪_德国 (17)
       - 🇺🇸_美国 (12)
-      - 🇩🇪_德国 (18)
-      - 🇩🇪_德国 (19)
-      - 🇫🇷_法国 (2)
-      - 🇰🇷_韩国 (4)
-      - 🇸🇬_新加坡 (4)
-      - 🇹🇼_台湾 (6)
-      - 🇹🇼_台湾 (7)
-      - 🇹🇼_台湾 (8)
-      - 🇺🇸_美国 (13)
-      - 🇩🇪_德国 (20)
-      - 🇸🇨_塞舌尔 (26)
-      - 🇸🇨_塞舌尔 (27)
-      - 🇯🇵_日本 (2)
       - 🇯🇵_日本 (3)
       - 🇯🇵_日本 (4)
       - 🇯🇵_日本 (5)
+      - 🇺🇸_美国 (13)
       - 🇯🇵_日本 (6)
       - 🇯🇵_日本 (7)
       - 🇯🇵_日本 (8)
       - 🇯🇵_日本 (9)
+      - 🇸🇬_新加坡 (5)
+      - 🇺🇸_美国 (14)
+      - 🇸🇬_新加坡 (6)
+      - 🇸🇬_新加坡 (7)
+      - 🇺🇸_美国 (15)
       - 🇯🇵_日本 (10)
       - 🇯🇵_日本 (11)
       - 🇯🇵_日本 (12)
+      - 🇸🇬_新加坡 (8)
       - 🇯🇵_日本 (13)
       - 🇯🇵_日本 (14)
       - 🇯🇵_日本 (15)
       - 🇯🇵_日本 (16)
       - 🇯🇵_日本 (17)
+      - 🇸🇬_新加坡 (9)
+      - 🇸🇬_新加坡 (10)
+      - 🇸🇬_新加坡 (11)
+      - 🇺🇸_美国 (16)
+      - 🇺🇸_美国 (17)
+      - 🇺🇸_美国 (18)
+      - 🇺🇸_美国 (19)
+      - 🇺🇸_美国 (20)
+      - 🇺🇸_美国 (21)
+      - 🇺🇸_美国 (22)
+      - 🇵🇱_波兰
+      - 🇺🇸_美国 (23)
+      - 🇷🇺_俄罗斯 (11)
+      - 🇺🇸_美国 (24)
+      - 🇺🇸_美国 (25)
+      - 🇧🇬_保加利亚 (2)
+      - 🇸🇬_新加坡 (12)
       - 🇯🇵_日本 (18)
+      - 🇳🇱_荷兰 (7)
+      - 🇳🇱_荷兰 (8)
+      - 🇳🇱_荷兰 (9)
+      - 🇳🇱_荷兰 (10)
+      - 🇳🇱_荷兰 (11)
+      - 🇳🇱_荷兰 (12)
+      - 🇳🇱_荷兰 (13)
+      - 🇨🇭_瑞士
+      - 🇳🇱_荷兰 (14)
+      - 🇳🇱_荷兰 (15)
+      - 🇳🇱_荷兰 (16)
+      - 🇳🇱_荷兰 (17)
+      - 🇬🇧_英国 (2)
+      - 🇩🇪_德国 (7)
+      - 🇳🇱_荷兰 (18)
+      - 🇸🇨_塞舌尔
+      - 🇺🇸_美国 (26)
+      - 🇳🇱_荷兰 (19)
+      - 🇳🇱_荷兰 (20)
+      - 🇺🇸_美国 (27)
+      - 🇺🇸_美国 (28)
+      - 🇳🇱_荷兰 (21)
+      - 🇺🇸_美国 (29)
+      - 🇳🇱_荷兰 (22)
+      - 🇳🇱_荷兰 (23)
+      - 🇷🇺_俄罗斯 (12)
+      - 🇺🇸_美国 (30)
+      - 🇷🇺_俄罗斯 (13)
+      - 🇮🇪_爱尔兰
+      - 🇫🇮_芬兰
+      - 🇷🇺_俄罗斯 (14)
+      - 🇰🇿_哈萨克斯坦
+      - 🇸🇨_塞舌尔 (2)
+      - 🇷🇺_俄罗斯 (15)
+      - 🇸🇨_塞舌尔 (3)
+      - 🇷🇺_俄罗斯 (16)
+      - 🇸🇨_塞舌尔 (4)
+      - 🇸🇨_塞舌尔 (5)
+      - 🇸🇨_塞舌尔 (6)
+      - 🇸🇨_塞舌尔 (7)
+      - 🇳🇱_荷兰 (24)
+      - 🇸🇨_塞舌尔 (8)
+      - 🇸🇨_塞舌尔 (9)
+      - 🇳🇱_荷兰 (25)
+      - 🇸🇨_塞舌尔 (10)
+      - 🇸🇨_塞舌尔 (11)
+      - 🇸🇨_塞舌尔 (12)
+      - 🇸🇨_塞舌尔 (13)
+      - 🇷🇺_俄罗斯 (17)
+      - 🇷🇺_俄罗斯 (18)
+      - 🇷🇺_俄罗斯 (19)
+      - 🇷🇺_俄罗斯 (20)
+      - 🇷🇺_俄罗斯 (21)
+      - 🇷🇺_俄罗斯 (22)
+      - 🇸🇨_塞舌尔 (14)
+      - 🇸🇨_塞舌尔 (15)
+      - 🇸🇨_塞舌尔 (16)
+      - 🇸🇨_塞舌尔 (17)
+      - 🇺🇸_美国 (31)
+      - 🇺🇸_美国 (32)
+      - 🇩🇪_德国 (8)
+      - 🇩🇪_德国 (9)
+      - 🇩🇪_德国 (10)
+      - 🇸🇨_塞舌尔 (18)
+      - 🇸🇨_塞舌尔 (19)
+      - 🇭🇰_香港
+      - 🇹🇼_台湾 (2)
+      - 🇹🇼_台湾 (3)
+      - 🇹🇼_台湾 (4)
+      - 🇹🇼_台湾 (5)
+      - 🇹🇼_台湾 (6)
+      - 🇹🇼_台湾 (7)
+      - 🇹🇼_台湾 (8)
+      - 🇹🇼_台湾 (9)
+      - 🇺🇸_美国 (33)
+      - 🇸🇬_新加坡 (13)
+      - 🇹🇼_台湾 (10)
+      - 🇸🇨_塞舌尔 (20)
+      - 🇸🇨_塞舌尔 (21)
+      - 🇵🇱_波兰 (2)
+      - 🇳🇱_荷兰 (26)
+      - 🇩🇪_德国 (11)
+      - 🇩🇪_德国 (12)
+      - 🇩🇪_德国 (13)
+      - 🇪🇪_爱沙尼亚
+      - 🇸🇨_塞舌尔 (22)
+      - 🇭🇺_匈牙利
+      - 🇺🇸_美国 (34)
+      - 🇷🇺_俄罗斯 (23)
+      - 🇺🇸_美国 (35)
+      - 🇺🇸_美国 (36)
+      - 🇺🇸_美国 (37)
+      - 🇺🇸_美国 (38)
+      - 🇺🇸_美国 (39)
+      - 🇺🇸_美国 (40)
+      - 🇷🇺_俄罗斯 (24)
+      - 🇸🇨_塞舌尔 (23)
       - 🇯🇵_日本 (19)
+      - 🇸🇨_塞舌尔 (24)
+      - 🇺🇸_美国 (41)
+      - 🇳🇱_荷兰 (27)
+      - 🇹🇷_土耳其
+      - 🇦🇹_奥地利
+      - 🇺🇸_美国 (42)
+      - 🇩🇪_德国 (14)
+      - 🇸🇨_塞舌尔 (25)
+      - 🇸🇨_塞舌尔 (26)
+      - 🇳🇱_荷兰 (28)
+      - 🇳🇱_荷兰 (29)
+      - 🇺🇸_美国 (43)
+      - 🇩🇪_德国 (15)
+      - 🇦🇪_阿拉伯联合酋长国
+      - 🇦🇪_阿拉伯联合酋长国 (2)
       - 🇯🇵_日本 (20)
       - 🇯🇵_日本 (21)
       - 🇯🇵_日本 (22)
+      - 🇺🇸_美国 (44)
       - 🇯🇵_日本 (23)
-      - 🇯🇵_日本 (24)
-      - 🇯🇵_日本 (25)
-      - 🇯🇵_日本 (26)
-      - 🇯🇵_日本 (27)
-      - 🇯🇵_日本 (28)
-      - 🇯🇵_日本 (29)
-      - 🇯🇵_日本 (30)
-      - 🇯🇵_日本 (31)
-      - 🇯🇵_日本 (32)
-      - 🇯🇵_日本 (33)
-      - 🇯🇵_日本 (34)
-      - 🇯🇵_日本 (35)
-      - 🇯🇵_日本 (36)
-      - 🇯🇵_日本 (37)
-      - 🇯🇵_日本 (38)
-      - 🇯🇵_日本 (39)
-      - 🇯🇵_日本 (40)
-      - 🇯🇵_日本 (41)
-      - 🇯🇵_日本 (42)
-      - 🇯🇵_日本 (43)
-      - 🇯🇵_日本 (44)
-      - 🇯🇵_日本 (45)
-      - 🇯🇵_日本 (46)
-      - 🇯🇵_日本 (47)
-      - 🇯🇵_日本 (48)
-      - 🇯🇵_日本 (49)
-      - 🇯🇵_日本 (50)
-      - 🇯🇵_日本 (51)
-      - 🇯🇵_日本 (52)
-      - 🇯🇵_日本 (53)
-      - 🇯🇵_日本 (54)
-      - 🇯🇵_日本 (55)
-      - 🇯🇵_日本 (56)
-      - 🇯🇵_日本 (57)
-      - 🇯🇵_日本 (58)
-      - 🇯🇵_日本 (59)
-      - 🇯🇵_日本 (60)
-      - 🇯🇵_日本 (61)
-      - 🇯🇵_日本 (62)
-      - 🇯🇵_日本 (63)
-      - 🇯🇵_日本 (64)
-      - 🇯🇵_日本 (65)
-      - 🇯🇵_日本 (66)
-      - 🇯🇵_日本 (67)
-      - 🇯🇵_日本 (68)
-      - 🇯🇵_日本 (69)
-      - 🇯🇵_日本 (70)
-      - 🇯🇵_日本 (71)
-      - 🇯🇵_日本 (72)
-      - 🇯🇵_日本 (73)
-      - 🇯🇵_日本 (74)
-      - 🇯🇵_日本 (75)
-      - 🇯🇵_日本 (76)
-      - 🇯🇵_日本 (77)
-      - 🇯🇵_日本 (78)
-      - 🇯🇵_日本 (79)
-      - 🇯🇵_日本 (80)
-      - 🇯🇵_日本 (81)
-      - 🇯🇵_日本 (82)
-      - 🇯🇵_日本 (83)
-      - 🇯🇵_日本 (84)
-      - 🇯🇵_日本 (85)
-      - 🇯🇵_日本 (86)
-      - 🇯🇵_日本 (87)
-      - 🇩🇪_德国 (21)
+      - 🇰🇷_韩国
       - 🇮🇹_意大利
       - 🇮🇹_意大利 (2)
       - 🇮🇹_意大利 (3)
       - 🇮🇹_意大利 (4)
       - 🇮🇹_意大利 (5)
       - 🇮🇹_意大利 (6)
+      - 🇩🇪_德国 (16)
       - 🇮🇹_意大利 (7)
-      - 🇩🇪_德国 (22)
-      - 🇫🇷_法国 (3)
-      - 🇫🇷_法国 (4)
-      - 🇫🇷_法国 (5)
       - 🇮🇹_意大利 (8)
       - 🇮🇹_意大利 (9)
-      - 🇺🇸_美国 (14)
+      - 🇮🇹_意大利 (10)
+      - 🇺🇸_美国 (45)
   - name: 📲 电报信息
     type: select
     proxies:
@@ -3109,211 +3956,226 @@ proxy-groups:
       - 🎯 全球直连
       - 每天更新，请加电报群防止失联
       - 电报群：t.me/vvkj11
-      - 日期：11-26
+      - 日期：11-27
       - 免费VPN：tt.vg/FJOE2Mm
-      - 🇷🇺_俄罗斯 (4)
       - 🇺🇸_美国
+      - 🇳🇱_荷兰
+      - 🇺🇸_美国 (2)
+      - 🇸🇬_新加坡 (2)
+      - 🇸🇬_新加坡 (3)
+      - 🇳🇱_荷兰 (2)
+      - 🇳🇱_荷兰 (3)
+      - 🇺🇸_美国 (3)
+      - 🇺🇸_美国 (4)
+      - 🇩🇪_德国 (2)
+      - 🇩🇪_德国 (3)
+      - 🇩🇪_德国 (4)
+      - 🇩🇪_德国 (5)
+      - 🇮🇳_印度
+      - 🇷🇺_俄罗斯
+      - 🇷🇺_俄罗斯 (2)
+      - 🇷🇺_俄罗斯 (3)
+      - 🇷🇺_俄罗斯 (4)
       - 🇷🇺_俄罗斯 (5)
       - 🇷🇺_俄罗斯 (6)
-      - 🇩🇪_德国 (5)
-      - 🇸🇬_新加坡
       - 🇷🇺_俄罗斯 (7)
-      - 🇮🇳_印度
       - 🇮🇳_印度 (2)
-      - 🇷🇺_俄罗斯 (8)
       - 🇮🇳_印度 (3)
-      - 🇰🇷_韩国
-      - 🇺🇸_美国 (2)
-      - 🇺🇸_美国 (3)
-      - 🇯🇵_日本
-      - 🇩🇪_德国 (6)
-      - 🇳🇱_荷兰 (4)
-      - 🇩🇪_德国 (7)
-      - 🇰🇷_韩国 (2)
-      - 🇰🇷_韩国 (3)
-      - 🇺🇸_美国 (4)
-      - 🇩🇴_多米尼加共和国
-      - 🇹🇼_台湾
-      - 🇷🇴_罗马尼亚
-      - 🇸🇬_新加坡 (2)
+      - 🇷🇺_俄罗斯 (8)
       - 🇺🇸_美国 (5)
-      - 🇷🇺_俄罗斯 (9)
-      - 🇮🇪_爱尔兰
-      - 🇷🇺_俄罗斯 (10)
-      - 🇸🇨_塞舌尔 (10)
-      - 🇸🇨_塞舌尔 (11)
-      - 🇸🇨_塞舌尔 (12)
-      - 🇪🇪_爱沙尼亚
-      - 🇸🇨_塞舌尔 (13)
-      - 🇸🇨_塞舌尔 (14)
-      - 🇷🇺_俄罗斯 (11)
-      - 🇷🇺_俄罗斯 (12)
-      - 🇩🇪_德国 (8)
-      - 🇩🇪_德国 (9)
-      - 🇸🇬_新加坡 (3)
-      - 🇸🇨_塞舌尔 (15)
-      - 🇸🇨_塞舌尔 (16)
-      - 🇵🇱_波兰
-      - 🇹🇷_土耳其
-      - 🇷🇺_俄罗斯 (13)
-      - 🇷🇺_俄罗斯 (14)
-      - 🇹🇷_土耳其 (2)
-      - 🇭🇰_香港
-      - 🇷🇺_俄罗斯 (15)
-      - 🇩🇪_德国 (10)
-      - 🇩🇪_德国 (11)
-      - 🇩🇪_德国 (12)
-      - 🇷🇺_俄罗斯 (16)
-      - 🇷🇺_俄罗斯 (17)
-      - 🇷🇺_俄罗斯 (18)
-      - 🇸🇨_塞舌尔 (17)
-      - 🇸🇨_塞舌尔 (18)
-      - 🇩🇪_德国 (13)
-      - 🇷🇺_俄罗斯 (19)
-      - 🇸🇨_塞舌尔 (19)
-      - 🇸🇨_塞舌尔 (20)
+      - 🇳🇱_荷兰 (4)
       - 🇺🇸_美国 (6)
-      - 🇳🇱_荷兰 (5)
-      - 🇳🇱_荷兰 (6)
-      - 🇳🇱_荷兰 (7)
       - 🇺🇸_美国 (7)
-      - 🇹🇼_台湾 (2)
-      - 🇷🇺_俄罗斯 (20)
-      - 🇹🇼_台湾 (3)
-      - 🇹🇼_台湾 (4)
-      - 🇹🇼_台湾 (5)
-      - 🇩🇪_德国 (14)
-      - 🇸🇨_塞舌尔 (21)
-      - 🇸🇨_塞舌尔 (22)
-      - 🇸🇨_塞舌尔 (23)
-      - 🇸🇨_塞舌尔 (24)
+      - 🇯🇵_日本 (2)
+      - 🇩🇴_多米尼加共和国
+      - 🇸🇬_新加坡 (4)
+      - 🇹🇼_台湾
+      - 🇫🇷_法国
+      - 🇷🇺_俄罗斯 (9)
+      - 🇷🇺_俄罗斯 (10)
+      - 🇳🇱_荷兰 (5)
+      - 🇸🇪_瑞典 (2)
+      - 🇧🇬_保加利亚
+      - 🇳🇱_荷兰 (6)
       - 🇺🇸_美国 (8)
-      - 🇳🇱_荷兰 (8)
-      - 🇸🇨_塞舌尔 (25)
+      - 🇬🇧_英国
+      - 🇨🇿_捷克
+      - 🇩🇪_德国 (6)
       - 🇺🇸_美国 (9)
       - 🇺🇸_美国 (10)
-      - 🇳🇱_荷兰 (9)
-      - 🇹🇷_土耳其 (3)
-      - 🇹🇷_土耳其 (4)
-      - 🇫🇷_法国
       - 🇺🇸_美国 (11)
-      - 🇩🇪_德国 (15)
-      - 🇩🇪_德国 (16)
-      - 🇩🇪_德国 (17)
       - 🇺🇸_美国 (12)
-      - 🇩🇪_德国 (18)
-      - 🇩🇪_德国 (19)
-      - 🇫🇷_法国 (2)
-      - 🇰🇷_韩国 (4)
-      - 🇸🇬_新加坡 (4)
-      - 🇹🇼_台湾 (6)
-      - 🇹🇼_台湾 (7)
-      - 🇹🇼_台湾 (8)
-      - 🇺🇸_美国 (13)
-      - 🇩🇪_德国 (20)
-      - 🇸🇨_塞舌尔 (26)
-      - 🇸🇨_塞舌尔 (27)
-      - 🇯🇵_日本 (2)
       - 🇯🇵_日本 (3)
       - 🇯🇵_日本 (4)
       - 🇯🇵_日本 (5)
+      - 🇺🇸_美国 (13)
       - 🇯🇵_日本 (6)
       - 🇯🇵_日本 (7)
       - 🇯🇵_日本 (8)
       - 🇯🇵_日本 (9)
+      - 🇸🇬_新加坡 (5)
+      - 🇺🇸_美国 (14)
+      - 🇸🇬_新加坡 (6)
+      - 🇸🇬_新加坡 (7)
+      - 🇺🇸_美国 (15)
       - 🇯🇵_日本 (10)
       - 🇯🇵_日本 (11)
       - 🇯🇵_日本 (12)
+      - 🇸🇬_新加坡 (8)
       - 🇯🇵_日本 (13)
       - 🇯🇵_日本 (14)
       - 🇯🇵_日本 (15)
       - 🇯🇵_日本 (16)
       - 🇯🇵_日本 (17)
+      - 🇸🇬_新加坡 (9)
+      - 🇸🇬_新加坡 (10)
+      - 🇸🇬_新加坡 (11)
+      - 🇺🇸_美国 (16)
+      - 🇺🇸_美国 (17)
+      - 🇺🇸_美国 (18)
+      - 🇺🇸_美国 (19)
+      - 🇺🇸_美国 (20)
+      - 🇺🇸_美国 (21)
+      - 🇺🇸_美国 (22)
+      - 🇵🇱_波兰
+      - 🇺🇸_美国 (23)
+      - 🇷🇺_俄罗斯 (11)
+      - 🇺🇸_美国 (24)
+      - 🇺🇸_美国 (25)
+      - 🇧🇬_保加利亚 (2)
+      - 🇸🇬_新加坡 (12)
       - 🇯🇵_日本 (18)
+      - 🇳🇱_荷兰 (7)
+      - 🇳🇱_荷兰 (8)
+      - 🇳🇱_荷兰 (9)
+      - 🇳🇱_荷兰 (10)
+      - 🇳🇱_荷兰 (11)
+      - 🇳🇱_荷兰 (12)
+      - 🇳🇱_荷兰 (13)
+      - 🇨🇭_瑞士
+      - 🇳🇱_荷兰 (14)
+      - 🇳🇱_荷兰 (15)
+      - 🇳🇱_荷兰 (16)
+      - 🇳🇱_荷兰 (17)
+      - 🇬🇧_英国 (2)
+      - 🇩🇪_德国 (7)
+      - 🇳🇱_荷兰 (18)
+      - 🇸🇨_塞舌尔
+      - 🇺🇸_美国 (26)
+      - 🇳🇱_荷兰 (19)
+      - 🇳🇱_荷兰 (20)
+      - 🇺🇸_美国 (27)
+      - 🇺🇸_美国 (28)
+      - 🇳🇱_荷兰 (21)
+      - 🇺🇸_美国 (29)
+      - 🇳🇱_荷兰 (22)
+      - 🇳🇱_荷兰 (23)
+      - 🇷🇺_俄罗斯 (12)
+      - 🇺🇸_美国 (30)
+      - 🇷🇺_俄罗斯 (13)
+      - 🇮🇪_爱尔兰
+      - 🇫🇮_芬兰
+      - 🇷🇺_俄罗斯 (14)
+      - 🇰🇿_哈萨克斯坦
+      - 🇸🇨_塞舌尔 (2)
+      - 🇷🇺_俄罗斯 (15)
+      - 🇸🇨_塞舌尔 (3)
+      - 🇷🇺_俄罗斯 (16)
+      - 🇸🇨_塞舌尔 (4)
+      - 🇸🇨_塞舌尔 (5)
+      - 🇸🇨_塞舌尔 (6)
+      - 🇸🇨_塞舌尔 (7)
+      - 🇳🇱_荷兰 (24)
+      - 🇸🇨_塞舌尔 (8)
+      - 🇸🇨_塞舌尔 (9)
+      - 🇳🇱_荷兰 (25)
+      - 🇸🇨_塞舌尔 (10)
+      - 🇸🇨_塞舌尔 (11)
+      - 🇸🇨_塞舌尔 (12)
+      - 🇸🇨_塞舌尔 (13)
+      - 🇷🇺_俄罗斯 (17)
+      - 🇷🇺_俄罗斯 (18)
+      - 🇷🇺_俄罗斯 (19)
+      - 🇷🇺_俄罗斯 (20)
+      - 🇷🇺_俄罗斯 (21)
+      - 🇷🇺_俄罗斯 (22)
+      - 🇸🇨_塞舌尔 (14)
+      - 🇸🇨_塞舌尔 (15)
+      - 🇸🇨_塞舌尔 (16)
+      - 🇸🇨_塞舌尔 (17)
+      - 🇺🇸_美国 (31)
+      - 🇺🇸_美国 (32)
+      - 🇩🇪_德国 (8)
+      - 🇩🇪_德国 (9)
+      - 🇩🇪_德国 (10)
+      - 🇸🇨_塞舌尔 (18)
+      - 🇸🇨_塞舌尔 (19)
+      - 🇭🇰_香港
+      - 🇹🇼_台湾 (2)
+      - 🇹🇼_台湾 (3)
+      - 🇹🇼_台湾 (4)
+      - 🇹🇼_台湾 (5)
+      - 🇹🇼_台湾 (6)
+      - 🇹🇼_台湾 (7)
+      - 🇹🇼_台湾 (8)
+      - 🇹🇼_台湾 (9)
+      - 🇺🇸_美国 (33)
+      - 🇸🇬_新加坡 (13)
+      - 🇹🇼_台湾 (10)
+      - 🇸🇨_塞舌尔 (20)
+      - 🇸🇨_塞舌尔 (21)
+      - 🇵🇱_波兰 (2)
+      - 🇳🇱_荷兰 (26)
+      - 🇩🇪_德国 (11)
+      - 🇩🇪_德国 (12)
+      - 🇩🇪_德国 (13)
+      - 🇪🇪_爱沙尼亚
+      - 🇸🇨_塞舌尔 (22)
+      - 🇭🇺_匈牙利
+      - 🇺🇸_美国 (34)
+      - 🇷🇺_俄罗斯 (23)
+      - 🇺🇸_美国 (35)
+      - 🇺🇸_美国 (36)
+      - 🇺🇸_美国 (37)
+      - 🇺🇸_美国 (38)
+      - 🇺🇸_美国 (39)
+      - 🇺🇸_美国 (40)
+      - 🇷🇺_俄罗斯 (24)
+      - 🇸🇨_塞舌尔 (23)
       - 🇯🇵_日本 (19)
+      - 🇸🇨_塞舌尔 (24)
+      - 🇺🇸_美国 (41)
+      - 🇳🇱_荷兰 (27)
+      - 🇹🇷_土耳其
+      - 🇦🇹_奥地利
+      - 🇺🇸_美国 (42)
+      - 🇩🇪_德国 (14)
+      - 🇸🇨_塞舌尔 (25)
+      - 🇸🇨_塞舌尔 (26)
+      - 🇳🇱_荷兰 (28)
+      - 🇳🇱_荷兰 (29)
+      - 🇺🇸_美国 (43)
+      - 🇩🇪_德国 (15)
+      - 🇦🇪_阿拉伯联合酋长国
+      - 🇦🇪_阿拉伯联合酋长国 (2)
       - 🇯🇵_日本 (20)
       - 🇯🇵_日本 (21)
       - 🇯🇵_日本 (22)
+      - 🇺🇸_美国 (44)
       - 🇯🇵_日本 (23)
-      - 🇯🇵_日本 (24)
-      - 🇯🇵_日本 (25)
-      - 🇯🇵_日本 (26)
-      - 🇯🇵_日本 (27)
-      - 🇯🇵_日本 (28)
-      - 🇯🇵_日本 (29)
-      - 🇯🇵_日本 (30)
-      - 🇯🇵_日本 (31)
-      - 🇯🇵_日本 (32)
-      - 🇯🇵_日本 (33)
-      - 🇯🇵_日本 (34)
-      - 🇯🇵_日本 (35)
-      - 🇯🇵_日本 (36)
-      - 🇯🇵_日本 (37)
-      - 🇯🇵_日本 (38)
-      - 🇯🇵_日本 (39)
-      - 🇯🇵_日本 (40)
-      - 🇯🇵_日本 (41)
-      - 🇯🇵_日本 (42)
-      - 🇯🇵_日本 (43)
-      - 🇯🇵_日本 (44)
-      - 🇯🇵_日本 (45)
-      - 🇯🇵_日本 (46)
-      - 🇯🇵_日本 (47)
-      - 🇯🇵_日本 (48)
-      - 🇯🇵_日本 (49)
-      - 🇯🇵_日本 (50)
-      - 🇯🇵_日本 (51)
-      - 🇯🇵_日本 (52)
-      - 🇯🇵_日本 (53)
-      - 🇯🇵_日本 (54)
-      - 🇯🇵_日本 (55)
-      - 🇯🇵_日本 (56)
-      - 🇯🇵_日本 (57)
-      - 🇯🇵_日本 (58)
-      - 🇯🇵_日本 (59)
-      - 🇯🇵_日本 (60)
-      - 🇯🇵_日本 (61)
-      - 🇯🇵_日本 (62)
-      - 🇯🇵_日本 (63)
-      - 🇯🇵_日本 (64)
-      - 🇯🇵_日本 (65)
-      - 🇯🇵_日本 (66)
-      - 🇯🇵_日本 (67)
-      - 🇯🇵_日本 (68)
-      - 🇯🇵_日本 (69)
-      - 🇯🇵_日本 (70)
-      - 🇯🇵_日本 (71)
-      - 🇯🇵_日本 (72)
-      - 🇯🇵_日本 (73)
-      - 🇯🇵_日本 (74)
-      - 🇯🇵_日本 (75)
-      - 🇯🇵_日本 (76)
-      - 🇯🇵_日本 (77)
-      - 🇯🇵_日本 (78)
-      - 🇯🇵_日本 (79)
-      - 🇯🇵_日本 (80)
-      - 🇯🇵_日本 (81)
-      - 🇯🇵_日本 (82)
-      - 🇯🇵_日本 (83)
-      - 🇯🇵_日本 (84)
-      - 🇯🇵_日本 (85)
-      - 🇯🇵_日本 (86)
-      - 🇯🇵_日本 (87)
-      - 🇩🇪_德国 (21)
+      - 🇰🇷_韩国
       - 🇮🇹_意大利
       - 🇮🇹_意大利 (2)
       - 🇮🇹_意大利 (3)
       - 🇮🇹_意大利 (4)
       - 🇮🇹_意大利 (5)
       - 🇮🇹_意大利 (6)
+      - 🇩🇪_德国 (16)
       - 🇮🇹_意大利 (7)
-      - 🇩🇪_德国 (22)
-      - 🇫🇷_法国 (3)
-      - 🇫🇷_法国 (4)
-      - 🇫🇷_法国 (5)
       - 🇮🇹_意大利 (8)
       - 🇮🇹_意大利 (9)
-      - 🇺🇸_美国 (14)
+      - 🇮🇹_意大利 (10)
+      - 🇺🇸_美国 (45)
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -3321,211 +4183,226 @@ proxy-groups:
       - 🚀 节点选择
       - 每天更新，请加电报群防止失联
       - 电报群：t.me/vvkj11
-      - 日期：11-26
+      - 日期：11-27
       - 免费VPN：tt.vg/FJOE2Mm
-      - 🇷🇺_俄罗斯 (4)
       - 🇺🇸_美国
+      - 🇳🇱_荷兰
+      - 🇺🇸_美国 (2)
+      - 🇸🇬_新加坡 (2)
+      - 🇸🇬_新加坡 (3)
+      - 🇳🇱_荷兰 (2)
+      - 🇳🇱_荷兰 (3)
+      - 🇺🇸_美国 (3)
+      - 🇺🇸_美国 (4)
+      - 🇩🇪_德国 (2)
+      - 🇩🇪_德国 (3)
+      - 🇩🇪_德国 (4)
+      - 🇩🇪_德国 (5)
+      - 🇮🇳_印度
+      - 🇷🇺_俄罗斯
+      - 🇷🇺_俄罗斯 (2)
+      - 🇷🇺_俄罗斯 (3)
+      - 🇷🇺_俄罗斯 (4)
       - 🇷🇺_俄罗斯 (5)
       - 🇷🇺_俄罗斯 (6)
-      - 🇩🇪_德国 (5)
-      - 🇸🇬_新加坡
       - 🇷🇺_俄罗斯 (7)
-      - 🇮🇳_印度
       - 🇮🇳_印度 (2)
-      - 🇷🇺_俄罗斯 (8)
       - 🇮🇳_印度 (3)
-      - 🇰🇷_韩国
-      - 🇺🇸_美国 (2)
-      - 🇺🇸_美国 (3)
-      - 🇯🇵_日本
-      - 🇩🇪_德国 (6)
-      - 🇳🇱_荷兰 (4)
-      - 🇩🇪_德国 (7)
-      - 🇰🇷_韩国 (2)
-      - 🇰🇷_韩国 (3)
-      - 🇺🇸_美国 (4)
-      - 🇩🇴_多米尼加共和国
-      - 🇹🇼_台湾
-      - 🇷🇴_罗马尼亚
-      - 🇸🇬_新加坡 (2)
+      - 🇷🇺_俄罗斯 (8)
       - 🇺🇸_美国 (5)
-      - 🇷🇺_俄罗斯 (9)
-      - 🇮🇪_爱尔兰
-      - 🇷🇺_俄罗斯 (10)
-      - 🇸🇨_塞舌尔 (10)
-      - 🇸🇨_塞舌尔 (11)
-      - 🇸🇨_塞舌尔 (12)
-      - 🇪🇪_爱沙尼亚
-      - 🇸🇨_塞舌尔 (13)
-      - 🇸🇨_塞舌尔 (14)
-      - 🇷🇺_俄罗斯 (11)
-      - 🇷🇺_俄罗斯 (12)
-      - 🇩🇪_德国 (8)
-      - 🇩🇪_德国 (9)
-      - 🇸🇬_新加坡 (3)
-      - 🇸🇨_塞舌尔 (15)
-      - 🇸🇨_塞舌尔 (16)
-      - 🇵🇱_波兰
-      - 🇹🇷_土耳其
-      - 🇷🇺_俄罗斯 (13)
-      - 🇷🇺_俄罗斯 (14)
-      - 🇹🇷_土耳其 (2)
-      - 🇭🇰_香港
-      - 🇷🇺_俄罗斯 (15)
-      - 🇩🇪_德国 (10)
-      - 🇩🇪_德国 (11)
-      - 🇩🇪_德国 (12)
-      - 🇷🇺_俄罗斯 (16)
-      - 🇷🇺_俄罗斯 (17)
-      - 🇷🇺_俄罗斯 (18)
-      - 🇸🇨_塞舌尔 (17)
-      - 🇸🇨_塞舌尔 (18)
-      - 🇩🇪_德国 (13)
-      - 🇷🇺_俄罗斯 (19)
-      - 🇸🇨_塞舌尔 (19)
-      - 🇸🇨_塞舌尔 (20)
+      - 🇳🇱_荷兰 (4)
       - 🇺🇸_美国 (6)
-      - 🇳🇱_荷兰 (5)
-      - 🇳🇱_荷兰 (6)
-      - 🇳🇱_荷兰 (7)
       - 🇺🇸_美国 (7)
-      - 🇹🇼_台湾 (2)
-      - 🇷🇺_俄罗斯 (20)
-      - 🇹🇼_台湾 (3)
-      - 🇹🇼_台湾 (4)
-      - 🇹🇼_台湾 (5)
-      - 🇩🇪_德国 (14)
-      - 🇸🇨_塞舌尔 (21)
-      - 🇸🇨_塞舌尔 (22)
-      - 🇸🇨_塞舌尔 (23)
-      - 🇸🇨_塞舌尔 (24)
+      - 🇯🇵_日本 (2)
+      - 🇩🇴_多米尼加共和国
+      - 🇸🇬_新加坡 (4)
+      - 🇹🇼_台湾
+      - 🇫🇷_法国
+      - 🇷🇺_俄罗斯 (9)
+      - 🇷🇺_俄罗斯 (10)
+      - 🇳🇱_荷兰 (5)
+      - 🇸🇪_瑞典 (2)
+      - 🇧🇬_保加利亚
+      - 🇳🇱_荷兰 (6)
       - 🇺🇸_美国 (8)
-      - 🇳🇱_荷兰 (8)
-      - 🇸🇨_塞舌尔 (25)
+      - 🇬🇧_英国
+      - 🇨🇿_捷克
+      - 🇩🇪_德国 (6)
       - 🇺🇸_美国 (9)
       - 🇺🇸_美国 (10)
-      - 🇳🇱_荷兰 (9)
-      - 🇹🇷_土耳其 (3)
-      - 🇹🇷_土耳其 (4)
-      - 🇫🇷_法国
       - 🇺🇸_美国 (11)
-      - 🇩🇪_德国 (15)
-      - 🇩🇪_德国 (16)
-      - 🇩🇪_德国 (17)
       - 🇺🇸_美国 (12)
-      - 🇩🇪_德国 (18)
-      - 🇩🇪_德国 (19)
-      - 🇫🇷_法国 (2)
-      - 🇰🇷_韩国 (4)
-      - 🇸🇬_新加坡 (4)
-      - 🇹🇼_台湾 (6)
-      - 🇹🇼_台湾 (7)
-      - 🇹🇼_台湾 (8)
-      - 🇺🇸_美国 (13)
-      - 🇩🇪_德国 (20)
-      - 🇸🇨_塞舌尔 (26)
-      - 🇸🇨_塞舌尔 (27)
-      - 🇯🇵_日本 (2)
       - 🇯🇵_日本 (3)
       - 🇯🇵_日本 (4)
       - 🇯🇵_日本 (5)
+      - 🇺🇸_美国 (13)
       - 🇯🇵_日本 (6)
       - 🇯🇵_日本 (7)
       - 🇯🇵_日本 (8)
       - 🇯🇵_日本 (9)
+      - 🇸🇬_新加坡 (5)
+      - 🇺🇸_美国 (14)
+      - 🇸🇬_新加坡 (6)
+      - 🇸🇬_新加坡 (7)
+      - 🇺🇸_美国 (15)
       - 🇯🇵_日本 (10)
       - 🇯🇵_日本 (11)
       - 🇯🇵_日本 (12)
+      - 🇸🇬_新加坡 (8)
       - 🇯🇵_日本 (13)
       - 🇯🇵_日本 (14)
       - 🇯🇵_日本 (15)
       - 🇯🇵_日本 (16)
       - 🇯🇵_日本 (17)
+      - 🇸🇬_新加坡 (9)
+      - 🇸🇬_新加坡 (10)
+      - 🇸🇬_新加坡 (11)
+      - 🇺🇸_美国 (16)
+      - 🇺🇸_美国 (17)
+      - 🇺🇸_美国 (18)
+      - 🇺🇸_美国 (19)
+      - 🇺🇸_美国 (20)
+      - 🇺🇸_美国 (21)
+      - 🇺🇸_美国 (22)
+      - 🇵🇱_波兰
+      - 🇺🇸_美国 (23)
+      - 🇷🇺_俄罗斯 (11)
+      - 🇺🇸_美国 (24)
+      - 🇺🇸_美国 (25)
+      - 🇧🇬_保加利亚 (2)
+      - 🇸🇬_新加坡 (12)
       - 🇯🇵_日本 (18)
+      - 🇳🇱_荷兰 (7)
+      - 🇳🇱_荷兰 (8)
+      - 🇳🇱_荷兰 (9)
+      - 🇳🇱_荷兰 (10)
+      - 🇳🇱_荷兰 (11)
+      - 🇳🇱_荷兰 (12)
+      - 🇳🇱_荷兰 (13)
+      - 🇨🇭_瑞士
+      - 🇳🇱_荷兰 (14)
+      - 🇳🇱_荷兰 (15)
+      - 🇳🇱_荷兰 (16)
+      - 🇳🇱_荷兰 (17)
+      - 🇬🇧_英国 (2)
+      - 🇩🇪_德国 (7)
+      - 🇳🇱_荷兰 (18)
+      - 🇸🇨_塞舌尔
+      - 🇺🇸_美国 (26)
+      - 🇳🇱_荷兰 (19)
+      - 🇳🇱_荷兰 (20)
+      - 🇺🇸_美国 (27)
+      - 🇺🇸_美国 (28)
+      - 🇳🇱_荷兰 (21)
+      - 🇺🇸_美国 (29)
+      - 🇳🇱_荷兰 (22)
+      - 🇳🇱_荷兰 (23)
+      - 🇷🇺_俄罗斯 (12)
+      - 🇺🇸_美国 (30)
+      - 🇷🇺_俄罗斯 (13)
+      - 🇮🇪_爱尔兰
+      - 🇫🇮_芬兰
+      - 🇷🇺_俄罗斯 (14)
+      - 🇰🇿_哈萨克斯坦
+      - 🇸🇨_塞舌尔 (2)
+      - 🇷🇺_俄罗斯 (15)
+      - 🇸🇨_塞舌尔 (3)
+      - 🇷🇺_俄罗斯 (16)
+      - 🇸🇨_塞舌尔 (4)
+      - 🇸🇨_塞舌尔 (5)
+      - 🇸🇨_塞舌尔 (6)
+      - 🇸🇨_塞舌尔 (7)
+      - 🇳🇱_荷兰 (24)
+      - 🇸🇨_塞舌尔 (8)
+      - 🇸🇨_塞舌尔 (9)
+      - 🇳🇱_荷兰 (25)
+      - 🇸🇨_塞舌尔 (10)
+      - 🇸🇨_塞舌尔 (11)
+      - 🇸🇨_塞舌尔 (12)
+      - 🇸🇨_塞舌尔 (13)
+      - 🇷🇺_俄罗斯 (17)
+      - 🇷🇺_俄罗斯 (18)
+      - 🇷🇺_俄罗斯 (19)
+      - 🇷🇺_俄罗斯 (20)
+      - 🇷🇺_俄罗斯 (21)
+      - 🇷🇺_俄罗斯 (22)
+      - 🇸🇨_塞舌尔 (14)
+      - 🇸🇨_塞舌尔 (15)
+      - 🇸🇨_塞舌尔 (16)
+      - 🇸🇨_塞舌尔 (17)
+      - 🇺🇸_美国 (31)
+      - 🇺🇸_美国 (32)
+      - 🇩🇪_德国 (8)
+      - 🇩🇪_德国 (9)
+      - 🇩🇪_德国 (10)
+      - 🇸🇨_塞舌尔 (18)
+      - 🇸🇨_塞舌尔 (19)
+      - 🇭🇰_香港
+      - 🇹🇼_台湾 (2)
+      - 🇹🇼_台湾 (3)
+      - 🇹🇼_台湾 (4)
+      - 🇹🇼_台湾 (5)
+      - 🇹🇼_台湾 (6)
+      - 🇹🇼_台湾 (7)
+      - 🇹🇼_台湾 (8)
+      - 🇹🇼_台湾 (9)
+      - 🇺🇸_美国 (33)
+      - 🇸🇬_新加坡 (13)
+      - 🇹🇼_台湾 (10)
+      - 🇸🇨_塞舌尔 (20)
+      - 🇸🇨_塞舌尔 (21)
+      - 🇵🇱_波兰 (2)
+      - 🇳🇱_荷兰 (26)
+      - 🇩🇪_德国 (11)
+      - 🇩🇪_德国 (12)
+      - 🇩🇪_德国 (13)
+      - 🇪🇪_爱沙尼亚
+      - 🇸🇨_塞舌尔 (22)
+      - 🇭🇺_匈牙利
+      - 🇺🇸_美国 (34)
+      - 🇷🇺_俄罗斯 (23)
+      - 🇺🇸_美国 (35)
+      - 🇺🇸_美国 (36)
+      - 🇺🇸_美国 (37)
+      - 🇺🇸_美国 (38)
+      - 🇺🇸_美国 (39)
+      - 🇺🇸_美国 (40)
+      - 🇷🇺_俄罗斯 (24)
+      - 🇸🇨_塞舌尔 (23)
       - 🇯🇵_日本 (19)
+      - 🇸🇨_塞舌尔 (24)
+      - 🇺🇸_美国 (41)
+      - 🇳🇱_荷兰 (27)
+      - 🇹🇷_土耳其
+      - 🇦🇹_奥地利
+      - 🇺🇸_美国 (42)
+      - 🇩🇪_德国 (14)
+      - 🇸🇨_塞舌尔 (25)
+      - 🇸🇨_塞舌尔 (26)
+      - 🇳🇱_荷兰 (28)
+      - 🇳🇱_荷兰 (29)
+      - 🇺🇸_美国 (43)
+      - 🇩🇪_德国 (15)
+      - 🇦🇪_阿拉伯联合酋长国
+      - 🇦🇪_阿拉伯联合酋长国 (2)
       - 🇯🇵_日本 (20)
       - 🇯🇵_日本 (21)
       - 🇯🇵_日本 (22)
+      - 🇺🇸_美国 (44)
       - 🇯🇵_日本 (23)
-      - 🇯🇵_日本 (24)
-      - 🇯🇵_日本 (25)
-      - 🇯🇵_日本 (26)
-      - 🇯🇵_日本 (27)
-      - 🇯🇵_日本 (28)
-      - 🇯🇵_日本 (29)
-      - 🇯🇵_日本 (30)
-      - 🇯🇵_日本 (31)
-      - 🇯🇵_日本 (32)
-      - 🇯🇵_日本 (33)
-      - 🇯🇵_日本 (34)
-      - 🇯🇵_日本 (35)
-      - 🇯🇵_日本 (36)
-      - 🇯🇵_日本 (37)
-      - 🇯🇵_日本 (38)
-      - 🇯🇵_日本 (39)
-      - 🇯🇵_日本 (40)
-      - 🇯🇵_日本 (41)
-      - 🇯🇵_日本 (42)
-      - 🇯🇵_日本 (43)
-      - 🇯🇵_日本 (44)
-      - 🇯🇵_日本 (45)
-      - 🇯🇵_日本 (46)
-      - 🇯🇵_日本 (47)
-      - 🇯🇵_日本 (48)
-      - 🇯🇵_日本 (49)
-      - 🇯🇵_日本 (50)
-      - 🇯🇵_日本 (51)
-      - 🇯🇵_日本 (52)
-      - 🇯🇵_日本 (53)
-      - 🇯🇵_日本 (54)
-      - 🇯🇵_日本 (55)
-      - 🇯🇵_日本 (56)
-      - 🇯🇵_日本 (57)
-      - 🇯🇵_日本 (58)
-      - 🇯🇵_日本 (59)
-      - 🇯🇵_日本 (60)
-      - 🇯🇵_日本 (61)
-      - 🇯🇵_日本 (62)
-      - 🇯🇵_日本 (63)
-      - 🇯🇵_日本 (64)
-      - 🇯🇵_日本 (65)
-      - 🇯🇵_日本 (66)
-      - 🇯🇵_日本 (67)
-      - 🇯🇵_日本 (68)
-      - 🇯🇵_日本 (69)
-      - 🇯🇵_日本 (70)
-      - 🇯🇵_日本 (71)
-      - 🇯🇵_日本 (72)
-      - 🇯🇵_日本 (73)
-      - 🇯🇵_日本 (74)
-      - 🇯🇵_日本 (75)
-      - 🇯🇵_日本 (76)
-      - 🇯🇵_日本 (77)
-      - 🇯🇵_日本 (78)
-      - 🇯🇵_日本 (79)
-      - 🇯🇵_日本 (80)
-      - 🇯🇵_日本 (81)
-      - 🇯🇵_日本 (82)
-      - 🇯🇵_日本 (83)
-      - 🇯🇵_日本 (84)
-      - 🇯🇵_日本 (85)
-      - 🇯🇵_日本 (86)
-      - 🇯🇵_日本 (87)
-      - 🇩🇪_德国 (21)
+      - 🇰🇷_韩国
       - 🇮🇹_意大利
       - 🇮🇹_意大利 (2)
       - 🇮🇹_意大利 (3)
       - 🇮🇹_意大利 (4)
       - 🇮🇹_意大利 (5)
       - 🇮🇹_意大利 (6)
+      - 🇩🇪_德国 (16)
       - 🇮🇹_意大利 (7)
-      - 🇩🇪_德国 (22)
-      - 🇫🇷_法国 (3)
-      - 🇫🇷_法国 (4)
-      - 🇫🇷_法国 (5)
       - 🇮🇹_意大利 (8)
       - 🇮🇹_意大利 (9)
-      - 🇺🇸_美国 (14)
+      - 🇮🇹_意大利 (10)
+      - 🇺🇸_美国 (45)
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -3533,211 +4410,226 @@ proxy-groups:
       - 🎯 全球直连
       - 每天更新，请加电报群防止失联
       - 电报群：t.me/vvkj11
-      - 日期：11-26
+      - 日期：11-27
       - 免费VPN：tt.vg/FJOE2Mm
-      - 🇷🇺_俄罗斯 (4)
       - 🇺🇸_美国
+      - 🇳🇱_荷兰
+      - 🇺🇸_美国 (2)
+      - 🇸🇬_新加坡 (2)
+      - 🇸🇬_新加坡 (3)
+      - 🇳🇱_荷兰 (2)
+      - 🇳🇱_荷兰 (3)
+      - 🇺🇸_美国 (3)
+      - 🇺🇸_美国 (4)
+      - 🇩🇪_德国 (2)
+      - 🇩🇪_德国 (3)
+      - 🇩🇪_德国 (4)
+      - 🇩🇪_德国 (5)
+      - 🇮🇳_印度
+      - 🇷🇺_俄罗斯
+      - 🇷🇺_俄罗斯 (2)
+      - 🇷🇺_俄罗斯 (3)
+      - 🇷🇺_俄罗斯 (4)
       - 🇷🇺_俄罗斯 (5)
       - 🇷🇺_俄罗斯 (6)
-      - 🇩🇪_德国 (5)
-      - 🇸🇬_新加坡
       - 🇷🇺_俄罗斯 (7)
-      - 🇮🇳_印度
       - 🇮🇳_印度 (2)
-      - 🇷🇺_俄罗斯 (8)
       - 🇮🇳_印度 (3)
-      - 🇰🇷_韩国
-      - 🇺🇸_美国 (2)
-      - 🇺🇸_美国 (3)
-      - 🇯🇵_日本
-      - 🇩🇪_德国 (6)
-      - 🇳🇱_荷兰 (4)
-      - 🇩🇪_德国 (7)
-      - 🇰🇷_韩国 (2)
-      - 🇰🇷_韩国 (3)
-      - 🇺🇸_美国 (4)
-      - 🇩🇴_多米尼加共和国
-      - 🇹🇼_台湾
-      - 🇷🇴_罗马尼亚
-      - 🇸🇬_新加坡 (2)
+      - 🇷🇺_俄罗斯 (8)
       - 🇺🇸_美国 (5)
-      - 🇷🇺_俄罗斯 (9)
-      - 🇮🇪_爱尔兰
-      - 🇷🇺_俄罗斯 (10)
-      - 🇸🇨_塞舌尔 (10)
-      - 🇸🇨_塞舌尔 (11)
-      - 🇸🇨_塞舌尔 (12)
-      - 🇪🇪_爱沙尼亚
-      - 🇸🇨_塞舌尔 (13)
-      - 🇸🇨_塞舌尔 (14)
-      - 🇷🇺_俄罗斯 (11)
-      - 🇷🇺_俄罗斯 (12)
-      - 🇩🇪_德国 (8)
-      - 🇩🇪_德国 (9)
-      - 🇸🇬_新加坡 (3)
-      - 🇸🇨_塞舌尔 (15)
-      - 🇸🇨_塞舌尔 (16)
-      - 🇵🇱_波兰
-      - 🇹🇷_土耳其
-      - 🇷🇺_俄罗斯 (13)
-      - 🇷🇺_俄罗斯 (14)
-      - 🇹🇷_土耳其 (2)
-      - 🇭🇰_香港
-      - 🇷🇺_俄罗斯 (15)
-      - 🇩🇪_德国 (10)
-      - 🇩🇪_德国 (11)
-      - 🇩🇪_德国 (12)
-      - 🇷🇺_俄罗斯 (16)
-      - 🇷🇺_俄罗斯 (17)
-      - 🇷🇺_俄罗斯 (18)
-      - 🇸🇨_塞舌尔 (17)
-      - 🇸🇨_塞舌尔 (18)
-      - 🇩🇪_德国 (13)
-      - 🇷🇺_俄罗斯 (19)
-      - 🇸🇨_塞舌尔 (19)
-      - 🇸🇨_塞舌尔 (20)
+      - 🇳🇱_荷兰 (4)
       - 🇺🇸_美国 (6)
-      - 🇳🇱_荷兰 (5)
-      - 🇳🇱_荷兰 (6)
-      - 🇳🇱_荷兰 (7)
       - 🇺🇸_美国 (7)
-      - 🇹🇼_台湾 (2)
-      - 🇷🇺_俄罗斯 (20)
-      - 🇹🇼_台湾 (3)
-      - 🇹🇼_台湾 (4)
-      - 🇹🇼_台湾 (5)
-      - 🇩🇪_德国 (14)
-      - 🇸🇨_塞舌尔 (21)
-      - 🇸🇨_塞舌尔 (22)
-      - 🇸🇨_塞舌尔 (23)
-      - 🇸🇨_塞舌尔 (24)
+      - 🇯🇵_日本 (2)
+      - 🇩🇴_多米尼加共和国
+      - 🇸🇬_新加坡 (4)
+      - 🇹🇼_台湾
+      - 🇫🇷_法国
+      - 🇷🇺_俄罗斯 (9)
+      - 🇷🇺_俄罗斯 (10)
+      - 🇳🇱_荷兰 (5)
+      - 🇸🇪_瑞典 (2)
+      - 🇧🇬_保加利亚
+      - 🇳🇱_荷兰 (6)
       - 🇺🇸_美国 (8)
-      - 🇳🇱_荷兰 (8)
-      - 🇸🇨_塞舌尔 (25)
+      - 🇬🇧_英国
+      - 🇨🇿_捷克
+      - 🇩🇪_德国 (6)
       - 🇺🇸_美国 (9)
       - 🇺🇸_美国 (10)
-      - 🇳🇱_荷兰 (9)
-      - 🇹🇷_土耳其 (3)
-      - 🇹🇷_土耳其 (4)
-      - 🇫🇷_法国
       - 🇺🇸_美国 (11)
-      - 🇩🇪_德国 (15)
-      - 🇩🇪_德国 (16)
-      - 🇩🇪_德国 (17)
       - 🇺🇸_美国 (12)
-      - 🇩🇪_德国 (18)
-      - 🇩🇪_德国 (19)
-      - 🇫🇷_法国 (2)
-      - 🇰🇷_韩国 (4)
-      - 🇸🇬_新加坡 (4)
-      - 🇹🇼_台湾 (6)
-      - 🇹🇼_台湾 (7)
-      - 🇹🇼_台湾 (8)
-      - 🇺🇸_美国 (13)
-      - 🇩🇪_德国 (20)
-      - 🇸🇨_塞舌尔 (26)
-      - 🇸🇨_塞舌尔 (27)
-      - 🇯🇵_日本 (2)
       - 🇯🇵_日本 (3)
       - 🇯🇵_日本 (4)
       - 🇯🇵_日本 (5)
+      - 🇺🇸_美国 (13)
       - 🇯🇵_日本 (6)
       - 🇯🇵_日本 (7)
       - 🇯🇵_日本 (8)
       - 🇯🇵_日本 (9)
+      - 🇸🇬_新加坡 (5)
+      - 🇺🇸_美国 (14)
+      - 🇸🇬_新加坡 (6)
+      - 🇸🇬_新加坡 (7)
+      - 🇺🇸_美国 (15)
       - 🇯🇵_日本 (10)
       - 🇯🇵_日本 (11)
       - 🇯🇵_日本 (12)
+      - 🇸🇬_新加坡 (8)
       - 🇯🇵_日本 (13)
       - 🇯🇵_日本 (14)
       - 🇯🇵_日本 (15)
       - 🇯🇵_日本 (16)
       - 🇯🇵_日本 (17)
+      - 🇸🇬_新加坡 (9)
+      - 🇸🇬_新加坡 (10)
+      - 🇸🇬_新加坡 (11)
+      - 🇺🇸_美国 (16)
+      - 🇺🇸_美国 (17)
+      - 🇺🇸_美国 (18)
+      - 🇺🇸_美国 (19)
+      - 🇺🇸_美国 (20)
+      - 🇺🇸_美国 (21)
+      - 🇺🇸_美国 (22)
+      - 🇵🇱_波兰
+      - 🇺🇸_美国 (23)
+      - 🇷🇺_俄罗斯 (11)
+      - 🇺🇸_美国 (24)
+      - 🇺🇸_美国 (25)
+      - 🇧🇬_保加利亚 (2)
+      - 🇸🇬_新加坡 (12)
       - 🇯🇵_日本 (18)
+      - 🇳🇱_荷兰 (7)
+      - 🇳🇱_荷兰 (8)
+      - 🇳🇱_荷兰 (9)
+      - 🇳🇱_荷兰 (10)
+      - 🇳🇱_荷兰 (11)
+      - 🇳🇱_荷兰 (12)
+      - 🇳🇱_荷兰 (13)
+      - 🇨🇭_瑞士
+      - 🇳🇱_荷兰 (14)
+      - 🇳🇱_荷兰 (15)
+      - 🇳🇱_荷兰 (16)
+      - 🇳🇱_荷兰 (17)
+      - 🇬🇧_英国 (2)
+      - 🇩🇪_德国 (7)
+      - 🇳🇱_荷兰 (18)
+      - 🇸🇨_塞舌尔
+      - 🇺🇸_美国 (26)
+      - 🇳🇱_荷兰 (19)
+      - 🇳🇱_荷兰 (20)
+      - 🇺🇸_美国 (27)
+      - 🇺🇸_美国 (28)
+      - 🇳🇱_荷兰 (21)
+      - 🇺🇸_美国 (29)
+      - 🇳🇱_荷兰 (22)
+      - 🇳🇱_荷兰 (23)
+      - 🇷🇺_俄罗斯 (12)
+      - 🇺🇸_美国 (30)
+      - 🇷🇺_俄罗斯 (13)
+      - 🇮🇪_爱尔兰
+      - 🇫🇮_芬兰
+      - 🇷🇺_俄罗斯 (14)
+      - 🇰🇿_哈萨克斯坦
+      - 🇸🇨_塞舌尔 (2)
+      - 🇷🇺_俄罗斯 (15)
+      - 🇸🇨_塞舌尔 (3)
+      - 🇷🇺_俄罗斯 (16)
+      - 🇸🇨_塞舌尔 (4)
+      - 🇸🇨_塞舌尔 (5)
+      - 🇸🇨_塞舌尔 (6)
+      - 🇸🇨_塞舌尔 (7)
+      - 🇳🇱_荷兰 (24)
+      - 🇸🇨_塞舌尔 (8)
+      - 🇸🇨_塞舌尔 (9)
+      - 🇳🇱_荷兰 (25)
+      - 🇸🇨_塞舌尔 (10)
+      - 🇸🇨_塞舌尔 (11)
+      - 🇸🇨_塞舌尔 (12)
+      - 🇸🇨_塞舌尔 (13)
+      - 🇷🇺_俄罗斯 (17)
+      - 🇷🇺_俄罗斯 (18)
+      - 🇷🇺_俄罗斯 (19)
+      - 🇷🇺_俄罗斯 (20)
+      - 🇷🇺_俄罗斯 (21)
+      - 🇷🇺_俄罗斯 (22)
+      - 🇸🇨_塞舌尔 (14)
+      - 🇸🇨_塞舌尔 (15)
+      - 🇸🇨_塞舌尔 (16)
+      - 🇸🇨_塞舌尔 (17)
+      - 🇺🇸_美国 (31)
+      - 🇺🇸_美国 (32)
+      - 🇩🇪_德国 (8)
+      - 🇩🇪_德国 (9)
+      - 🇩🇪_德国 (10)
+      - 🇸🇨_塞舌尔 (18)
+      - 🇸🇨_塞舌尔 (19)
+      - 🇭🇰_香港
+      - 🇹🇼_台湾 (2)
+      - 🇹🇼_台湾 (3)
+      - 🇹🇼_台湾 (4)
+      - 🇹🇼_台湾 (5)
+      - 🇹🇼_台湾 (6)
+      - 🇹🇼_台湾 (7)
+      - 🇹🇼_台湾 (8)
+      - 🇹🇼_台湾 (9)
+      - 🇺🇸_美国 (33)
+      - 🇸🇬_新加坡 (13)
+      - 🇹🇼_台湾 (10)
+      - 🇸🇨_塞舌尔 (20)
+      - 🇸🇨_塞舌尔 (21)
+      - 🇵🇱_波兰 (2)
+      - 🇳🇱_荷兰 (26)
+      - 🇩🇪_德国 (11)
+      - 🇩🇪_德国 (12)
+      - 🇩🇪_德国 (13)
+      - 🇪🇪_爱沙尼亚
+      - 🇸🇨_塞舌尔 (22)
+      - 🇭🇺_匈牙利
+      - 🇺🇸_美国 (34)
+      - 🇷🇺_俄罗斯 (23)
+      - 🇺🇸_美国 (35)
+      - 🇺🇸_美国 (36)
+      - 🇺🇸_美国 (37)
+      - 🇺🇸_美国 (38)
+      - 🇺🇸_美国 (39)
+      - 🇺🇸_美国 (40)
+      - 🇷🇺_俄罗斯 (24)
+      - 🇸🇨_塞舌尔 (23)
       - 🇯🇵_日本 (19)
+      - 🇸🇨_塞舌尔 (24)
+      - 🇺🇸_美国 (41)
+      - 🇳🇱_荷兰 (27)
+      - 🇹🇷_土耳其
+      - 🇦🇹_奥地利
+      - 🇺🇸_美国 (42)
+      - 🇩🇪_德国 (14)
+      - 🇸🇨_塞舌尔 (25)
+      - 🇸🇨_塞舌尔 (26)
+      - 🇳🇱_荷兰 (28)
+      - 🇳🇱_荷兰 (29)
+      - 🇺🇸_美国 (43)
+      - 🇩🇪_德国 (15)
+      - 🇦🇪_阿拉伯联合酋长国
+      - 🇦🇪_阿拉伯联合酋长国 (2)
       - 🇯🇵_日本 (20)
       - 🇯🇵_日本 (21)
       - 🇯🇵_日本 (22)
+      - 🇺🇸_美国 (44)
       - 🇯🇵_日本 (23)
-      - 🇯🇵_日本 (24)
-      - 🇯🇵_日本 (25)
-      - 🇯🇵_日本 (26)
-      - 🇯🇵_日本 (27)
-      - 🇯🇵_日本 (28)
-      - 🇯🇵_日本 (29)
-      - 🇯🇵_日本 (30)
-      - 🇯🇵_日本 (31)
-      - 🇯🇵_日本 (32)
-      - 🇯🇵_日本 (33)
-      - 🇯🇵_日本 (34)
-      - 🇯🇵_日本 (35)
-      - 🇯🇵_日本 (36)
-      - 🇯🇵_日本 (37)
-      - 🇯🇵_日本 (38)
-      - 🇯🇵_日本 (39)
-      - 🇯🇵_日本 (40)
-      - 🇯🇵_日本 (41)
-      - 🇯🇵_日本 (42)
-      - 🇯🇵_日本 (43)
-      - 🇯🇵_日本 (44)
-      - 🇯🇵_日本 (45)
-      - 🇯🇵_日本 (46)
-      - 🇯🇵_日本 (47)
-      - 🇯🇵_日本 (48)
-      - 🇯🇵_日本 (49)
-      - 🇯🇵_日本 (50)
-      - 🇯🇵_日本 (51)
-      - 🇯🇵_日本 (52)
-      - 🇯🇵_日本 (53)
-      - 🇯🇵_日本 (54)
-      - 🇯🇵_日本 (55)
-      - 🇯🇵_日本 (56)
-      - 🇯🇵_日本 (57)
-      - 🇯🇵_日本 (58)
-      - 🇯🇵_日本 (59)
-      - 🇯🇵_日本 (60)
-      - 🇯🇵_日本 (61)
-      - 🇯🇵_日本 (62)
-      - 🇯🇵_日本 (63)
-      - 🇯🇵_日本 (64)
-      - 🇯🇵_日本 (65)
-      - 🇯🇵_日本 (66)
-      - 🇯🇵_日本 (67)
-      - 🇯🇵_日本 (68)
-      - 🇯🇵_日本 (69)
-      - 🇯🇵_日本 (70)
-      - 🇯🇵_日本 (71)
-      - 🇯🇵_日本 (72)
-      - 🇯🇵_日本 (73)
-      - 🇯🇵_日本 (74)
-      - 🇯🇵_日本 (75)
-      - 🇯🇵_日本 (76)
-      - 🇯🇵_日本 (77)
-      - 🇯🇵_日本 (78)
-      - 🇯🇵_日本 (79)
-      - 🇯🇵_日本 (80)
-      - 🇯🇵_日本 (81)
-      - 🇯🇵_日本 (82)
-      - 🇯🇵_日本 (83)
-      - 🇯🇵_日本 (84)
-      - 🇯🇵_日本 (85)
-      - 🇯🇵_日本 (86)
-      - 🇯🇵_日本 (87)
-      - 🇩🇪_德国 (21)
+      - 🇰🇷_韩国
       - 🇮🇹_意大利
       - 🇮🇹_意大利 (2)
       - 🇮🇹_意大利 (3)
       - 🇮🇹_意大利 (4)
       - 🇮🇹_意大利 (5)
       - 🇮🇹_意大利 (6)
+      - 🇩🇪_德国 (16)
       - 🇮🇹_意大利 (7)
-      - 🇩🇪_德国 (22)
-      - 🇫🇷_法国 (3)
-      - 🇫🇷_法国 (4)
-      - 🇫🇷_法国 (5)
       - 🇮🇹_意大利 (8)
       - 🇮🇹_意大利 (9)
-      - 🇺🇸_美国 (14)
+      - 🇮🇹_意大利 (10)
+      - 🇺🇸_美国 (45)
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -3762,211 +4654,226 @@ proxy-groups:
       - ♻️ 自动选择
       - 每天更新，请加电报群防止失联
       - 电报群：t.me/vvkj11
-      - 日期：11-26
+      - 日期：11-27
       - 免费VPN：tt.vg/FJOE2Mm
-      - 🇷🇺_俄罗斯 (4)
       - 🇺🇸_美国
+      - 🇳🇱_荷兰
+      - 🇺🇸_美国 (2)
+      - 🇸🇬_新加坡 (2)
+      - 🇸🇬_新加坡 (3)
+      - 🇳🇱_荷兰 (2)
+      - 🇳🇱_荷兰 (3)
+      - 🇺🇸_美国 (3)
+      - 🇺🇸_美国 (4)
+      - 🇩🇪_德国 (2)
+      - 🇩🇪_德国 (3)
+      - 🇩🇪_德国 (4)
+      - 🇩🇪_德国 (5)
+      - 🇮🇳_印度
+      - 🇷🇺_俄罗斯
+      - 🇷🇺_俄罗斯 (2)
+      - 🇷🇺_俄罗斯 (3)
+      - 🇷🇺_俄罗斯 (4)
       - 🇷🇺_俄罗斯 (5)
       - 🇷🇺_俄罗斯 (6)
-      - 🇩🇪_德国 (5)
-      - 🇸🇬_新加坡
       - 🇷🇺_俄罗斯 (7)
-      - 🇮🇳_印度
       - 🇮🇳_印度 (2)
-      - 🇷🇺_俄罗斯 (8)
       - 🇮🇳_印度 (3)
-      - 🇰🇷_韩国
-      - 🇺🇸_美国 (2)
-      - 🇺🇸_美国 (3)
-      - 🇯🇵_日本
-      - 🇩🇪_德国 (6)
-      - 🇳🇱_荷兰 (4)
-      - 🇩🇪_德国 (7)
-      - 🇰🇷_韩国 (2)
-      - 🇰🇷_韩国 (3)
-      - 🇺🇸_美国 (4)
-      - 🇩🇴_多米尼加共和国
-      - 🇹🇼_台湾
-      - 🇷🇴_罗马尼亚
-      - 🇸🇬_新加坡 (2)
+      - 🇷🇺_俄罗斯 (8)
       - 🇺🇸_美国 (5)
-      - 🇷🇺_俄罗斯 (9)
-      - 🇮🇪_爱尔兰
-      - 🇷🇺_俄罗斯 (10)
-      - 🇸🇨_塞舌尔 (10)
-      - 🇸🇨_塞舌尔 (11)
-      - 🇸🇨_塞舌尔 (12)
-      - 🇪🇪_爱沙尼亚
-      - 🇸🇨_塞舌尔 (13)
-      - 🇸🇨_塞舌尔 (14)
-      - 🇷🇺_俄罗斯 (11)
-      - 🇷🇺_俄罗斯 (12)
-      - 🇩🇪_德国 (8)
-      - 🇩🇪_德国 (9)
-      - 🇸🇬_新加坡 (3)
-      - 🇸🇨_塞舌尔 (15)
-      - 🇸🇨_塞舌尔 (16)
-      - 🇵🇱_波兰
-      - 🇹🇷_土耳其
-      - 🇷🇺_俄罗斯 (13)
-      - 🇷🇺_俄罗斯 (14)
-      - 🇹🇷_土耳其 (2)
-      - 🇭🇰_香港
-      - 🇷🇺_俄罗斯 (15)
-      - 🇩🇪_德国 (10)
-      - 🇩🇪_德国 (11)
-      - 🇩🇪_德国 (12)
-      - 🇷🇺_俄罗斯 (16)
-      - 🇷🇺_俄罗斯 (17)
-      - 🇷🇺_俄罗斯 (18)
-      - 🇸🇨_塞舌尔 (17)
-      - 🇸🇨_塞舌尔 (18)
-      - 🇩🇪_德国 (13)
-      - 🇷🇺_俄罗斯 (19)
-      - 🇸🇨_塞舌尔 (19)
-      - 🇸🇨_塞舌尔 (20)
+      - 🇳🇱_荷兰 (4)
       - 🇺🇸_美国 (6)
-      - 🇳🇱_荷兰 (5)
-      - 🇳🇱_荷兰 (6)
-      - 🇳🇱_荷兰 (7)
       - 🇺🇸_美国 (7)
-      - 🇹🇼_台湾 (2)
-      - 🇷🇺_俄罗斯 (20)
-      - 🇹🇼_台湾 (3)
-      - 🇹🇼_台湾 (4)
-      - 🇹🇼_台湾 (5)
-      - 🇩🇪_德国 (14)
-      - 🇸🇨_塞舌尔 (21)
-      - 🇸🇨_塞舌尔 (22)
-      - 🇸🇨_塞舌尔 (23)
-      - 🇸🇨_塞舌尔 (24)
+      - 🇯🇵_日本 (2)
+      - 🇩🇴_多米尼加共和国
+      - 🇸🇬_新加坡 (4)
+      - 🇹🇼_台湾
+      - 🇫🇷_法国
+      - 🇷🇺_俄罗斯 (9)
+      - 🇷🇺_俄罗斯 (10)
+      - 🇳🇱_荷兰 (5)
+      - 🇸🇪_瑞典 (2)
+      - 🇧🇬_保加利亚
+      - 🇳🇱_荷兰 (6)
       - 🇺🇸_美国 (8)
-      - 🇳🇱_荷兰 (8)
-      - 🇸🇨_塞舌尔 (25)
+      - 🇬🇧_英国
+      - 🇨🇿_捷克
+      - 🇩🇪_德国 (6)
       - 🇺🇸_美国 (9)
       - 🇺🇸_美国 (10)
-      - 🇳🇱_荷兰 (9)
-      - 🇹🇷_土耳其 (3)
-      - 🇹🇷_土耳其 (4)
-      - 🇫🇷_法国
       - 🇺🇸_美国 (11)
-      - 🇩🇪_德国 (15)
-      - 🇩🇪_德国 (16)
-      - 🇩🇪_德国 (17)
       - 🇺🇸_美国 (12)
-      - 🇩🇪_德国 (18)
-      - 🇩🇪_德国 (19)
-      - 🇫🇷_法国 (2)
-      - 🇰🇷_韩国 (4)
-      - 🇸🇬_新加坡 (4)
-      - 🇹🇼_台湾 (6)
-      - 🇹🇼_台湾 (7)
-      - 🇹🇼_台湾 (8)
-      - 🇺🇸_美国 (13)
-      - 🇩🇪_德国 (20)
-      - 🇸🇨_塞舌尔 (26)
-      - 🇸🇨_塞舌尔 (27)
-      - 🇯🇵_日本 (2)
       - 🇯🇵_日本 (3)
       - 🇯🇵_日本 (4)
       - 🇯🇵_日本 (5)
+      - 🇺🇸_美国 (13)
       - 🇯🇵_日本 (6)
       - 🇯🇵_日本 (7)
       - 🇯🇵_日本 (8)
       - 🇯🇵_日本 (9)
+      - 🇸🇬_新加坡 (5)
+      - 🇺🇸_美国 (14)
+      - 🇸🇬_新加坡 (6)
+      - 🇸🇬_新加坡 (7)
+      - 🇺🇸_美国 (15)
       - 🇯🇵_日本 (10)
       - 🇯🇵_日本 (11)
       - 🇯🇵_日本 (12)
+      - 🇸🇬_新加坡 (8)
       - 🇯🇵_日本 (13)
       - 🇯🇵_日本 (14)
       - 🇯🇵_日本 (15)
       - 🇯🇵_日本 (16)
       - 🇯🇵_日本 (17)
+      - 🇸🇬_新加坡 (9)
+      - 🇸🇬_新加坡 (10)
+      - 🇸🇬_新加坡 (11)
+      - 🇺🇸_美国 (16)
+      - 🇺🇸_美国 (17)
+      - 🇺🇸_美国 (18)
+      - 🇺🇸_美国 (19)
+      - 🇺🇸_美国 (20)
+      - 🇺🇸_美国 (21)
+      - 🇺🇸_美国 (22)
+      - 🇵🇱_波兰
+      - 🇺🇸_美国 (23)
+      - 🇷🇺_俄罗斯 (11)
+      - 🇺🇸_美国 (24)
+      - 🇺🇸_美国 (25)
+      - 🇧🇬_保加利亚 (2)
+      - 🇸🇬_新加坡 (12)
       - 🇯🇵_日本 (18)
+      - 🇳🇱_荷兰 (7)
+      - 🇳🇱_荷兰 (8)
+      - 🇳🇱_荷兰 (9)
+      - 🇳🇱_荷兰 (10)
+      - 🇳🇱_荷兰 (11)
+      - 🇳🇱_荷兰 (12)
+      - 🇳🇱_荷兰 (13)
+      - 🇨🇭_瑞士
+      - 🇳🇱_荷兰 (14)
+      - 🇳🇱_荷兰 (15)
+      - 🇳🇱_荷兰 (16)
+      - 🇳🇱_荷兰 (17)
+      - 🇬🇧_英国 (2)
+      - 🇩🇪_德国 (7)
+      - 🇳🇱_荷兰 (18)
+      - 🇸🇨_塞舌尔
+      - 🇺🇸_美国 (26)
+      - 🇳🇱_荷兰 (19)
+      - 🇳🇱_荷兰 (20)
+      - 🇺🇸_美国 (27)
+      - 🇺🇸_美国 (28)
+      - 🇳🇱_荷兰 (21)
+      - 🇺🇸_美国 (29)
+      - 🇳🇱_荷兰 (22)
+      - 🇳🇱_荷兰 (23)
+      - 🇷🇺_俄罗斯 (12)
+      - 🇺🇸_美国 (30)
+      - 🇷🇺_俄罗斯 (13)
+      - 🇮🇪_爱尔兰
+      - 🇫🇮_芬兰
+      - 🇷🇺_俄罗斯 (14)
+      - 🇰🇿_哈萨克斯坦
+      - 🇸🇨_塞舌尔 (2)
+      - 🇷🇺_俄罗斯 (15)
+      - 🇸🇨_塞舌尔 (3)
+      - 🇷🇺_俄罗斯 (16)
+      - 🇸🇨_塞舌尔 (4)
+      - 🇸🇨_塞舌尔 (5)
+      - 🇸🇨_塞舌尔 (6)
+      - 🇸🇨_塞舌尔 (7)
+      - 🇳🇱_荷兰 (24)
+      - 🇸🇨_塞舌尔 (8)
+      - 🇸🇨_塞舌尔 (9)
+      - 🇳🇱_荷兰 (25)
+      - 🇸🇨_塞舌尔 (10)
+      - 🇸🇨_塞舌尔 (11)
+      - 🇸🇨_塞舌尔 (12)
+      - 🇸🇨_塞舌尔 (13)
+      - 🇷🇺_俄罗斯 (17)
+      - 🇷🇺_俄罗斯 (18)
+      - 🇷🇺_俄罗斯 (19)
+      - 🇷🇺_俄罗斯 (20)
+      - 🇷🇺_俄罗斯 (21)
+      - 🇷🇺_俄罗斯 (22)
+      - 🇸🇨_塞舌尔 (14)
+      - 🇸🇨_塞舌尔 (15)
+      - 🇸🇨_塞舌尔 (16)
+      - 🇸🇨_塞舌尔 (17)
+      - 🇺🇸_美国 (31)
+      - 🇺🇸_美国 (32)
+      - 🇩🇪_德国 (8)
+      - 🇩🇪_德国 (9)
+      - 🇩🇪_德国 (10)
+      - 🇸🇨_塞舌尔 (18)
+      - 🇸🇨_塞舌尔 (19)
+      - 🇭🇰_香港
+      - 🇹🇼_台湾 (2)
+      - 🇹🇼_台湾 (3)
+      - 🇹🇼_台湾 (4)
+      - 🇹🇼_台湾 (5)
+      - 🇹🇼_台湾 (6)
+      - 🇹🇼_台湾 (7)
+      - 🇹🇼_台湾 (8)
+      - 🇹🇼_台湾 (9)
+      - 🇺🇸_美国 (33)
+      - 🇸🇬_新加坡 (13)
+      - 🇹🇼_台湾 (10)
+      - 🇸🇨_塞舌尔 (20)
+      - 🇸🇨_塞舌尔 (21)
+      - 🇵🇱_波兰 (2)
+      - 🇳🇱_荷兰 (26)
+      - 🇩🇪_德国 (11)
+      - 🇩🇪_德国 (12)
+      - 🇩🇪_德国 (13)
+      - 🇪🇪_爱沙尼亚
+      - 🇸🇨_塞舌尔 (22)
+      - 🇭🇺_匈牙利
+      - 🇺🇸_美国 (34)
+      - 🇷🇺_俄罗斯 (23)
+      - 🇺🇸_美国 (35)
+      - 🇺🇸_美国 (36)
+      - 🇺🇸_美国 (37)
+      - 🇺🇸_美国 (38)
+      - 🇺🇸_美国 (39)
+      - 🇺🇸_美国 (40)
+      - 🇷🇺_俄罗斯 (24)
+      - 🇸🇨_塞舌尔 (23)
       - 🇯🇵_日本 (19)
+      - 🇸🇨_塞舌尔 (24)
+      - 🇺🇸_美国 (41)
+      - 🇳🇱_荷兰 (27)
+      - 🇹🇷_土耳其
+      - 🇦🇹_奥地利
+      - 🇺🇸_美国 (42)
+      - 🇩🇪_德国 (14)
+      - 🇸🇨_塞舌尔 (25)
+      - 🇸🇨_塞舌尔 (26)
+      - 🇳🇱_荷兰 (28)
+      - 🇳🇱_荷兰 (29)
+      - 🇺🇸_美国 (43)
+      - 🇩🇪_德国 (15)
+      - 🇦🇪_阿拉伯联合酋长国
+      - 🇦🇪_阿拉伯联合酋长国 (2)
       - 🇯🇵_日本 (20)
       - 🇯🇵_日本 (21)
       - 🇯🇵_日本 (22)
+      - 🇺🇸_美国 (44)
       - 🇯🇵_日本 (23)
-      - 🇯🇵_日本 (24)
-      - 🇯🇵_日本 (25)
-      - 🇯🇵_日本 (26)
-      - 🇯🇵_日本 (27)
-      - 🇯🇵_日本 (28)
-      - 🇯🇵_日本 (29)
-      - 🇯🇵_日本 (30)
-      - 🇯🇵_日本 (31)
-      - 🇯🇵_日本 (32)
-      - 🇯🇵_日本 (33)
-      - 🇯🇵_日本 (34)
-      - 🇯🇵_日本 (35)
-      - 🇯🇵_日本 (36)
-      - 🇯🇵_日本 (37)
-      - 🇯🇵_日本 (38)
-      - 🇯🇵_日本 (39)
-      - 🇯🇵_日本 (40)
-      - 🇯🇵_日本 (41)
-      - 🇯🇵_日本 (42)
-      - 🇯🇵_日本 (43)
-      - 🇯🇵_日本 (44)
-      - 🇯🇵_日本 (45)
-      - 🇯🇵_日本 (46)
-      - 🇯🇵_日本 (47)
-      - 🇯🇵_日本 (48)
-      - 🇯🇵_日本 (49)
-      - 🇯🇵_日本 (50)
-      - 🇯🇵_日本 (51)
-      - 🇯🇵_日本 (52)
-      - 🇯🇵_日本 (53)
-      - 🇯🇵_日本 (54)
-      - 🇯🇵_日本 (55)
-      - 🇯🇵_日本 (56)
-      - 🇯🇵_日本 (57)
-      - 🇯🇵_日本 (58)
-      - 🇯🇵_日本 (59)
-      - 🇯🇵_日本 (60)
-      - 🇯🇵_日本 (61)
-      - 🇯🇵_日本 (62)
-      - 🇯🇵_日本 (63)
-      - 🇯🇵_日本 (64)
-      - 🇯🇵_日本 (65)
-      - 🇯🇵_日本 (66)
-      - 🇯🇵_日本 (67)
-      - 🇯🇵_日本 (68)
-      - 🇯🇵_日本 (69)
-      - 🇯🇵_日本 (70)
-      - 🇯🇵_日本 (71)
-      - 🇯🇵_日本 (72)
-      - 🇯🇵_日本 (73)
-      - 🇯🇵_日本 (74)
-      - 🇯🇵_日本 (75)
-      - 🇯🇵_日本 (76)
-      - 🇯🇵_日本 (77)
-      - 🇯🇵_日本 (78)
-      - 🇯🇵_日本 (79)
-      - 🇯🇵_日本 (80)
-      - 🇯🇵_日本 (81)
-      - 🇯🇵_日本 (82)
-      - 🇯🇵_日本 (83)
-      - 🇯🇵_日本 (84)
-      - 🇯🇵_日本 (85)
-      - 🇯🇵_日本 (86)
-      - 🇯🇵_日本 (87)
-      - 🇩🇪_德国 (21)
+      - 🇰🇷_韩国
       - 🇮🇹_意大利
       - 🇮🇹_意大利 (2)
       - 🇮🇹_意大利 (3)
       - 🇮🇹_意大利 (4)
       - 🇮🇹_意大利 (5)
       - 🇮🇹_意大利 (6)
+      - 🇩🇪_德国 (16)
       - 🇮🇹_意大利 (7)
-      - 🇩🇪_德国 (22)
-      - 🇫🇷_法国 (3)
-      - 🇫🇷_法国 (4)
-      - 🇫🇷_法国 (5)
       - 🇮🇹_意大利 (8)
       - 🇮🇹_意大利 (9)
-      - 🇺🇸_美国 (14)
+      - 🇮🇹_意大利 (10)
+      - 🇺🇸_美国 (45)
 rule-providers:
   LocalAreaNetwork:
     type: http
